@@ -1,0 +1,691 @@
+[
+    {
+        "id": 1,
+        "question": "在航空无线电通讯中字母“H”的发音单词是 ",
+        "options": [
+            "Hello",
+            "Home",
+            "Hotel"
+        ],
+        "correctAnswer": 2,
+        "explanation": "无线电通话中，字母“H”的单词是“Hotel”，发音是“HOH TELL”。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 2,
+        "question": "在航空无线电通讯中数字“4”的正确读法是 ",
+        "options": [
+            "FOUR",
+            "FOW",
+            "FOW-er"
+        ],
+        "correctAnswer": 2,
+        "explanation": "在无线电通讯中，“4”的汉语读法是“四”，英语读法是“FOW-er”。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 3,
+        "question": "在我国标准的陆空通话中，航向127°应该读作航向 ",
+        "options": [
+            "幺两拐",
+            "一二七",
+            "一百二十七"
+        ],
+        "correctAnswer": 0,
+        "explanation": "航向后应跟三位数并逐位读出数值。根据无线电陆空通话中数字的标准读法，数字1的汉语读法为“幺”，数字2为“两”，数字7为“拐”。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 4,
+        "question": "航空器与管制单位初次联系时，应当呼叫 ",
+        "options": [
+            "航空器全称和管制单位的简称",
+            "航空器的简称和管制单位的全称",
+            "航空器和管制单位的全称"
+        ],
+        "correctAnswer": 2,
+        "explanation": "当建立首次通信联系时，航空器应使用航空器和管制单位或服务单位的全称。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 5,
+        "question": "航空器驾驶员在陆空通话中应以（）终止复诵。 ",
+        "options": [
+            "自己的呼号",
+            "OVER",
+            "“完毕”"
+        ],
+        "correctAnswer": 0,
+        "explanation": "陆空通话中，航空器驾驶员应以呼号终止复诵。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 6,
+        "question": "当管制告知“我听你5 个”，表明通话质量 ",
+        "options": [
+            "不清楚",
+            "能听清但很困难",
+            "非常清晰"
+        ],
+        "correctAnswer": 2,
+        "explanation": "所发射信号的质量：1个表示不清楚，2个表示可断续听到，3个表示能听清但很困难，4个表示清楚，5个表示非常清晰。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 7,
+        "question": "地面人员急速伸开两臂和指挥棒，举至头部上方，交叉挥动指挥棒，代表 ",
+        "options": [
+            "用刹车",
+            "紧急停住",
+            "发动机关车"
+        ],
+        "correctAnswer": 1,
+        "explanation": "用刹车的手势是：一手抬起略高于肩，手张开。确保与飞行机组人员目光接触，然后握拳。在收到飞行机组人员向上翘起大拇指表示确认之前，不许动。发动机关车的手势是：伸出一臂，指挥棒置于身体前方，与肩齐平，将手和指挥棒移至左 肩上方，以横拉动作通过喉部前方将指挥棒移至右肩上方。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 8,
+        "question": "双向无线电失效时，应答机的编码应该是？ ",
+        "options": [
+            "7700",
+            "7600",
+            "7500"
+        ],
+        "correctAnswer": 1,
+        "explanation": "紧急情况设置为7700，双向无线电通讯失效时设置为7600，受到非法干扰时设置为7500。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 9,
+        "question": "航空器遇到安全受到严重威胁，要求立即协助时，在陆空通话中应以（  ）开头。 ",
+        "options": [
+            "MAYDAY",
+            "PAN-PAN",
+            "航空器自己的呼号"
+        ],
+        "correctAnswer": 0,
+        "explanation": "遇险或紧急通话的第一次通话时，以“MAYDAY”开始表示遇险信号；以“PAN PAN”开始表示紧急信号。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 10,
+        "question": "在塔台管制机场降落后，飞行员应该在什么时候与地面管制联系？ ",
+        "options": [
+            "在关掉虚拟航路之前",
+            "在进入可以直接进入停机坪的滑行道之前",
+            "当塔台建议时"
+        ],
+        "correctAnswer": 2,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 11,
+        "question": "航空器进入二次雷达覆盖区以前，未得到指定编码时，使用 ",
+        "options": [
+            "2000",
+            "3000",
+            "4000"
+        ],
+        "correctAnswer": 0,
+        "explanation": "应答机特殊编码有：7500：航空器被劫持；7600：无线电通信失效；7700：紧急或遇险情况；2000：航空器进入二次雷达覆盖区域以前，还没给出相应的编码。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 12,
+        "question": "在航空无线电通讯中字母“A”的发音单词是 ",
+        "options": [
+            "Amber",
+            "Alpha",
+            "Echo"
+        ],
+        "correctAnswer": 1,
+        "explanation": "在无线电通话中，字母“A”的单词是“Alpha”，发音是“AL FAH”。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 13,
+        "question": "在航空无线电通讯中字母“C”的发音单词是 ",
+        "options": [
+            "Charlie",
+            "China",
+            "Child"
+        ],
+        "correctAnswer": 0,
+        "explanation": "在无线电通话中，字母“C”的单词是“Charlie”，发音是“CHAR LEE”。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 14,
+        "question": "在航空无线电通讯中字母“I”的发音单词是 ",
+        "options": [
+            "Ink",
+            "India",
+            "Ai"
+        ],
+        "correctAnswer": 1,
+        "explanation": "无线电通话中，字母“I”的单词是“India”，发音是“IN DEE AH”。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 15,
+        "question": "在航空无线电通讯中字母“M”的发音单词是 ",
+        "options": [
+            "Motor",
+            "Meal",
+            "Mike"
+        ],
+        "correctAnswer": 2,
+        "explanation": "无线电通话中，字母“M”的单词是“Mike”，发音是“MIKE”。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 16,
+        "question": "在航空无线电通讯中字母“N”的发音单词是 ",
+        "options": [
+            "Nike",
+            "Night",
+            "November"
+        ],
+        "correctAnswer": 2,
+        "explanation": "无线电通话中，字母“N”的单词是“November”，发音是“NO VEM BER”。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 17,
+        "question": "在航空无线电通讯中字母“V”的发音单词是 ",
+        "options": [
+            "Victor",
+            "Victory",
+            "Visual"
+        ],
+        "correctAnswer": 0,
+        "explanation": "无线电通话中，字母“V”的单词是“Victor”，发音是“VIK TAH”。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 18,
+        "question": "在航空无线电通讯中字母“Z”的发音单词是 ",
+        "options": [
+            "Zoo",
+            "Zoom",
+            "Zulu"
+        ],
+        "correctAnswer": 2,
+        "explanation": "无线电通话中，字母“Z”的单词是“Zulu”，发音是“ZOO LOO”。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 19,
+        "question": "在航空无线电通讯中数字“8”的正确读法是 ",
+        "options": [
+            "AIT",
+            "AT",
+            "ALT"
+        ],
+        "correctAnswer": 0,
+        "explanation": "在无线电通讯中，“8”的汉语读法为“八”，英语读法为“AIT”。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 20,
+        "question": "7600的读法错误的是 ",
+        "options": [
+            "拐六洞洞",
+            "七千六百",
+            "七千六"
+        ],
+        "correctAnswer": 1,
+        "explanation": "数字组合的汉语读法一般按数字的汉语发音按顺序逐位读出数字；整百或整千或整千整百组合的数字通常读出数字，后面加上百或千或千百；也可按数字顺序读出。所以7600的读法为七千六或拐六洞洞。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 21,
+        "question": "航向100 的汉语读法是 ",
+        "options": [
+            "幺洞洞",
+            "航向一百",
+            "航向幺洞洞"
+        ],
+        "correctAnswer": 2,
+        "explanation": "航向后应跟三位数并逐位读出数值。根据无线电陆空通话中数字的标准读法，数字1的汉语读法为“幺”，数字0为“洞”，航向100的汉语读法为“航向幺洞洞”。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 22,
+        "question": "在我国标准的陆空通话中，01R号跑道应该读作跑道 ",
+        "options": [
+            "零一右",
+            "一右",
+            "洞幺右"
+        ],
+        "correctAnswer": 2,
+        "explanation": "跑道编号应按照数字的汉语或英语发音逐位读出。跑道编号后的英文字母R、L、C 分别表示right、left、center，汉语按照右、左、中读出。数字0的汉语读法为“洞”，所以01R的汉语读法应为洞幺右。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 23,
+        "question": "“北京地面”在无线电通话中是指 ",
+        "options": [
+            "机场管制",
+            "地面活动管制",
+            "机坪管制"
+        ],
+        "correctAnswer": 1,
+        "explanation": "管制单位的名称由管制单位所在地的名字和后缀组成。后缀表明提供何种服务或单\n位类型。后缀汉语简呼为“地面”表示“地面活动管制”。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 24,
+        "question": "在无线电通信中，飞行员可以自己简化航空器呼号吗？ ",
+        "options": [
+            "不可以",
+            "可以",
+            "不可以，需经运营人批准"
+        ],
+        "correctAnswer": 0,
+        "explanation": "只有当管制单位缩减了航空器的呼号后，航空器才可使用缩减后的呼号。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 25,
+        "question": "飞行员在报告的过程中出现错误并立即修改时，应说的标准词为 ",
+        "options": [
+            "作废",
+            "更正",
+            "报告"
+        ],
+        "correctAnswer": 1,
+        "explanation": "更正在通话中的含义是指：在本电报出了一个错误，或所发布的信息本身是错的，正确的内容应当是……。\n作废在通话中的含义是：当作信息没有发送。\n报告在通话中的含义是：向我传达下列情报。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 26,
+        "question": "无线电通话应该做到 ",
+        "options": [
+            "尽可能的详尽，便于理解",
+            "语言简洁、严谨",
+            "通常为强调句"
+        ],
+        "correctAnswer": 1,
+        "explanation": "空中交通无线电通话用语应用于空中交通服务单位与航空器之间的话音联络。它有自己特殊的发音规则，语言简洁、严谨，经过严格的缩减程序，通常为祈使句。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 27,
+        "question": "航空器与ATC进行第一次无线电联络时，应当首先呼叫 ",
+        "options": [
+            "所需联系的ATC的名称",
+            "航空器的注册号",
+            "航空器的机型"
+        ],
+        "correctAnswer": 0,
+        "explanation": "首次联系时航空器驾驶员应采用的通话结构为：对方呼号+己方呼号+通话内容。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 28,
+        "question": "无线电检查回答的内容应依次为 ",
+        "options": [
+            "己方电台呼号、对方电台呼号、发射信号的质量",
+            "对方电台呼号、己方电台呼号、发射信号的质量",
+            "发射信号的质量、对方电台呼号、己方电台呼号"
+        ],
+        "correctAnswer": 1,
+        "explanation": "无线电检查回答应按照下列形式：\n1. 对方电台呼号；2. 己方电台呼号；3. 所发射信号的质量。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 29,
+        "question": "“南航981，允许离场，风向240°，风速5m/s，跑道36。”驾驶员应如何复诵？ ",
+        "options": [
+            "南航981，允许离场，跑道36",
+            "允许离场，跑道36，南航981",
+            "跑道36，允许离场，南航981，风向240°，风速5m/s"
+        ],
+        "correctAnswer": 1,
+        "explanation": "航空器驾驶员应向空中交通管制员复诵通过话音传送的ATC放行许可和指示中涉及安全的部分，应复诵下述内容： \n（1）空中交通管制航路放行许可； \n（2）在进入跑道、起飞、着陆、穿越跑道和沿正在使用跑道的反方向滑行的许可和指令； \n（3）正在使用的跑道、高度表拨正值、二次监视雷达（SSR）编码、高度指令、航向与速度指令和空中交通管制员发布的或ATIS广播包含的过渡高度层。 \n航空器驾驶员应以呼号终止复诵。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 30,
+        "question": "飞行员复诵的指令完成后，管制员应回复 ",
+        "options": [
+            "国航九八幺，复诵正确",
+            "复诵正确",
+            "复诵正确，国航九八幺"
+        ],
+        "correctAnswer": 0,
+        "explanation": "空中交通管制员肯定航空器驾驶员复诵的内容时可仅呼对方呼号。当空中交通管制员认为有必要时，可具体肯定。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 31,
+        "question": "中外航空器在我国境内飞行时，陆空通话 ",
+        "options": [
+            "均使用协调世界时",
+            "中国航空器使用北京时间，外国航空器使用协调世界时",
+            "均使用北京时间"
+        ],
+        "correctAnswer": 0,
+        "explanation": "陆空通话中应使用汉语普通话或英语，时间采用协调世界时",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 32,
+        "question": "ATC通话能否使用上海话 ",
+        "options": [
+            "可以，因为上海话也是汉语的一种",
+            "无所谓，只要能听懂就行",
+            "不可以"
+        ],
+        "correctAnswer": 2,
+        "explanation": "陆空通话中应使用汉语普通话或英语，时间采用协调世界时。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 33,
+        "question": "无线电检查中，如果能听清但很困难，汉语读法怎么说？ ",
+        "options": [
+            "听你3个",
+            "听你4个",
+            "能听清，有点吃力"
+        ],
+        "correctAnswer": 0,
+        "explanation": "通话质量  汉语读法：\n不清楚  1 个\n可断续听到  2 个\n能听清但很困难  3 个\n清楚  4 个\n非常清晰  5 个\n信号检查的汉语通话按照“信号一（二、三、四、五）个”读出",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 34,
+        "question": "当管制告知“听你2个”，表示所发射信号的质量 ",
+        "options": [
+            "不清楚",
+            "可断续听到",
+            "能听清但很困难"
+        ],
+        "correctAnswer": 1,
+        "explanation": "所发射信号的质量：1个表示不清楚，2个表示可断续听到，3个表示能听清但很困难，4个表示清楚，5个表示非常清晰。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 35,
+        "question": "两臂和指挥棒完全伸出，举至头部上方，向内“戳”动指挥棒，直至两棒相碰，该手势意为 ",
+        "options": [
+            "取轮挡",
+            "放轮挡",
+            "用刹车"
+        ],
+        "correctAnswer": 1,
+        "explanation": "放轮挡：两臂和指挥棒完全伸出，举至头部上方，向内“戳”动指挥棒，直至两棒相碰。确保收到飞行机组人员的确认。\n取轮挡：两臂和指挥棒完全伸出，举至头部上方，向外“戳”动指挥棒。未经飞行机组人员批准，不得取出轮挡。\n用刹车：一手抬起略高于肩，手张开。确保与飞行机组人员目光接触，然后握拳。在收到飞行机组人员向上翘起大拇指表示确认之前，不许动。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 36,
+        "question": "装有应答机的航空器，失去地空联络时，空勤组应将应答机置于 ",
+        "options": [
+            "7500",
+            "7600",
+            "7700"
+        ],
+        "correctAnswer": 1,
+        "explanation": "紧急情况设置为7700，双向无线电通讯失效时设置为7600，受到非法干扰时设置为7500。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 37,
+        "question": "当航空器在规定的频率上盲发电文时，该电文应发送 ",
+        "options": [
+            "一遍",
+            "两遍",
+            "三遍"
+        ],
+        "correctAnswer": 1,
+        "explanation": "当航空器与地面建立联系的其他努力失败以后，应在规定的频率上盲发电文，电文前加上“盲发”，该电文应发送两遍。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 38,
+        "question": "国际航空紧急频率为 ",
+        "options": [
+            "121.5MHz",
+            "125MHz",
+            "121.25MHz"
+        ],
+        "correctAnswer": 0,
+        "explanation": "国际航空紧急频率为121.5MHz。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 39,
+        "question": "航空器遇到安全将受到威胁，要求及时而不是立即协助时，在陆空通话中应以（  ）开头。 ",
+        "options": [
+            "MAYDAY",
+            "PAN-PAN",
+            "航空器自己的呼号"
+        ],
+        "correctAnswer": 1,
+        "explanation": "遇险或紧急通话的第一次通话时，以“MAYDAY”开始表示遇险信号；以“PAN PAN”\n开始表示紧急信号。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 40,
+        "question": "航空器遇险后的处理方法是 ",
+        "options": [
+            "调频到121.5频率进行呼叫",
+            "在所使用的频率上进行呼叫",
+            "调频到243频率进行呼叫"
+        ],
+        "correctAnswer": 1,
+        "explanation": "遇险或紧急呼叫通常应在所使用的频率上完成。遇险呼叫通话应在这个频率上保持连续，除非认为转换到另外的频率上能提供更好的帮助。国际航空紧急频率为121.5MHz。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 41,
+        "question": "使用二次雷达，需要在航空器上装设 ",
+        "options": [
+            "译码器",
+            "询问器",
+            "应答机"
+        ],
+        "correctAnswer": 2,
+        "explanation": "应答机是二次雷达系统的机载设备。使用二次雷达，需要在航空器上装设应答机。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 42,
+        "question": "C模式应答机报告的高度的基准为 ",
+        "options": [
+            "场压面",
+            "标准海平面气压面",
+            "修正海平面气压面"
+        ],
+        "correctAnswer": 1,
+        "explanation": "C模式应答机报告的高度的基准是标准海平面气压面。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 43,
+        "question": "应答机编码的每一位数字可调整的范围是 ",
+        "options": [
+            "0－7",
+            "0－9",
+            "0－8"
+        ],
+        "correctAnswer": 0,
+        "explanation": "应答机编码是由ATC部门指定的，是由0－7中间的四个数字组成。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 44,
+        "question": "下列四位数字中可以用作二次雷达编码的是 ",
+        "options": [
+            "1309",
+            "2537",
+            "8824"
+        ],
+        "correctAnswer": 1,
+        "explanation": "应答机代号是一组4位8进制数字，通过分配应答机代号，航空管制员可以对飞行器进行区分。应答机编码的每一位数字可调整的范围是0~7。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 45,
+        "question": "管制员说：“2点钟方向有活动。”意思是管制员认为飞行冲突在其机头（  ）方向 ",
+        "options": [
+            "左方约30°",
+            "右方约30°",
+            "右方约60°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "飞行活动通报中方位的读法按照时钟的习惯读法读出。12点为正前方，2点钟方向即为右方60°方向。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 46,
+        "question": "负责一个或几个机场的航空器进、离场管制工作的是 ",
+        "options": [
+            "塔台管制室",
+            "进近管制室",
+            "区域管制室"
+        ],
+        "correctAnswer": 1,
+        "explanation": "进近管制室负责对进、离场航空器提供空中交通管制服务。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 47,
+        "question": "在地面管制期间，即将离场的VFR飞机应向谁要雷达交通信息？ ",
+        "options": [
+            "最先联系的地面管制",
+            "塔台",
+            "放行许可席位"
+        ],
+        "correctAnswer": 0,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 48,
+        "question": "在飞行时间内，飞行记录器和驾驶舱语音记录器应 ",
+        "options": [
+            "同时打开",
+            "交换使用",
+            "间断使用"
+        ],
+        "correctAnswer": 0,
+        "explanation": "在飞行时间内，飞行记录器和驾驶舱语音记录器需要同时打开。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 49,
+        "question": "如果飞机无线电失效，在管制机场降落时推荐使用哪个程序？ ",
+        "options": [
+            "加入侧风边，摆动机翼",
+            "观察交通流量，进入起落航线，寻找塔台灯光信号",
+            "闪烁着陆灯，机场上空盘旋时放下起落架"
+        ],
+        "correctAnswer": 1,
+        "explanation": "飞行过程中遇到无线电接收机失效，且要在管制机场降落时，飞行员应保持在D类空域之外或者之上，直到确认空中交通方向以及空中流量等情况。然后，飞行员应向塔台盲发飞机类型、位置、高度以及着陆计划，并进入起落航线，随时报告位置，同时观察塔台的灯光信号。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 50,
+        "question": "飞行中失去地空联系，目视飞行时机长应当 ",
+        "options": [
+            "保持目视飞行，飞往降落站降落",
+            "保持目视飞行，飞往就近机场降落",
+            "保持目视飞行，返航回场降落"
+        ],
+        "correctAnswer": 1,
+        "explanation": "航空器进行目视飞行，飞行中失去地空联系，应当保持目视飞行，并飞往就近机场着陆。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 51,
+        "question": "装有应答机的航空器，飞行中遇到劫持时，空勤组应将应答机置于 ",
+        "options": [
+            "7500",
+            "7600",
+            "7700"
+        ],
+        "correctAnswer": 0,
+        "explanation": "紧急情况设置为7700，双向无线电通讯失效时设置为7600，受到非法干扰时设置为7500。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 52,
+        "question": "飞行中，遇到严重威胁航空器和机上人员生命安全的情况时，空勤组应当按规定发出遇险信号如“SOS”，装有应答机的航空器，应将其置于 ",
+        "options": [
+            "7500",
+            "7600",
+            "7700"
+        ],
+        "correctAnswer": 2,
+        "explanation": "紧急情况设置为7700，双向无线电通讯失效时设置为7600，受到非法干扰时设置为7500。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 53,
+        "question": "航空器飞得越高，其VHF无线电通讯距离 ",
+        "options": [
+            "越近",
+            "越远",
+            "不变"
+        ],
+        "correctAnswer": 1,
+        "explanation": "VHF无线电通讯距离与航空器的飞行高度成正比，航空器飞得越高，其VHF无线电通讯距离越远。",
+        "questionImage": "",
+        "explanationImage": ""
+    }
+]
