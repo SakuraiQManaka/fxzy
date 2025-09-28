@@ -1,0 +1,2953 @@
+[
+    {
+        "id": 1,
+        "question": "罗差是罗经线偏离什么的角度？ ",
+        "options": [
+            "真北",
+            "磁北",
+            "罗北"
+        ],
+        "correctAnswer": 1,
+        "explanation": "罗差是罗经线偏离磁经线的角度。",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\1explain.jpg"
+    },
+    {
+        "id": 2,
+        "question": "已知真航向315°，磁差10°W，则磁航向为 ",
+        "options": [
+            "305°",
+            "325°",
+            "315°"
+        ],
+        "correctAnswer": 1,
+        "explanation": "真航向=磁航向＋磁差，磁差10°W表示磁差-10°，可知磁航向为325°。",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\2explain.jpg"
+    },
+    {
+        "id": 3,
+        "question": "我国统一使用的北京时是指 ",
+        "options": [
+            "北京的地方时",
+            "8时区的时区时",
+            "东8区的时区时"
+        ],
+        "correctAnswer": 2,
+        "explanation": "我国统一使用北京所在的东八区的区时作为标准时间，称为北京时。",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\3explain.jpg"
+    },
+    {
+        "id": 4,
+        "question": "北京时间为22:15时，世界协调时（UTC）为 ",
+        "options": [
+            "前一天14:15",
+            "当天14:15",
+            "第二天06:15"
+        ],
+        "correctAnswer": 1,
+        "explanation": "我国统一使用北京所在的东八区的区时作为标准时间，即北京时，北京时=UTC+8。",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\4explain.jpg"
+    },
+    {
+        "id": 5,
+        "question": "没有角度失真的航图叫做 ",
+        "options": [
+            "等距投影图",
+            "等角投影图",
+            "等积投影图"
+        ],
+        "correctAnswer": 1,
+        "explanation": "等角投影图是指投影时保持任何一点沿经线、纬线方向的局部比例尺相等，即没有角度失真。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 6,
+        "question": "在1:100万航图上，图上2厘米表示实际飞行距离 ",
+        "options": [
+            "200千米",
+            "20千米",
+            "2千米"
+        ],
+        "correctAnswer": 1,
+        "explanation": "地图比例尺=图上长度/实地长度。1/1000000=2/实地距离，得出实地距离为2000000厘米，即20千米。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 7,
+        "question": "辨认地标的四个要素 ",
+        "options": [
+            "航迹、时刻、地标特征、地标形状",
+            "航迹、时刻、地标特征、地标相关位置",
+            "航迹、时刻、地标形状、地标位置"
+        ],
+        "correctAnswer": 1,
+        "explanation": "观察辨认地标时，必须以推算位置为基础，依据四个要素即航迹、时间、地标特征和地标相关位置进行比较，准确地辨认出地标。",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\7explain.jpg"
+    },
+    {
+        "id": 8,
+        "question": "飞机从600米上升到2100米，上升率为2米/秒，上升时间为 ",
+        "options": [
+            "12分50秒",
+            "12分05秒",
+            "12分30秒"
+        ],
+        "correctAnswer": 2,
+        "explanation": "上升时间为（2100-600）÷2=750秒，即12分30秒。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 9,
+        "question": "若耗油率为80磅/小时，地速180节，飞行460海里所需油量为 ",
+        "options": [
+            "205磅",
+            "212磅",
+            "460磅"
+        ],
+        "correctAnswer": 0,
+        "explanation": "飞行460海里所需油量为460÷180*80≈204.4，所以答案选最接近项205磅。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 10,
+        "question": "若耗油率为13加仑/小时，地速为150节，飞行810公里所需油量为 ",
+        "options": [
+            "27加仑",
+            "34加仑",
+            "38加仑"
+        ],
+        "correctAnswer": 2,
+        "explanation": "1公里大约相当于0.54海里，所以810公里大约为437海里。飞行810公里所需油量为437÷150*13≈38加仑。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 11,
+        "question": "飞机飞行高度为10000ft，空中大气温度为-10℃，表速为170kt，则真空速为 ",
+        "options": [
+            "194kt",
+            "165kt",
+            "208kt"
+        ],
+        "correctAnswer": 0,
+        "explanation": "尺算方法：10000ft约等于3千米，170kt约为315km/h，对尺时，将第二组尺“V”用的3km对正活动尺“V”用的-10℃，即可从第一组固定尺上指示空速315km/h处所对活动尺的刻度读出TAS为360km/h，约为194kt。\n\n心算方法：高度每升高1000米，真空速比表速大5%。高度每升高1000英尺，真空速比表速大1.8%。空中温度比标准气温高（低）5℃，真空速比表速大（小）1%。\n已知高度飞行高度10000ft，所以真空速需增加18%；\n标准温度为15-10000×2/1000= -5℃，实际温度-10℃，比标准低5℃，所以真空速需减小1%；\n则真空速=170+170×18%-170×1%=198.9kt，答案选最接近项。",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\11explain.jpg"
+    },
+    {
+        "id": 12,
+        "question": "飞行过程中，飞机左转 ",
+        "options": [
+            "航向减小",
+            "航向增大",
+            "航向不变"
+        ],
+        "correctAnswer": 0,
+        "explanation": "航向是从经线北端顺时针量到航向线的角度，范围为0°到360°，当飞机转弯时，向右转航向增大，向左转航向减小。",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\12explain.jpg"
+    },
+    {
+        "id": 13,
+        "question": "已知偏航距离为-7KM，说明飞机偏在航线的 ",
+        "options": [
+            "右边",
+            "不偏",
+            "左边"
+        ],
+        "correctAnswer": 2,
+        "explanation": "飞机偏在航线左侧为负，右侧为正。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 14,
+        "question": "偏流是哪两条线的夹角？以哪条线为基准？ ",
+        "options": [
+            "航迹线和航线，以航线为基准",
+            "航迹线和航向线，以航迹线为基准",
+            "航迹线和航向线，以航向线为基准"
+        ],
+        "correctAnswer": 2,
+        "explanation": "航迹线同航向线的关系可以用地速向量同空速向量的夹角，即航迹线偏离航向线的角度来表示，这一角度叫偏流角，简称偏流。偏流以航向线为基准。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 15,
+        "question": "预计磁航迹3°，平均磁航向355°，实际航迹角355°，航线上存在什么风？ ",
+        "options": [
+            "顺逆风或无风",
+            "左侧风",
+            "右侧风"
+        ],
+        "correctAnswer": 0,
+        "explanation": "平均磁航向=实际航迹角，表明飞机在航行过程中偏流为0°，航线上可能无风，或存在顺逆风。",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\15explain.jpg"
+    },
+    {
+        "id": 16,
+        "question": "若航向、空速、风向不变，飞机接近顺逆风飞行，风速变化，主要引起 ",
+        "options": [
+            "偏流变化",
+            "地速变化",
+            "风角变化"
+        ],
+        "correctAnswer": 1,
+        "explanation": "风速变化同一个量△WS，风为接近顺（逆）风时，偏流变化较小，地速变化较大；风为接近正侧风时，偏流变化较大，地速变化较小。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 17,
+        "question": "MC270°，真空速170节，气象风344°，18节，计算应飞磁航向和地速 ",
+        "options": [
+            "276°，164节",
+            "276°，179节",
+            "262°，164节"
+        ],
+        "correctAnswer": 0,
+        "explanation": "N/A",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\17.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\17explain.jpg"
+    },
+    {
+        "id": 18,
+        "question": "航线角 MC=70°，DA= -2°，求应飞磁航向？ ",
+        "options": [
+            "72°",
+            "68°",
+            "66°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\18explain.jpg"
+    },
+    {
+        "id": 19,
+        "question": "飞机在08:42Z从X地到Y地，两地距离760NM，在9:16Z时飞机距离X地64NM，则飞机到达Y地的时间是 ",
+        "options": [
+            "13:33",
+            "15:26",
+            "14:25"
+        ],
+        "correctAnswer": 1,
+        "explanation": "v=S/t，由题干可知v=64nm/34min，飞机从X地到Y地所需的时间t=760nm/v，约等于6小时44分钟，则飞机到达Y地的时间为15:26。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\19.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 20,
+        "question": "检查航迹是从（  ）和（  ）上检查飞机能否准确沿预计航线、准时地到达预定点 ",
+        "options": [
+            "方向、距离",
+            "方向、时间",
+            "时间、距离"
+        ],
+        "correctAnswer": 0,
+        "explanation": "检查航迹就是从方向、距离上检查飞机能否沿预计航线准确、准时地到达预定点。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 21,
+        "question": "一架飞机已飞52海里，偏航6海里，还要飞行118海里，其航迹修正角是 ",
+        "options": [
+            "3°",
+            "6°",
+            "10°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\21explain.jpg"
+    },
+    {
+        "id": 22,
+        "question": "一架飞机已飞95公里，偏航9公里，还要飞行125公里，其航迹修正角是 ",
+        "options": [
+            "4°",
+            "10°",
+            "11°"
+        ],
+        "correctAnswer": 1,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\22explain.jpg"
+    },
+    {
+        "id": 23,
+        "question": "ADF接收机测量的是 ",
+        "options": [
+            "QDM",
+            "QDR",
+            "RB"
+        ],
+        "correctAnswer": 2,
+        "explanation": "自动定向仪（ADF）是最早应用的无线电导航系统，依靠机上环形天线的方向特性来测定电台相对方位（RB）。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 24,
+        "question": "如图PPL5-2中1所示，确定向台磁方位为 ",
+        "options": [
+            "30°",
+            "180°",
+            "210°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "图中方位指针指示的是向台飞行磁方位QDM=210°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\24.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 25,
+        "question": "如图PPL5-2中2所示，电台相对方位是 ",
+        "options": [
+            "235°",
+            "315°",
+            "190°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "图中方位指针与标线的夹角即为电台相对方位，由图2可以看出，其相对方位RB=235°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 26,
+        "question": "如图PPL5-3中2所示，电台相对方位是 ",
+        "options": [
+            "180°",
+            "270°",
+            "090°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "由图可以看出，电台相对方位RB=090°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\26.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 27,
+        "question": "如图PPL5-3中5所示，磁航向035°的向台磁方位是 ",
+        "options": [
+            "180°",
+            "215°",
+            "035°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "由图可以看出，RB=0°，向台磁方位QDM=MH+RB=035°+0°=035°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 28,
+        "question": "如图PPL5-3中6所示，磁航向120°的向台磁方位是 ",
+        "options": [
+            "165°",
+            "270°",
+            "045°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "由图可以看出，RB=45°，向台磁方位QDM=MH+RB=120°+45°=165°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 29,
+        "question": "如图PPL5-3中7所示，如果向台磁方位是030°，那么磁航向是 ",
+        "options": [
+            "060°",
+            "270°",
+            "120°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "由图可以看出，RB=270°，向台磁方位QDM=030°，QDM=MH+RB，所以MH=120°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\29.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 30,
+        "question": "参考图PPL5-5，如果保持4号飞机所指示的磁航向，哪一幅ADF图例指示此飞机在向台磁方位（QDM）135°的方位线上？ ",
+        "options": [
+            "1",
+            "4",
+            "8"
+        ],
+        "correctAnswer": 0,
+        "explanation": "由题干可知，QDM=135°，MH=135°，所以RB=QDM-MH=0°，图1指示RB为0°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\30.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 31,
+        "question": "参考图PPL5-5，如果保持2号飞机所指示的磁航向，哪一幅ADF图例指示此飞机在向台磁方位（QDM）255°的方位线上？ ",
+        "options": [
+            "2",
+            "4",
+            "5"
+        ],
+        "correctAnswer": 1,
+        "explanation": "由题干可知，QDM=255°，MH=45°，所以RB=QDM-MH=210°，图例4指示RB=210°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\31.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 32,
+        "question": "参考图PPL5-5，如果保持1号飞机所指示的磁航向，哪一幅ADF图例指示此飞机在向台磁方位（QDM）060°的方位线上？ ",
+        "options": [
+            "2",
+            "4",
+            "5"
+        ],
+        "correctAnswer": 0,
+        "explanation": "由题干可知，QDM=60°，MH=360°，RB=QDM-MH=60°，图例2指示RB=60°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\32.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 33,
+        "question": "参考图PPL5-5，如果保持3号飞机所指示的磁航向，哪一幅ADF图例指示此飞机在向台磁方位（QDM）120°的方位线上？ ",
+        "options": [
+            "4",
+            "5",
+            "8"
+        ],
+        "correctAnswer": 1,
+        "explanation": "由题干可知，QDM=120°，MH=90°，所以RB=QDM-MH=30°，图例5指示RB=30°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\33.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\33explain.jpg"
+    },
+    {
+        "id": 34,
+        "question": "参考图PPL5-5，如果保持5号飞机所指示的磁航向，哪一幅ADF图例指示此飞机在背台磁方位（QDR）210°的方位线上？ ",
+        "options": [
+            "2",
+            "3",
+            "4"
+        ],
+        "correctAnswer": 2,
+        "explanation": "QDM=QDR±180°，所以QDM=210°-180°=30°，ADF指示RB，RB=QDM-MH=30°-180°+360°=210°，图例4指示RB=210°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\34.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 35,
+        "question": "参考图PPL5-5，如果保持7号飞机所指示的磁航向，哪一幅ADF图例指示此飞机在背台磁方位（QDR）120°的方位线上? ",
+        "options": [
+            "2",
+            "4",
+            "5"
+        ],
+        "correctAnswer": 2,
+        "explanation": "QDM＝QDR±180°，所以QDM＝120°＋180°＝300°，ADF指示的为RB，RB＝QDM－MH＝300°－270°＝30°，所以图例5为正确答案。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\35.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 36,
+        "question": "地面VOR台的识别码是几个莫尔斯电码？ ",
+        "options": [
+            "2个",
+            "3个",
+            "4个"
+        ],
+        "correctAnswer": 1,
+        "explanation": "地面的VOR台使用的识别码为三个英文字母的国际莫尔斯电码。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 37,
+        "question": "DME与VOR合装在一起时，其频率怎样调谐？ ",
+        "options": [
+            "DME与VOR分别调谐",
+            "调谐VOR频率，DME自动配对",
+            "调谐DME频率，VOR自动配对"
+        ],
+        "correctAnswer": 1,
+        "explanation": "DME波道通常与 VOR/ILS 使用配对频率，不需要单独调谐 DME 台的频率。每个 VOR台和DME台都有相应的识别标志及莫尔斯电码，实际应用中应识别莫尔斯电码。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\37.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\37explain.jpg"
+    },
+    {
+        "id": 38,
+        "question": "在RMI上针尖所指的数据是 ",
+        "options": [
+            "电台相对方位（RB）",
+            "飞机磁方位（QDR）",
+            "电台磁方位（QDM）"
+        ],
+        "correctAnswer": 2,
+        "explanation": "RMI（无线电磁指示器）上，针尖所指的数据是电台磁方位，针尾指示飞机磁方位。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\38.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 39,
+        "question": "多架飞机以不同的航向沿同一VOR径向线向台飞行，所有飞机的电台磁方位 ",
+        "options": [
+            "与航向有关",
+            "都不等",
+            "都相等"
+        ],
+        "correctAnswer": 2,
+        "explanation": "在同一条方位线上，电台方位角和飞机方位角都是一定的。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 40,
+        "question": "关于被动向台说法正确的是 ",
+        "options": [
+            "侧风中飞行时航迹为曲线",
+            "MH始终等于0",
+            "相对方位角始终与电台方位角一致"
+        ],
+        "correctAnswer": 0,
+        "explanation": "不修正偏流向台飞行，就是飞行中始终保持飞机机头对正电台，即始终保持相对方位角为0或使每一瞬间的航向等于电台方位角飞行，最后飞机将飞到NDB/VOR台上空，这种方法也称为被动向台。侧风中被动向台飞行时，飞机的航迹是一条偏向下风方向的曲线  。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 41,
+        "question": "参考下图，预计背NDB台飞行的磁航线角为285°。RMI所示的飞机偏在航线的 ",
+        "options": [
+            "左侧",
+            "右侧",
+            "不偏"
+        ],
+        "correctAnswer": 0,
+        "explanation": "N/A",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\41.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\41explain.jpg"
+    },
+    {
+        "id": 42,
+        "question": "地球表面两点之间大圆航线的特点是 ",
+        "options": [
+            "各点航线角相等",
+            "航线距离最短",
+            "航线距离最长"
+        ],
+        "correctAnswer": 1,
+        "explanation": "以通过两航路点间的大圆圈线作为航线的叫大圆航线，大圆航线上各点的真航线角不相等，但航线距离最短。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\42.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 43,
+        "question": "地球上两点之间的航线建立最短的是指 ",
+        "options": [
+            "两点之间的直线长度",
+            "两点之间的等角线长度",
+            "两点之间大圆的弧长"
+        ],
+        "correctAnswer": 2,
+        "explanation": "以通过两航路点间的大圆圈线作为航线的叫大圆航线，大圆航线上各点的真航线角不相等，但航线距离最短。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 44,
+        "question": "同一经线上的两点指示（）方向？ ",
+        "options": [
+            "南北",
+            "东西",
+            "没有方向"
+        ],
+        "correctAnswer": 0,
+        "explanation": "经线包含地轴的平面叫经线平面。经线平面与地球表面交成的大圆圈，叫经圈(又叫子午圈)。每个经圈都被两极分成两半，每一半叫经线，或子午线。由于任一条经线都通过南北两极，所以，通过任一地点经线的方向就成为该地标准的南北方向。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 45,
+        "question": "北极的纬度是 ",
+        "options": [
+            "北纬180度",
+            "北纬90度",
+            "北纬0度"
+        ],
+        "correctAnswer": 1,
+        "explanation": "北极的纬度是90°N，南极的纬度是90°S。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 46,
+        "question": "关于磁罗盘罗差的说法哪个正确？ ",
+        "options": [
+            "不同航向的飞机罗差相同",
+            "同一飞机的航向不同时罗差不同",
+            "处于同一地点的所有飞机罗差相同"
+        ],
+        "correctAnswer": 1,
+        "explanation": "罗差的大小随着航向的变化而改变，不同罗盘的罗差由于安装位置不同，其大小也不一样。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 47,
+        "question": "磁差是磁北偏离什么的角度？ ",
+        "options": [
+            "真北",
+            "磁北",
+            "罗北"
+        ],
+        "correctAnswer": 0,
+        "explanation": "磁差是磁北偏离真北的角度。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 48,
+        "question": "磁差正负的判断依据是 ",
+        "options": [
+            "以真经线为基准，真经线以东为正磁差",
+            "以真经线为基准，真经线以西为正磁差",
+            "通常以赤道为基准，赤道以南为正磁差"
+        ],
+        "correctAnswer": 0,
+        "explanation": "磁差：地磁南北极与地理南北极不重合，磁经线北端偏离真经线北端的角度，叫磁差或磁偏角。以真经线作为基准，磁经线北端偏在真经线以东为正磁差，以西为负磁差。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 49,
+        "question": "地球上同一纬圈上的各点 ",
+        "options": [
+            "纬度相同，经度不同",
+            "纬度相同，经度相同",
+            "纬度、经度都不同"
+        ],
+        "correctAnswer": 0,
+        "explanation": "同一纬圈上的各地点的纬度相同。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 50,
+        "question": "已知真航线角为53°，磁差MV8°，则磁航线角为 ",
+        "options": [
+            "45°",
+            "61°",
+            "30°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "地磁南北极与地理南北极不重合，磁经线北端偏离真经线北端的角度，叫磁差或磁偏角。以真经线作为基准，磁经线北端偏在真经线以东为正磁差，以西为负磁差。由题干可知，TC=53°，MV=8°，则MC=TC-MV=45°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 51,
+        "question": "同一纬线上的两点指示（）方向。 ",
+        "options": [
+            "南北",
+            "东西",
+            "没有方向"
+        ],
+        "correctAnswer": 1,
+        "explanation": "纬线与赤道平行的小圆圈叫纬圈。同一半球上纬圈的大小都不一样，离赤道越远．纬圈就越小。由于纬圈的平面都与南北极的连线一地轴垂直，地球上的纬圈方向就成为标准的东西方向。纬圈的一部分，叫纬线。地球上的任一地点都有一条纬线通过。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 52,
+        "question": "已知30°E地方时为8:00，则地方时为13:00所对应的经度是 ",
+        "options": [
+            "105°E",
+            "80°E",
+            "150°E"
+        ],
+        "correctAnswer": 0,
+        "explanation": "以经线为界，把地球表面分成 24 个时区。每个时区的范围是经度 15°。在同一时区里的各地点，都统一使用这一时区中央经线的地方时，叫该时区的区时。\n经度每隔15°，地方时相差1小时，已知8点和13点相差5小时，可知经度相差75°，所以经度为30°+75°=105°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\52.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 53,
+        "question": "全球划分多少个时区，每个时区经度为多少度？ ",
+        "options": [
+            "12个，30度",
+            "24个，15度",
+            "18个，20度"
+        ],
+        "correctAnswer": 1,
+        "explanation": "理论时区是以经线为界，将地球表面划分为24个时区，每个时区范围是经度15°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 54,
+        "question": "同一个时区内哪一个时刻为该时区的标准时刻？ ",
+        "options": [
+            "中央经线的地方时",
+            "时区西边缘的地方时",
+            "时区东边缘的地方时"
+        ],
+        "correctAnswer": 0,
+        "explanation": "在同一时区里的各地方都统一使用这一时区中央经线的地方时，叫该时区的区时。",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\54explain.jpg"
+    },
+    {
+        "id": 55,
+        "question": "我国位于东经72度到135度之间，共几个时区？东边与西边相差几个小时？ ",
+        "options": [
+            "5个，5小时",
+            "5个，4小时",
+            "4个，4小时"
+        ],
+        "correctAnswer": 1,
+        "explanation": "我国幅员辽阔，经度从东经72度到135度，按国际时区划分，我国横跨五个时区，也就是东五区、东六区、东七区、东八区和东九区，东九区减东五区，时差4小时。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\55.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 56,
+        "question": "世界时是指 ",
+        "options": [
+            "英国伦敦的地方时",
+            "零时区的区时",
+            "12时区的区时"
+        ],
+        "correctAnswer": 1,
+        "explanation": "国际上规定以零时区的区时作为全世界统一时刻，叫世界时。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 57,
+        "question": "我国民航飞行使用的时间为 ",
+        "options": [
+            "当地的地方时",
+            "北京时",
+            "世界协调时"
+        ],
+        "correctAnswer": 2,
+        "explanation": "我国民航飞行使用的时间是世界协调时。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 58,
+        "question": "将北京时换算成世界协调时应当 ",
+        "options": [
+            "减8个小时",
+            "加8个小时",
+            "减5个小时"
+        ],
+        "correctAnswer": 0,
+        "explanation": "地球分为24个时区，相邻两时区时间差1小时，任何两时区之差，就等于其时区号码的差数（东时区为正，西时区为负）。世界协调时是全球通用的时间，在航空中使用零时区的区时，北京时使用的是东八区的区时，所以，将北京时换算成世界协调时应当向西减8个小时。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 59,
+        "question": "将世界协调时换算成北京时应当 ",
+        "options": [
+            "减8个小时",
+            "加8个小时",
+            "减5个小时"
+        ],
+        "correctAnswer": 1,
+        "explanation": "地球分为24个时区，相邻两时区时间差1小时，任何两时区之差，就等于其时区号码的差数（东时区为正，西时区为负）。世界协调时是全球通用的时间，在航空中使用零时区的区时，北京时使用的是东八区的区时，所以，将世界协调时换算成北京时应当向东加8个小时。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 60,
+        "question": "北京时间 8 月1 日7 点，世界协调时是什么时间？ ",
+        "options": [
+            "7月31日23点",
+            "8月1日15点",
+            "8月1日0点"
+        ],
+        "correctAnswer": 0,
+        "explanation": "北京时=UTC+8，所以世界协调时为7月31日23点。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\60.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 61,
+        "question": "1:50万航图，图上1厘米相当于地面长 ",
+        "options": [
+            "0.5公里",
+            "50公里",
+            "5公里"
+        ],
+        "correctAnswer": 2,
+        "explanation": "地图比例尺=图上长度/实地长度。1:50万的航图，图上1cm相当于地面长5km。",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\61explain.jpg"
+    },
+    {
+        "id": 62,
+        "question": "某跑道长度2公里，画到1:10万地图上的长度是 ",
+        "options": [
+            "2厘米",
+            "4厘米",
+            "6厘米"
+        ],
+        "correctAnswer": 0,
+        "explanation": "地图比例尺=图上长度/实地长度。图上长度/2000=1/100000，得出图上长度为0.02米，即2厘米。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\62.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 63,
+        "question": "墨卡托投影图属于 ",
+        "options": [
+            "等距投影",
+            "等角投影",
+            "等积投影"
+        ],
+        "correctAnswer": 1,
+        "explanation": "墨卡托投影图属于等角投影。墨卡托投影图没有角度失真，赤道没有任何失真，其余地区都有不同程度的长度和面积失真：赤道附近失真很小，离赤道越远，失真越大，即随纬度增高而增大。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 64,
+        "question": "在1:100万航图上，图上10厘米代表实地距离 ",
+        "options": [
+            "100公里",
+            "10公里",
+            "1公里"
+        ],
+        "correctAnswer": 0,
+        "explanation": "地图比例尺=图上长度/实地长度。1/1000000=10/实地距离，得出实地距离为10000000厘米，即100公里。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\64.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 65,
+        "question": "在1:50万航图上，图上2厘米代表实地距离 ",
+        "options": [
+            "5公里",
+            "20公里",
+            "10公里"
+        ],
+        "correctAnswer": 2,
+        "explanation": "地图比例尺=图上长度/实地长度。1/500000=2/实地距离，得出实地距离为1000000厘米，即10公里。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\65.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 66,
+        "question": "地图比例尺有哪三种表示形式？ ",
+        "options": [
+            "数字、文字、分式",
+            "数字、文字、图解",
+            "数字、分式、图解"
+        ],
+        "correctAnswer": 1,
+        "explanation": "地图比例尺通常绘注在每幅地图的图廓下方，常用的有三种表示形式：数字比例尺、文字说明比例尺和图解比例尺。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\66.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 67,
+        "question": "地图三要素指的是 ",
+        "options": [
+            "地图比例尺、地图符号、地图投影",
+            "地图比例尺、地图符号、图例",
+            "地图符号、图例、地图投影"
+        ],
+        "correctAnswer": 0,
+        "explanation": "地图比例尺、地图符号和地图投影称为地图三要素。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 68,
+        "question": "地图存在的三种失真是 ",
+        "options": [
+            "角度、长度、体积",
+            "角度、面积、体积",
+            "角度、长度、面积"
+        ],
+        "correctAnswer": 2,
+        "explanation": "地图失真表现在长度、角度和面积三个方面。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 69,
+        "question": "1:100万世界航图不存在 ",
+        "options": [
+            "角度失真",
+            "长度失真",
+            "面积失真"
+        ],
+        "correctAnswer": 0,
+        "explanation": "全世界统一规范的1:100万世界航图，从赤道0°起至北纬84°或南纬80°之间，采用的是兰伯特投影图，兰伯特投影图没有角度失真，存在长度失真和面积失真。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 70,
+        "question": "1:100万世界航图的图幅范围，从纬度0度到60度为 ",
+        "options": [
+            "经度6度，纬度4度",
+            "经度12度，纬度4度",
+            "经度34度，纬度4度"
+        ],
+        "correctAnswer": 0,
+        "explanation": "百万分之一航图的分幅：从纬度0°~60°，经度差为6°，纬度差为4°；从纬度60°~76°，经度差为12°，纬度差为4°；从纬度76°~84°，经度差为24°，纬度差为4°；从纬度84°~88°，经度差为36°，纬度差为4°；从纬度88°~90°，经度差为360°，纬度差为2°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 71,
+        "question": "地图的比例尺越大对地物的描述就越（  ） ",
+        "options": [
+            "粗略",
+            "不清晰",
+            "详细"
+        ],
+        "correctAnswer": 2,
+        "explanation": "图幅同样大小的地图，比例尺大的所表现的地面范围要小些，但是比较详细；比例尺小的地图所表现的地面范围要大些，但比较简略。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 72,
+        "question": "通用航空作业用的地图是 ",
+        "options": [
+            "大比例尺",
+            "中比例尺",
+            "小比例尺"
+        ],
+        "correctAnswer": 0,
+        "explanation": "在通用航空和特殊领航任务时，常选用大比例尺航图。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 73,
+        "question": "航图上等高线密集地方的地形 ",
+        "options": [
+            "平缓",
+            "陡峻",
+            "高海拔"
+        ],
+        "correctAnswer": 1,
+        "explanation": "在现代地图上，地形主要是用等高线来表示的，航图上等高线密集的地方说明其地形陡峭。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 74,
+        "question": "在一副地图上，用图上10厘米表示实地距离100千米，则该地图的比例尺为 ",
+        "options": [
+            "1:500000",
+            "1:100000",
+            "1:1000000"
+        ],
+        "correctAnswer": 2,
+        "explanation": "地图比例尺=图上长度/实地长度。\n10cm/100km=10cm/10000000cm=1/1000000。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 75,
+        "question": "罗差是指 ",
+        "options": [
+            "磁罗盘的误差",
+            "罗经线偏离磁经线的角度",
+            "罗航向和真航向的差角"
+        ],
+        "correctAnswer": 1,
+        "explanation": "罗经线偏离磁经线的角度，叫罗差。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 76,
+        "question": "地标可分为 ",
+        "options": [
+            "点状、面状和线状地标",
+            "点状、面状和块状地标",
+            "面状、块状和线状地标"
+        ],
+        "correctAnswer": 0,
+        "explanation": "根据飞行时空中观察地标的几何形状、大小，可分为线状地标、面状地标和点状地标。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 77,
+        "question": "辨认地标的三个环节是 ",
+        "options": [
+            "对正地图、由近及远、观察辨认",
+            "对正地图、由近及远、确定范围",
+            "对正地图、确定范围、观察辨认"
+        ],
+        "correctAnswer": 2,
+        "explanation": "为了准确地辨认地标，必须掌握对正地图、确定范围和观察辨认三个基本环节。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 78,
+        "question": "航图上注记的航线角是 ",
+        "options": [
+            "磁航线角和真航线角",
+            "真航线角",
+            "磁航线角"
+        ],
+        "correctAnswer": 2,
+        "explanation": "航图上注记数据的内容包括：磁航线角、航段距离、最大标高、磁差和无线电方位。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 79,
+        "question": "在航图上，用领航向量尺量取的角度是 ",
+        "options": [
+            "真航线角",
+            "磁航线角",
+            "罗航线角"
+        ],
+        "correctAnswer": 0,
+        "explanation": "由于航图上的经线都是真经线，所以用领航向量尺量出的航线角都是真航线角。飞机上的设备大都是以磁北为基准，标注的是磁航线角。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 80,
+        "question": "1海里相当于多少公里？ ",
+        "options": [
+            "1.85公里",
+            "1.15公里",
+            "1.61公里"
+        ],
+        "correctAnswer": 0,
+        "explanation": "1海里相当于1.852公里。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 81,
+        "question": "100米等于多少英尺？ ",
+        "options": [
+            "300英尺",
+            "305英尺",
+            "328英尺"
+        ],
+        "correctAnswer": 2,
+        "explanation": "1米等于3.2808399 英尺(ft)，100米相当于328英尺。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 82,
+        "question": "60米大约相当于多少英尺？ ",
+        "options": [
+            "200英尺",
+            "180英尺",
+            "220英尺"
+        ],
+        "correctAnswer": 0,
+        "explanation": "1米等于3.2808399 英尺(ft)，所以60米大约相当于200英尺。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 83,
+        "question": "100英尺大约等于多少米？ ",
+        "options": [
+            "3米",
+            "30米",
+            "328米"
+        ],
+        "correctAnswer": 1,
+        "explanation": "1英尺等于0.3048 米，所以100英尺大约相对于30米。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 84,
+        "question": "飞机从6000米下降至1000米，下降率5米/秒，下降时间为 ",
+        "options": [
+            "16分40秒",
+            "18分40秒",
+            "20分40秒"
+        ],
+        "correctAnswer": 0,
+        "explanation": "（6000-1000）÷5 =1000秒，即16分40秒。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 85,
+        "question": "飞机从2100米下降至900米，可以下降的时间是9分钟，应保持多大的下降率？ ",
+        "options": [
+            "380FT/MIN",
+            "400FT/MIN",
+            "440FT/MIN"
+        ],
+        "correctAnswer": 2,
+        "explanation": "下降率为（2100-900）÷9=133.3米/分钟，133.3米=437.2英尺，所以答案选最接近的440FT/MIN。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 86,
+        "question": "若耗油率为95磅/小时，地速180节，飞行450海里所需油量为 ",
+        "options": [
+            "240磅",
+            "265磅",
+            "284磅"
+        ],
+        "correctAnswer": 0,
+        "explanation": "飞行450海里所需油量为450÷180*95=237.5，所以答案选最接近项240磅。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 87,
+        "question": "如果地速是450公里/小时，1分钟内飞行约 ",
+        "options": [
+            "7.5公里",
+            "4.5公里",
+            "12.5公里"
+        ],
+        "correctAnswer": 0,
+        "explanation": "地速是450公里/小时，所以1分钟内飞行450÷60=7.5公里。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 88,
+        "question": "地速170KT，飞机飞行70NM约需时间 ",
+        "options": [
+            "28分钟",
+            "14分钟",
+            "25分钟"
+        ],
+        "correctAnswer": 2,
+        "explanation": "飞行70nm所需时间为70÷170×60≈25分钟。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 89,
+        "question": "飞机飞行50公里用时间18分钟，计算地速约为 ",
+        "options": [
+            "184公里/小时",
+            "167公里/小时",
+            "150公里/小时"
+        ],
+        "correctAnswer": 1,
+        "explanation": "18分钟即0.3小时。地速为50÷0.3≈167公里/小时。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 90,
+        "question": "一气球0637从A点出发，气象风290°，速度6KT，0847时气球应位于 ",
+        "options": [
+            "A点110°方位13海里",
+            "A点290°方位13海里",
+            "A点110°方位12海里"
+        ],
+        "correctAnswer": 0,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\90explain.jpg"
+    },
+    {
+        "id": 91,
+        "question": "飞机保持磁航向265°飞行，相对方位65°，飞机正飞越 ",
+        "options": [
+            "QDM为65°的方位线",
+            "QDM为150°的方位线",
+            "QDM为330°的方位线"
+        ],
+        "correctAnswer": 2,
+        "explanation": "QDM=MH+RB=265°+65°=330°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\91.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 92,
+        "question": "磁方向315°，相对方位140°，飞机磁方位为 ",
+        "options": [
+            "95°",
+            "175°",
+            "275°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "QDR=QDM±180°=315°+140°-360°+180°=275°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 93,
+        "question": "磁方向350°，相对方位240°，电台磁方位为 ",
+        "options": [
+            "50°",
+            "230°",
+            "295°"
+        ],
+        "correctAnswer": 1,
+        "explanation": "QDM=MH+RB=350°+240°-360°=230°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 94,
+        "question": "飞机沿同一方位线飞向电台，当航向改变时，将引起什么变化？ ",
+        "options": [
+            "电台相对方位",
+            "电台磁方位",
+            "飞机磁方位"
+        ],
+        "correctAnswer": 0,
+        "explanation": "在同一条方位线上，电台方位角和飞机方位角都是一定的，一个航向将对应一个相对方位，当航向改变时，相对方位将随之改变。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 95,
+        "question": "当不同航向飞机切入同一方位线时，其电台磁方位 ",
+        "options": [
+            "相等",
+            "不等",
+            "等于180°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "在同一条方位线上，电台方位角和飞机方位角都是一定的，与飞机航向无关。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 96,
+        "question": "当飞机正切电台时，如果电台在左侧，则电台相对方位为 ",
+        "options": [
+            "180°",
+            "90°",
+            "270°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\96explain.jpg"
+    },
+    {
+        "id": 97,
+        "question": "飞机磁航向为90°，正切左侧电台时，电台磁方位为 ",
+        "options": [
+            "0°",
+            "90°",
+            "180°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "N/A",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\97.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\97explain.jpg"
+    },
+    {
+        "id": 98,
+        "question": "飞机作被动向台飞行时，电台相对方位 ",
+        "options": [
+            "不断变化",
+            "始终指0",
+            "始终指180°"
+        ],
+        "correctAnswer": 1,
+        "explanation": "被动向台飞行是指飞机机头始终对正电台，即始终保持相对方位角为0°或使每一瞬间的航向等于电台方位角飞行。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\98.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 99,
+        "question": "飞机在任何时候测量的电台磁方位，就是飞机直飞该电台的 ",
+        "options": [
+            "航向",
+            "航线角",
+            "航迹线"
+        ],
+        "correctAnswer": 1,
+        "explanation": "向电台飞行中，飞机任何时刻都必定在某一条方位线上，也就是飞机当时测出的电台磁方位就是飞机飞向电台的新航线角。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 100,
+        "question": "飞机向台飞行，如果一直沿航线飞行，则测量出的QDM应等于 ",
+        "options": [
+            "航向",
+            "偏流角",
+            "航线角"
+        ],
+        "correctAnswer": 2,
+        "explanation": "向电台飞行中，飞机任何时刻都必定在某一条方位线上，也就是飞机当时测出的电台磁方位就是飞机飞向电台的新航线角。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 101,
+        "question": "飞机向电台飞行，如修正的偏流为+5°，则飞机沿航线飞行时ADF应指示 ",
+        "options": [
+            "0°",
+            "355°",
+            "5°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "飞机向台飞行，DA=+5°，表明RB=5°，ADF指示电台相对方位，所以应指示5°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 102,
+        "question": "航线角126°，预定方位线RB260°，当飞机保持航向132°飞行，ADF指示器读数为多少时，飞机在方位线上 ",
+        "options": [
+            "260°",
+            "266°",
+            "254°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "MC=126°，RB预=260°，MH=132°，可知RB =260°-（132°-126°）=254°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 103,
+        "question": "飞机磁航向125°，正切右侧电台时，飞机磁方位为 ",
+        "options": [
+            "215°",
+            "35°",
+            "170°"
+        ],
+        "correctAnswer": 1,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\103explain.jpg"
+    },
+    {
+        "id": 104,
+        "question": "飞机飞行高度为8000英尺，真空速为140节，则指示空速约为 ",
+        "options": [
+            "159节",
+            "129节",
+            "120节"
+        ],
+        "correctAnswer": 2,
+        "explanation": "一般情况下，中低空飞行时，高度每升高 1000英尺，真空速大约比表速增大2％。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\104.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 105,
+        "question": "如果空中飞行遇到逆风，飞机的地速将 ",
+        "options": [
+            "减小",
+            "增大",
+            "不变"
+        ],
+        "correctAnswer": 0,
+        "explanation": "飞行中遇到逆风，飞机的地速减小。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 106,
+        "question": "指示空速通常都（ ）真空速 ",
+        "options": [
+            "小于",
+            "大于",
+            "等于"
+        ],
+        "correctAnswer": 0,
+        "explanation": "指示空速通常是小于真空速的。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 107,
+        "question": "标准大气条件下，飞行高度在5000米以下，保持一定的表速飞行，当飞行高度每升高1000米，真空速比表速要增大（减小） ",
+        "options": [
+            "增大表速的5%",
+            "增大表速的10%",
+            "减小表速的5%"
+        ],
+        "correctAnswer": 0,
+        "explanation": "在中、低空，通常高度每升高1000m，真空速比指示空速约大5%。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 108,
+        "question": "航线角是指 ",
+        "options": [
+            "从经线北端顺时针量到航线的角度",
+            "从经线量到航线去向的角度",
+            "从经线北端顺时针量到航线去向的角度"
+        ],
+        "correctAnswer": 2,
+        "explanation": "航线角是指航线去向与当地经线的夹角。在航空地图上经线北端顺时针量到航线去向的角度。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 109,
+        "question": "飞机飞行过程中向右转弯，航向 ",
+        "options": [
+            "不变",
+            "减小",
+            "增大"
+        ],
+        "correctAnswer": 2,
+        "explanation": "航向是从经线北端顺时针量到航向线的角度，范围为0°到360°，当飞机转弯时，向右转航向增大，向左转航向减小。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 110,
+        "question": "飞机正确飞越电台上空后，保持一定航向作直线飞行，飞机所在的方位线就是 ",
+        "options": [
+            "飞机的平均航迹线",
+            "飞机修正航迹时的新航线",
+            "飞机的航向线"
+        ],
+        "correctAnswer": 0,
+        "explanation": "飞机准确通过NDB/VOR台上空后，保持一定的航线直线飞行一定时间，那么飞机所在的无线电方位线同飞机的平均航迹线重合，这时测出的飞机磁方位就是飞机的平均磁航迹。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 111,
+        "question": "以磁经线北端为基准，顺时针量到飞机纵轴的角度叫？ ",
+        "options": [
+            "磁航线",
+            "磁航迹",
+            "磁航向"
+        ],
+        "correctAnswer": 2,
+        "explanation": "真航向（TH）：以真经线北端为基准，顺时针量到航向线的角度叫真航向。\n磁航向（MH）：以磁经线北端为基准，顺时针量到航向线的角度叫磁航向。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 112,
+        "question": "飞行员蹬左脚蹬时，飞机的航向如何变化？ ",
+        "options": [
+            "航向变大",
+            "航向变小",
+            "航向不变"
+        ],
+        "correctAnswer": 1,
+        "explanation": "飞行中进行偏航操纵时，蹬左脚蹬，方向舵后缘左偏，附加气动力向右，对飞机立轴形成左偏航力矩，使飞机向左偏航，航向减小。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 113,
+        "question": "真航向35°，磁差-4°，求飞机磁航向 ",
+        "options": [
+            "35°",
+            "31°",
+            "39°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "磁差：以真经线作为基准，磁经线北端偏在真经线以东为正磁差，以西为负磁差。\n真航向（TH）：以真经线北端为基准，顺时针量到航向线的角度叫真航向。 \n磁航向（MH）：以磁经线北端为基准，顺时针量到航向线的角度叫磁航向。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 114,
+        "question": "关于偏流的理解正确的是 ",
+        "options": [
+            "偏流是航迹线偏离航线的夹角",
+            "有侧风，不一定产生偏流",
+            "以航向为基准，航迹偏右为正，偏左为负"
+        ],
+        "correctAnswer": 2,
+        "explanation": "在有风的情况下飞行时，航空器的航迹角和航向之间的关系，可以用空速向量和地速向量之间的夹角，也就是航向线和航迹线之间的夹角来表示。这一夹角叫做偏流(DA)。以航向为基准，航迹偏右为正，偏左为负。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 115,
+        "question": "侧风中飞行，当修正偏流过大时，航空器 ",
+        "options": [
+            "偏在上风面",
+            "偏在下风面",
+            "航迹和航线重合"
+        ],
+        "correctAnswer": 0,
+        "explanation": "当修正偏流过大，即预计偏流(PL 预)大于实际偏流(PL 实)时，航空器将偏在上风面。这时，偏航角的正负和偏流角相反。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 116,
+        "question": "预定航线MC287°，气象风向为330°，航线上存在什么风？ ",
+        "options": [
+            "左侧顺风",
+            "左侧风",
+            "右逆侧风"
+        ],
+        "correctAnswer": 2,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\116explain.jpg"
+    },
+    {
+        "id": 117,
+        "question": "预定航线MC30°，气象风向为340°，航线上存在什么风？ ",
+        "options": [
+            "左侧风",
+            "左逆侧风",
+            "右顺侧风"
+        ],
+        "correctAnswer": 1,
+        "explanation": "N/A",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\117.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\117explain.jpg"
+    },
+    {
+        "id": 118,
+        "question": "MC135°，保持平均航向130°飞行，飞机偏左，偏航角-3°，则偏流是 ",
+        "options": [
+            "-8度",
+            "+8度",
+            "+2度"
+        ],
+        "correctAnswer": 2,
+        "explanation": "N/A",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\118.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\118explain.jpg"
+    },
+    {
+        "id": 119,
+        "question": "沿航线飞行时，侧风增大，则（ ）一定增大 ",
+        "options": [
+            "偏流",
+            "偏航角",
+            "偏航距离"
+        ],
+        "correctAnswer": 0,
+        "explanation": "沿航线飞行时，无论顺侧风还是逆侧风，风速增大，则偏流一定增大。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\119.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 120,
+        "question": "只要有侧风就一定有（ ） ",
+        "options": [
+            "偏流",
+            "偏航角",
+            "偏离角"
+        ],
+        "correctAnswer": 0,
+        "explanation": "由于侧风的影响，飞机的航迹线偏向航向线的下风面，航迹线偏离航向线的角度叫偏流角，简称偏流。只要有侧风，就一定产生偏流。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 121,
+        "question": "飞机受到右侧风，则飞机偏离航向 ",
+        "options": [
+            "左侧",
+            "右侧",
+            "不偏"
+        ],
+        "correctAnswer": 0,
+        "explanation": "右侧风时，航迹线偏在航向线的左侧，偏流为负。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 122,
+        "question": "若风速WS等于0，则 ",
+        "options": [
+            "DA=0°，WA>0°",
+            "DA＜WA＜0°",
+            "DA=0°，WA=0°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "在无风或没有侧风的情况下，飞机的航迹线与航向一致，机头对正哪里，飞机就能飞到哪里。航迹线偏离航向线的角度叫偏流角（Drift Angle） ，简称偏流（DA） 。由于侧风的影响，飞机才会产生偏流。风速为0就是无风，无风偏流角DA为0，风角WA为0",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 123,
+        "question": "飞机航向 120°，航行风 100°，偏流为正还是负？ ",
+        "options": [
+            "正",
+            "负",
+            "不确定"
+        ],
+        "correctAnswer": 1,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\123explain.jpg"
+    },
+    {
+        "id": 124,
+        "question": "关于偏流的正负说法正确的是 ",
+        "options": [
+            "左侧风为正，右侧风为负",
+            "航迹线偏在航向线左侧为正，偏右为负",
+            "左侧风为负，右侧风为正"
+        ],
+        "correctAnswer": 0,
+        "explanation": "航迹线偏离航向线的角度叫偏流角（Drift Angle），简称偏流（DA）。左侧风时，航迹线偏在航向线的右侧，规定偏流为正（+DA）；右侧风时，航迹线偏在航向线的左侧，规定偏流为负（－DA）。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\124.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 125,
+        "question": "风角是哪两条线的夹角 ",
+        "options": [
+            "风向线和经线",
+            "风向线和航迹线",
+            "风向线和航向线"
+        ],
+        "correctAnswer": 1,
+        "explanation": "通常将航行速度三角形中地速向量同风速向量的夹角，即航迹线同风向线的夹角，叫做风角。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 126,
+        "question": "风角为0°表明 ",
+        "options": [
+            "逆风",
+            "正侧风",
+            "顺风"
+        ],
+        "correctAnswer": 2,
+        "explanation": "风角的范围为0°~±180°。0°表示顺风，180°表示逆风，±90°表示（左或右）正侧风，0°~±90°之间表示（左或右）顺侧风，±90°~180°之间表示（左或右）逆侧风。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 127,
+        "question": "构成空速向量的元素有 ",
+        "options": [
+            "航迹角、地速",
+            "航向、真空速",
+            "风向、风速"
+        ],
+        "correctAnswer": 1,
+        "explanation": "飞机对空气的运动，可以用航向为方向、空速为大小的向量来表示，叫空速向量。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 128,
+        "question": "飞机保持平均磁航向300°，真空速470公里/小时，测得偏流+5°，地速460公里/小时，航行风向和风速是 ",
+        "options": [
+            "49°，42公里/小时",
+            "39°，40公里/小时",
+            "21°，42公里/小时"
+        ],
+        "correctAnswer": 0,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\128explain.jpg"
+    },
+    {
+        "id": 129,
+        "question": "飞行中测得偏流+10°，地速略小于真空速 ，航线上存在什么样的侧风？ ",
+        "options": [
+            "无风",
+            "左正侧风",
+            "右正侧风"
+        ],
+        "correctAnswer": 1,
+        "explanation": "N/A",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\129.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\129explain.jpg"
+    },
+    {
+        "id": 130,
+        "question": "飞行中测得偏流0°，地速大于真空速，航线上存在什么样的风？ ",
+        "options": [
+            "无风",
+            "顺风",
+            "逆风"
+        ],
+        "correctAnswer": 1,
+        "explanation": "偏流为0°，可知此时风角为0°，风角为0°，表示顺风。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\130.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 131,
+        "question": "在同一航向、风向、风速条件下，真空速增大，则 ",
+        "options": [
+            "地速增大，偏流增大",
+            "地速增大，偏流减小",
+            "地速增大，偏流不变"
+        ],
+        "correctAnswer": 1,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\131explain.jpg"
+    },
+    {
+        "id": 132,
+        "question": "若航向、空速、风向不变，当风速增大时 ",
+        "options": [
+            "偏流增大，地速在顺侧风时增大",
+            "偏流增大，地速增大",
+            "偏流减小，地速减小"
+        ],
+        "correctAnswer": 0,
+        "explanation": "N/A",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\132.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\132explain.jpg"
+    },
+    {
+        "id": 133,
+        "question": "若航向、空速、风向不变，当风速减小时 ",
+        "options": [
+            "偏流减小，地速在顺侧风时增大",
+            "偏流减小，地速不变",
+            "偏流减小，地速在逆侧风时增大"
+        ],
+        "correctAnswer": 2,
+        "explanation": "N/A",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\133.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\133explain.jpg"
+    },
+    {
+        "id": 134,
+        "question": "若航向、空速、风向不变，飞机接近正侧风飞行，风速变化，主要引起 ",
+        "options": [
+            "偏流变化",
+            "地速变化",
+            "风角变化"
+        ],
+        "correctAnswer": 0,
+        "explanation": "风速变化同一个量△WS，风为接近顺（逆）风时，偏流变化较小，地速变化较大；风为接近正侧风时，偏流变化较大，地速变化较小。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\134.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 135,
+        "question": "飞机保持一定的航向和真空速接近顺逆风飞行时，如果风速不变，风向略有变化主要引起 ",
+        "options": [
+            "地速变化",
+            "偏流变化",
+            "航线变化"
+        ],
+        "correctAnswer": 1,
+        "explanation": "飞机在空中保持一定的航向和真空速飞行，风速不变而风向发生变化时，将引起风角的改变，偏流、地速将发生变化。接近顺（逆）风时，风向的变化主要引起偏流的变化，地速变化很小；接近正侧风时，风向的变化主要引起地速的变化，偏流的变化很小。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 136,
+        "question": "飞机保持一定的航向和真空速接近正侧风飞行时，若风速不变，风向变化主要引起 ",
+        "options": [
+            "地速变化",
+            "偏流变化",
+            "风角变化"
+        ],
+        "correctAnswer": 0,
+        "explanation": "飞机在空中保持一定的航向和真空速飞行，风速不变而风向发生变化时，将引起风角的改变，偏流、地速将发生变化。接近顺（逆）风时，风向的变化主要引起偏流的变化，地速变化很小；接近正侧风时，风向的变化主要引起地速的变化，偏流的变化很小。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 137,
+        "question": "已知航线角75°，距离135NM，真空速80KT，航行风175°，20KT，燃油流量105LB/H，确定航线飞行时间和耗油量 ",
+        "options": [
+            "1:28，73.2LB",
+            "1:38，158.0LB",
+            "1:48，189LB"
+        ],
+        "correctAnswer": 2,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\137explain.jpg"
+    },
+    {
+        "id": 138,
+        "question": "MC240°，真空速450公里/小时，气象风90°，14公里/小时，计算应飞磁航向和地速 ",
+        "options": [
+            "239，452公里/小时",
+            "239，462公里/小时",
+            "237，462公里/小时"
+        ],
+        "correctAnswer": 1,
+        "explanation": "N/A",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\138.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\138explain.jpg"
+    },
+    {
+        "id": 139,
+        "question": "当风角在90°～180°之间时 ",
+        "options": [
+            "地速大于真空速",
+            "地速小于真空速",
+            "地速等于真空速"
+        ],
+        "correctAnswer": 1,
+        "explanation": "当风角为90°~180°之间，有偏流，地速小于真空速。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\139.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 140,
+        "question": "地速向量和真空速向量的夹角是 ",
+        "options": [
+            "偏流",
+            "风角",
+            "航迹角"
+        ],
+        "correctAnswer": 0,
+        "explanation": "航迹线同航向线的关系可以用地速向量同空速向量的夹角，即航迹线偏离航向线的角度来表示，这一角度叫偏流角，简称偏流。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 141,
+        "question": "已知跑道方向为230°，空中风280°/40kt，计算侧风分量为（  ）kt ",
+        "options": [
+            "31",
+            "21",
+            "26"
+        ],
+        "correctAnswer": 0,
+        "explanation": "侧风分量为sin（280-230）*40，约等于30.6，所以选31kt。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 142,
+        "question": "已知风角70°，则真空速（）地速。 ",
+        "options": [
+            "大于",
+            "小于",
+            "等于"
+        ],
+        "correctAnswer": 1,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\142explain.jpg"
+    },
+    {
+        "id": 143,
+        "question": "偏流和风角的正、负 ",
+        "options": [
+            "完全一致",
+            "完全相反",
+            "根据风速的大小，时同时异"
+        ],
+        "correctAnswer": 0,
+        "explanation": "通常将航行速度三角形中地速向量同风速向量的夹角，即航迹线同风向线之间的夹角，叫做风角（WA），它说明了飞机所受侧风的方向和侧风程度。风角的范围从0～±180°。风角与偏流的正、负完全一致，都是由风的左、右决定。左侧风时，由航迹线顺时针量到风向线，为正值；右侧风时，由航迹线反时针量到风向线，为负值。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\143.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 144,
+        "question": "已知真航迹角355°，真航向5°，真空速120kt，地速130kt，计算气象风向及风速？ ",
+        "options": [
+            "295°，24kt",
+            "129°，30kt",
+            "115°，24kt"
+        ],
+        "correctAnswer": 2,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\144explain.jpg"
+    },
+    {
+        "id": 145,
+        "question": "飞机在左侧风中飞行，随高度增加风速增大，如果在低空中飞机保持正确航向，那么在高空飞机会偏在航线的 ",
+        "options": [
+            "左侧",
+            "右侧",
+            "不偏"
+        ],
+        "correctAnswer": 1,
+        "explanation": "在有侧风的情况下，飞机将产生偏流，航迹线将偏到航线的下风面，并且风速越大，偏流越大，这样，虽然在低空时修正了侧风的影响，使飞机能够保持在航线上，但是由于风速增大，偏流增大，导致在高空时飞机偏在航线的下风面，即右侧 。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\145.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 146,
+        "question": "从甲地到乙地，MC116°，若偏流为-3°，则应飞航向为 ",
+        "options": [
+            "113°",
+            "116°",
+            "119°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\146explain.jpg"
+    },
+    {
+        "id": 147,
+        "question": "某航线磁航线角为52°，预计偏流为+6°，则 ",
+        "options": [
+            "应飞真航向为46°",
+            "应飞磁航向为46°",
+            "应飞真航向为58°"
+        ],
+        "correctAnswer": 1,
+        "explanation": "N/A",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\147.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\147explain.jpg"
+    },
+    {
+        "id": 148,
+        "question": "飞机当前航向330°，RMI针尖指示60°，现在飞行员准备沿所在径向线向台飞行，应飞航向为 ",
+        "options": [
+            "60°",
+            "120°",
+            "240°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "RMI针尖指示QDM，飞机沿径向线向台飞行时，QDM60°为飞机的应飞航向（向台飞行时，无侧风的情况下，QDM=MH=MC，题目没说明侧风的情况，按无侧风计算）。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\148.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 149,
+        "question": "飞行中计算预达时刻的依据是距离和（ ） ",
+        "options": [
+            "真空速",
+            "指示空速",
+            "地速"
+        ],
+        "correctAnswer": 2,
+        "explanation": "飞行中的预达时刻，是根据距离和地速计算的。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 150,
+        "question": "若地速为215公里/小时，则3分钟可飞行 ",
+        "options": [
+            "8.5公里",
+            "10.75公里",
+            "12公里"
+        ],
+        "correctAnswer": 1,
+        "explanation": "已知地速为215公里/小时，可知每分钟飞行约3.58公里，所以3分钟可飞行10.75公里。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 151,
+        "question": "飞机起飞时刻为16：20，航线距离 150km，地速 250kt，求预达时刻？ ",
+        "options": [
+            "16:39",
+            "16:51",
+            "17:10"
+        ],
+        "correctAnswer": 0,
+        "explanation": "地速=250kt=463km/h，已知航线距离150km，时间t=150/463≈19分钟，则预达时刻为16:39。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 152,
+        "question": "飞行中应用推测定位确定的飞机位置是 ",
+        "options": [
+            "概略位置",
+            "精确位置",
+            "实测位置"
+        ],
+        "correctAnswer": 0,
+        "explanation": "推测定位推测出的飞机位置是概略位置。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 153,
+        "question": "预计磁航迹268°，测得偏流+8°，偏航角-3°，实际航迹是多少，航线上存在什么侧风？ ",
+        "options": [
+            "265°，右侧风",
+            "260°，左侧风",
+            "265°，左侧风"
+        ],
+        "correctAnswer": 2,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\153explain.jpg"
+    },
+    {
+        "id": 154,
+        "question": "保持好航行诸元，左侧风中飞行，结果飞机偏左，表明 ",
+        "options": [
+            "对风的修正正确",
+            "对风的修正过小",
+            "对风的修正过大"
+        ],
+        "correctAnswer": 2,
+        "explanation": "N/A",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\154.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\154explain.jpg"
+    },
+    {
+        "id": 155,
+        "question": "保持好航行诸元，左侧风中飞行，结果飞机不偏，表明 ",
+        "options": [
+            "对风的修正正确",
+            "对风的修正反了",
+            "对风的修正过大"
+        ],
+        "correctAnswer": 0,
+        "explanation": "N/A",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\155.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\155explain.jpg"
+    },
+    {
+        "id": 156,
+        "question": "保持好航行诸元，右侧风中飞行，结果飞机偏右，表明 ",
+        "options": [
+            "对风的修正过大",
+            "对风的修正反了",
+            "对风的修正正确"
+        ],
+        "correctAnswer": 0,
+        "explanation": "N/A",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\156.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\156explain.jpg"
+    },
+    {
+        "id": 157,
+        "question": "飞机偏在航线左侧，偏航距离规定为 ",
+        "options": [
+            "正",
+            "负",
+            "零"
+        ],
+        "correctAnswer": 1,
+        "explanation": "飞机位置在航线右侧，偏航距离为正；飞机位置在航线左侧，偏航距离为负。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\157.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 158,
+        "question": "飞机通过起点飞行80NM后，偏离航线4NM，计算出的偏航角是 ",
+        "options": [
+            "3°",
+            "4°",
+            "5°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\158explain.jpg"
+    },
+    {
+        "id": 159,
+        "question": "飞机修正左侧风保持航向沿航线飞行一段时间后发现飞机往右偏，说明偏流修正 ",
+        "options": [
+            "过大",
+            "不够",
+            "反了"
+        ],
+        "correctAnswer": 1,
+        "explanation": "N/A",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\159.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\159explain.jpg"
+    },
+    {
+        "id": 160,
+        "question": "飞行中测出DA-10°，TKE-3°，说明偏流修正 ",
+        "options": [
+            "过大",
+            "过小",
+            "正确"
+        ],
+        "correctAnswer": 1,
+        "explanation": "偏流为-10°，表明航线上存在右侧风，航迹线偏在航向线左侧10°。经过修正后，偏航角为-3°，表明航迹线偏在航线左侧3°，说明偏流修正过小。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\160.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 161,
+        "question": "飞机发生迷航后的复航方法常用 ",
+        "options": [
+            "向线状地标、向显著地标、向台飞行复航",
+            "向线状地标、向台飞行、背台飞行复航",
+            "向显著地标、向线状地标、背台飞行复航"
+        ],
+        "correctAnswer": 0,
+        "explanation": "飞机发生迷航后的复航方法有：目视飞行复航方法，包括向线状地标飞行复航和向显著地标飞行复航；仪表飞行复航方法，即向电台飞行复航。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 162,
+        "question": "飞机沿径向线40°向台飞行，要求改由55°径向线飞向导航台，飞行员左转15°后计时飞行15分钟，CDI的指针移到中心，右转30°沿55°径向线向台飞行，预计到台飞行时间为 ",
+        "options": [
+            "8分钟",
+            "15分钟",
+            "30分钟"
+        ],
+        "correctAnswer": 1,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\162explain.jpg"
+    },
+    {
+        "id": 163,
+        "question": "飞机沿径向线90°向台飞行，飞行员将OBS向左旋转10°，然后右转飞行10°并开始计时，航向不变情况下飞行员注意到CDI的指针移到中心的飞行时间为8分钟，飞机沿新选的径向线飞到电台上空的时间预计为 ",
+        "options": [
+            "8分钟",
+            "16分钟",
+            "24分钟"
+        ],
+        "correctAnswer": 0,
+        "explanation": "N/A",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\163.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\163explain.jpg"
+    },
+    {
+        "id": 164,
+        "question": "飞机向台飞行，航线角为35°，飞行中测出的QDM为37°，飞机偏在 ",
+        "options": [
+            "右侧2°",
+            "左侧2°",
+            "右侧7°"
+        ],
+        "correctAnswer": 1,
+        "explanation": "N/A",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\164.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\164explain.jpg"
+    },
+    {
+        "id": 165,
+        "question": "向台飞行，MC70°，测得电台磁方位73°，说明 ",
+        "options": [
+            "飞机偏左，偏离角-3°",
+            "飞机偏左，偏航角-3°",
+            "飞机偏右，偏离角+3°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "N/A",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\165.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\165explain.jpg"
+    },
+    {
+        "id": 166,
+        "question": "飞机保持磁航向230°，沿磁航线角220°飞行，预定方位线的电台磁方位130°，若测得QDM130°，说明 ",
+        "options": [
+            "飞机在方位线上",
+            "已过预定方位线",
+            "还没到预定方位线"
+        ],
+        "correctAnswer": 0,
+        "explanation": "QDM指=QDM预，表明飞机在方位线上。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\166.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 167,
+        "question": "飞机正确过台，平均磁航向90°，沿104°航线飞行，测得QDR100°，说明 ",
+        "options": [
+            "偏流-10°，偏航角-4°",
+            "偏流-10°，偏航角+4°",
+            "偏流+10°，偏航角-4°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "偏流DA=QDR-MH平=100°-90°=+10°，偏航角TKE=QDR-MC=100°-104°=-4°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 168,
+        "question": "飞机向台飞行，航线角75°，航向78°，ADF显示相对方位为0，表明飞机偏在航线的 ",
+        "options": [
+            "左边",
+            "右边",
+            "不偏"
+        ],
+        "correctAnswer": 0,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\168explain.jpg"
+    },
+    {
+        "id": 169,
+        "question": "偏航角是指哪两条线的夹角，以哪条线为基准？ ",
+        "options": [
+            "航线和航向线，以航线为基准",
+            "航迹线和航线，以航线为基准",
+            "新航线和原航线，以原航线为基准"
+        ],
+        "correctAnswer": 1,
+        "explanation": "偏航角是指航迹线和航线之间的夹角，以航线为基准。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\169.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 170,
+        "question": "偏航距离是指 ",
+        "options": [
+            "飞机偏离航线的距离",
+            "飞机偏离检查点的距离",
+            "飞机偏离转弯点的距离"
+        ],
+        "correctAnswer": 0,
+        "explanation": "偏航距离是指飞机偏离航线的垂直距离。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 171,
+        "question": "中低空低速飞机目视飞行条件下的主要领航方法是 ",
+        "options": [
+            "无线电领航",
+            "地标罗盘领航",
+            "卫星导航"
+        ],
+        "correctAnswer": 1,
+        "explanation": "地标罗盘领航主要作为中低空低速飞机目视飞行条件下的领航方法，也可作为其他领航方法的辅助手段。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 172,
+        "question": "已知，已飞距离为128海里，偏航距离为8海里，计算出的偏航角为 ",
+        "options": [
+            "4°",
+            "5°",
+            "6°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\172explain.jpg"
+    },
+    {
+        "id": 173,
+        "question": "一架飞机已飞90海里，偏航距离10海里，还要飞120海里，其航迹修正角是 ",
+        "options": [
+            "12°",
+            "10°",
+            "8°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "N/A",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\173.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\173explain.jpg"
+    },
+    {
+        "id": 174,
+        "question": "一架飞机已飞180海里，偏航15海里，还要飞行1 60海里，其航迹修正角是 ",
+        "options": [
+            "12",
+            "11",
+            "9"
+        ],
+        "correctAnswer": 1,
+        "explanation": "△TK=TKE+TKD。根据1/60规则可知，TKE=15/180*60≈5°，TKD=15/160*60=5.62°，所以航迹修正角△TK=TKE+TKD=5+5.62≈11°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\174.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 175,
+        "question": "已知飞机偏航角为-3°，偏离角为-5°，平均磁航向为100°，则飞机的应飞航向为 ",
+        "options": [
+            "92°",
+            "108°",
+            "98°"
+        ],
+        "correctAnswer": 1,
+        "explanation": "△TK=TKE+TKD=-8°，MH应=MH平-△TK=108°。\n注：TKE为偏航角，TKD为偏离角，△TK为航迹修正角。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 176,
+        "question": "飞机已飞距离为270NM，偏航距离为10NM，未飞距离为120NM，则航迹修正角为 ",
+        "options": [
+            "7°",
+            "13°",
+            "5°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "TKE·D已（T已）/60=XTK；TKD·D未（T未）/60=XTK。△TK=TKE+TKD。\n注：TKE为偏航角，TKD为偏离角，XTK为偏航距离，△TK为航迹修正角。",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\176explain.jpg"
+    },
+    {
+        "id": 177,
+        "question": "NDB的含义 ",
+        "options": [
+            "无线电导航台",
+            "无方向信标",
+            "甚高频全向信标"
+        ],
+        "correctAnswer": 1,
+        "explanation": "NDB是指无方向性信标。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\177.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 178,
+        "question": "如图PPL5-2中2所示，飞行员向台飞行磁方位应是 ",
+        "options": [
+            "190°",
+            "145°",
+            "010°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "图中方位指针指示的是向台飞行磁方位QDM=190°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\178.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 179,
+        "question": "如图PPL5-2中2所示，确定飞机向台切入电台磁方位180°的大致航向为 ",
+        "options": [
+            "040°",
+            "220°",
+            "160°"
+        ],
+        "correctAnswer": 1,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\179explain.jpg"
+    },
+    {
+        "id": 180,
+        "question": "如图PPL5-2中3所示的背台磁方位是 ",
+        "options": [
+            "115°",
+            "295°",
+            "025°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "图中方位指针针尾指示的是飞机磁方位即背台磁方位QDR=115°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\180.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 181,
+        "question": "如图PPL5-2，显示右侧风条件下向台飞行航迹的自动定位仪是 ",
+        "options": [
+            "1",
+            "4",
+            "2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "由仪表4知，指针针尖指的是向台航迹，航向偏在向台航迹的右侧，向来风方向修正偏流，飞机航向右偏径向线，修正右侧风。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 182,
+        "question": "如图PPL5-2中1所示，飞机正在穿越哪个背台方位？ ",
+        "options": [
+            "030°",
+            "180°",
+            "150°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "图中方位指针针尾指示的是飞机磁方位即背台磁方位QDR=030°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 183,
+        "question": "如图PPL5-2中1所示，电台的相对方位是 ",
+        "options": [
+            "240°",
+            "210°",
+            "030°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "图中方位指针与标线的夹角即为电台相对方位，由图1可以看出，其相对方位RB=240°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 184,
+        "question": "如图PPL5-2中4所示，向台的相对方位是 ",
+        "options": [
+            "340°",
+            "060°",
+            "020°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "图中方位指针与标线的夹角即为电台相对方位，由图4可以看出，其相对方位RB=340°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 185,
+        "question": "如图PPL5-3中3所示，电台相对方位是 ",
+        "options": [
+            "180°",
+            "090°",
+            "270°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "由图可以看出，电台相对方位RB=180°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\185.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 186,
+        "question": "如图PPL5-3中1所示，电台相对方位是 ",
+        "options": [
+            "180°",
+            "045°",
+            "315°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "由图可以看出，电台相对方位RB=315°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 187,
+        "question": "如图PPL5-3中4所示，磁航向320°的向台磁方位是 ",
+        "options": [
+            "005°",
+            "185°",
+            "225°"
+        ],
+        "correctAnswer": 1,
+        "explanation": "由图可以看出，RB=225°，向台磁方位QDM=MH+RB=320°+225°-360°=185°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 188,
+        "question": "如图PPL5-3中6所示，如果向台磁方位是240°，那么磁航向是 ",
+        "options": [
+            "105°",
+            "195°",
+            "045°"
+        ],
+        "correctAnswer": 1,
+        "explanation": "由图可以看出，RB=45°，向台磁方位QDM=240°，QDM=MH+RB，所以MH=195°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 189,
+        "question": "如图PPL5-3中8所示，如果向台磁方位是135°，那么磁航向是 ",
+        "options": [
+            "270°",
+            "135°",
+            "360°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "由图可以看出，RB=135°，向台磁方位QDM=135°，QDM=MH+RB，所以MH=0°或360°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 190,
+        "question": "参考图PPL5-5，如果保持8号飞机所指示的磁航向，哪一幅ADF图例指示此飞机在向台磁方位（QDM）315°的方位线上？ ",
+        "options": [
+            "3",
+            "4",
+            "1"
+        ],
+        "correctAnswer": 2,
+        "explanation": "由题干可知，QDM=315°，MH=315°，可知RB=315°-315°=0°，图例1指示RB为0°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\190.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 191,
+        "question": "参考图PPL5-5，如果保持5号飞机所指示的磁航向，哪一幅ADF图例指示此飞机在向台磁方位（QDM）240°的方位线上？ ",
+        "options": [
+            "2",
+            "3",
+            "4"
+        ],
+        "correctAnswer": 0,
+        "explanation": "由题干可知，QDM=240°，MH=180°，所以RB=240°-180°=60°，图2指示RB为60°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\191.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 192,
+        "question": "参考图PPL5-5，如果保持8号飞机所指示的磁航向，哪一幅ADF图例指示此飞机在背台磁方位（QDR）090°的方位线上 ",
+        "options": [
+            "3",
+            "4",
+            "6"
+        ],
+        "correctAnswer": 2,
+        "explanation": "QDR=QDM±180°，所以QDM=90°+180°=270°，已知MH=315°，可知RB=QDM-MH=270°-315°+360°=315°，图6指示RB为315°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\192.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 193,
+        "question": "参考图PPL5-5，如果保持6号飞机所指示的磁航向，哪一幅ADF图例指示此飞机在背台磁方位（QDR）255°的方位线上？ ",
+        "options": [
+            "2",
+            "4",
+            "7"
+        ],
+        "correctAnswer": 1,
+        "explanation": "QDR=QDM±180°，所以QDM=255°-180°=75°，已知MH=225°，可知RB=QDM-MH=75°-225°+360°=210°，图例4指示RB为210°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\193.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 194,
+        "question": "ADF 指示器指针读数为60°，则电台在飞机的什么位置？ ",
+        "options": [
+            "左前方",
+            "右前方",
+            "正前方"
+        ],
+        "correctAnswer": 1,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\194explain.jpg"
+    },
+    {
+        "id": 195,
+        "question": "参考图PPL5-3中8所示，磁航向310°的电台磁方位是 ",
+        "options": [
+            "135°",
+            "265°",
+            "85°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "看图可知，RB=135°，QDM=MH+RB=310°+135°-360°=85°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\195.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 196,
+        "question": "根据图PPL5-7判断，NDB台在飞机的哪个方位上？ ",
+        "options": [
+            "350°",
+            "170°",
+            "310°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "读表可知，MH=40°，RB=310°，则QDM=MH+RB=40°+310°=350°。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\196.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 197,
+        "question": "在近程导航中，利用RMI怎样判断飞机过台？ ",
+        "options": [
+            "指针指向RMI航向标线附近，然后左右摆动，并迅速倒向",
+            "指针始终指向RMI航向标线",
+            "指针一直指向航向标线附近"
+        ],
+        "correctAnswer": 0,
+        "explanation": "在近程导航中，RMI指针指向航向标线附近，然后左右摆动并迅速倒向，表明飞机过台。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 198,
+        "question": "参考下图，飞机保持当前航向飞行，ADF表的指示将会 ",
+        "options": [
+            "增大",
+            "减小",
+            "不变"
+        ],
+        "correctAnswer": 1,
+        "explanation": "读表可知，MH330°，RB270°，可知QDM=240°，QDR=60°，可知电台在飞机左侧。保持航向飞行时，电台在右侧，随着飞机的向前飞行，无线电三个方位都将逐渐增大；电台在左侧，随着飞机的向前飞行，无线电三个方位都将逐渐减小。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\198.jpg",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\198explain.jpg"
+    },
+    {
+        "id": 199,
+        "question": "VOR 的含义是 ",
+        "options": [
+            "无线电导航台",
+            "甚高频导航台",
+            "甚高频全向信标"
+        ],
+        "correctAnswer": 2,
+        "explanation": "VOR是甚高频全向信标，是一种近程无线电测角导航系统。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\199.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 200,
+        "question": "DME的含义是 ",
+        "options": [
+            "无线电导航台",
+            "测距仪",
+            "决断测量设备"
+        ],
+        "correctAnswer": 1,
+        "explanation": "DME系统是询问-回答式脉冲测距系统，由机载设备和地面信标设备组成。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 201,
+        "question": "甚高频全向信标（VOR）属于什么系统？ ",
+        "options": [
+            "测距",
+            "测角",
+            "测高"
+        ],
+        "correctAnswer": 1,
+        "explanation": "VOR是一种近程无线电测角导航系统。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 202,
+        "question": "地面VOR的工作频率范围是 ",
+        "options": [
+            "112-118MHZ",
+            "108-112MHZ",
+            "108-118MHZ"
+        ],
+        "correctAnswer": 2,
+        "explanation": "地面VOR台的工作频率范围是108~118MHz。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 203,
+        "question": "VOR共使用频道 ",
+        "options": [
+            "160个",
+            "120个",
+            "40个"
+        ],
+        "correctAnswer": 0,
+        "explanation": "B类VOR使用40个波道，A类VOR使用120个波道，共计160个波道。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 204,
+        "question": "A类VOR的工作距离通常为 ",
+        "options": [
+            "500NM",
+            "350NM",
+            "200NM"
+        ],
+        "correctAnswer": 2,
+        "explanation": "航路VOR台，也称为A类VOR台，工作距离为200 n mile。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 205,
+        "question": "当飞机在DME 电台（  ）时，测量误差最大 ",
+        "options": [
+            "左侧",
+            "右侧",
+            "上空"
+        ],
+        "correctAnswer": 2,
+        "explanation": "只有在飞机保持较高的高度平飞接近测距台时，斜距与实际水平距离之间才会出现较明显的误差，所以当飞机在DME电台上空时，测量误差最大。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 206,
+        "question": "机上VOR工作频率一般和以下哪种设备配套使用？ ",
+        "options": [
+            "ILS、ADF",
+            "ILS、DME",
+            "DME、ADF"
+        ],
+        "correctAnswer": 1,
+        "explanation": "机载VOR通常与ILS和DME设备配套使用。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 207,
+        "question": "DME测量的是飞机到地面信标台的（ ），通常以（ ）为单位。 ",
+        "options": [
+            "斜距，NM",
+            "水平距离，NM",
+            "垂直距离，KM"
+        ],
+        "correctAnswer": 0,
+        "explanation": "DME系统是询问——回答式脉冲测距系统，由机载设备和地面信标设备组成。机载DME设备主要由询问器、控制盒、距离指示器和天线部分组成。注意距离指示器显示的是飞机到地面信标台的斜距。欧美制飞机的DME距离以海里为单位。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 208,
+        "question": "DME系统的地面DME台通常设计为能同时为（）架飞机提供服务。 ",
+        "options": [
+            "90",
+            "100",
+            "110"
+        ],
+        "correctAnswer": 1,
+        "explanation": "DME系统的地面DME台通常设计为能同时为100架飞机提供服务，如果询问的飞机多于100架，地面DME台通过降低灵敏度来限制回答，保持对最近的100架飞机询问的回答。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 209,
+        "question": "磁航向为0°的飞机正切电台，电台在左侧，飞机磁方位为 ",
+        "options": [
+            "90°",
+            "180°",
+            "270°"
+        ],
+        "correctAnswer": 0,
+        "explanation": "飞机正切左侧电台，可知RB为270°，QDM=MH+RB=270°，QDR=QDM±180°=90°。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 210,
+        "question": "在RMI上方位指针针尾是 ",
+        "options": [
+            "电台相对方位",
+            "电台磁方位",
+            "飞机磁方位"
+        ],
+        "correctAnswer": 2,
+        "explanation": "RMI上方位指针针尾指示飞机的磁方位。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 211,
+        "question": "在RMI上可以指示出飞机与所调VOR台的 ",
+        "options": [
+            "飞机磁方位",
+            "工作距离",
+            "误差"
+        ],
+        "correctAnswer": 0,
+        "explanation": "RMI是无线电磁指示器，在RMI上可以指示出飞机与所调VOR台的飞机磁方位。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 212,
+        "question": "既可以接收指示NDB台信号也可以接收指示VOR台信号的仪表是 ",
+        "options": [
+            "RMI",
+            "CDI",
+            "ADF"
+        ],
+        "correctAnswer": 0,
+        "explanation": "RMI（无线电磁指示器）可以接收NDB台和VOR台信号，CDI（航道偏离指示器）用来指示飞机与VOR预选航道的关系，ADF指示电台相对方位。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 213,
+        "question": "参考图PPL5-6，双针调谐的电台是地面 ",
+        "options": [
+            "VOR台",
+            "NDB台",
+            "DME台"
+        ],
+        "correctAnswer": 0,
+        "explanation": "双针接收频率为113.6，VOR使用频率为108~118MHz，所以双针调谐的电台是VOR台。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\213.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 214,
+        "question": "以磁经线北端为基准的飞机方位角叫？ ",
+        "options": [
+            "电台磁方位角",
+            "飞机磁方位角",
+            "相对磁方位角"
+        ],
+        "correctAnswer": 1,
+        "explanation": "电台磁方位（QDM）: 以磁经线北端为基准的电台方位角叫电台磁方位角。\n飞机磁方位（QDR）：以磁经线北端为基准的飞机方位角叫飞机磁方位角。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 215,
+        "question": "已知QDM60°，MH90°，可知电台在飞机的几点钟方向？ ",
+        "options": [
+            "3点钟",
+            "9点钟",
+            "11点钟"
+        ],
+        "correctAnswer": 2,
+        "explanation": "N/A",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\215explain.jpg"
+    },
+    {
+        "id": 216,
+        "question": "在VFR飞行中，修正航迹包括 ",
+        "options": [
+            "方向和高度修正",
+            "方向和时间修正",
+            "距离和时间修正"
+        ],
+        "correctAnswer": 1,
+        "explanation": "修正航迹包括两方面的修正：一方面是进行方向修正，使飞机准确飞到预定点；另一方面是进行距离（即时间）修正，使飞机能够按新的预达时刻准时到达预定点。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\216.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 217,
+        "question": "飞行中，用于确定飞机位置的无线电导航设备主要有（） ",
+        "options": [
+            "RNAV",
+            "VOR 交叉定点",
+            "VOR、NDB、DME"
+        ],
+        "correctAnswer": 2,
+        "explanation": "自动定向仪（ADF）是最早应用的无线电导航系统，它与地面 NDB 导航台配合，组成一种近程测角系统。甚高频全向信标（VOR）系统，是一种近程无线电测角导航系统,由地面发射台和机载设备组成，工作在 108～117.95MHz 频段，它由地面发射台通过天线发射出方位信息，机载设备接收和处理这一方位信息，并通过有关的指示器指示相应的方位信息，测距仪（DME）是一种能够测量由询问器到某个固定应答器（地面台）距离的设备，在航空上测量的是飞机到地面台的斜距,不是距台的水平距离。飞行中可用这三种方式对飞机进行定位。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 218,
+        "question": "在HSI上，飞机偏离VOR径向线的情况通过什么标明 ",
+        "options": [
+            "预选航道指针",
+            "航道偏离杆",
+            "向/背指标"
+        ],
+        "correctAnswer": 1,
+        "explanation": "当选择VOR方式时，航道偏离杆由飞机位置所在径向方位与预选VOR航道的角度偏离信号驱动，显示出飞机偏离预选VOR航道的情况。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 219,
+        "question": "目视离场的方法为 ",
+        "options": [
+            "直接入航、旁切入航",
+            "旁切入航、通场入航",
+            "直接入航、通场入航"
+        ],
+        "correctAnswer": 2,
+        "explanation": "目视飞行离场入航方法包括：直接离场入航和通过机场上空离场入航。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 220,
+        "question": "目视进场常用方法 ",
+        "options": [
+            "直接进场",
+            "旁切进场",
+            "加入起落航线"
+        ],
+        "correctAnswer": 2,
+        "explanation": "目视飞行进场方法是加入起落航线。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 221,
+        "question": "接收机显示如图PPL5-1中8所示，飞机正在穿越哪一径向线？ ",
+        "options": [
+            "210°",
+            "300°",
+            "030°"
+        ],
+        "correctAnswer": 2,
+        "explanation": "根据图中TO/FROM指标可以看出，飞机正在穿越30°径向线。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\221.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 222,
+        "question": "接收机显示如图PPL5-1中1所示，飞机相对于电台的位置是 ",
+        "options": [
+            "东",
+            "北",
+            "南"
+        ],
+        "correctAnswer": 2,
+        "explanation": "根据图1可知，预选航道30°，向背台指示TO，飞机在向台区，航道偏离杆偏左，则飞机偏在右侧，并且仪表显示满偏，飞机偏离10°，如图所示，飞机在电台的南偏西20°。",
+        "questionImage": "",
+        "explanationImage": "\\fxzy\\题库\\私照\\领航\\222explain.jpg"
+    },
+    {
+        "id": 223,
+        "question": "接收机显示如图PPL5-1中3所示，飞机相对于电台的位置是 ",
+        "options": [
+            "东",
+            "西",
+            "东南"
+        ],
+        "correctAnswer": 2,
+        "explanation": "根据图3，根据向背台指标指示，飞机正在过台。但是飞机偏在预选航道右侧，预选航道30度，飞机偏在右侧，飞机约在电台120度径向线上，即东南方向",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\223.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 224,
+        "question": "可以提供反航道信号的设备是 ",
+        "options": [
+            "LOC",
+            "GS",
+            "MB"
+        ],
+        "correctAnswer": 0,
+        "explanation": "仪表着陆系统地面台包括三个系统：LOC（航向信标）、GS（下滑信标台）和MB（指点标）。反航道区域没有下滑信号发射，沿反航道进近的飞机只能使用航向信标（LOC），在仪表上指示与正常进近时指示相反。",
+        "questionImage": "",
+        "explanationImage": ""
+    },
+    {
+        "id": 225,
+        "question": "参考图PPL5-4，南苑是什么机场？ ",
+        "options": [
+            "民用机场",
+            "军民合用机场",
+            "军用机场"
+        ],
+        "correctAnswer": 1,
+        "explanation": "由所给图可知，◎和〇代表军用机场，〇四周有短线段的代表民用机场，◎四周有短线段的代表军民合用机场。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\225.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 226,
+        "question": "参考图PPL5-4，南苑机场的经纬度是多少？ ",
+        "options": [
+            "N39°47′32″E116°22′50″",
+            "N39°47′42″E116°29′5″",
+            "N39°39′32″E116°22′50″"
+        ],
+        "correctAnswer": 0,
+        "explanation": "由图可知，良乡导航台的经纬度是N39 43.3，E116 05.8，因为良乡和南苑机场很近，所以离南苑机场最近的左边的经线为116°，最近的上面的纬线为40°。以南苑机场为起点，用直尺分别向经线和纬线作垂直线，图中，经纬线上每一个小格代表1′，以南苑机场为起点，向上数大概13个小格不到，向左数大概23个格子不到，经过简单计算，可得出南苑机场的经纬度是：N39°47′32″E116°22′50″，或者以良乡为起始点进行加减计算。",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\226.jpg",
+        "explanationImage": ""
+    },
+    {
+        "id": 227,
+        "question": "参考图PPL5-4，飞机在怀来导航台的时刻是09：30，于09：39到达青白口导航台，按此速度飞行，到达紫石口（RENOB）台的时刻是？ ",
+        "options": [
+            "09:46",
+            "09:50",
+            "09:45"
+        ],
+        "correctAnswer": 0,
+        "explanation": "由图可得怀来和青白口的距离标志（27）表示为27海里，青白口到紫石口的距离标志（22）表示为22海里。09:39到青白口时用时9分钟，27除以9=3海里/分，22除以3=7.3分，即到紫石口导航台约为09:46.",
+        "questionImage": "\\fxzy\\题库\\私照\\领航\\227.jpg",
+        "explanationImage": ""
+    }
+]
