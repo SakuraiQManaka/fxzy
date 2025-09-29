@@ -11,6 +11,7 @@
         <header>
             <h1>选择题练习系统</h1>
             <p class="subtitle">离线练习，随时提升</p>
+            <p>Ver1.0 Author:Troy</p>
         </header>
         
         <div class="main-content">
@@ -434,7 +435,7 @@
                     renderQuestionNavigation();
                     completionMessage.style.display = 'none';
                 } else {
-                    alert('没有错题需要复习！');
+                    showMessage('没有错题需要复习！', 'warning');
                     reviewMode = false;
                 }
             } else {
@@ -465,7 +466,7 @@
             );
             
             if (wrongQuestions.length === 0) {
-                alert('没有错题可以导出！');
+                showMessage('没有错题可以导出！', 'warning');
                 return;
             }
             
@@ -491,17 +492,37 @@
                 ppl: [
                     { value: '法规', text: '法规' },
                     { value: '飞行前准备', text: '飞行前准备' },
-                    { value: '飞行性能', text: '飞行性能' }
+                    { value: '飞行性能', text: '飞行性能' },
+                    { value: '航空器运行', text: '航空器运行' },
+                    { value: '空气动力学', text: '空气动力学' },
+                    { value: '领航', text: '领航' },
+                    { value: '气象学', text: '气象学' },
+                    { value: '人的因素', text: '人的因素' },
+                    { value: '无线电通话程序', text: '无线电通话程序' },
+                    { value: '重量与平衡', text: '重量与平衡' },
                 ],
                 cpl: [
-                    { value: 'photos', text: '照片' },
-                    { value: 'illustrations', text: '插图' },
-                    { value: 'icons', text: '图标' }
+                    { value: '操作程序', text: '操作程序' },
+                    { value: '飞机动力装置', text: '飞机动力装置' },
+                    { value: '飞机系统', text: '飞机系统' },
+                    { value: '飞行仪表和设备要求', text: '飞行仪表和设备要求' },
+                    { value: '飞行原理', text: '飞行原理' },
+                    { value: '航空规章', text: '航空规章' },
+                    { value: '领航导航', text: '领航导航' },
+                    { value: '气象', text: '气象' },
+                    { value: '人的行为能力', text: '人的行为能力' },
+                    { value: '通信', text: '通信' },
+                    { value: '性能计划载重', text: '性能计划载重' },
                 ],
                 ins: [
-                    { value: 'tutorials', text: '教程' },
-                    { value: 'presentations', text: '演示' },
-                    { value: 'demos', text: '演示视频' }
+                    { value: '操作程序', text: '操作程序' },
+                    { value: '飞行仪表和设备要求', text: '飞行仪表和设备要求' },
+                    { value: '航空规章', text: '航空规章' },
+                    { value: '领航导航', text: '领航导航' },
+                    { value: '气象', text: '气象' },
+                    { value: '人的行为能力', text: '人的行为能力' },
+                    { value: '通信', text: '通信' },
+                    { value: '计划', text: '计划' },
                 ]
             };
             
@@ -535,13 +556,12 @@
                 
                 // 验证是否已选择两个下拉菜单
                 if (!firstValue || !secondValue) {
-                    alert('请确保已选择两个下拉菜单的选项！');
+                    showMessage('请确保已选择两个下拉菜单的选项！', 'warning');
                     return;
                 }
                 
                 // 生成文件路径
-                filePath = `\\fxzy\\题库\\${firstValue}\\${secondValue}.json`;
-				alert(filePath);
+                filePath = `\\fxzy\\题库\\${firstValue}\\${secondValue}\\${secondValue}.json`;
             });
 
         });
@@ -549,7 +569,7 @@
         function importQuestionBank() {
 		    // 验证是否已选择两个下拉菜单
 		    if (!filePath) {
-		        alert('请先通过下拉菜单选择题库！');
+		        showMessage('请先通过下拉菜单选择题库！', 'warning');
 		        return;
 		    }
 		    
@@ -593,16 +613,48 @@
 		            renderQuestion();
 		            updateStats();
 		            
-		            alert(`成功导入 ${questionBank.length} 道题目！`);
-		            showLoadingState(false);
+		            showMessage('成功导入 ${questionBank.length} 道题目！', 'success');
 		        })
 		        .catch(error => {
-		            alert('导入失败：' + error.message);
+		            showMessage('导入失败：' + error.message, 'error');
 		            console.error(error);
-		            showLoadingState(false);
 		        });
 		}
 
+		function showMessage(message, type = 'info') {
+            // 创建消息框元素
+            const messageBox = document.createElement('div');
+            messageBox.className = 'message-box';
+            messageBox.textContent = message;
+            
+            // 根据类型设置不同的边框颜色
+            const colors = {
+                success: '#28a745',
+                warning: '#ffc107',
+                error: '#dc3545',
+                info: '#4a00e0'
+            };
+            
+            messageBox.style.borderLeftColor = colors[type] || colors.info;
+            
+            // 添加到页面
+            document.body.appendChild(messageBox);
+            
+            // 显示消息框
+            setTimeout(() => {
+                messageBox.classList.add('show');
+            }, 10);
+            
+            // 3秒后开始淡出
+            setTimeout(() => {
+                messageBox.classList.add('fade-out');
+                
+                // 淡出动画完成后移除元素
+                setTimeout(() => {
+                    document.body.removeChild(messageBox);
+                }, 500);
+            }, 3000);
+        }
         // 保存进度到本地存储
         function saveProgress() {
             const progress = {
