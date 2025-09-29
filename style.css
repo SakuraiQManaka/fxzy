@@ -397,29 +397,33 @@
             position: fixed;
             top: 50%;
             left: 50%;
-            transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%) scale(0.9);/*change*/
             background: white;
             padding: 20px 30px;
             border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-            z-index: 1000;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3); /* 增强阴影 */
+            z-index: 9999;/*change*/
             max-width: 400px;
+            width: 90%; /* 添加宽度限制 */
             text-align: center;
             opacity: 0;
             transition: opacity 0.3s, transform 0.5s;
             font-size: 1.1rem;
             color: #333;
             border-left: 5px solid #4a00e0;
+            pointer-events: none; /* 防止点击干扰 */
         }
         
         .message-box.show {
             opacity: 1;
-            transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%) scale(1); /* 显示时恢复正常大小 */
+            pointer-events: auto;
         }
         
         .message-box.fade-out {
             opacity: 0;
-            transform: translate(-50%, -60%);
+            transform: translate(-50%, -60%) scale(0.9); /* 淡出时向上移动并缩小 */
+            
         }
         
         .instructions {
@@ -430,7 +434,10 @@
             font-size: 0.9rem;
             color: #0c5460;
         }
-        
+
+        .message-box * {
+            pointer-events: auto;
+            }            
         @media (max-width: 600px) {
             .container {
                 padding: 20px;
@@ -519,4 +526,5 @@
         .slider-text.on {
             right: 10px;
         }
+
         
