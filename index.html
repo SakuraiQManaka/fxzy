@@ -613,7 +613,7 @@
 		            renderQuestion();
 		            updateStats();
 		            
-		            showMessage('成功导入 ${questionBank.length} 道题目！', 'success');
+		            showMessage(`成功导入 ${questionBank.length} 道题目！`, 'success');
 		        })
 		        .catch(error => {
 		            showMessage('导入失败：' + error.message, 'error');
