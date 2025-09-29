@@ -34,16 +34,31 @@
                         <div class="stat-label">完成率</div>
                     </div>
                 </div>
-                
+
                 <div class="actions">
                     <button class="btn-secondary" id="resetBtn">重置进度</button>
                     <button class="btn-success" id="exportBtn">导出错题</button>
                 </div>
                 
                 <div class="import-section">
-                    <h3>导入题库</h3>
+                	<h3>导入题库</h3>
+                	<div class="dropdown">
+					    <select id="one" class="dropdown-select">
+					      <option value="">选择题库</option>
+					      <option value="ppl">私照</option>
+					      <option value="cpl">商照</option>
+					      <option value="ins">仪表</option>
+					    </select>
+					</div>
+					<div class="dropdown">
+					    <select id="two" class="dropdown-select">
+					      <option value="">选择章节</option>
+					    </select>
+					</div>
+                    <!--
                     <p>支持JSON格式的题库文件</p>
                     <input type="file" id="fileInput" class="file-input" accept=".json">
+                    -->
                     <button class="btn-primary" id="importBtn">导入题库</button>
                 </div>
             </div>
@@ -172,7 +187,7 @@
         const reviewBtn = document.getElementById('reviewBtn');
         const toggleSwitch = document.getElementById('toggleSwitch');
         const statusDiv = document.getElementById('status');
-
+        var filePath = "";
         // 初始化
         function init() {
             // 尝试从本地存储加载数据
@@ -464,59 +479,128 @@
         }
 
         // 导入题库
-        function importQuestionBank() {
-            const file = fileInput.files[0];
-            if (!file) {
-                alert('请选择要导入的题库文件！');
-                return;
-            }
+        document.addEventListener('DOMContentLoaded', function() {
+            const firstSelect = document.getElementById('one');
+            const secondSelect = document.getElementById('two');
+            const generateBtn = document.getElementById('importBtn');
+            const resultDiv = document.getElementById('result');
+            const filePathDiv = document.getElementById('file-path');
             
-            const reader = new FileReader();
-            reader.onload = function(e) {
-                try {
-                    const importedData = JSON.parse(e.target.result);
-                    
-                    // 验证导入的数据格式
-                    if (!Array.isArray(importedData)) {
-                        throw new Error('题库数据格式不正确，应该是一个数组');
-                    }
-                    
-                    // 检查每个题目的必需字段
-                    for (let i = 0; i < importedData.length; i++) {
-                        const question = importedData[i];
-                        if (!question.id || !question.question || !question.options || 
-                            question.correctAnswer === undefined || !question.explanation) {
-                            throw new Error(`第 ${i+1} 个题目缺少必需字段`);
-                        }
-                        
-                        if (!Array.isArray(question.options) || question.options.length !== 3) {
-                            throw new Error(`第 ${i+1} 个题目的选项格式不正确，应该是包含三个元素的数组`);
-                        }
-                    }
-                    
-                    questionBank = importedData;
-                    userAnswers = [];
-                    currentQuestionIndex = 0;
-                    reviewMode = false;
-                    
-                    // 保存到本地存储
-                    localStorage.setItem('questionBank', JSON.stringify(questionBank));
-                    saveProgress();
-                    
-                    renderQuestionNavigation();
-                    renderQuestion();
-                    updateStats();
-                    
-                    alert(`成功导入 ${questionBank.length} 道题目！`);
-                    fileInput.value = ''; // 清空文件输入
-                } catch (error) {
-                    alert('导入失败：' + error.message);
-                    console.error(error);
-                }
+            // 定义第二个下拉菜单的选项
+            const options = {
+                ppl: [
+                    { value: '法规', text: '法规' },
+                    { value: '飞行前准备', text: '飞行前准备' },
+                    { value: '飞行性能', text: '飞行性能' }
+                ],
+                cpl: [
+                    { value: 'photos', text: '照片' },
+                    { value: 'illustrations', text: '插图' },
+                    { value: 'icons', text: '图标' }
+                ],
+                ins: [
+                    { value: 'tutorials', text: '教程' },
+                    { value: 'presentations', text: '演示' },
+                    { value: 'demos', text: '演示视频' }
+                ]
             };
             
-            reader.readAsText(file);
-        }
+            const trans = {
+            	ppl: "私照",
+            	cpl: "商照",
+            	ins: "仪表",
+            }
+            // 第一个下拉菜单变化事件
+            firstSelect.addEventListener('change', function() {
+                const selectedValue = this.value;
+                
+                // 清空第二个下拉菜单
+                secondSelect.innerHTML = '<option value="">-- 请选择 --</option>';
+                
+                // 如果选择了有效选项，则填充第二个下拉菜单
+                if (selectedValue && options[selectedValue]) {
+                    options[selectedValue].forEach(option => {
+                        const optionElement = document.createElement('option');
+                        optionElement.value = option.value;
+                        optionElement.textContent = option.text;
+                        secondSelect.appendChild(optionElement);
+                    });
+                }
+            });
+            
+            // 生成按钮点击事件
+            generateBtn.addEventListener('click', function() {
+                const firstValue = trans[firstSelect.value];
+                const secondValue = secondSelect.value;
+                
+                // 验证是否已选择两个下拉菜单
+                if (!firstValue || !secondValue) {
+                    alert('请确保已选择两个下拉菜单的选项！');
+                    return;
+                }
+                
+                // 生成文件路径
+                filePath = `\\题库\\${firstValue}\\${secondValue}.json`;
+            });
+
+        });
+
+        function importQuestionBank() {
+		    // 验证是否已选择两个下拉菜单
+		    if (!filePath) {
+		        alert('请先通过下拉菜单选择题库！');
+		        return;
+		    }
+		    
+		    // 使用fetch API从服务器获取JSON文件
+		    fetch(filePath)
+		        .then(response => {
+		            if (!response.ok) {
+		                throw new Error(`文件加载失败: ${response.status}`);
+		            }
+		            return response.json();
+		        })
+		        .then(importedData => {
+		            // 验证导入的数据格式
+		            if (!Array.isArray(importedData)) {
+		                throw new Error('题库数据格式不正确，应该是一个数组');
+		            }
+		            
+		            // 检查每个题目的必需字段
+		            for (let i = 0; i < importedData.length; i++) {
+		                const question = importedData[i];
+		                if (!question.id || !question.question || !question.options || 
+		                    question.correctAnswer === undefined || !question.explanation) {
+		                    throw new Error(`第 ${i+1} 个题目缺少必需字段`);
+		                }
+		                
+		                if (!Array.isArray(question.options) || question.options.length !== 3) {
+		                    throw new Error(`第 ${i+1} 个题目的选项格式不正确，应该是包含三个元素的数组`);
+		                }
+		            }
+		            
+		            questionBank = importedData;
+		            userAnswers = [];
+		            currentQuestionIndex = 0;
+		            reviewMode = false;
+		            
+		            // 保存到本地存储
+		            localStorage.setItem('questionBank', JSON.stringify(questionBank));
+		            saveProgress();
+		            
+		            renderQuestionNavigation();
+		            renderQuestion();
+		            updateStats();
+		            
+		            alert(`成功导入 ${questionBank.length} 道题目！`);
+		            showLoadingState(false);
+		        })
+		        .catch(error => {
+		            alert('导入失败：' + error.message);
+		            console.error(error);
+		            showLoadingState(false);
+		        });
+		}
 
         // 保存进度到本地存储
         function saveProgress() {
