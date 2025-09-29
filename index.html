@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-	<!--ver0.1.1pre-->
+	<!--ver0.1.2pre-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>选择题练习系统</title>
@@ -595,12 +595,10 @@
 		            updateStats();
 		            
 		            alert(`成功导入 ${questionBank.length} 道题目！`);
-		            showLoadingState(false);
 		        })
 		        .catch(error => {
 		            alert('导入失败：' + error.message);
 		            console.error(error);
-		            showLoadingState(false);
 		        });
 		}
 
