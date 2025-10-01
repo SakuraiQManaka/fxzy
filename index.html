@@ -11,7 +11,8 @@
         <header>
             <h1>选择题练习系统</h1>
             <p class="subtitle">离线练习，随时提升</p>
-            <p>Ver1.0 Author:Troy</p>
+            <p>Ver1.1 Author:Troy</p>
+            <button class="update-log-btn" id="updateLogBtn">更新日志</button>
         </header>
         
         <div class="main-content">
@@ -23,16 +24,20 @@
                 
                 <div class="stats">
                     <div class="stat-item">
-                        <div class="stat-value" id="correctCount">0</div>
-                        <div class="stat-label">正确</div>
+                        <div class="stat-value" id="correctProgress">0/0</div>
+                        <div class="stat-label">正确/已做</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-value" id="incorrectCount">0</div>
-                        <div class="stat-label">错误</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-value" id="completionRate">0%</div>
-                        <div class="stat-label">完成率</div>
+                        <div class="circular-progress">
+                            <div class="progress-ring">
+                                <svg width="60" height="60">
+                                    <circle class="progress-ring-circle" stroke="#4CAF50" stroke-width="4" 
+                                            fill="transparent" r="26" cx="30" cy="30"/>
+                                </svg>
+                                <div class="progress-text" id="completionRate">0%</div>
+                            </div>
+                        </div>
+                        <div class="stat-label">正确率</div>
                     </div>
                 </div>
 
@@ -204,7 +209,10 @@
             if (savedQuestionBank) {
                 questionBank = JSON.parse(savedQuestionBank);
             }
-            
+
+            const updateLogBtn = document.getElementById('updateLogBtn');
+            updateLogBtn.addEventListener('click', showUpdateLogs);
+
             renderQuestionNavigation();
             renderQuestion();
             updateStats();
@@ -277,7 +285,13 @@
             question.options.forEach((option, index) => {
                 const optionElement = document.createElement('div');
                 optionElement.className = 'option';
+                if (index === question.correctAnswer) {
+                    optionElement.id = 'correct';  
+                } else {
+                    optionElement.id = 'incorrect';
+                }
                 
+
                 // 如果已经答题，显示正确/错误状态
                 if (userAnswers[currentQuestionIndex] !== undefined) {
                     if (index === question.correctAnswer) {
@@ -366,8 +380,9 @@
             updateStats();
             
             // 自动跳转到下一题（如果不是最后一题）
-            const isChecked = toggleSwitch.checked
-            if (isChecked) {
+            const isChecked = toggleSwitch.checked;
+            const element = document.querySelector('.option.correct.selected');
+            if (isChecked &&  element) {
                 if (currentQuestionIndex < questionBank.length - 1) {
                     setTimeout(() => {
                         currentQuestionIndex++;
@@ -384,12 +399,34 @@
             const correctAnswers = userAnswers.filter((answer, index) => 
                 answer === questionBank[index]?.correctAnswer
             ).length;
-            const incorrectAnswers = totalAnswered - correctAnswers;
+            const correctProgress = document.getElementById('correctProgress');
+            correctProgress.textContent = `${correctAnswers}/${totalAnswered}`;
             const rate = totalAnswered > 0 ? Math.round((correctAnswers / totalAnswered) * 100) : 0;
+            updateCircularProgress(rate);
+        }
+
+        function updateCircularProgress(percentage) {
+            const circle = document.querySelector('.progress-ring-circle');
+            const progressText = document.getElementById('completionRate');
             
-            correctCount.textContent = correctAnswers;
-            incorrectCount.textContent = incorrectAnswers;
-            completionRate.textContent = `${rate}%`;
+            // 计算进度条的 stroke-dashoffset
+            const circumference = 2 * Math.PI * 26; // 2 * π * r
+            const offset = circumference - (percentage / 100) * circumference;
+            
+            // 更新进度条
+            circle.style.strokeDashoffset = offset;
+            
+            // 更新百分比文字
+            progressText.textContent = `${percentage}%`;
+            
+            // 根据百分比改变颜色
+            if (percentage >= 80) {
+                circle.style.stroke = '#4CAF50'; // 绿色
+            } else if (percentage >= 60) {
+                circle.style.stroke = '#FF9800'; // 橙色
+            } else {
+                circle.style.stroke = '#F44336'; // 红色
+            }
         }
 
         // 上一题
@@ -613,7 +650,7 @@
 		            renderQuestion();
 		            updateStats();
 		            
-		            showMessage(`成功导入 ${questionBank.length} 道题目！`, 'success');
+		            showMessage('成功导入 ${questionBank.length} 道题目！', 'success');
 		        })
 		        .catch(error => {
 		            showMessage('导入失败：' + error.message, 'error');
@@ -655,6 +692,106 @@
                 }, 500);
             }, 3000);
         }
+
+        // 更新日志数据
+        const updateLogs = [
+            {
+                title: "Ver1.0-刷题系统初始版本发布",
+                context: "刷题系统第一个正式版本，无需导入即可开始做题",
+                date: "2025-09-30"
+            },
+            {
+                title: "Ver1.1-页面布局和新功能更新",
+                context: [
+                "1. 更新了当前做题数据显示，正确率现在有了一个小动画",
+                "2. 更新了一个消息框功能",
+                "3. 在标题栏放了一个更新日志按钮，现在可以点击查看更新日志了",
+                ],
+                date: "2024-10-1"
+            },
+        ];
+
+        // 显示信息框函数
+        function showInfoModal(infoObj) {
+            // 移除已存在的信息框
+            const existingModal = document.querySelector('.info-modal');
+            const existingOverlay = document.querySelector('.info-modal-overlay');
+            if (existingModal) existingModal.remove();
+            if (existingOverlay) existingOverlay.remove();
+            
+            // 创建遮罩层
+            const overlay = document.createElement('div');
+            overlay.className = 'info-modal-overlay';
+            
+            // 创建信息框
+            const modal = document.createElement('div');
+            modal.className = 'info-modal';
+            
+            // 信息框内容
+            modal.innerHTML = `
+                <div class="info-modal-header">
+                    <div class="info-modal-title">${infoObj.title}</div>
+                    <div class="info-modal-date">${infoObj.date}</div>
+                    <div class="info-modal-close"></div>
+                </div>
+                <div class="info-modal-content">
+                    ${typeof infoObj.context === 'string' ? 
+                        `<p>${infoObj.context}</p>` : 
+                        infoObj.context.map(item => `<p>${item}</p>`).join('')
+                    }
+                </div>
+            `;
+            
+            // 添加到页面
+            document.body.appendChild(overlay);
+            document.body.appendChild(modal);
+            
+            // 显示信息框
+            setTimeout(() => {
+                overlay.classList.add('show');
+                modal.classList.add('show');
+            }, 10);
+            
+            // 关闭按钮事件
+            const closeBtn = modal.querySelector('.info-modal-close');
+            closeBtn.addEventListener('click', closeInfoModal);
+            
+            // 点击遮罩层关闭
+            overlay.addEventListener('click', closeInfoModal);
+            
+            // ESC键关闭
+            function handleEscKey(event) {
+                if (event.keyCode === 27) {
+                    closeInfoModal();
+                }
+            }
+            document.addEventListener('keydown', handleEscKey);
+            
+            function closeInfoModal() {
+                modal.classList.remove('show');
+                overlay.classList.remove('show');
+                
+                setTimeout(() => {
+                    if (document.body.contains(modal)) {
+                        document.body.removeChild(modal);
+                    }
+                    if (document.body.contains(overlay)) {
+                        document.body.removeChild(overlay);
+                    }
+                }, 300);
+                
+                document.removeEventListener('keydown', handleEscKey);
+            }
+        }
+
+        // 显示更新日志
+        function showUpdateLogs() {
+            // 这里可以显示最新的更新日志，或者显示所有日志的列表
+            // 暂时显示最新的更新日志
+            const latestLog = updateLogs[updateLogs.length - 1];
+            showInfoModal(latestLog);
+        }
+
         // 保存进度到本地存储
         function saveProgress() {
             const progress = {
