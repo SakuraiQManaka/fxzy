@@ -46,10 +46,10 @@ license: "MIT"
 
 ```bash
 # 1. 克隆项目仓库
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/SakuraiQManaka/fxzy.git
 
 # 2. 进入项目目录
-cd your-repo-name
+cd fxzy/
 
 # 3. 在浏览器中打开 index.html 即可使用
 ```
