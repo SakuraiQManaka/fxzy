@@ -1,114 +1,115 @@
 ---
-title: "Flight Theory Quiz Web App"
-description: "A lightweight front-end quiz platform for flight students preparing for pilot license theory exams."
+title: "飞行学员执照理论考试刷题网页"
+description: "一个专为飞行学员准备的理论考试刷题前端网页应用。"
 version: "1.1"
 author: "Troy"
 license: "MIT"
 ---
 
-# ✈️ Flight Theory Quiz Web App
+# ✈️ 飞行学员执照理论考试刷题网页
 
-A **front-end quiz platform** designed for **flight cadets** preparing for **pilot license theory exams**.  
-This project runs as a **static website** built with HTML, CSS, and JavaScript, and has been **deployed via GitHub Pages** — anyone can access and start practicing immediately.
-
----
-
-## 🌟 Features
-
-- 🧠 **Rich question bank** — comprehensive theoretical questions for pilot license exams  
-- 💻 **Fully front-end** — no backend server required, accessible anywhere  
-- 📱 **Progress auto-save** — stores quiz progress locally in your browser  
-- 📤 **Download progress** — export your progress as a JSON file  
-- 📥 **Resume progress** — re-upload the JSON file to continue from where you left off  
-- 🪶 **Lightweight and fast** — pure HTML, CSS, and JS with zero dependencies  
-- 🌐 **Free access** — hosted on GitHub Pages, open to everyone  
+这是一个为 **飞行学员** 设计的 **理论考试刷题前端网页**，  
+项目采用 **HTML、CSS 和 JavaScript** 编写，作为一个 **静态网页** 已通过 **GitHub Pages 部署**。  
+任何人都可以直接访问页面开始刷题，无需注册或登录。
 
 ---
 
-## ⚙️ Tech Stack
+## 🌟 功能特点
 
-| Component | Technology |
-|------------|-------------|
-| Front-end Framework | Vanilla JavaScript |
-| Markup & Style | HTML5 + CSS3 |
-| Data Source | Local JSON question bank |
-| Hosting | GitHub Pages |
+- 🧠 **题库丰富** —— 包含飞行执照理论考试常见题目  
+- 💻 **纯前端实现** —— 无需服务器支持，轻量快捷  
+- 📱 **本地保存进度** —— 自动将答题进度保存在浏览器中  
+- 📤 **下载进度文件** —— 可导出当前答题进度为 JSON 文件  
+- 📥 **上传继续刷题** —— 下次访问时上传 JSON 文件即可继续上次进度  
+- 🪶 **响应迅速** —— 静态网页结构，加载速度快  
+- 🌐 **开放访问** —— 完全免费，开源无权限限制  
 
 ---
 
-## 🚀 Getting Started
+## ⚙️ 技术栈
 
-You can directly access the quiz webpage here:  
-👉 **[Live Demo (GitHub Pages Link)](https://yourusername.github.io/your-repo-name/)**  
-*(Replace with your actual GitHub Pages URL)*
+| 模块           | 技术            |
+| -------------- | --------------- |
+| 前端框架       | 原生 JavaScript |
+| 页面结构与样式 | HTML5 + CSS3    |
+| 数据来源       | 本地 JSON 题库  |
+| 部署方式       | GitHub Pages    |
 
-Or run it locally:
+---
+
+## 🚀 快速开始
+
+直接访问在线页面：  
+👉 **[点击进入刷题网页（GitHub Pages 链接）](https://sakuraiqmanaka.github.io/fxzy/)**  
+
+或在本地运行：
 
 ```bash
-# 1. Clone the repository
+# 1. 克隆项目仓库
 git clone https://github.com/yourusername/your-repo-name.git
 
-# 2. Enter the project directory
+# 2. 进入项目目录
 cd your-repo-name
 
-# 3. Open index.html in your browser
+# 3. 在浏览器中打开 index.html 即可使用
 ```
 
 ---
 
-🧩 Project Structure
+🧩 项目结构
 your-repo-name/
-├── index.html              # Main quiz interface
-├── style.css               # UI styling
-├── script.js               # Quiz logic and local storage handling
-├── questions.json          # Question bank data
-├── catalog.json            # Directory index / category mapping
-└── assets/                 # (Optional) images, icons, or static resources
+├── index.html              # 主网页
+├── style.css               # 样式文件
+├── index.json          # 题库目录
+├── 题库          # 题库数据
+
 
 ---
 
-💾 Progress Save & Resume
+💾 进度保存与恢复
 
-Quiz progress is stored locally (in your browser’s LocalStorage).
+答题进度会自动保存到浏览器的本地存储中。
 
-To save your progress externally, click "Download Progress" to export a JSON file.
+点击 “下载进度” 可导出当前进度为 JSON 文件。（⚠️开发中）
 
-Next time, click "Upload Progress" to continue from where you left off.
+下次打开网页时，点击 “上传进度” 选择该 JSON 文件即可 继续上次的答题进度。（⚠️开发中）
 
-⚠️ Since this is a static website, progress is not synced to any server.
-
----
-
-📈 Roadmap
-Version	Status	Description
-1.1	✅ Released	Stable quiz version with local save/export/import
-2.0	🚧 In Development	Cloud save support and enhanced UI/UX
-Future	🧩 Planned	Multi-language support and adaptive exam modes
+⚠️ 由于这是一个静态网页，数据不会上传或同步到服务器。
 
 ---
 
-🖼️ Screenshots
-
-![https://ibb.co/B2wg7qRD]()
-
----
-
-📬 Contact
-
-Created by Troy ✈️
-📧 troywang@buaa.edu.cn
+📈 开发计划（Roadmap）
+版本	状态	内容
+1.1	✅ 已发布	稳定版，支持本地保存与导入导出进度
+2.0	🚧 开发中	计划加入云端保存功能与界面优化
+未来版本	🧩 规划中
 
 ---
 
-📄 License
+🖼️ 页面预览
 
-This project is open-source under the MIT License.
-You are free to use, modify, and distribute it without restriction.
+![页面预览](https://i.ibb.co/d47Q3Gy9/image.png)
 
 ---
 
-⭐ Acknowledgments
+📬 联系方式
 
-Thanks to all contributors and flight cadets who tested the early versions.
+项目作者：Troy ✈️
+📧 邮箱：troywang@buaa.edu.cn
+🌐 GitHub 主页：https://github.com/SakuraiQManaka
 
-Special appreciation for open-source front-end resources that made this project possible.
+---
+
+📄 开源协议
+
+本项目基于 MIT 许可协议
+ 开源。
+您可以自由使用、修改和分发本项目，无任何限制。
+
+---
+
+⭐ 致谢
+
+感谢所有参与测试与反馈的飞行学员。
+
+致谢所有支持前端开源生态的开发者与资源社区。
