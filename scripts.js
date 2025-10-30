@@ -52,6 +52,7 @@ let userAnswers = [];
 let reviewMode = false;
 let wrongQuestions = [];
 let overallProgress = null;
+let currentCategoryInfo = null;
 
 // DOM元素
 const questionNav = document.getElementById('questionNav');
@@ -96,6 +97,12 @@ function init() {
     if (savedQuestionBank) {
         questionBank = JSON.parse(savedQuestionBank);
     }
+    
+    // 尝试从本地存储加载分类信息
+    const savedCategoryInfo = localStorage.getItem('currentCategoryInfo');
+    if (savedCategoryInfo) {
+        currentCategoryInfo = JSON.parse(savedCategoryInfo);
+    }
 
     // 加载整体进度
     loadOverallProgress();
@@ -136,6 +143,10 @@ function loadOverallProgress() {
             })
             .then(data => {
                 overallProgress = data;
+                
+                // 初始化答题状态数组
+                initializeProgressStates();
+                
                 localStorage.setItem('overallProgress', JSON.stringify(overallProgress));
             })
             .catch(error => {
@@ -145,12 +156,30 @@ function loadOverallProgress() {
     }
 }
 
+// 初始化答题状态数组
+function initializeProgressStates() {
+    for (const category in overallProgress) {
+        if (overallProgress.hasOwnProperty(category)) {
+            const categoryData = overallProgress[category];
+            categoryData.state.forEach(chapter => {
+                // 如果state数组为空，初始化为null数组
+                if (chapter.state.length === 0) {
+                    chapter.state = new Array(chapter.number).fill(null);
+                }
+            });
+        }
+    }
+}
+
 // 显示整体进度
 function showOverallProgress() {
     if (!overallProgress) {
         showMessage('整体进度数据尚未加载完成', 'warning');
         return;
     }
+
+    // 重新计算当前进度
+    updateOverallProgressFromCurrent();
 
     let progressContent = '<div class="overall-progress-content">';
     
@@ -167,6 +196,11 @@ function showOverallProgress() {
                 <div class="chapter-progress">`;
             
             categoryData.state.forEach(chapter => {
+                // 确保state数组存在且长度正确
+                if (!chapter.state || chapter.state.length !== chapter.number) {
+                    chapter.state = new Array(chapter.number).fill(null);
+                }
+                
                 const answered = chapter.state.filter(s => s !== null && s !== undefined).length;
                 const correct = chapter.state.filter(s => s === true).length;
                 
@@ -225,6 +259,76 @@ function showOverallProgress() {
         context: progressContent,
         date: new Date().toLocaleDateString()
     });
+}
+
+// 从当前答题状态更新整体进度
+function updateOverallProgressFromCurrent() {
+    if (!questionBank.length || !overallProgress) return;
+    
+    // 如果有当前分类信息，使用它
+    if (currentCategoryInfo) {
+        const { category, chapter } = currentCategoryInfo;
+        
+        // 确保分类存在
+        if (!overallProgress[category]) {
+            overallProgress[category] = {
+                names: [chapter],
+                number_all: questionBank.length,
+                path: "",
+                state: []
+            };
+        }
+        
+        // 确保章节存在
+        let chapterData = overallProgress[category].state.find(c => c.name === chapter);
+        if (!chapterData) {
+            chapterData = {
+                name: chapter,
+                number: questionBank.length,
+                state: new Array(questionBank.length).fill(null)
+            };
+            overallProgress[category].state.push(chapterData);
+        }
+        
+        // 更新答题状态
+        userAnswers.forEach((answer, index) => {
+            if (answer !== undefined && index < chapterData.state.length) {
+                const isCorrect = answer === questionBank[index].correctAnswer;
+                chapterData.state[index] = isCorrect;
+            }
+        });
+    } else {
+        // 临时方案：只在有当前题库时更新一个默认分类
+        const currentCategory = "当前练习";
+        const currentChapter = "导入的题目";
+        
+        if (!overallProgress[currentCategory]) {
+            overallProgress[currentCategory] = {
+                names: [currentChapter],
+                number_all: questionBank.length,
+                path: "",
+                state: [
+                    {
+                        name: currentChapter,
+                        number: questionBank.length,
+                        state: new Array(questionBank.length).fill(null)
+                    }
+                ]
+            };
+        }
+        
+        // 更新答题状态
+        const chapter = overallProgress[currentCategory].state[0];
+        userAnswers.forEach((answer, index) => {
+            if (answer !== undefined && index < chapter.state.length) {
+                const isCorrect = answer === questionBank[index].correctAnswer;
+                chapter.state[index] = isCorrect;
+            }
+        });
+    }
+    
+    // 保存更新后的进度
+    localStorage.setItem('overallProgress', JSON.stringify(overallProgress));
 }
 
 // 触发错题文件选择
@@ -711,8 +815,17 @@ function importQuestionBank() {
             currentQuestionIndex = 0;
             reviewMode = false;
             
+            // 记录当前题库的分类信息
+            const firstSelect = document.getElementById('one');
+            const secondSelect = document.getElementById('two');
+            currentCategoryInfo = {
+                category: trans[firstSelect.value],
+                chapter: secondSelect.value
+            };
+            
             // 保存到本地存储
             localStorage.setItem('questionBank', JSON.stringify(questionBank));
+            localStorage.setItem('currentCategoryInfo', JSON.stringify(currentCategoryInfo));
             saveProgress();
             
             renderQuestionNavigation();

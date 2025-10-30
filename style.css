@@ -271,6 +271,12 @@ button {
     background-color: #45a049;
 }
 
+#importWrongBtn {
+    position: relative;
+    float: right;
+
+}
+
 .import-section {
     margin-top: 30px;
     padding: 10px;
