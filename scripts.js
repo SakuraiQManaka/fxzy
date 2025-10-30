@@ -243,7 +243,6 @@ function showOverallProgress() {
             <h3>总体统计</h3>
             <div class="summary-stats">
                 <div class="summary-item">
-                    <div class="summary-value">${overallPercent}%</div>
                     <div class="summary-label">完成进度</div>
                 </div>
                 <div class="summary-item">
