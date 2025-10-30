@@ -221,7 +221,6 @@ function showOverallProgress() {
                     <div class="chapter-item">
                         <div class="chapter-name">${chapter.name}</div>
                         <div class="chapter-stats">
-                            <span class="progress-text">${progressPercent}%</span>
                             <span class="correct-rate">已做: ${answered}题</span>
                             <span class="answered-count">(${answered}/${chapter.number})</span>
                         </div>
