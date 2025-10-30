@@ -554,15 +554,6 @@ input:checked + .slider:before {
     stroke-dashoffset: 163.4;
 }
 
-.progress-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 0.9rem;
-    font-weight: bold;
-    color: #333;
-}
 
 /* 更新日志按钮 */
 .update-log-btn {
@@ -782,11 +773,6 @@ input:checked + .slider:before {
     align-items: center;
     margin-bottom: 8px;
     font-size: 14px;
-}
-
-.progress-text {
-    font-weight: bold;
-    color: #2196F3;
 }
 
 .correct-rate {

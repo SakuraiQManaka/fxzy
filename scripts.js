@@ -215,8 +215,6 @@ function showOverallProgress() {
                 totalAnswered += answered;
                 totalCorrect += correct;
                 
-                const progressPercent = chapter.number > 0 ? Math.round((answered / chapter.number) * 100) : 0;
-                
                 progressContent += `
                     <div class="chapter-item">
                         <div class="chapter-name">${chapter.name}</div>
@@ -225,7 +223,6 @@ function showOverallProgress() {
                             <span class="answered-count">(${answered}/${chapter.number})</span>
                         </div>
                         <div class="progress-bar">
-                            <div class="progress-fill" style="width: ${progressPercent}%"></div>
                         </div>
                     </div>
                 `;
