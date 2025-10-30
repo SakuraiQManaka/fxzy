@@ -82,6 +82,7 @@ const statusDiv = document.getElementById('status');
 const overallProgressBtn = document.getElementById('overallProgressBtn');
 var filePath = "";
 
+// 定义题库类型映射（移到全局作用域）
 const trans = {
     ppl: "私照",
     cpl: "商照",
@@ -215,14 +216,13 @@ function showOverallProgress() {
                 totalCorrect += correct;
                 
                 const progressPercent = chapter.number > 0 ? Math.round((answered / chapter.number) * 100) : 0;
-                const correctRate = answered > 0 ? Math.round((correct / answered) * 100) : 0;
                 
                 progressContent += `
                     <div class="chapter-item">
                         <div class="chapter-name">${chapter.name}</div>
                         <div class="chapter-stats">
                             <span class="progress-text">${progressPercent}%</span>
-                            <span class="correct-rate">正确率: ${correctRate}%</span>
+                            <span class="correct-rate">已做: ${answered}题</span>
                             <span class="answered-count">(${answered}/${chapter.number})</span>
                         </div>
                         <div class="progress-bar">
@@ -238,7 +238,6 @@ function showOverallProgress() {
     
     // 总体统计
     const overallPercent = totalQuestions > 0 ? Math.round((totalAnswered / totalQuestions) * 100) : 0;
-    const overallCorrectRate = totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0;
     
     progressContent += `
         <div class="overall-summary">
@@ -249,12 +248,12 @@ function showOverallProgress() {
                     <div class="summary-label">完成进度</div>
                 </div>
                 <div class="summary-item">
-                    <div class="summary-value">${overallCorrectRate}%</div>
-                    <div class="summary-label">正确率</div>
+                    <div class="summary-value">${totalAnswered}</div>
+                    <div class="summary-label">已做题目</div>
                 </div>
                 <div class="summary-item">
-                    <div class="summary-value">${totalAnswered}/${totalQuestions}</div>
-                    <div class="summary-label">已做/总数</div>
+                    <div class="summary-value">${totalQuestions}</div>
+                    <div class="summary-label">总题目数</div>
                 </div>
             </div>
         </div>
@@ -335,6 +334,50 @@ function updateOverallProgressFromCurrent() {
     
     // 保存更新后的进度
     localStorage.setItem('overallProgress', JSON.stringify(overallProgress));
+}
+
+// 从整体进度恢复当前题库的状态
+function restoreProgressFromOverall() {
+    if (!currentCategoryInfo || !overallProgress) return;
+    
+    const { category, chapter } = currentCategoryInfo;
+    
+    // 检查是否存在对应的分类和章节
+    if (!overallProgress[category]) {
+        return;
+    }
+    
+    const chapterData = overallProgress[category].state.find(c => c.name === chapter);
+    if (!chapterData || !chapterData.state) {
+        return;
+    }
+    
+    // 确保状态数组长度与题库一致
+    if (chapterData.state.length !== questionBank.length) {
+        console.warn('状态数组长度与题库不一致，无法恢复进度');
+        return;
+    }
+    
+    // 恢复用户答案
+    userAnswers = [];
+    chapterData.state.forEach((state, index) => {
+        if (state !== null && state !== undefined) {
+            // 如果是正确状态，设置为正确答案
+            // 如果是错误状态，设置为一个特殊值表示错误但不知道具体选项
+            if (state === true) {
+                userAnswers[index] = questionBank[index].correctAnswer;
+            } else {
+                // 对于错误状态，我们无法知道用户具体选了哪个选项
+                // 所以设置为一个特殊值，表示已答题但错误
+                userAnswers[index] = -1;
+            }
+        } else {
+            userAnswers[index] = undefined;
+        }
+    });
+    
+    // 保存恢复的进度
+    saveProgress();
 }
 
 // 触发错题文件选择
@@ -742,11 +785,6 @@ document.addEventListener('DOMContentLoaded', function() {
         ]
     };
     
-    const trans = {
-        ppl: "私照",
-        cpl: "商照",
-        ins: "仪表",
-    }
     // 第一个下拉菜单变化事件
     firstSelect.addEventListener('change', function() {
         const selectedValue = this.value;
@@ -832,7 +870,9 @@ function importQuestionBank() {
             // 保存到本地存储
             localStorage.setItem('questionBank', JSON.stringify(questionBank));
             localStorage.setItem('currentCategoryInfo', JSON.stringify(currentCategoryInfo));
-            saveProgress();
+            
+            // 从整体进度恢复状态
+            restoreProgressFromOverall();
             
             renderQuestionNavigation();
             renderQuestion();
