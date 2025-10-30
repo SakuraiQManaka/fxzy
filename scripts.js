@@ -82,6 +82,13 @@ const statusDiv = document.getElementById('status');
 const overallProgressBtn = document.getElementById('overallProgressBtn');
 var filePath = "";
 
+// 定义题库类型映射（移到全局作用域）
+const trans = {
+    ppl: "私照",
+    cpl: "商照",
+    ins: "仪表",
+};
+
 // 初始化
 function init() {
     // 尝试从本地存储加载数据
@@ -736,11 +743,6 @@ document.addEventListener('DOMContentLoaded', function() {
         ]
     };
     
-    const trans = {
-        ppl: "私照",
-        cpl: "商照",
-        ins: "仪表",
-    }
     // 第一个下拉菜单变化事件
     firstSelect.addEventListener('change', function() {
         const selectedValue = this.value;
