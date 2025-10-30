@@ -703,6 +703,24 @@ function resetProgress() {
         renderQuestionNavigation();
         updateStats();
         saveProgress();
+        
+        // 同时重置整体进度中当前章节的状态
+        if (currentCategoryInfo && overallProgress) {
+            const { category, chapter } = currentCategoryInfo;
+            
+            // 检查是否存在对应的分类和章节
+            if (overallProgress[category]) {
+                const chapterData = overallProgress[category].state.find(c => c.name === chapter);
+                if (chapterData) {
+                    // 重置该章节的所有题目状态为未做
+                    chapterData.state = new Array(chapterData.number).fill(null);
+                    
+                    // 保存更新后的整体进度
+                    localStorage.setItem('overallProgress', JSON.stringify(overallProgress));
+                }
+            }
+        }
+        
         showMessage('进度已重置，可以重新开始做题', 'success');
     }
 }
