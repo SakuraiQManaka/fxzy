@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>选择题练习系统</title>
     <link rel="stylesheet" href="style.css">
-    <script src="scripts.js"></script>
 </head>
 <body>
     <div class="container">
@@ -14,6 +13,7 @@
             <p class="subtitle">离线练习，随时提升</p>
             <p>Ver1.1 Author:Troy</p>
             <button class="update-log-btn" id="updateLogBtn">更新日志</button>
+            <button class="overall-progress-btn" id="overallProgressBtn">整体进度</button>
         </header>
         
         <div class="main-content">
@@ -62,11 +62,11 @@
 					      <option value="">选择章节</option>
 					    </select>
 					</div>
-                    <!--
-                    <p>支持JSON格式的题库文件</p>
-                    <input type="file" id="fileInput" class="file-input" accept=".json">
-                    -->
                     <button class="btn-primary" id="importBtn">导入题库</button>
+                    <button class="btn-warning" id="importWrongBtn">导入错题</button>
+                    
+                    <!-- 隐藏的文件输入用于导入错题 -->
+                    <input type="file" id="wrongFileInput" class="file-input" accept=".json" style="display: none;">
                 </div>
             </div>
             
@@ -114,5 +114,6 @@
             </div>
         </div>
     </div>
+<script src="scripts.js"></script>
 </body>
 </html>

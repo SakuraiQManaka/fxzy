@@ -51,6 +51,7 @@ let currentQuestionIndex = 0;
 let userAnswers = [];
 let reviewMode = false;
 let wrongQuestions = [];
+let overallProgress = null;
 
 // DOM元素
 const questionNav = document.getElementById('questionNav');
@@ -69,13 +70,17 @@ const nextBtn = document.getElementById('nextBtn');
 const resetBtn = document.getElementById('resetBtn');
 const exportBtn = document.getElementById('exportBtn');
 const importBtn = document.getElementById('importBtn');
+const importWrongBtn = document.getElementById('importWrongBtn');
+const wrongFileInput = document.getElementById('wrongFileInput');
 const fileInput = document.getElementById('fileInput');
 const completionMessage = document.getElementById('completionMessage');
 const finalRate = document.getElementById('finalRate');
 const reviewBtn = document.getElementById('reviewBtn');
 const toggleSwitch = document.getElementById('toggleSwitch');
 const statusDiv = document.getElementById('status');
+const overallProgressBtn = document.getElementById('overallProgressBtn');
 var filePath = "";
+
 // 初始化
 function init() {
     // 尝试从本地存储加载数据
@@ -92,8 +97,14 @@ function init() {
         questionBank = JSON.parse(savedQuestionBank);
     }
 
+    // 加载整体进度
+    loadOverallProgress();
+
     const updateLogBtn = document.getElementById('updateLogBtn');
     updateLogBtn.addEventListener('click', showUpdateLogs);
+    
+    overallProgressBtn.addEventListener('click', showOverallProgress);
+    importWrongBtn.addEventListener('click', triggerWrongFileInput);
 
     renderQuestionNavigation();
     renderQuestion();
@@ -106,6 +117,171 @@ function init() {
     exportBtn.addEventListener('click', exportWrongQuestions);
     importBtn.addEventListener('click', importQuestionBank);
     reviewBtn.addEventListener('click', toggleReviewMode);
+    wrongFileInput.addEventListener('change', importWrongQuestionsFromFile);
+}
+
+// 加载整体进度
+function loadOverallProgress() {
+    const savedOverallProgress = localStorage.getItem('overallProgress');
+    if (savedOverallProgress) {
+        overallProgress = JSON.parse(savedOverallProgress);
+    } else {
+        // 从文件加载默认进度
+        fetch("./index.json")
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`文件加载失败: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                overallProgress = data;
+                localStorage.setItem('overallProgress', JSON.stringify(overallProgress));
+            })
+            .catch(error => {
+                console.error('加载整体进度失败:', error);
+                showMessage('加载整体进度失败，请刷新页面重试', 'error');
+            });
+    }
+}
+
+// 显示整体进度
+function showOverallProgress() {
+    if (!overallProgress) {
+        showMessage('整体进度数据尚未加载完成', 'warning');
+        return;
+    }
+
+    let progressContent = '<div class="overall-progress-content">';
+    
+    // 计算总体进度
+    let totalQuestions = 0;
+    let totalAnswered = 0;
+    let totalCorrect = 0;
+    
+    for (const category in overallProgress) {
+        if (overallProgress.hasOwnProperty(category)) {
+            const categoryData = overallProgress[category];
+            progressContent += `<div class="progress-category">
+                <h3>${category} (${categoryData.number_all}题)</h3>
+                <div class="chapter-progress">`;
+            
+            categoryData.state.forEach(chapter => {
+                const answered = chapter.state.filter(s => s !== null && s !== undefined).length;
+                const correct = chapter.state.filter(s => s === true).length;
+                
+                totalQuestions += chapter.number;
+                totalAnswered += answered;
+                totalCorrect += correct;
+                
+                const progressPercent = chapter.number > 0 ? Math.round((answered / chapter.number) * 100) : 0;
+                const correctRate = answered > 0 ? Math.round((correct / answered) * 100) : 0;
+                
+                progressContent += `
+                    <div class="chapter-item">
+                        <div class="chapter-name">${chapter.name}</div>
+                        <div class="chapter-stats">
+                            <span class="progress-text">${progressPercent}%</span>
+                            <span class="correct-rate">正确率: ${correctRate}%</span>
+                            <span class="answered-count">(${answered}/${chapter.number})</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: ${progressPercent}%"></div>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            progressContent += '</div></div>';
+        }
+    }
+    
+    // 总体统计
+    const overallPercent = totalQuestions > 0 ? Math.round((totalAnswered / totalQuestions) * 100) : 0;
+    const overallCorrectRate = totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0;
+    
+    progressContent += `
+        <div class="overall-summary">
+            <h3>总体统计</h3>
+            <div class="summary-stats">
+                <div class="summary-item">
+                    <div class="summary-value">${overallPercent}%</div>
+                    <div class="summary-label">完成进度</div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-value">${overallCorrectRate}%</div>
+                    <div class="summary-label">正确率</div>
+                </div>
+                <div class="summary-item">
+                    <div class="summary-value">${totalAnswered}/${totalQuestions}</div>
+                    <div class="summary-label">已做/总数</div>
+                </div>
+            </div>
+        </div>
+    </div>`;
+    
+    showInfoModal({
+        title: "整体刷题进度",
+        context: progressContent,
+        date: new Date().toLocaleDateString()
+    });
+}
+
+// 触发错题文件选择
+function triggerWrongFileInput() {
+    wrongFileInput.click();
+}
+
+// 从文件导入错题
+function importWrongQuestionsFromFile(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+    
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        try {
+            const wrongQuestionsData = JSON.parse(e.target.result);
+            
+            if (!Array.isArray(wrongQuestionsData)) {
+                throw new Error('错题文件格式不正确，应该是一个数组');
+            }
+            
+            // 验证错题数据格式
+            for (let i = 0; i < wrongQuestionsData.length; i++) {
+                const question = wrongQuestionsData[i];
+                if (!question.id || !question.question || !question.options || 
+                    question.correctAnswer === undefined || !question.explanation) {
+                    throw new Error(`第 ${i+1} 个错题缺少必需字段`);
+                }
+            }
+            
+            // 将错题添加到当前题库
+            const originalLength = questionBank.length;
+            questionBank = [...questionBank, ...wrongQuestionsData];
+            
+            // 扩展用户答案数组
+            userAnswers = [...userAnswers, ...new Array(wrongQuestionsData.length).fill(undefined)];
+            
+            // 保存到本地存储
+            localStorage.setItem('questionBank', JSON.stringify(questionBank));
+            saveProgress();
+            
+            renderQuestionNavigation();
+            renderQuestion();
+            updateStats();
+            
+            showMessage(`成功导入 ${wrongQuestionsData.length} 道错题！当前题库共有 ${questionBank.length} 道题目`, 'success');
+            
+            // 重置文件输入
+            wrongFileInput.value = '';
+            
+        } catch (error) {
+            showMessage('导入错题失败：' + error.message, 'error');
+            console.error(error);
+        }
+    };
+    
+    reader.readAsText(file);
 }
 
 // 渲染题目导航
@@ -173,7 +349,6 @@ function renderQuestion() {
             optionElement.id = 'incorrect';
         }
         
-
         // 如果已经答题，显示正确/错误状态
         if (userAnswers[currentQuestionIndex] !== undefined) {
             if (index === question.correctAnswer) {
@@ -375,6 +550,7 @@ function resetProgress() {
         renderQuestionNavigation();
         updateStats();
         saveProgress();
+        showMessage('进度已重置，可以重新开始做题', 'success');
     }
 }
 
@@ -389,7 +565,18 @@ function exportWrongQuestions() {
         return;
     }
     
-    const dataStr = JSON.stringify(wrongQuestions, null, 2);
+    // 确保导出的错题包含所有必要字段
+    const exportData = wrongQuestions.map(question => ({
+        id: question.id,
+        question: question.question,
+        options: question.options,
+        correctAnswer: question.correctAnswer,
+        explanation: question.explanation,
+        questionImage: question.questionImage || "",
+        explanationImage: question.explanationImage || ""
+    }));
+    
+    const dataStr = JSON.stringify(exportData, null, 2);
     const dataBlob = new Blob([dataStr], {type: 'application/json'});
     
     const link = document.createElement('a');
@@ -480,7 +667,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         // 生成文件路径
-        filePath = `\\fxzy\\题库\\${firstValue}\\${secondValue}\\${secondValue}.json`;
+        filePath = `./题库/${firstValue}/${secondValue}/${secondValue}.json`;
     });
 
 });
@@ -533,6 +720,7 @@ function importQuestionBank() {
             updateStats();
             
             showMessage(`成功导入 ${questionBank.length} 道题目！`, 'success');
+            showMessage('可以点击重置进度按钮重新做题', 'info');
         })
         .catch(error => {
             showMessage('导入失败：' + error.message, 'error');
@@ -609,7 +797,14 @@ function showInfoModal(infoObj) {
     const modal = document.createElement('div');
     modal.className = 'info-modal';
     
-    // 信息框内容
+    // 信息框内容 - 如果是字符串直接显示，如果是数组则处理为HTML
+    let contentHTML = '';
+    if (typeof infoObj.context === 'string') {
+        contentHTML = `<p>${infoObj.context}</p>`;
+    } else {
+        contentHTML = infoObj.context;
+    }
+    
     modal.innerHTML = `
         <div class="info-modal-header">
             <div class="info-modal-title">${infoObj.title}</div>
@@ -617,10 +812,7 @@ function showInfoModal(infoObj) {
             <div class="info-modal-close"></div>
         </div>
         <div class="info-modal-content">
-            ${typeof infoObj.context === 'string' ? 
-                `<p>${infoObj.context}</p>` : 
-                infoObj.context.map(item => `<p>${item}</p>`).join('')
-            }
+            ${contentHTML}
         </div>
     `;
     
@@ -674,43 +866,14 @@ function showUpdateLogs() {
     showInfoModal(latestLog);
 }
 
-// 保存进度到本地存储(!!!待修改)
+// 保存进度到本地存储
 function saveProgress() {
-    if (progress) {
-        return true;
-    };
     const progress = {
         userAnswers: userAnswers,
         currentQuestionIndex: currentQuestionIndex
     };
-    localStorage.setItem('Progress', JSON.stringify(progress));
+    localStorage.setItem('quizProgress', JSON.stringify(progress));
 }
-
-//读取本地存储的题目目录
-function GetProgress() {
-    const savedProgress = localStorage.getItem("index");
-    if (!saveProgress) {
-        var progress = JSON.parse(saveProgress);
-    } else {
-        fetch("\\fxzy\\index.json")
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`文件加载失败: ${response.status}`);
-                }
-                return response.json();
-            })
-            .then(importedData => {
-                var progress = JSON.parse(importedData);
-            })
-            .catch(error => {
-                showMessage('导入失败：' + error.message, 'error');
-                console.error(error);
-            }); 
-    };
-    return progress;
-}
-
-
 
 // 页面加载完成后初始化
 document.addEventListener('DOMContentLoaded', init);
