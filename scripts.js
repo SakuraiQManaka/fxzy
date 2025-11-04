@@ -622,9 +622,6 @@ function updateCircularProgress(percentage) {
     // 更新进度条
     circle.style.strokeDashoffset = offset;
     
-    // 更新百分比文字
-    progressText.textContent = `${percentage}%`;
-    
     // 根据百分比改变颜色
     if (percentage >= 80) {
         circle.style.stroke = '#4CAF50'; // 绿色
