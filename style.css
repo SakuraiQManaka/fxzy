@@ -408,31 +408,32 @@ button {
 /* 信息提示框样式 */
 .message-box {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: white;
-    padding: 20px 30px;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
+    top: 20px;
+    right: -400px; /* 从右侧外部开始 */
+    min-width: 300px;
     max-width: 400px;
-    text-align: center;
+    padding: 15px 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
     opacity: 0;
-    transition: opacity 0.3s, transform 0.5s;
-    font-size: 1.1rem;
-    color: #333;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border-left: 5px solid #4a00e0;
+    font-size: 1rem;
+    color: #333;
 }
 
 .message-box.show {
     opacity: 1;
-    transform: translate(-50%, -50%);
+    right: 20px; /* 滑入到右侧20px位置 */
+    transform: translateY(0);
 }
 
 .message-box.fade-out {
     opacity: 0;
-    transform: translate(-50%, -60%);
+    right: -400px; /* 滑出到右侧外部 */
+    transform: translateY(-20px);
 }
 
 .instructions {

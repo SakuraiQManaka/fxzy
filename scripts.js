@@ -215,6 +215,8 @@ function showOverallProgress() {
                 totalAnswered += answered;
                 totalCorrect += correct;
                 
+                const progressPercent = chapter.number > 0 ? Math.round((answered / chapter.number) * 100) : 0;
+
                 progressContent += `
                     <div class="chapter-item">
                         <div class="chapter-name">${chapter.name}</div>
@@ -223,6 +225,7 @@ function showOverallProgress() {
                             <span class="answered-count">(${answered}/${chapter.number})</span>
                         </div>
                         <div class="progress-bar">
+                        <div class="progress-fill" style="width: ${progressPercent}%"></div>
                         </div>
                     </div>
                 `;
@@ -622,6 +625,9 @@ function updateCircularProgress(percentage) {
     // 更新进度条
     circle.style.strokeDashoffset = offset;
     
+    // 更新百分比文字
+    progressText.textContent = `${percentage}%`;
+    
     // 根据百分比改变颜色
     if (percentage >= 80) {
         circle.style.stroke = '#4CAF50'; // 绿色
@@ -898,7 +904,35 @@ function importQuestionBank() {
         });
 }
 
+// 消息队列和状态变量
+let messageQueue = [];
+let messageCount = 0; // 跟踪当前显示的消息数量
+let lastMessageTime = 0; // 记录上一条消息显示的时间
+
 function showMessage(message, type = 'info') {
+    const currentTime = Date.now();
+    const timeSinceLastMessage = currentTime - lastMessageTime;
+    
+    // 如果距离上一条消息显示不足500ms，则延迟显示
+    if (timeSinceLastMessage < 500 && messageCount > 0) {
+        const delay = 500 - timeSinceLastMessage;
+        setTimeout(() => {
+            displayMessage(message, type);
+        }, delay);
+    } else {
+        // 立即显示
+        displayMessage(message, type);
+    }
+}
+
+// 显示单个消息
+function displayMessage(message, type) {
+    // 更新最后消息时间
+    lastMessageTime = Date.now();
+    
+    // 计算垂直位置 - 根据当前显示的消息数量
+    const verticalOffset = messageCount * 80; // 80px 为每条消息的高度+间距
+    
     // 创建消息框元素
     const messageBox = document.createElement('div');
     messageBox.className = 'message-box';
@@ -914,23 +948,41 @@ function showMessage(message, type = 'info') {
     
     messageBox.style.borderLeftColor = colors[type] || colors.info;
     
+    // 设置初始位置 - 从右上角外部开始
+    messageBox.style.position = 'fixed';
+    messageBox.style.top = `${20 + verticalOffset}px`;
+    messageBox.style.right = '-400px'; // 从右侧外部开始
+    messageBox.style.zIndex = '1000';
+    messageBox.style.transition = 'right 0.5s ease, opacity 0.5s ease';
+    messageBox.style.opacity = '0';
+    
     // 添加到页面
     document.body.appendChild(messageBox);
     
-    // 显示消息框
+    // 增加消息计数
+    messageCount++;
+    
+    // 显示消息框 - 从右侧滑入
     setTimeout(() => {
-        messageBox.classList.add('show');
+        messageBox.style.right = '20px';
+        messageBox.style.opacity = '1';
     }, 10);
     
-    // 3秒后开始淡出
+    // 5秒后开始淡出
     setTimeout(() => {
-        messageBox.classList.add('fade-out');
+        messageBox.style.opacity = '0';
+        messageBox.style.right = '-400px'; // 滑出到右侧
         
-        // 淡出动画完成后移除元素
+        // 动画完成后移除元素
         setTimeout(() => {
-            document.body.removeChild(messageBox);
+            if (document.body.contains(messageBox)) {
+                document.body.removeChild(messageBox);
+            }
+            
+            // 减少消息计数
+            messageCount--;
         }, 500);
-    }, 3000);
+    }, 5000);
 }
 
 // 更新日志数据
