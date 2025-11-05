@@ -555,6 +555,15 @@ input:checked + .slider:before {
     stroke-dashoffset: 163.4;
 }
 
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #333;
+}
 
 /* 更新日志按钮 */
 .update-log-btn {
@@ -840,4 +849,40 @@ input:checked + .slider:before {
 
 .info-modal-content .progress-category {
     margin: 15px 0;
+}
+
+/* 更新日志样式 */
+.update-logs-list {
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.log-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.log-item.latest {
+    border-left: 4px solid #4CAF50;
+    background-color: #f0f8f0;
+}
+
+.log-item h4 {
+    margin-top: 0;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.log-date {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.log-content p {
+    margin: 5px 0;
+    line-height: 1.5;
 }
