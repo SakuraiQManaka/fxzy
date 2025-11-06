@@ -555,7 +555,8 @@ input:checked + .slider:before {
     stroke-dashoffset: 163.4;
 }
 
-.progress-text {
+/* 修复：为环形进度条文本添加更具体的选择器 */
+.circular-progress .progress-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -563,6 +564,20 @@ input:checked + .slider:before {
     font-size: 0.9rem;
     font-weight: bold;
     color: #333;
+    z-index: 2; /* 确保文本在圆形之上 */
+    pointer-events: none; /* 防止文本干扰点击事件 */
+}
+
+/* 修复：确保SVG圆形有正确的样式 */
+.progress-ring circle {
+    fill: transparent;
+    stroke-width: 4;
+    stroke-linecap: round;
+}
+
+.progress-ring .progress-ring-circle {
+    stroke: #4CAF50; /* 默认颜色 */
+    transition: stroke-dashoffset 0.5s ease, stroke 0.5s ease;
 }
 
 /* 更新日志按钮 */
