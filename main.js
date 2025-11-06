@@ -1,14 +1,24 @@
 // 主程序模块
-const main = (function() {
-    // 当前状态
-    let questionBank = [];
-    let currentQuestionIndex = 0;
-    let userAnswers = [];
-    let reviewMode = false;
-    let wrongQuestions = [];
-    let filePath = "";
+// ===================================================
+// 这是整个题库系统的核心逻辑模块。
+// 负责：
+// 1. 页面初始化（绑定事件、加载本地数据）
+// 2. 题库导入/导出逻辑
+// 3. 答题与选项处理逻辑
+// 4. 错题复习模式
+// 5. 同步 localStorage 与整体进度数据
+// ===================================================
 
-    // DOM元素
+const main = (function() {
+    // -------------------- 全局状态变量 --------------------
+    let questionBank = [];           // 当前题库题目数组
+    let currentQuestionIndex = 0;    // 当前题目索引
+    let userAnswers = [];            // 用户答题记录（存储选择的选项索引）
+    let reviewMode = false;          // 是否处于"错题复习模式"
+    let wrongQuestions = [];         // 错题索引数组
+    let filePath = "";               // 当前题库文件路径
+
+    // -------------------- DOM 元素缓存 --------------------
     const questionNav = document.getElementById('questionNav');
     const questionText = document.getElementById('questionText');
     const questionImage = document.getElementById('questionImage');
@@ -30,46 +40,74 @@ const main = (function() {
     const toggleSwitch = document.getElementById('toggleSwitch');
     const overallProgressBtn = document.getElementById('overallProgressBtn');
 
-    // 初始化
+    // ===================================================
+    // 初始化函数（在 DOMContentLoaded 后执行）
+    // ===================================================
     function init() {
-        // 尝试从本地存储加载数据
+        console.log('开始初始化...');
+        
+        // 1️⃣ 尝试加载本地答题进度
         const savedProgress = localStorage.getItem('quizProgress');
         if (savedProgress) {
+            console.log('找到本地答题进度');
             const progress = JSON.parse(savedProgress);
             userAnswers = progress.userAnswers || [];
             currentQuestionIndex = progress.currentQuestionIndex || 0;
+        } else {
+            console.log('未找到本地答题进度');
         }
-        
-        // 尝试从本地存储加载题库
+
+        // 2️⃣ 尝试加载本地缓存题库
         const savedQuestionBank = localStorage.getItem('questionBank');
         if (savedQuestionBank) {
+            console.log('找到本地题库缓存');
             questionBank = JSON.parse(savedQuestionBank);
-            
-            // 确保userAnswers数组长度与题库一致
+            // 确保 userAnswers 长度与题库匹配
             if (userAnswers.length !== questionBank.length) {
-                if (userAnswers.length > questionBank.length) {
-                    userAnswers = userAnswers.slice(0, questionBank.length);
-                } else {
-                    userAnswers = userAnswers.concat(new Array(questionBank.length - userAnswers.length).fill(undefined));
-                }
-                saveProgress();
+                userAnswers = adjustArrayLength(userAnswers, questionBank.length, "E");
             }
+        } else {
+            console.log('未找到本地题库缓存');
         }
-        
-        // 加载整体进度
+
+        // 3️⃣ 加载整体进度
+        console.log('加载整体进度...');
         dataManager.loadOverallProgress();
 
+        // 4️⃣ 绑定事件和初始化界面
+        console.log('绑定事件和初始化界面...');
+        bindEvents();
+        uiManager.renderQuestionNavigation(questionBank, userAnswers, currentQuestionIndex);
+        uiManager.renderQuestion(questionBank, userAnswers, currentQuestionIndex);
+        uiManager.updateStats(userAnswers, questionBank);
+
+        // 5️⃣ 初始化题库选择下拉菜单
+        console.log('初始化下拉菜单...');
+        initDropdowns();
+        
+        console.log('初始化完成');
+    }
+
+    // ===================================================
+    // 调整数组长度辅助函数
+    // ===================================================
+    function adjustArrayLength(arr, targetLength, fillValue = "E") {
+        if (arr.length > targetLength) {
+            return arr.slice(0, targetLength);
+        } else {
+            return [...arr, ...new Array(targetLength - arr.length).fill(fillValue)];
+        }
+    }
+
+    // ===================================================
+    // 绑定事件
+    // ===================================================
+    function bindEvents() {
         const updateLogBtn = document.getElementById('updateLogBtn');
         updateLogBtn.addEventListener('click', utils.showUpdateLogs);
         
         overallProgressBtn.addEventListener('click', uiManager.showOverallProgress);
         importWrongBtn.addEventListener('click', triggerWrongFileInput);
-
-        uiManager.renderQuestionNavigation(questionBank, userAnswers, currentQuestionIndex);
-        uiManager.renderQuestion(questionBank, userAnswers, currentQuestionIndex);
-        uiManager.updateStats(userAnswers, questionBank);
-        
-        // 添加事件监听器
         prevBtn.addEventListener('click', goToPreviousQuestion);
         nextBtn.addEventListener('click', goToNextQuestion);
         resetBtn.addEventListener('click', resetProgress);
@@ -77,17 +115,16 @@ const main = (function() {
         importBtn.addEventListener('click', importQuestionBank);
         reviewBtn.addEventListener('click', toggleReviewMode);
         wrongFileInput.addEventListener('change', importWrongQuestionsFromFile);
-
-        // 初始化下拉菜单
-        initDropdowns();
     }
-    
-    // 初始化下拉菜单
+
+    // ===================================================
+    // 初始化两个下拉菜单（题库选择 + 章节选择）
+    // ===================================================
     function initDropdowns() {
         const firstSelect = document.getElementById('one');
         const secondSelect = document.getElementById('two');
-        
-        // 定义第二个下拉菜单的选项
+
+        // 预定义每种题库对应章节
         const options = {
             ppl: [
                 { value: '法规', text: '法规' },
@@ -125,80 +162,64 @@ const main = (function() {
                 { value: '计划', text: '计划' },
             ]
         };
-        
-        // 第一个下拉菜单变化事件
+
+        // 清空二级菜单
+        secondSelect.innerHTML = '<option value="">选择章节</option>';
+
+        // 一级菜单变动后，刷新二级菜单内容
         firstSelect.addEventListener('change', function() {
             const selectedValue = this.value;
-            
-            // 清空第二个下拉菜单
             secondSelect.innerHTML = '<option value="">选择章节</option>';
-            
-            // 如果选择了有效选项，则填充第二个下拉菜单
             if (selectedValue && options[selectedValue]) {
                 options[selectedValue].forEach(option => {
-                    const optionElement = document.createElement('option');
-                    optionElement.value = option.value;
-                    optionElement.textContent = option.text;
-                    secondSelect.appendChild(optionElement);
+                    const opt = document.createElement('option');
+                    opt.value = option.value;
+                    opt.textContent = option.text;
+                    secondSelect.appendChild(opt);
                 });
             }
         });
-        
-        // 导入题库按钮点击事件
-        importBtn.addEventListener('click', function() {
-            const firstSelect = document.getElementById('one');
-            const secondSelect = document.getElementById('two');
-            
-            const firstValue = dataManager.trans[firstSelect.value];
-            const secondValue = secondSelect.value;
-            
-            // 验证是否已选择两个下拉菜单
-            if (!firstValue || !secondValue) {
-                utils.showMessage('请确保已选择两个下拉菜单的选项！', 'warning');
-                return;
-            }
-            
-            // 生成文件路径
-            filePath = `./题库/${firstValue}/${secondValue}/${secondValue}.json`;
-            
-            // 立即导入题库
-            importQuestionBank();
-        });
     }
 
-    // 选择选项
+    // ===================================================
+    // 用户选择选项
+    // ===================================================
     function selectOption(optionIndex) {
-        userAnswers[currentQuestionIndex] = optionIndex;
-        
+        const currentIndex = currentQuestionIndex;
+        // 将选项索引转换为字母
+        const userAnswer = String.fromCharCode(65 + optionIndex); // 0->A, 1->B, 2->C, 3->D
+        userAnswers[currentIndex] = userAnswer;
+
         // 更新整体进度
         const currentCategoryInfo = dataManager.getCurrentCategoryInfo();
         if (currentCategoryInfo) {
             const { category, chapter } = currentCategoryInfo;
-            const isCorrect = optionIndex === questionBank[currentQuestionIndex].correctAnswer;
-            dataManager.updateChapterProgress(category, chapter, currentQuestionIndex, isCorrect);
+            dataManager.updateChapterProgress(category, chapter, currentIndex, userAnswer);
         }
-        
-        uiManager.renderQuestion(questionBank, userAnswers, currentQuestionIndex);
-        uiManager.renderQuestionNavigation(questionBank, userAnswers, currentQuestionIndex);
+
+        // 更新界面
+        uiManager.renderQuestion(questionBank, userAnswers, currentIndex);
+        uiManager.renderQuestionNavigation(questionBank, userAnswers, currentIndex);
         uiManager.updateStats(userAnswers, questionBank);
-        
-        // 保存进度到本地存储
+
         saveProgress();
-        
-        // 自动跳转到下一题（如果不是最后一题）
+
+        // 自动跳转逻辑 - 只有在答对的情况下才跳转
         const isChecked = toggleSwitch.checked;
-        if (isChecked) {
-            if (currentQuestionIndex < questionBank.length - 1) {
-                setTimeout(() => {
-                    currentQuestionIndex++;
-                    uiManager.renderQuestion(questionBank, userAnswers, currentQuestionIndex);
-                    uiManager.renderQuestionNavigation(questionBank, userAnswers, currentQuestionIndex);
-                }, 500);
-            }
+        const isCorrect = userAnswer === questionBank[currentIndex].correctAnswer;
+        
+        if (isChecked && isCorrect && currentIndex < questionBank.length - 1) {
+            setTimeout(() => {
+                currentQuestionIndex = currentIndex + 1;
+                uiManager.renderQuestion(questionBank, userAnswers, currentQuestionIndex);
+                uiManager.renderQuestionNavigation(questionBank, userAnswers, currentQuestionIndex);
+            }, 500);
         }
     }
 
-    // 上一题
+    // ===================================================
+    // 上一题按钮
+    // ===================================================
     function goToPreviousQuestion() {
         if (currentQuestionIndex > 0) {
             currentQuestionIndex--;
@@ -207,17 +228,18 @@ const main = (function() {
         }
     }
 
-    // 下一题
+    // ===================================================
+    // 下一题按钮逻辑
+    // 若所有题完成且未进入复习模式，则进入"错题复习"
+    // ===================================================
     function goToNextQuestion() {
-        // 如果所有题目已完成且不在复习模式，显示结果
-        const allAnswered = userAnswers.length === questionBank.length && 
-                            userAnswers.every(answer => answer !== undefined && answer !== null);
-        
+        const allAnswered = userAnswers.every(answer => answer !== "E");
+
         if (allAnswered && !reviewMode) {
             toggleReviewMode();
             return;
         }
-        
+
         if (currentQuestionIndex < questionBank.length - 1) {
             currentQuestionIndex++;
             uiManager.renderQuestion(questionBank, userAnswers, currentQuestionIndex);
@@ -225,19 +247,20 @@ const main = (function() {
         }
     }
 
-    // 切换复习模式
+    // ===================================================
+    // 切换错题复习模式
+    // ===================================================
     function toggleReviewMode() {
         reviewMode = !reviewMode;
-        
+
         if (reviewMode) {
-            // 进入复习模式，只显示错题
+            // 筛选错题索引
             wrongQuestions = userAnswers
                 .map((answer, index) => ({ answer, index }))
-                .filter(item => item.answer !== undefined && 
-                               item.answer !== null && 
+                .filter(item => item.answer !== "E" && 
                                item.answer !== questionBank[item.index].correctAnswer)
                 .map(item => item.index);
-            
+
             if (wrongQuestions.length > 0) {
                 currentQuestionIndex = wrongQuestions[0];
                 uiManager.renderQuestion(questionBank, userAnswers, currentQuestionIndex, reviewMode);
@@ -248,54 +271,55 @@ const main = (function() {
                 reviewMode = false;
             }
         } else {
-            // 退出复习模式
             currentQuestionIndex = 0;
             uiManager.renderQuestion(questionBank, userAnswers, currentQuestionIndex);
             uiManager.renderQuestionNavigation(questionBank, userAnswers, currentQuestionIndex);
         }
     }
 
+    // ===================================================
     // 重置进度
+    // ===================================================
     function resetProgress() {
         if (confirm('确定要重置所有答题进度吗？')) {
-            userAnswers = new Array(questionBank.length).fill(undefined);
+            userAnswers = new Array(questionBank.length).fill("E");
             currentQuestionIndex = 0;
             reviewMode = false;
+
             uiManager.renderQuestion(questionBank, userAnswers, currentQuestionIndex);
             uiManager.renderQuestionNavigation(questionBank, userAnswers, currentQuestionIndex);
             uiManager.updateStats(userAnswers, questionBank);
             saveProgress();
-            
-            // 同时重置整体进度中当前章节的状态
+
+            // 同步清空整体进度中的章节状态
             const currentCategoryInfo = dataManager.getCurrentCategoryInfo();
             if (currentCategoryInfo) {
                 const { category, chapter } = currentCategoryInfo;
                 const chapterProgress = dataManager.getChapterProgress(category, chapter);
                 if (chapterProgress) {
-                    // 重置该章节的所有题目状态为未做
-                    chapterProgress.fill(null);
+                    chapterProgress.fill("E");
                     dataManager.saveOverallProgress();
                 }
             }
-            
+
             utils.showMessage('进度已重置，可以重新开始做题', 'success');
         }
     }
 
+    // ===================================================
     // 导出错题
+    // ===================================================
     function exportWrongQuestions() {
-        const wrongQuestions = questionBank.filter((question, index) => 
-            userAnswers[index] !== undefined && 
-            userAnswers[index] !== null && 
+        const wrongQuestions = questionBank.filter((question, index) =>
+            userAnswers[index] !== "E" && 
             userAnswers[index] !== question.correctAnswer
         );
-        
+
         if (wrongQuestions.length === 0) {
             utils.showMessage('没有错题可以导出！', 'warning');
             return;
         }
-        
-        // 确保导出的错题包含所有必要字段
+
         const exportData = wrongQuestions.map(question => ({
             id: question.id,
             question: question.question,
@@ -305,205 +329,189 @@ const main = (function() {
             questionImage: question.questionImage || "",
             explanationImage: question.explanationImage || ""
         }));
-        
+
         const dataStr = JSON.stringify(exportData, null, 2);
-        const dataBlob = new Blob([dataStr], {type: 'application/json'});
-        
+        const blob = new Blob([dataStr], { type: 'application/json' });
         const link = document.createElement('a');
-        link.href = URL.createObjectURL(dataBlob);
+        link.href = URL.createObjectURL(blob);
         link.download = '错题集.json';
         link.click();
     }
 
+    // ===================================================
     // 导入题库
+    // ===================================================
     function importQuestionBank() {
-        // 验证是否已选择两个下拉菜单
-        if (!filePath) {
-            utils.showMessage('请先通过下拉菜单选择题库！', 'warning');
+        const firstSelect = document.getElementById('one');
+        const secondSelect = document.getElementById('two');
+        
+        const firstValue = dataManager.trans[firstSelect.value]; // 转中文目录名
+        const secondValue = secondSelect.value;
+
+        if (!firstValue || !secondValue) {
+            utils.showMessage('请确保已选择两个下拉菜单的选项！', 'warning');
             return;
         }
-        
-        console.log('尝试导入题库，文件路径:', filePath);
-        
-        // 使用fetch API从服务器获取JSON文件
+
+        // 拼接题库文件路径，例如 ./题库/私照/法规/法规.json
+        filePath = `./题库/${firstValue}/${secondValue}/${secondValue}.json`;
+
         fetch(filePath)
             .then(response => {
-                if (!response.ok) {
-                    throw new Error(`文件加载失败: ${response.status}`);
-                }
+                if (!response.ok) throw new Error(`文件加载失败: ${response.status}`);
                 return response.json();
             })
             .then(importedData => {
-                // 验证导入的数据格式
-                if (!Array.isArray(importedData)) {
-                    throw new Error('题库数据格式不正确，应该是一个数组');
-                }
-                
-                // 检查每个题目的必需字段
-                for (let i = 0; i < importedData.length; i++) {
-                    const question = importedData[i];
-                    if (!question.id || !question.question || !question.options || 
-                        question.correctAnswer === undefined || !question.explanation) {
-                        throw new Error(`第 ${i+1} 个题目缺少必需字段`);
-                    }
+                if (!Array.isArray(importedData)) throw new Error('题库数据格式不正确，应为数组');
+
+                // 验证字段完整性并转换 correctAnswer 格式
+                importedData.forEach((q, i) => {
+                    if (!q.id || !q.question || !q.options || q.correctAnswer === undefined || !q.explanation)
+                        throw new Error(`第 ${i + 1} 题缺少字段`);
                     
-                    if (!Array.isArray(question.options)) {
-                        throw new Error(`第 ${i+1} 个题目的选项格式不正确，应该是一个数组`);
+                    // 确保 correctAnswer 是字符串格式
+                    if (typeof q.correctAnswer !== 'string') {
+                        console.warn(`第 ${i + 1} 题 correctAnswer 不是字符串，正在转换:`, q.correctAnswer);
+                        if (typeof q.correctAnswer === 'number') {
+                            // 数字转换为字母
+                            q.correctAnswer = String.fromCharCode(65 + q.correctAnswer);
+                        } else {
+                            q.correctAnswer = String(q.correctAnswer).toUpperCase();
+                        }
+                    } else {
+                        // 确保是大写字母
+                        q.correctAnswer = q.correctAnswer.toUpperCase();
                     }
-                }
-                
+                });
+
+                // 初始化数据
                 questionBank = importedData;
-                userAnswers = new Array(questionBank.length).fill(undefined);
+                userAnswers = new Array(questionBank.length).fill("E");
                 currentQuestionIndex = 0;
                 reviewMode = false;
-                
-                // 记录当前题库的分类信息
-                const firstSelect = document.getElementById('one');
-                const secondSelect = document.getElementById('two');
+
+                // 记录当前分类信息
                 const currentCategoryInfo = {
-                    category: dataManager.trans[firstSelect.value],
-                    chapter: secondSelect.value
+                    category: firstValue,
+                    chapter: secondValue
                 };
                 dataManager.setCurrentCategoryInfo(currentCategoryInfo);
-                
-                // 保存到本地存储
+
+                // 从整体进度恢复当前章节状态
+                restoreProgressFromOverall();
+
+                // 保存到 localStorage
                 localStorage.setItem('questionBank', JSON.stringify(questionBank));
                 localStorage.setItem('currentCategoryInfo', JSON.stringify(currentCategoryInfo));
-                
-                // 从整体进度恢复状态
-                restoreProgressFromOverall();
-                
+
+                // 渲染界面
                 uiManager.renderQuestionNavigation(questionBank, userAnswers, currentQuestionIndex);
                 uiManager.renderQuestion(questionBank, userAnswers, currentQuestionIndex);
                 uiManager.updateStats(userAnswers, questionBank);
-                
+
                 utils.showMessage(`成功导入 ${questionBank.length} 道题目！`, 'success');
-                utils.showMessage('可以点击重置进度按钮重新做题', 'info');
             })
             .catch(error => {
                 utils.showMessage('导入失败：' + error.message, 'error');
-                console.error('导入错误详情:', error);
+                console.error(error);
             });
     }
 
-    // 从整体进度恢复当前题库的状态
+    // ===================================================
+    // 从整体进度恢复当前章节状态
+    // ===================================================
     function restoreProgressFromOverall() {
         const currentCategoryInfo = dataManager.getCurrentCategoryInfo();
         if (!currentCategoryInfo) return;
-        
+
         const { category, chapter } = currentCategoryInfo;
         const chapterProgress = dataManager.getChapterProgress(category, chapter);
-        if (!chapterProgress) {
-            return;
-        }
-        
-        // 确保状态数组长度与题库一致
+        if (!chapterProgress) return;
+
         if (chapterProgress.length !== questionBank.length) {
-            console.warn('状态数组长度与题库不一致，无法恢复进度');
+            console.warn('状态长度与题库不匹配，使用默认状态');
             return;
         }
-        
-        // 恢复用户答案
-        userAnswers = [];
-        chapterProgress.forEach((state, index) => {
-            if (state !== null && state !== undefined) {
-                // 如果是正确状态，设置为正确答案
-                // 如果是错误状态，设置为一个特殊值表示错误但不知道具体选项
-                if (state === true) {
-                    userAnswers[index] = questionBank[index].correctAnswer;
-                } else {
-                    // 对于错误状态，我们无法知道用户具体选了哪个选项
-                    // 所以设置为undefined，表示已答题但错误，但不知道具体选项
-                    userAnswers[index] = undefined;
-                }
-            } else {
-                userAnswers[index] = undefined;
-            }
-        });
-        
-        // 保存恢复的进度
+
+        // 使用整体进度中的状态
+        userAnswers = [...chapterProgress];
         saveProgress();
     }
 
-    // 触发错题文件选择
+    // ===================================================
+    // 触发错题文件上传
+    // ===================================================
     function triggerWrongFileInput() {
         wrongFileInput.click();
     }
 
-    // 从文件导入错题
+    // ===================================================
+    // 从文件导入错题集
+    // ===================================================
     function importWrongQuestionsFromFile(event) {
         const file = event.target.files[0];
         if (!file) return;
-        
+
         const reader = new FileReader();
         reader.onload = function(e) {
             try {
-                const wrongQuestionsData = JSON.parse(e.target.result);
-                
-                if (!Array.isArray(wrongQuestionsData)) {
-                    throw new Error('错题文件格式不正确，应该是一个数组');
-                }
-                
-                // 验证错题数据格式
-                for (let i = 0; i < wrongQuestionsData.length; i++) {
-                    const question = wrongQuestionsData[i];
-                    if (!question.id || !question.question || !question.options || 
-                        question.correctAnswer === undefined || !question.explanation) {
-                        throw new Error(`第 ${i+1} 个错题缺少必需字段`);
-                    }
-                }
-                
-                // 将错题添加到当前题库
-                const originalLength = questionBank.length;
-                questionBank = [...questionBank, ...wrongQuestionsData];
-                
-                // 扩展用户答案数组
-                userAnswers = [...userAnswers, ...new Array(wrongQuestionsData.length).fill(undefined)];
-                
-                // 保存到本地存储
+                const wrongData = JSON.parse(e.target.result);
+                if (!Array.isArray(wrongData)) throw new Error('格式错误，需为数组');
+
+                // 验证字段
+                wrongData.forEach((q, i) => {
+                    if (!q.id || !q.question || !q.options || !q.correctAnswer || !q.explanation)
+                        throw new Error(`第 ${i + 1} 个错题缺少字段`);
+                });
+
+                // 合并到当前题库
+                questionBank = [...questionBank, ...wrongData];
+                userAnswers = [...userAnswers, ...new Array(wrongData.length).fill("E")];
                 localStorage.setItem('questionBank', JSON.stringify(questionBank));
                 saveProgress();
-                
+
                 uiManager.renderQuestionNavigation(questionBank, userAnswers, currentQuestionIndex);
                 uiManager.renderQuestion(questionBank, userAnswers, currentQuestionIndex);
                 uiManager.updateStats(userAnswers, questionBank);
-                
-                utils.showMessage(`成功导入 ${wrongQuestionsData.length} 道错题！当前题库共有 ${questionBank.length} 道题目`, 'success');
-                
-                // 重置文件输入
-                wrongFileInput.value = '';
-                
-            } catch (error) {
-                utils.showMessage('导入错题失败：' + error.message, 'error');
-                console.error(error);
+
+                utils.showMessage(`成功导入 ${wrongData.length} 道错题！`, 'success');
+            } catch (err) {
+                utils.showMessage('错题导入失败：' + err.message, 'error');
             }
         };
-        
         reader.readAsText(file);
     }
 
-    // 保存进度到本地存储
+    // ===================================================
+    // 保存进度
+    // ===================================================
     function saveProgress() {
         const progress = {
-            userAnswers: userAnswers,
-            currentQuestionIndex: currentQuestionIndex
+            userAnswers,
+            currentQuestionIndex
         };
         localStorage.setItem('quizProgress', JSON.stringify(progress));
     }
 
+    // ===================================================
+    // 处理导航题目点击
+    // ===================================================
+    function handleQuestionNavClick(index) {
+        currentQuestionIndex = index;
+        uiManager.renderQuestion(questionBank, userAnswers, currentQuestionIndex, reviewMode);
+        uiManager.renderQuestionNavigation(questionBank, userAnswers, currentQuestionIndex);
+    }
+
+    // ===================================================
+    // 模块导出接口
+    // ===================================================
     return {
         init,
         selectOption,
-        goToPreviousQuestion,
-        goToNextQuestion,
-        toggleReviewMode,
-        resetProgress,
-        exportWrongQuestions,
-        importQuestionBank,
-        triggerWrongFileInput,
-        importWrongQuestionsFromFile
+        handleQuestionNavClick
     };
 })();
 
-// 页面加载完成后初始化
+// 页面加载完毕后执行初始化
 document.addEventListener('DOMContentLoaded', main.init);
+window.main = main;
