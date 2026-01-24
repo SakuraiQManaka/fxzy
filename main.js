@@ -66,6 +66,18 @@ const main = (function() {
             if (userAnswers.length !== questionBank.length) {
                 userAnswers = adjustArrayLength(userAnswers, questionBank.length, "E");
             }
+            // 尝试恢复当前题库所属信息（用于显示面板标题）
+            const savedCategoryInfo = localStorage.getItem('currentCategoryInfo');
+            if (savedCategoryInfo) {
+                try {
+                    const info = JSON.parse(savedCategoryInfo);
+                    if (info && info.category) {
+                        dataManager.setCurrentCategoryInfo(info);
+                    }
+                } catch (e) {
+                    console.warn('恢复 currentCategoryInfo 失败', e);
+                }
+            }
         } else {
             console.log('未找到本地题库缓存');
         }
