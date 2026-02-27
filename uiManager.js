@@ -426,46 +426,20 @@ const uiManager = (function() {
         }
 
         let progressContent = '<div class="overall-progress-content">';
-        let totalQuestions = 0, totalAnswered = 0, totalCorrect = 0;
+        let totalQuestions = 0, totalAnswered = 0;
 
         const sortedCategories = dataManager.getSortedCategories();
 
-        sortedCategories.forEach(({ name: category, number_all, state }) => {
-            progressContent += `<div class="progress-category">
-                <h3>${category} (${number_all}题)</h3>
-                <div class="chapter-progress">`;
-
+        // 先计算总体统计数据
+        sortedCategories.forEach(({ number_all, state }) => {
+            totalQuestions += number_all;
             state.forEach(chapter => {
-                const answered = chapter.state.filter(s => s !== "E").length;
-                const correct = chapter.state.filter((s, index) => 
-                    s !== "E" && s === getCorrectAnswer(category, chapter.name, index)
-                ).length;
-
-                totalQuestions += chapter.number;
-                totalAnswered += answered;
-                totalCorrect += correct;
-
-                const progressPercent = chapter.number > 0 ? Math.round((answered / chapter.number) * 100) : 0;
-
-                progressContent += `
-                    <div class="chapter-item">
-                        <div class="chapter-name">${chapter.name}</div>
-                        <div class="chapter-stats">
-                            <span class="correct-rate">已做: ${answered}题</span>
-                            <span class="answered-count">(${answered}/${chapter.number})</span>
-                        </div>
-                        <div class="progress-bar">
-                            <div class="progress-fill" style="width: ${progressPercent}%"></div>
-                        </div>
-                    </div>
-                `;
+                totalAnswered += chapter.state.filter(s => s !== "E").length;
             });
-
-            progressContent += '</div></div>';
         });
-
-        // 汇总统计
         const overallPercent = totalQuestions > 0 ? Math.round((totalAnswered / totalQuestions) * 100) : 0;
+
+        // 总体统计（放在最前面）
         progressContent += `
             <div class="overall-summary">
                 <h3>总体统计</h3>
@@ -484,8 +458,36 @@ const uiManager = (function() {
                     </div>
                 </div>
                 <button class="btn-warning" id="resetAllProgressBtn" style="margin-top: 15px; width: 100%;">初始化全部题库进度</button>
+                <!-- 新增导入进度按钮 -->
+                <button class="btn-success" id="modalImportProgressBtn" style="margin-top: 10px; width: 100%;">导入当前类别进度</button>
             </div>
-        </div>`;
+        `;
+
+        // 再添加各分类详情
+        sortedCategories.forEach(({ name: category, number_all, state }) => {
+            progressContent += `<div class="progress-category">
+                <h3>${category} (${number_all}题)</h3>
+                <div class="chapter-progress">`;
+            state.forEach(chapter => {
+                const answered = chapter.state.filter(s => s !== "E").length;
+                const progressPercent = chapter.number > 0 ? Math.round((answered / chapter.number) * 100) : 0;
+                progressContent += `
+                    <div class="chapter-item">
+                        <div class="chapter-name">${chapter.name}</div>
+                        <div class="chapter-stats">
+                            <span class="correct-rate">已做: ${answered}题</span>
+                            <span class="answered-count">(${answered}/${chapter.number})</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: ${progressPercent}%"></div>
+                        </div>
+                    </div>
+                `;
+            });
+            progressContent += '</div></div>';
+        });
+
+        progressContent += '</div>'; // 关闭 overall-progress-content
 
         utils.showInfoModal({
             title: "整体刷题进度",
@@ -493,10 +495,21 @@ const uiManager = (function() {
             date: new Date().toLocaleDateString()
         });
 
+        // 绑定事件（模态框渲染后）
         setTimeout(() => {
             const resetAllBtn = document.getElementById('resetAllProgressBtn');
-            if (resetAllBtn) {
-                resetAllBtn.addEventListener('click', resetAllProgressHandler);
+            if (resetAllBtn) resetAllBtn.addEventListener('click', resetAllProgressHandler);
+
+            const importBtn = document.getElementById('modalImportProgressBtn');
+            if (importBtn) {
+                importBtn.addEventListener('click', function() {
+                    const fileInput = document.getElementById('progressFileInput');
+                    if (fileInput) {
+                        fileInput.click();
+                    } else {
+                        utils.showMessage('文件输入未找到', 'error');
+                    }
+                });
             }
         }, 100);
     }

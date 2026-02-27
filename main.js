@@ -30,10 +30,7 @@ const main = (function() {
     const prevBtn = document.getElementById('prevBtn');
     const nextBtn = document.getElementById('nextBtn');
     const resetBtn = document.getElementById('resetBtn');
-    const exportBtn = document.getElementById('exportBtn');
     const importBtn = document.getElementById('importBtn');
-    const importWrongBtn = document.getElementById('importWrongBtn');
-    const wrongFileInput = document.getElementById('wrongFileInput');
     const completionMessage = document.getElementById('completionMessage');
     const finalRate = document.getElementById('finalRate');
     const reviewBtn = document.getElementById('reviewBtn');
@@ -119,14 +116,11 @@ const main = (function() {
         updateLogBtn.addEventListener('click', utils.showUpdateLogs);
         
         overallProgressBtn.addEventListener('click', uiManager.showOverallProgress);
-        importWrongBtn.addEventListener('click', triggerWrongFileInput);
         prevBtn.addEventListener('click', goToPreviousQuestion);
         nextBtn.addEventListener('click', goToNextQuestion);
         resetBtn.addEventListener('click', resetProgress);
-        exportBtn.addEventListener('click', exportWrongQuestions);
         importBtn.addEventListener('click', importQuestionBank);
         reviewBtn.addEventListener('click', toggleReviewMode);
-        wrongFileInput.addEventListener('change', importWrongQuestionsFromFile);
     }
 
     // ===================================================
@@ -448,50 +442,6 @@ const main = (function() {
         // 使用整体进度中的状态
         userAnswers = [...chapterProgress];
         saveProgress();
-    }
-
-    // ===================================================
-    // 触发错题文件上传
-    // ===================================================
-    function triggerWrongFileInput() {
-        wrongFileInput.click();
-    }
-
-    // ===================================================
-    // 从文件导入错题集
-    // ===================================================
-    function importWrongQuestionsFromFile(event) {
-        const file = event.target.files[0];
-        if (!file) return;
-
-        const reader = new FileReader();
-        reader.onload = function(e) {
-            try {
-                const wrongData = JSON.parse(e.target.result);
-                if (!Array.isArray(wrongData)) throw new Error('格式错误，需为数组');
-
-                // 验证字段
-                wrongData.forEach((q, i) => {
-                    if (!q.id || !q.question || !q.options || !q.correctAnswer || !q.explanation)
-                        throw new Error(`第 ${i + 1} 个错题缺少字段`);
-                });
-
-                // 合并到当前题库
-                questionBank = [...questionBank, ...wrongData];
-                userAnswers = [...userAnswers, ...new Array(wrongData.length).fill("E")];
-                localStorage.setItem('questionBank', JSON.stringify(questionBank));
-                saveProgress();
-
-                uiManager.renderQuestionNavigation(questionBank, userAnswers, currentQuestionIndex);
-                uiManager.renderQuestion(questionBank, userAnswers, currentQuestionIndex);
-                uiManager.updateStats(userAnswers, questionBank);
-
-                utils.showMessage(`成功导入 ${wrongData.length} 道错题！`, 'success');
-            } catch (err) {
-                utils.showMessage('错题导入失败：' + err.message, 'error');
-            }
-        };
-        reader.readAsText(file);
     }
 
     // ===================================================

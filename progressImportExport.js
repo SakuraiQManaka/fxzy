@@ -8,12 +8,9 @@
 
     // 确保依赖对象存在（检查全局变量，不是 window 属性）
     if (typeof dataManager === 'undefined' || typeof utils === 'undefined' || typeof uiManager === 'undefined' || typeof main === 'undefined') {
-        console.error('progressImportExport: 依赖的全局对象未找到，请确保在 dataManager/utils/uiManager/main 之后引入');
+        console.error('progressImportExport: 依赖的全局对象未找到');
         return;
     }
-
-    // 状态变量
-    let fileInput = null;
 
     // 工具函数：获取当前选中的类别中文名
     function getCurrentCategoryName() {
@@ -178,51 +175,20 @@
         reader.readAsText(file);
     }
 
-    // ==================== 插入按钮 ====================
-    function insertButtons() {
-        // 查找左侧面板的 import-section 或 actions 区域
-        const container = document.querySelector('.import-section') || document.querySelector('.actions');
-        if (!container) {
-            console.warn('progressImportExport: 未找到合适的容器插入按钮');
-            return;
+    window.progressExporter = {
+        export: exportProgress,
+        import: importProgress
+    };
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const exportBtn = document.getElementById('exportProgressBtn');
+        if (exportBtn) exportBtn.addEventListener('click', exportProgress);
+
+        const fileInput = document.getElementById('progressFileInput');
+        if (fileInput) {
+            fileInput.addEventListener('change', function(e) {
+                window.progressExporter.import(e.target.files[0]);
+            });
         }
-
-        // 创建导出按钮
-        const exportBtn = document.createElement('button');
-        exportBtn.className = 'btn-success'; // 复用现有样式
-        exportBtn.id = 'exportProgressJsonBtn';
-        exportBtn.textContent = '导出进度';
-        exportBtn.style.marginRight = '5px';
-
-        // 创建导入按钮
-        const importBtn = document.createElement('button');
-        importBtn.className = 'btn-success';
-        importBtn.id = 'importProgressJsonBtn';
-        importBtn.textContent = '导入进度';
-
-        // 创建隐藏的文件输入
-        fileInput = document.createElement('input');
-        fileInput.type = 'file';
-        fileInput.id = 'progressJsonFileInput';
-        fileInput.accept = '.json';
-        fileInput.style.display = 'none';
-
-        // 插入到容器末尾
-        container.appendChild(exportBtn);
-        container.appendChild(importBtn);
-        container.appendChild(fileInput);
-
-        // 绑定事件
-        exportBtn.addEventListener('click', exportProgress);
-        importBtn.addEventListener('click', () => fileInput.click());
-        fileInput.addEventListener('change', (e) => importProgress(e.target.files[0]));
-    }
-
-    // 初始化：等待 DOM 加载完成
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', insertButtons);
-    } else {
-        insertButtons();
-    }
-
+    });
 })();
