@@ -11,7 +11,7 @@
         <header>
             <h1>选择题练习系统</h1>
             <p class="subtitle">离线练习，随时提升</p>
-            <p>Ver1.6-Beta Author:Troy  问题反馈邮箱: <u>troywang@buaa.edu.cn</u></p>
+            <p>Ver1.7-Beta Author:Troy  问题反馈邮箱: <u>troywang@buaa.edu.cn</u></p>
             <button class="update-log-btn" id="updateLogBtn">更新日志</button>
             <button class="overall-progress-btn" id="overallProgressBtn">整体进度</button>
         </header>
@@ -42,32 +42,34 @@
                     </div>
                 </div>
 
+                <!-- 原 actions 区域 -->
                 <div class="actions">
                     <button class="btn-secondary" id="resetBtn">重置进度</button>
-                    <button class="btn-success" id="exportBtn">导出错题</button>
+                    <button class="btn-success" id="exportProgressBtn">导出进度</button>  <!-- 替换为导出进度按钮 -->
                 </div>
-                
+
+                <!-- 原 import-section 区域，移除导入错题按钮和相关隐藏输入 -->
                 <div class="import-section">
-                	<h3>导入题库</h3>
-                	<div class="dropdown">
-					    <select id="one" class="dropdown-select">
-					      <option value="">选择题库</option>
-					      <option value="ppl">私照</option>
-					      <option value="cpl">商照</option>
-					      <option value="ins">仪表</option>
-					    </select>
-					</div>
-					<div class="dropdown">
-					    <select id="two" class="dropdown-select">
-					      <option value="">选择章节</option>
-					    </select>
-					</div>
+                    <h3>导入题库</h3>
+                    <div class="dropdown">
+                        <select id="one" class="dropdown-select">
+                            <option value="">选择题库</option>
+                            <option value="ppl">私照</option>
+                            <option value="cpl">商照</option>
+                            <option value="ins">仪表</option>
+                        </select>
+                    </div>
+                    <div class="dropdown">
+                        <select id="two" class="dropdown-select">
+                            <option value="">选择章节</option>
+                        </select>
+                    </div>
                     <button class="btn-primary" id="importBtn">导入题库</button>
-                    <button class="btn-success" id="importWrongBtn">导入错题</button>
-                    
-                    <!-- 隐藏的文件输入用于导入错题 -->
-                    <input type="file" id="wrongFileInput" class="file-input" accept=".json" style="display: none;">
+                    <!-- 已删除导入错题按钮及相关输入 -->
                 </div>
+
+                <!-- 在页面任意位置（例如 body 末尾）添加隐藏文件输入，用于导入进度 -->
+                <input type="file" id="progressFileInput" accept=".json" style="display: none;">
             </div>
             
             <div class="question-panel">
@@ -114,9 +116,7 @@
             </div>
         </div>
     </div>
-<!--
-<script src="scripts.js"></script>
--->
+
 <script src="dataManager.js"></script>
 <script src="uiManager.js"></script>
 <script src="utils.js"></script>
@@ -124,5 +124,6 @@
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script src="ai-sidebar.js"></script>
 <script src="timer-plugin.js"></script>
+<script src="progressImportExport.js"></script>
 </body>
 </html>

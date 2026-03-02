@@ -857,7 +857,7 @@
                 box-shadow: -2px 0 20px rgba(0, 0, 0, 0.1);
                 display: flex;
                 flex-direction: column;
-                z-index: 20000;
+                z-index: 5000;
                 transition: transform ${CONFIG.ANIMATION_DURATION}ms ease;
                 border-left: 1px solid #e0e0e0;
                 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
@@ -890,7 +890,7 @@
                 font-size: 20px;
                 box-shadow: -2px 0 8px rgba(0, 0, 0, 0.15);
                 transition: all ${CONFIG.ANIMATION_DURATION}ms ease;
-                z-index: 20001;
+                z-index: 8000;
                 padding: 0;
                 margin: 0;
             }

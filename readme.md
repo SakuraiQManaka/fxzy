@@ -1,7 +1,7 @@
 ---
 title: "飞行学员执照理论考试刷题网页"
 description: "一个专为飞行学员准备的理论考试刷题前端网页应用。"
-version: "1.5"
+version: "1.7-Beta"
 author: "Troy"
 license: "MIT"
 ---
