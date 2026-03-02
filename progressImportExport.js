@@ -35,6 +35,15 @@
         return currentInfo ? currentInfo.chapter : null;
     }
 
+    function getDayString() {
+        const today = new Date();
+        const year = today.getFullYear();
+        const month = today.getMonth() + 1;
+        const date = today.getDate();
+        return `${year}-${month}-${date}`;
+
+    }
+    
     // ==================== 导出进度 ====================
     function exportProgress() {
         const category = getCurrentCategoryName();
@@ -65,7 +74,8 @@
             const blob = new Blob([jsonStr], { type: 'application/json' });
             const link = document.createElement('a');
             link.href = URL.createObjectURL(blob);
-            link.download = `${category}_进度.json`;
+            const Day = getDayString();
+            link.download = `${category}_进度_${Day}.json`;
             link.click();
             utils.showMessage('进度导出成功', 'success');
         } catch (e) {
