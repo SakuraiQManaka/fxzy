@@ -418,6 +418,13 @@ const uiManager = (function() {
     // ===================================================
     // 显示整体进度
     // ===================================================
+    const sortedCategories = dataManager.getSortedCategories();
+    if (!Array.isArray(sortedCategories)) {
+        console.error('sortedCategories 不是数组', sortedCategories);
+        utils.showMessage('数据格式错误，请尝试重置或重新导入', 'error');
+        return;
+    }
+
     function showOverallProgress() {
         const overallProgress = dataManager.getOverallProgress();
         if (!overallProgress) {

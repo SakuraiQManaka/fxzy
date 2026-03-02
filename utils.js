@@ -123,7 +123,7 @@ const utils = (function() {
     messageBox.style.position = 'fixed';
     messageBox.style.top = `${20 + verticalOffset}px`;
     messageBox.style.right = '-400px'; // 初始位置在右侧屏幕外
-    messageBox.style.zIndex = '1000';
+    messageBox.style.zIndex = '100000';
     messageBox.style.transition = 'right 0.5s ease, opacity 0.5s ease';
     messageBox.style.opacity = '0';
     

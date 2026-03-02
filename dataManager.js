@@ -14,39 +14,82 @@ const dataManager = (function() {
     function loadOverallProgress() {
         const savedOverallProgress = localStorage.getItem('overallProgress');
         if (savedOverallProgress) {
-            overallProgress = JSON.parse(savedOverallProgress);
-            initializeProgressStates();
+            try {
+                overallProgress = JSON.parse(savedOverallProgress);
+                if (typeof overallProgress !== 'object' || overallProgress === null) {
+                    throw new Error('overallProgress 不是对象');
+                }
+                initializeProgressStates();
+            } catch (e) {
+                console.warn('解析本地进度失败，将重新初始化', e);
+                overallProgress = null;
+                fetchOverallProgressFromIndex();
+            }
         } else {
-            fetch("./index.json")
-                .then(response => {
-                    if (!response.ok) throw new Error(`文件加载失败: ${response.status}`);
-                    return response.json();
-                })
-                .then(data => {
-                    overallProgress = data;
-                    initializeProgressStates();
-                    saveOverallProgress();
-                })
-                .catch(error => {
-                    console.error('加载整体进度失败:', error);
-                    utils.showMessage('加载整体进度失败，请刷新页面重试', 'error');
-                });
+            fetchOverallProgressFromIndex();
         }
     }
 
+    function fetchOverallProgressFromIndex() {
+        fetch("./index.json")
+            .then(response => {
+                if (!response.ok) throw new Error(`文件加载失败: ${response.status}`);
+                return response.json();
+            })
+            .then(data => {
+                overallProgress = data;
+                initializeProgressStates();
+                saveOverallProgress();
+            })
+            .catch(error => {
+                console.error('加载整体进度失败:', error);
+                if (window.utils) utils.showMessage('加载整体进度失败，请刷新页面重试', 'error');
+            });
+    }
+
     // ===================================================
-    // 初始化进度状态为 "E" (未作答)
+    // 初始化进度状态为 "E" (未作答)，并修复缺失的 state
     // ===================================================
     function initializeProgressStates() {
+        if (!overallProgress || typeof overallProgress !== 'object') {
+            overallProgress = {};
+            return;
+        }
+
         for (const category in overallProgress) {
-            if (overallProgress.hasOwnProperty(category)) {
-                const categoryData = overallProgress[category];
-                categoryData.state.forEach(chapter => {
-                    if (chapter.state.length === 0 || chapter.state.length !== chapter.number) {
-                        chapter.state = new Array(chapter.number).fill("E");
-                    }
-                });
+            if (!overallProgress.hasOwnProperty(category)) continue;
+
+            const categoryData = overallProgress[category];
+            // 确保 categoryData.state 是数组
+            if (!Array.isArray(categoryData.state)) {
+                console.warn(`分类 ${category} 缺少 state 数组，尝试重建`);
+                // 尝试从 names 和 number_all 重建 state（如果没有，则设为空数组）
+                if (Array.isArray(categoryData.names)) {
+                    categoryData.state = categoryData.names.map(name => ({
+                        name: name,
+                        number: 0,  // 暂缺题数，稍后从章节数据补全？这里先建空对象
+                        state: []
+                    }));
+                } else {
+                    categoryData.state = [];
+                }
             }
+
+            // 遍历每个章节，确保每个章节有正确的 state 数组
+            categoryData.state.forEach((chapter, idx) => {
+                // 如果章节对象缺少 name，尝试从 names 数组获取
+                if (!chapter.name && Array.isArray(categoryData.names) && categoryData.names[idx]) {
+                    chapter.name = categoryData.names[idx];
+                }
+                // 如果章节对象缺少 number，尝试从原始数据推断（默认 0）
+                if (typeof chapter.number !== 'number') {
+                    chapter.number = 0;
+                }
+                // 确保 chapter.state 是数组且长度正确
+                if (!Array.isArray(chapter.state) || chapter.state.length !== chapter.number) {
+                    chapter.state = new Array(chapter.number).fill("E");
+                }
+            });
         }
         saveOverallProgress();
     }
