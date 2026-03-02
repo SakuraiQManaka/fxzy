@@ -537,7 +537,35 @@ const uiManager = (function() {
         if (confirm('确定要初始化全部题库进度吗？这将重置所有答题记录！')) {
             if (dataManager.resetAllProgress()) {
                 utils.showMessage('全部题库进度已初始化', 'success');
+                // 刷新整体进度模态框
                 showOverallProgress();
+                
+                // 更新当前界面的进度（如果有题库加载）
+                const currentInfo = dataManager.getCurrentCategoryInfo();
+                if (currentInfo) {
+                    const { category, chapter } = currentInfo;
+                    const chapterProgress = dataManager.getChapterProgress(category, chapter);
+                    if (chapterProgress) {
+                        // 更新 localStorage 中的 quizProgress
+                        const quizProgress = {
+                            userAnswers: chapterProgress,
+                            currentQuestionIndex: 0 // 重置到第一题（也可保留当前索引）
+                        };
+                        localStorage.setItem('quizProgress', JSON.stringify(quizProgress));
+                        
+                        // 刷新界面：优先使用 main.init()，否则手动渲染
+                        if (window.main && typeof window.main.init === 'function') {
+                            window.main.init();
+                        } else {
+                            const questionBank = JSON.parse(localStorage.getItem('questionBank') || '[]');
+                            if (questionBank.length > 0) {
+                                uiManager.renderQuestion(questionBank, chapterProgress, 0);
+                                uiManager.renderQuestionNavigation(questionBank, chapterProgress, 0);
+                                uiManager.updateStats(chapterProgress, questionBank);
+                            }
+                        }
+                    }
+                }
             } else {
                 utils.showMessage('初始化失败', 'error');
             }
