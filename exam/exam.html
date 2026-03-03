@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>考试模式 - 飞行学员执照刷题</title>
+    <link rel="stylesheet" href="exam.css">
+    <!-- 复用工具模块（路径需根据实际调整） -->
+    <script src="../utils.js"></script>
+    <script src="../dataManager.js"></script>
+</head>
+<body>
+    <div class="exam-container">
+        <!-- 模板选择界面 -->
+        <div id="templateSelector" class="template-selector">
+            <h2>选择考试模板</h2>
+            <div id="templateList" class="template-list"></div>
+            <button id="backToHomeBtn" class="btn-secondary">返回首页</button>
+        </div>
+
+        <!-- 考试主界面（初始隐藏） -->
+        <div id="examMain" class="exam-main" style="display:none;">
+            <div class="exam-header">
+                <h2 id="examTitle">考试中</h2>
+                <div class="exam-timer" id="timerDisplay">剩余时间：--:--</div>
+                <button id="submitExamBtn" class="btn-primary">提交试卷</button>
+            </div>
+            <div class="exam-body">
+                <div class="question-area">
+                    <div class="question-header">
+                        <span id="currentQNum">1</span> / <span id="totalQNum">0</span>
+                    </div>
+                    <div class="question-text" id="questionText"></div>
+                    <img id="questionImage" class="question-image" style="display:none;">
+                    <div id="optionsContainer" class="options"></div>
+                    <div class="question-nav">
+                        <button id="prevBtn" class="btn-secondary" disabled>上一题</button>
+                        <button id="nextBtn" class="btn-secondary">下一题</button>
+                    </div>
+                </div>
+                <div class="answer-card">
+                    <h3>答题卡</h3>
+                    <div id="answerGrid" class="answer-grid"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 成绩报告界面（初始隐藏） -->
+        <div id="resultPanel" class="result-panel" style="display:none;">
+            <h2>考试结果</h2>
+            <div class="score-circle" id="scoreCircle">0%</div>
+            <p id="resultText"></p>
+            <div class="result-detail">
+                <span>正确: <span id="correctCount">0</span> / <span id="totalCount">0</span></span>
+            </div>
+            <div class="result-actions">
+                <button id="reviewWrongBtn" class="btn-primary">查看错题</button>
+                <button id="backToTemplateBtn" class="btn-secondary">返回模板选择</button>
+                <button id="backToHomeFromResultBtn" class="btn-secondary">返回首页</button>
+            </div>
+        </div>
+
+        <!-- 错题列表界面（初始隐藏） -->
+        <div id="wrongListPanel" class="wrong-list-panel" style="display:none;">
+            <h2>错题解析</h2>
+            <div id="wrongQuestions" class="wrong-questions"></div>
+            <button id="backToResultBtn" class="btn-secondary">返回成绩</button>
+        </div>
+    </div>
+
+    <script src="exam.js"></script>
+</body>
+</html>
