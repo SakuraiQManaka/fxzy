@@ -1,10 +1,10 @@
-// image-annotator.mobile.js – 移动端专用版图片标注（优化触摸）
+// image-annotator.mobile.js – 移动端专用版图片标注（功能完整版）
 (function() {
     'use strict';
 
     const IMAGE_SELECTORS = ['.question-image', '#explanationImage'];
     const ERASE_THRESHOLD = 10;
-    const CONTAINER_MAX_WIDTH = 95;   // 移动端适当放大
+    const CONTAINER_MAX_WIDTH = 95;
     const CONTAINER_MAX_HEIGHT = 80;
 
     // 创建模态框
@@ -418,7 +418,7 @@
         return Math.hypot(dx, dy);
     }
 
-    // 触摸事件处理（严格跟踪单个触点）
+    // 触摸事件处理（严格跟踪单点）
     function handleStart(e) {
         e.preventDefault();
         if (e.touches) {
@@ -497,7 +497,7 @@
         e.preventDefault();
         if (e.touches) {
             if (e.touches.length === 0) activeTouchId = null;
-            else activeTouchId = e.touches[0].identifier; // 可能切换触点
+            else activeTouchId = e.touches[0].identifier; // 如果仍有触摸点，更新为第一个
         }
         const { x, y } = getCanvasCoords(e);
 
@@ -539,7 +539,6 @@
     }
 
     function handleCancel(e) {
-        // 触摸取消，释放触摸ID
         activeTouchId = null;
         if (isDrawing) {
             isDrawing = false;
@@ -648,27 +647,28 @@
         if (e.target === modal) hideModal();
     });
 
-    // 按钮事件
+    // 按钮事件（统一阻止冒泡）
+    const preventTouch = (e) => { e.preventDefault(); e.stopPropagation(); };
     closeBtn.addEventListener('click', (e) => { e.preventDefault(); hideModal(); });
-    closeBtn.addEventListener('touchstart', (e) => { e.preventDefault(); e.stopPropagation(); hideModal(); }, { passive: false });
+    closeBtn.addEventListener('touchstart', (e) => { preventTouch(e); hideModal(); }, { passive: false });
 
     clearAllBtn.addEventListener('click', (e) => { e.preventDefault(); clearAll(); });
-    clearAllBtn.addEventListener('touchstart', (e) => { e.preventDefault(); e.stopPropagation(); clearAll(); }, { passive: false });
+    clearAllBtn.addEventListener('touchstart', (e) => { preventTouch(e); clearAll(); }, { passive: false });
 
     undoBtn.addEventListener('click', (e) => { e.preventDefault(); undo(); });
-    undoBtn.addEventListener('touchstart', (e) => { e.preventDefault(); e.stopPropagation(); undo(); }, { passive: false });
+    undoBtn.addEventListener('touchstart', (e) => { preventTouch(e); undo(); }, { passive: false });
 
     redoBtn.addEventListener('click', (e) => { e.preventDefault(); redo(); });
-    redoBtn.addEventListener('touchstart', (e) => { e.preventDefault(); e.stopPropagation(); redo(); }, { passive: false });
+    redoBtn.addEventListener('touchstart', (e) => { preventTouch(e); redo(); }, { passive: false });
 
     zoomInBtn.addEventListener('click', (e) => { e.preventDefault(); setScale(scaleFactor + 0.1); });
-    zoomInBtn.addEventListener('touchstart', (e) => { e.preventDefault(); e.stopPropagation(); setScale(scaleFactor + 0.1); }, { passive: false });
+    zoomInBtn.addEventListener('touchstart', (e) => { preventTouch(e); setScale(scaleFactor + 0.1); }, { passive: false });
 
     zoomOutBtn.addEventListener('click', (e) => { e.preventDefault(); setScale(scaleFactor - 0.1); });
-    zoomOutBtn.addEventListener('touchstart', (e) => { e.preventDefault(); e.stopPropagation(); setScale(scaleFactor - 0.1); }, { passive: false });
+    zoomOutBtn.addEventListener('touchstart', (e) => { preventTouch(e); setScale(scaleFactor - 0.1); }, { passive: false });
 
     zoomResetBtn.addEventListener('click', (e) => { e.preventDefault(); setScale(1); });
-    zoomResetBtn.addEventListener('touchstart', (e) => { e.preventDefault(); e.stopPropagation(); setScale(1); }, { passive: false });
+    zoomResetBtn.addEventListener('touchstart', (e) => { preventTouch(e); setScale(1); }, { passive: false });
 
     // 启动
     window.addEventListener('load', () => {
