@@ -47,6 +47,8 @@
     const toolbar = document.createElement('div');
     Object.assign(toolbar.style, {
         width: '100%',
+        zIndex: '10001',
+        pointerEvents: 'auto',
         marginBottom: '15px',
         display: 'flex',
         flexWrap: 'wrap',
@@ -80,6 +82,8 @@
             padding: '8px 10px',
             border: 'none',
             borderRadius: '6px',
+            zIndex: '10001',
+            pointerEvents: 'auto',
             background: active ? '#007bff' : 'transparent',
             color: active ? 'white' : '#333',
             cursor: 'pointer',
@@ -107,6 +111,8 @@
             padding: '8px 10px',
             border: 'none',
             borderRadius: '6px',
+            zIndex: '10001',
+            pointerEvents: 'auto',
             background: bgColor,
             color: 'white',
             cursor: 'pointer',
@@ -148,6 +154,8 @@
             width: '30px',
             height: '30px',
             borderRadius: '4px',
+            zIndex: '10001',
+            pointerEvents: 'auto',
             background: c.value,
             border: `2px solid ${c.value === '#000000' ? '#888' : c.value}`,
             cursor: 'pointer',
@@ -410,8 +418,22 @@
     }
 
     // ========== 统一事件处理（修复画笔首次颜色问题）==========
+    let activeTouchId = null;
+
     function handleStart(e) {
         e.preventDefault();
+        
+        // 如果是触摸事件，只跟踪第一个触摸点
+        if (e.touches) {
+            const touch = e.touches[0];
+            if (!touch) return;
+            if (activeTouchId !== null && activeTouchId !== touch.identifier) {
+                // 已有激活触摸点，忽略新的触摸
+                return;
+            }
+            activeTouchId = touch.identifier;
+        }
+
         const { x, y } = getCanvasCoords(e);
 
         if (currentMode === 'pan') {
@@ -428,7 +450,6 @@
             tempLineStart = { x, y };
             isDrawing = true;
         } else if (currentMode === 'brush') {
-            // 每次开始绘制前，确保 ctx 使用当前颜色和线宽
             ctx.strokeStyle = currentColor;
             ctx.lineWidth = lineWidth;
             isDrawing = true;
@@ -443,6 +464,15 @@
 
     function handleMove(e) {
         e.preventDefault();
+        
+        // 如果是触摸事件，确保是当前激活的触摸点
+        if (e.touches) {
+            const touch = e.touches[0];
+            if (!touch || touch.identifier !== activeTouchId) {
+                return;
+            }
+        }
+
         const { x, y } = getCanvasCoords(e);
 
         if (currentMode === 'pan' && isPanning) {
@@ -477,6 +507,20 @@
 
     function handleEnd(e) {
         e.preventDefault();
+
+        // 如果是触摸事件，清除激活的触摸ID
+        if (e.touches) {
+            if (activeTouchId !== null) {
+                // 检查是否还有其他触摸点
+                if (e.touches.length === 0) {
+                    activeTouchId = null;
+                } else {
+                    // 还有触摸点，但可能不是之前激活的，我们简单地置空
+                    activeTouchId = null;
+                }
+            }
+        }
+
         const { x, y } = getCanvasCoords(e);
 
         if (currentMode === 'pan') {
@@ -517,15 +561,32 @@
     }
 
     function handleCancel(e) {
-        if (isDrawing) {
-            isDrawing = false;
-            tempLineStart = null;
-            currentPathPoints = [];
-            redraw();
-        }
-        if (isPanning) {
-            isPanning = false;
-            canvas.style.cursor = currentMode === 'pan' ? 'grab' : 'crosshair';
+        // 触摸取消（例如手势打断），仅当没有激活触摸时才重置
+        if (activeTouchId === null) {
+            if (isDrawing) {
+                isDrawing = false;
+                tempLineStart = null;
+                currentPathPoints = [];
+                redraw();
+            }
+            if (isPanning) {
+                isPanning = false;
+                canvas.style.cursor = currentMode === 'pan' ? 'grab' : 'crosshair';
+            }
+        } else {
+            // 有激活触摸，但触发了 cancel，可能是系统中断，重置触摸ID
+            activeTouchId = null;
+            // 同时重置绘制状态，避免卡死
+            if (isDrawing) {
+                isDrawing = false;
+                tempLineStart = null;
+                currentPathPoints = [];
+                redraw();
+            }
+            if (isPanning) {
+                isPanning = false;
+                canvas.style.cursor = currentMode === 'pan' ? 'grab' : 'crosshair';
+            }
         }
     }
 
