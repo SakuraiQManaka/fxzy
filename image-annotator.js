@@ -1,14 +1,13 @@
-// image-annotator.js – 高级版图片标注（修复撤销与橡皮擦拖动）
+// image-annotator.js – 最终版（修复画笔 + SVG图标）
 (function() {
     'use strict';
 
-    // 图片选择器
     const IMAGE_SELECTORS = ['.question-image', '#explanationImage'];
 
     // 常量
-    const ERASE_THRESHOLD = 10;          // 橡皮擦删除距离阈值（像素）
-    const CONTAINER_MAX_WIDTH = 90;       // vw
-    const CONTAINER_MAX_HEIGHT = 70;      // vh
+    const ERASE_THRESHOLD = 10;
+    const CONTAINER_MAX_WIDTH = 90;
+    const CONTAINER_MAX_HEIGHT = 70;
 
     // ========== 创建模态框 ==========
     const modal = document.createElement('div');
@@ -19,12 +18,14 @@
         left: '0',
         width: '100%',
         height: '100%',
-        background: 'rgba(0, 0, 0, 0.8)',
+        background: 'rgba(0, 0, 0, 0)',
         display: 'none',
         justifyContent: 'center',
         alignItems: 'center',
         zIndex: '10000',
-        userSelect: 'none'
+        userSelect: 'none',
+        transition: 'background-color 0.2s ease',
+        backgroundColor: 'rgba(0, 0, 0, 0)'
     });
 
     const content = document.createElement('div');
@@ -37,10 +38,12 @@
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        boxShadow: '0 4px 20px rgba(0,0,0,0.3)'
+        boxShadow: '0 4px 20px rgba(0,0,0,0.3)',
+        transform: 'scale(0.9)',
+        opacity: '0',
+        transition: 'transform 0.2s ease, opacity 0.2s ease'
     });
 
-    // 工具栏容器
     const toolbar = document.createElement('div');
     Object.assign(toolbar.style, {
         width: '100%',
@@ -52,39 +55,70 @@
         justifyContent: 'center'
     });
 
-    // ========== 工具按钮生成器 ==========
-    function createToolButton(text, title, mode, active = false) {
+    // ========== SVG 图标定义 ==========
+    const icons = {
+        brush: '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 5.63l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83c.39-.39.39-1.02 0-1.41z"/></svg>',
+        line: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="21" x2="21" y2="3"/></svg>',
+        erase: `<svg width="20" height="20" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#icon-ce20ec27c11bad3)"><path d="M44.7818 24.1702L31.918 7.09935L14.1348 20.5L27.5 37L30.8556 34.6643L44.7818 24.1702Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"/><path d="M27.4998 37L23.6613 40.0748L13.0978 40.074L10.4973 36.6231L4.06543 28.0876L14.4998 20.2248" stroke="currentColor" stroke-width="4" stroke-linejoin="round"/><path d="M13.2056 40.072L44.5653 40.072" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></g><defs><clipPath id="icon-ce20ec27c11bad3"><rect width="48" height="48" fill="none"/></clipPath></defs></svg>`,
+        pan: `<svg width="20" height="20" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.58303 27.1824C7.86719 28.3542 7.00928 30.2934 7.00928 33.0002C7.00928 37.0602 12.0001 44.0002 16.5006 44.0002C21.001 44.0002 23.6111 44.0002 28.016 44.0002C32.421 44.0002 35.0965 40.1495 35.0965 37.0602C35.0965 32.9069 35.0965 28.7536 35.0965 24.6002C35.0965 22.8072 33.6456 21.3522 31.8525 21.3472C30.0659 21.3422 28.6135 22.7865 28.6085 24.5731C28.6085 24.5761 28.6085 24.5791 28.6085 24.5821V24.6836" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M10.9814 29.4453V7.66246C10.9814 5.88568 12.4218 4.44531 14.1986 4.44531C15.9754 4.44531 17.4157 5.88568 17.4157 7.66246V23.6479" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M17.4155 24.0001V19.8076C17.4155 18.2589 18.671 17.0034 20.2197 17.0034C21.7684 17.0034 23.0239 18.2589 23.0239 19.8076V24.4272" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M23 24.6583V21.8076C23 20.2589 24.2555 19.0034 25.8042 19.0034C27.3529 19.0034 28.6084 20.2589 28.6084 21.8076V25.0034" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M11 8H41" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M36 12.5L37.6667 11L41 8L37.6667 5L36 3.5" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+        undo: '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.5 8c-2.65 0-5.05.99-6.9 2.6L2 7v9h9l-3.62-3.62c1.39-1.16 3.16-1.88 5.12-1.88 3.54 0 6.55 2.31 7.6 5.5l2.37-.78C21.08 11.03 17.15 8 12.5 8z"/></svg>',
+        redo: '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.4 10.6C16.55 8.99 14.15 8 11.5 8c-4.65 0-8.58 3.03-9.96 7.22L3.9 16c1.05-3.19 4.06-5.5 7.6-5.5 1.96 0 3.73.72 5.12 1.88L13 16h9V7l-3.6 3.6z"/></svg>',
+        clear: '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"/></svg>',
+        close: '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>',
+        zoomIn: '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>',
+        zoomOut: '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 13H5v-2h14v2z"/></svg>',
+        zoomReset: '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.65 6.35A7.958 7.958 0 0 0 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08A5.99 5.99 0 0 1 12 18c-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z"/></svg>'
+    };
+
+    // ========== 工具按钮生成器（SVG版本）==========
+    function createToolButton(iconSvg, title, mode, active = false) {
         const btn = document.createElement('button');
-        btn.textContent = text;
+        btn.innerHTML = iconSvg;
         btn.title = title;
         btn.dataset.mode = mode;
         Object.assign(btn.style, {
-            padding: '8px 12px',
+            padding: '8px 10px',
             border: 'none',
             borderRadius: '6px',
             background: active ? '#007bff' : 'transparent',
             color: active ? 'white' : '#333',
             cursor: 'pointer',
-            fontSize: '16px',
-            transition: '0.2s'
+            fontSize: '0',
+            lineHeight: '0',
+            transition: '0.2s',
+            touchAction: 'manipulation',
+            display: 'inline-flex',
+            alignItems: 'center',
+            justifyContent: 'center'
         });
-        btn.addEventListener('click', () => setMode(mode));
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            setMode(mode);
+        });
+        btn.addEventListener('touchstart', (e) => e.preventDefault());
         return btn;
     }
 
-    function createIconButton(text, title, bgColor = '#6c757d') {
+    function createIconButton(iconSvg, title, bgColor = '#6c757d') {
         const btn = document.createElement('button');
-        btn.textContent = text;
+        btn.innerHTML = iconSvg;
         btn.title = title;
         Object.assign(btn.style, {
-            padding: '8px 12px',
+            padding: '8px 10px',
             border: 'none',
             borderRadius: '6px',
             background: bgColor,
             color: 'white',
             cursor: 'pointer',
-            fontSize: '16px'
+            fontSize: '0',
+            lineHeight: '0',
+            touchAction: 'manipulation',
+            display: 'inline-flex',
+            alignItems: 'center',
+            justifyContent: 'center'
         });
+        btn.addEventListener('click', (e) => e.preventDefault());
+        btn.addEventListener('touchstart', (e) => e.preventDefault());
         return btn;
     }
 
@@ -92,14 +126,14 @@
     const modeGroup = document.createElement('div');
     modeGroup.style.cssText = 'display:flex; gap:4px; background:#f0f0f0; padding:4px; border-radius:8px;';
 
-    const brushBtn = createToolButton('✏️', '画笔', 'brush', true);
-    const lineBtn = createToolButton('📏', '直线', 'line');
-    const eraseBtn = createToolButton('🧽', '对象橡皮擦', 'erase');
-    const panBtn = createToolButton('✋', '平移视图', 'pan');
+    const brushBtn = createToolButton(icons.brush, '画笔', 'brush', true);
+    const lineBtn = createToolButton(icons.line, '直线', 'line');
+    const eraseBtn = createToolButton(icons.erase, '对象橡皮擦', 'erase');
+    const panBtn = createToolButton(icons.pan, '平移视图', 'pan');
 
     modeGroup.append(brushBtn, lineBtn, eraseBtn, panBtn);
 
-    // 颜色选择
+    // 颜色选择（保留色块）
     const colorGroup = document.createElement('div');
     colorGroup.style.cssText = 'display:flex; gap:8px; margin-left:8px;';
     const colors = [
@@ -117,52 +151,58 @@
             background: c.value,
             border: `2px solid ${c.value === '#000000' ? '#888' : c.value}`,
             cursor: 'pointer',
-            boxShadow: '0 2px 4px rgba(0,0,0,0.2)'
+            boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+            touchAction: 'manipulation'
         });
         swatch.dataset.color = c.value;
         swatch.title = c.name;
-        swatch.addEventListener('click', () => setColor(c.value));
+        swatch.addEventListener('click', (e) => {
+            e.preventDefault();
+            setColor(c.value);
+        });
+        swatch.addEventListener('touchstart', (e) => e.preventDefault());
         colorGroup.appendChild(swatch);
         colorSwatches.push(swatch);
     });
 
-    // 缩放控制
+    // 缩放控制（使用SVG图标）
     const zoomGroup = document.createElement('div');
     zoomGroup.style.cssText = 'display:flex; align-items:center; gap:5px; margin-left:8px;';
-    const zoomOutBtn = createIconButton('−', '缩小');
-    const zoomInBtn = createIconButton('+', '放大');
-    const zoomResetBtn = createIconButton('↺', '重置缩放');
+    const zoomOutBtn = createIconButton(icons.zoomOut, '缩小');
+    const zoomInBtn = createIconButton(icons.zoomIn, '放大');
+    const zoomResetBtn = createIconButton(icons.zoomReset, '重置缩放');
     const zoomLevel = document.createElement('span');
     zoomLevel.textContent = '100%';
     zoomLevel.style.minWidth = '50px';
     zoomLevel.style.textAlign = 'center';
+    zoomLevel.style.fontSize = '14px';
 
     zoomGroup.append(zoomOutBtn, zoomLevel, zoomInBtn, zoomResetBtn);
 
     // 操作按钮组
     const actionGroup = document.createElement('div');
     actionGroup.style.cssText = 'display:flex; gap:8px; margin-left:auto;';
-    const undoBtn = createIconButton('↩️', '撤销', '#17a2b8');
-    const redoBtn = createIconButton('↪️', '重做', '#17a2b8');
-    const clearAllBtn = createIconButton('🗑️', '清除全部标注', '#dc3545');
-    const closeBtn = createIconButton('✖', '关闭', '#dc3545');
+    const undoBtn = createIconButton(icons.undo, '撤销', '#17a2b8');
+    const redoBtn = createIconButton(icons.redo, '重做', '#17a2b8');
+    const clearAllBtn = createIconButton(icons.clear, '清除全部标注', '#dc3545');
+    const closeBtn = createIconButton(icons.close, '关闭', '#dc3545');
 
     actionGroup.append(undoBtn, redoBtn, clearAllBtn, closeBtn);
 
-    // 组装工具栏
     toolbar.append(modeGroup, colorGroup, zoomGroup, actionGroup);
 
-    // 画布容器（固定大小，overflow hidden，用于平移）
+    // 画布容器
     const canvasContainer = document.createElement('div');
     Object.assign(canvasContainer.style, {
         position: 'relative',
         overflow: 'hidden',
         width: '100%',
-        height: 'calc(70vh - 80px)', // 减去工具栏和间距
+        height: 'calc(70vh - 80px)',
         backgroundColor: '#eee',
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        touchAction: 'none'
     });
 
     const canvas = document.createElement('canvas');
@@ -171,7 +211,8 @@
         left: '0',
         top: '0',
         cursor: 'crosshair',
-        border: '1px solid #ccc'
+        border: '1px solid #ccc',
+        touchAction: 'none'
     });
 
     canvasContainer.appendChild(canvas);
@@ -183,28 +224,24 @@
     // ========== 全局状态 ==========
     let ctx = null;
     let currentImage = null;
-    let annotations = [];                // 所有标注 { type, points, color, lineWidth }
-    let undoStack = [];                   // 历史记录
+    let annotations = [];
+    let undoStack = [];
     let redoStack = [];
 
-    let currentMode = 'brush';            // brush / line / erase / pan
+    let currentMode = 'brush';
     let currentColor = '#ff0000';
     let lineWidth = 3;
 
-    // 绘画临时变量
     let isDrawing = false;
-    let tempLineStart = null;              // 直线起点 {x, y}
-    let currentPathPoints = [];            // 当前路径点
+    let tempLineStart = null;
+    let currentPathPoints = [];
 
-    // 平移变量
     let isPanning = false;
     let panStartX = 0, panStartY = 0;
-    let offsetX = 0, offsetY = 0;           // 画布相对于容器的偏移
+    let offsetX = 0, offsetY = 0;
 
-    // 缩放
     let scaleFactor = 1;
 
-    // ========== 初始化上下文 ==========
     function initCtx() {
         ctx = canvas.getContext('2d');
         ctx.lineCap = 'round';
@@ -213,15 +250,11 @@
         ctx.strokeStyle = currentColor;
     }
 
-    // ========== 保存历史（保存当前状态到undo栈）==========
     function pushHistory() {
-        // 将当前标注深拷贝入栈
         undoStack.push(JSON.parse(JSON.stringify(annotations)));
-        // 清空重做栈
         redoStack = [];
     }
 
-    // ========== 撤销 ==========
     function undo() {
         if (undoStack.length === 0) return;
         redoStack.push(JSON.parse(JSON.stringify(annotations)));
@@ -229,7 +262,6 @@
         redraw();
     }
 
-    // ========== 重做 ==========
     function redo() {
         if (redoStack.length === 0) return;
         undoStack.push(JSON.parse(JSON.stringify(annotations)));
@@ -237,16 +269,12 @@
         redraw();
     }
 
-    // ========== 重绘（画图片 + 所有标注） ==========
     function redraw() {
         if (!ctx || !currentImage) return;
-        // 重置画布尺寸（像素不变）
         canvas.width = currentImage.naturalWidth;
         canvas.height = currentImage.naturalHeight;
-        // 绘制图片
         ctx.drawImage(currentImage, 0, 0);
 
-        // 绘制标注
         annotations.forEach(item => {
             ctx.beginPath();
             ctx.strokeStyle = item.color;
@@ -264,11 +292,9 @@
             }
         });
 
-        // 更新画布显示大小和位置
         applyTransform();
     }
 
-    // ========== 应用缩放和平移到 CSS ==========
     function applyTransform() {
         if (!currentImage) return;
         const w = currentImage.naturalWidth * scaleFactor;
@@ -276,7 +302,6 @@
         canvas.style.width = w + 'px';
         canvas.style.height = h + 'px';
 
-        // 限制偏移范围，防止画布移出太远
         const containerW = canvasContainer.clientWidth;
         const containerH = canvasContainer.clientHeight;
         const maxOffsetX = Math.max(0, w - containerW);
@@ -288,14 +313,12 @@
         canvas.style.top = offsetY + 'px';
     }
 
-    // ========== 设置缩放 ==========
     function setScale(factor) {
         scaleFactor = Math.max(0.2, Math.min(3, factor));
         zoomLevel.textContent = Math.round(scaleFactor * 100) + '%';
         applyTransform();
     }
 
-    // ========== 模式切换 ==========
     function setMode(mode) {
         currentMode = mode;
         [brushBtn, lineBtn, eraseBtn, panBtn].forEach(btn => {
@@ -303,7 +326,6 @@
             btn.style.background = isActive ? '#007bff' : 'transparent';
             btn.style.color = isActive ? 'white' : '#333';
         });
-        // 更新光标
         if (mode === 'pan') {
             canvas.style.cursor = 'grab';
         } else if (mode === 'erase') {
@@ -321,30 +343,26 @@
         if (ctx) ctx.strokeStyle = color;
     }
 
-    // ========== 获取画布原始坐标 ==========
     function getCanvasCoords(e) {
         const rect = canvas.getBoundingClientRect();
-        // 计算相对于 canvas 显示区域的比例（考虑缩放）
         const scaleX = canvas.width / rect.width;
         const scaleY = canvas.height / rect.height;
-        const x = (e.clientX - rect.left) * scaleX;
-        const y = (e.clientY - rect.top) * scaleY;
-        // 边界限制
+        const clientX = e.clientX ?? (e.touches ? e.touches[0].clientX : 0);
+        const clientY = e.clientY ?? (e.touches ? e.touches[0].clientY : 0);
+        const x = (clientX - rect.left) * scaleX;
+        const y = (clientY - rect.top) * scaleY;
         return {
             x: Math.max(0, Math.min(canvas.width, x)),
             y: Math.max(0, Math.min(canvas.height, y))
         };
     }
 
-    // ========== 对象橡皮擦：删除经过的标注 ==========
     function eraseAnnotationsNear(x, y) {
         const threshold = ERASE_THRESHOLD;
         let removed = false;
-        // 从后往前遍历，避免索引问题
         for (let i = annotations.length - 1; i >= 0; i--) {
             const item = annotations[i];
             if (item.type === 'line') {
-                // 计算点到线段距离
                 const [x1, y1, x2, y2] = item.points;
                 const d = distanceToSegment(x, y, x1, y1, x2, y2);
                 if (d <= threshold) {
@@ -352,7 +370,6 @@
                     removed = true;
                 }
             } else if (item.type === 'path') {
-                // 遍历每个路径点，只要有一个点距离小于阈值就删除整条路径
                 for (let j = 0; j < item.points.length; j += 2) {
                     const px = item.points[j];
                     const py = item.points[j+1];
@@ -365,12 +382,9 @@
                 }
             }
         }
-        if (removed) {
-            redraw();
-        }
+        if (removed) redraw();
     }
 
-    // 点到线段距离（参考：https://stackoverflow.com/questions/849211/）
     function distanceToSegment(px, py, x1, y1, x2, y2) {
         const A = px - x1;
         const B = py - y1;
@@ -395,15 +409,17 @@
         return Math.hypot(dx, dy);
     }
 
-    // ========== 鼠标事件 ==========
-    function onMouseDown(e) {
+    // ========== 统一事件处理（修复画笔首次颜色问题）==========
+    function handleStart(e) {
         e.preventDefault();
         const { x, y } = getCanvasCoords(e);
 
         if (currentMode === 'pan') {
             isPanning = true;
-            panStartX = e.clientX - offsetX;
-            panStartY = e.clientY - offsetY;
+            const clientX = e.clientX ?? (e.touches ? e.touches[0].clientX : 0);
+            const clientY = e.clientY ?? (e.touches ? e.touches[0].clientY : 0);
+            panStartX = clientX - offsetX;
+            panStartY = clientY - offsetY;
             canvas.style.cursor = 'grabbing';
             return;
         }
@@ -412,28 +428,28 @@
             tempLineStart = { x, y };
             isDrawing = true;
         } else if (currentMode === 'brush') {
+            // 每次开始绘制前，确保 ctx 使用当前颜色和线宽
+            ctx.strokeStyle = currentColor;
+            ctx.lineWidth = lineWidth;
             isDrawing = true;
             currentPathPoints = [{ x, y }];
             ctx.beginPath();
             ctx.moveTo(x, y);
         } else if (currentMode === 'erase') {
-            // 橡皮擦模式：开始绘制标志，实现拖动擦除
             isDrawing = true;
-            // 立即擦除一次
             eraseAnnotationsNear(x, y);
         }
     }
 
-    function onMouseMove(e) {
+    function handleMove(e) {
         e.preventDefault();
         const { x, y } = getCanvasCoords(e);
 
         if (currentMode === 'pan' && isPanning) {
-            // 平移
-            const newLeft = e.clientX - panStartX;
-            const newTop = e.clientY - panStartY;
-            offsetX = newLeft;
-            offsetY = newTop;
+            const clientX = e.clientX ?? (e.touches ? e.touches[0].clientX : 0);
+            const clientY = e.clientY ?? (e.touches ? e.touches[0].clientY : 0);
+            offsetX = clientX - panStartX;
+            offsetY = clientY - panStartY;
             applyTransform();
             return;
         }
@@ -441,7 +457,6 @@
         if (!isDrawing) return;
 
         if (currentMode === 'line' && tempLineStart) {
-            // 预览直线
             redraw();
             ctx.beginPath();
             ctx.strokeStyle = currentColor;
@@ -456,12 +471,11 @@
             ctx.beginPath();
             ctx.moveTo(x, y);
         } else if (currentMode === 'erase') {
-            // 拖动擦除
             eraseAnnotationsNear(x, y);
         }
     }
 
-    function onMouseUp(e) {
+    function handleEnd(e) {
         e.preventDefault();
         const { x, y } = getCanvasCoords(e);
 
@@ -474,7 +488,6 @@
         if (!isDrawing) return;
 
         if (currentMode === 'line' && tempLineStart) {
-            // 保存直线前，先保存历史状态（当前标注状态）
             pushHistory();
             annotations.push({
                 type: 'line',
@@ -486,7 +499,7 @@
             redraw();
         } else if (currentMode === 'brush') {
             if (currentPathPoints.length >= 2) {
-                pushHistory(); // 保存绘制前的状态
+                pushHistory();
                 const points = [];
                 currentPathPoints.forEach(p => points.push(p.x, p.y));
                 annotations.push({
@@ -498,17 +511,13 @@
             }
             currentPathPoints = [];
             redraw();
-        } else if (currentMode === 'erase') {
-            // 擦除操作已在移动中完成，无需额外操作
-            // 但擦除可能会多次触发，我们已经在擦除函数内调用了 redraw
         }
         isDrawing = false;
         ctx.beginPath();
     }
 
-    function onMouseLeave(e) {
+    function handleCancel(e) {
         if (isDrawing) {
-            // 取消当前绘制
             isDrawing = false;
             tempLineStart = null;
             currentPathPoints = [];
@@ -520,15 +529,31 @@
         }
     }
 
-    // ========== 清除所有 ==========
     function clearAll() {
         if (annotations.length === 0) return;
-        pushHistory(); // 保存清除前的状态
+        pushHistory();
         annotations = [];
         redraw();
     }
 
-    // ========== 绑定图片 ==========
+    function showModal() {
+        modal.style.display = 'flex';
+        setTimeout(() => {
+            modal.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+            content.style.transform = 'scale(1)';
+            content.style.opacity = '1';
+        }, 10);
+    }
+
+    function hideModal() {
+        modal.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+        content.style.transform = 'scale(0.9)';
+        content.style.opacity = '0';
+        setTimeout(() => {
+            modal.style.display = 'none';
+        }, 200);
+    }
+
     function bindClickToImage(imgElement) {
         if (imgElement.dataset.annotatorBound) return;
         imgElement.dataset.annotatorBound = 'true';
@@ -552,12 +577,15 @@
                 setScale(1);
                 setMode('brush');
                 setColor('#ff0000');
-                // 将初始空白状态入栈，保证第一次撤销有效
                 pushHistory();
                 redraw();
-                modal.style.display = 'flex';
+                showModal();
             };
             img.onerror = () => alert('图片加载失败');
+        });
+        imgElement.addEventListener('touchstart', (e) => {
+            e.preventDefault();
+            imgElement.click();
         });
     }
 
@@ -565,7 +593,6 @@
         document.querySelectorAll(IMAGE_SELECTORS.join(',')).forEach(bindClickToImage);
     }
 
-    // MutationObserver 监听动态图片
     const observer = new MutationObserver(mutations => {
         mutations.forEach(m => {
             m.addedNodes.forEach(node => {
@@ -581,20 +608,42 @@
         });
     });
 
-    // ========== 绑定事件 ==========
-    canvas.addEventListener('mousedown', onMouseDown);
-    canvas.addEventListener('mousemove', onMouseMove);
-    canvas.addEventListener('mouseup', onMouseUp);
-    canvas.addEventListener('mouseleave', onMouseLeave);
+    // 事件绑定
+    canvas.addEventListener('mousedown', handleStart);
+    canvas.addEventListener('mousemove', handleMove);
+    canvas.addEventListener('mouseup', handleEnd);
+    canvas.addEventListener('mouseleave', handleCancel);
+    canvas.addEventListener('touchstart', handleStart, { passive: false });
+    canvas.addEventListener('touchmove', handleMove, { passive: false });
+    canvas.addEventListener('touchend', handleEnd);
+    canvas.addEventListener('touchcancel', handleCancel);
+    canvas.addEventListener('gesturestart', (e) => e.preventDefault());
+
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) hideModal();
+    });
 
     // 按钮事件
-    closeBtn.addEventListener('click', () => modal.style.display = 'none');
-    clearAllBtn.addEventListener('click', clearAll);
-    undoBtn.addEventListener('click', undo);
-    redoBtn.addEventListener('click', redo);
-    zoomInBtn.addEventListener('click', () => setScale(scaleFactor + 0.1));
-    zoomOutBtn.addEventListener('click', () => setScale(scaleFactor - 0.1));
-    zoomResetBtn.addEventListener('click', () => setScale(1));
+    closeBtn.addEventListener('click', (e) => { e.preventDefault(); hideModal(); });
+    closeBtn.addEventListener('touchstart', (e) => { e.preventDefault(); hideModal(); });
+
+    clearAllBtn.addEventListener('click', (e) => { e.preventDefault(); clearAll(); });
+    clearAllBtn.addEventListener('touchstart', (e) => { e.preventDefault(); clearAll(); });
+
+    undoBtn.addEventListener('click', (e) => { e.preventDefault(); undo(); });
+    undoBtn.addEventListener('touchstart', (e) => { e.preventDefault(); undo(); });
+
+    redoBtn.addEventListener('click', (e) => { e.preventDefault(); redo(); });
+    redoBtn.addEventListener('touchstart', (e) => { e.preventDefault(); redo(); });
+
+    zoomInBtn.addEventListener('click', (e) => { e.preventDefault(); setScale(scaleFactor + 0.1); });
+    zoomInBtn.addEventListener('touchstart', (e) => { e.preventDefault(); setScale(scaleFactor + 0.1); });
+
+    zoomOutBtn.addEventListener('click', (e) => { e.preventDefault(); setScale(scaleFactor - 0.1); });
+    zoomOutBtn.addEventListener('touchstart', (e) => { e.preventDefault(); setScale(scaleFactor - 0.1); });
+
+    zoomResetBtn.addEventListener('click', (e) => { e.preventDefault(); setScale(1); });
+    zoomResetBtn.addEventListener('touchstart', (e) => { e.preventDefault(); setScale(1); });
 
     // 启动
     window.addEventListener('load', () => {
