@@ -7,10 +7,10 @@
       "人体对三维空间飞行中的作用力环境的感知能力较差",
       "飞行员往往会把同样距离的物体看成较近的物体"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "缺乏目视参照物时，人对于速度的感知，以及对于物体大小和远近的感知能力都会受限。飞行员往往会把同样大小的物体看成较小的物体，把同样距离的物体看成较远的物体。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 2,
@@ -20,10 +20,10 @@
       "人体对三维空间飞行中的作用力环境的感知能力较差",
       "人对于速度的感知，以及对于物体大小和远近的感知能力都会受限"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "在缺乏目视参考的情况下，人体对三维空间飞行中的作用力环境的感知能力较差，如果仅凭自身的感觉来判断飞行姿态，人容易出现前庭错觉，这时应该相信仪表的姿态指示。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 3,
@@ -33,10 +33,10 @@
       "人对于速度的感知，以及对于物体大小和远近的感知能力都会受限",
       "如果加速度的力对人体的影响超过了重力，有可能会发生许多错觉"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "当其与视觉和前庭信号相结合时，本体系统是非常可靠的。但是在特定的飞行环境中，各种力都作用在人体上，如果加速度的力对人体的影响超过了重力，许多错觉就有可能发生。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 4,
@@ -46,10 +46,10 @@
       "角加速度和重力加速度",
       "线加速度和重力加速度"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "前庭装置由三个半规管和一个耳石器所组成，是感受速度变化和姿态变化的重要器官。耳石器可以感觉重力加速度和线加速度。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 5,
@@ -59,10 +59,10 @@
       "各个分力的合力",
       "作用力的分力"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "内耳里的前庭器官能感知身体的角加速度，和线加速度以及重力。但是前庭器官的感受性有一定的阈限范围，加速度太小或太大时，人都无法正确感知，而且只能觉察加速度的合力，不能辨别构成合力的分力来源。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 6,
@@ -72,10 +72,10 @@
       "在夜间或边界气象条件下，飞行员应根据仪表信息来进行空间定向",
       "在夜间或边界气象条件下，由于视觉线索很少，飞行员应根据管制员的指示来进行空间定向"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "在夜间或边界气象条件下，飞行员无法仅凭自身的感觉来判断飞机的速度、航向、高度以及飞机状态等重要飞行参数，不能进行准确的空间定向。此时，飞行员必须使用仪表进行空间定向。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 7,
@@ -85,10 +85,10 @@
       "自然天地线模糊不清或不明显时",
       "机械故障使飞行员情绪过度紧张时"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "虚假天地线错觉是指自然天地线模糊不清、或不明显时，飞行员将虚假的天地线当作自然天地线，并按虚假天地线去定位、操纵飞机的现象。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 8,
@@ -98,10 +98,10 @@
       "情绪紧张，思维不清以及迷惑",
       "错误使用下降速度"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "虚假天地线错觉常发生的情境是：在起飞或着陆过程中，将城市或海岸排成一行的灯光误认为是自然的天地线，并按此来操纵飞机，这种情况可能使飞机进入危险姿态。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 9,
@@ -111,10 +111,10 @@
       "机头上仰的感觉",
       "飞机带坡度飞行"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "在云中飞行时，若光线从机头方向透射过来，可产生上仰错觉。若光线从飞机尾部方向透射过来，则易产生下滑错觉。原因是飞行员将明亮处视为天、阴暗处视为地。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 10,
@@ -124,10 +124,10 @@
       "飞机上升的感觉",
       "极度的恐惧感"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "在云中飞行时，若光线从机头方向透射过来，可产生上仰错觉。若光线从飞机尾部方向透射过来，则易产生下滑错觉。原因是飞行员将明亮处视为天、阴暗处视为地。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 11,
@@ -137,10 +137,10 @@
       "感觉飞机在带坡度飞行",
       "感觉自己的进场高度偏高"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "在比常规偏窄的跑道进近时，飞行员可能产生视性距离错觉，感觉进场高度偏高，若按照这种错误的感觉操纵飞机，将会导致进场偏低。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 12,
@@ -150,10 +150,10 @@
       "感觉自己的进场高度偏低",
       "感觉飞机在带坡度飞行"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "在比常规偏宽的跑道进近时，飞行员可能产生视性距离错觉，感觉进场高度偏低，若按照这种错误的感觉操纵飞机，将会导致进场偏高。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 13,
@@ -163,10 +163,10 @@
       "机头上仰的错觉",
       "飞机下滑的错觉"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "在进近阶段穿雾时，由于视性距离错觉，飞行员感觉机头上仰，若按照这种错误的感觉操纵飞机，将会形成陡峭的进近。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 14,
@@ -176,10 +176,10 @@
       "近",
       "相同"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "风挡玻璃上有雨，使飞行员产生进场高度偏高的错觉，飞行员看到的跑道比实际距离远。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 15,
@@ -189,10 +189,10 @@
       "飞行员头部与飞机在不同的平面上运动，即绕不同的轴转动",
       "飞机以缓慢速度由平飞进入转弯时"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "倾斜错觉可能出现的情形是飞机滚转角速度低于前庭器官的知觉阈限；协调转弯；由阈上刺激使飞机进入滚转状态，而后又由阈下刺激恢复到平飞状态。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 16,
@@ -202,10 +202,10 @@
       "躯体旋动错觉",
       "躯体重力错觉"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "躯体旋动错觉可能出现的情形是飞行员长时间以固定速率进行协调转弯/恢复平飞后。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 17,
@@ -215,10 +215,10 @@
       "飞行员状态不好时",
       "飞机很快地加速或减速时"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "躯体重力错觉是飞机在作直线加、减速度或径向加速度运动时，产生的惯性力作用于前庭耳石器和本体感觉器所引起的错误知觉。飞机很快地加速或减速时，容易产生躯体重力错觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 18,
@@ -228,10 +228,10 @@
       "倾斜错觉",
       "躯体旋动错觉"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "倒翻错觉可能出现的情形是从爬升改到平直飞行。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 19,
@@ -241,10 +241,10 @@
       "坚信飞行仪表的显示信息",
       "尽可能最大限度地减少头部和眼睛的活动范围"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "克服空间定向障碍最重要的方法是飞行员能够熟练使用飞行仪表并且相信仪表提供的信息。依靠仪表来进行飞行，克服错觉所造成的影响。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 20,
@@ -254,10 +254,10 @@
       "飞行程序管理",
       "飞行目标管理"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "座舱资源管理是指飞行员在飞行中对座舱内一切资源的管理（包括硬件、软件、环境以及人等资源）过程。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 21,
@@ -267,10 +267,10 @@
       "良好的睡眠、常规飞行前准备、热身运动",
       "常规飞行前准备、复习有关知识、与塔台建立联系"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 22,
@@ -280,10 +280,10 @@
       "驾驶舱的注意力分配",
       "驾驶舱领导艺术"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "驾驶舱交流是驾驶舱资源管理的一个重要组成部分，机组通过机组成员之间的交流来实现对驾驶舱资源的管理，没有交流便谈不上驾驶舱管理。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 23,
@@ -293,10 +293,10 @@
       "课堂教学、角色扮演、模拟机训练和实机训练以及航线实践",
       "实机训练与航线实践"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "实现CRM（驾驶舱资源管理）训练的途径或形式应该包括课堂教学，CBT教学，角色扮演，模拟机训练，初教机训练，高教机训练以及航线飞行等相互关联的关节。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 24,
@@ -306,10 +306,10 @@
       "商用飞行员",
       "年轻飞行员"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "在机组资源管理训练过程中应注意，所有飞行员都应该接受机组资源管理训练。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 25,
@@ -319,10 +319,10 @@
       "飞行技术和航空知识",
       "飞行技术、航空知识以及飞行训练所获得的经验"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "在机组资源管理训练过程中应注意，航空知识和飞行训练与经验是机组资源管理技能形成的前提条件。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 26,
@@ -332,10 +332,10 @@
       "和所有的行为转化一样需要很长的周期",
       "不需要特殊训练就可自然形成"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "在机组资源管理训练过程中应注意，机组资源管理技能和所有的行为转化一样需要很长的周期。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 27,
@@ -345,10 +345,10 @@
       "语言上的差异",
       "所受教育程度上的差异"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "在机组资源管理训练过程中应注意，针对驾驶舱文化差异进行训练，驾驶舱文化差异是指：语言，民族习俗，所受教育程度以及态度和价值观等方面的差异。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 28,
@@ -358,10 +358,10 @@
       "时间进行了合理管理",
       "飞机进行了合理的管理"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "在进近着陆过程中，若遇上起落架故障，飞行员应考虑到要处理这一故障需要时间，而时间紧迫会使自己处于压力或应激之中。因此，在这种情况下应中断进场并复飞，加入等待航线。这样，飞行员就可获得较长时间去处理故障，时间压力也会随之减轻。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 29,
@@ -371,10 +371,10 @@
       "仅用50％的工作能力便能够完成正常操作，而其余50％的能力储备起来不用",
       "仅用50％的工作能力来完成正常操作，将其余50％的精力用来与机组成员或ATC聊天"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "飞行员能力储备是指飞行员仅用50%的工作能力便能够操纵飞机，将其余50%的能力储备起来，用以应付意外事件和应急情况。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 30,
@@ -384,10 +384,10 @@
       "巡航阶段",
       "进近着陆阶段"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "在进近着陆阶段飞行员的工作负荷最高，所以能力储备最低。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 31,
@@ -397,10 +397,10 @@
       "“基本T分布”原则",
       "“基本P分布”原则"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "著名的航空心理学家费茨在经过大量研究后提出驾驶舱仪表设计的“基本T分布”原则，使驾驶舱仪表排列的标准化成为现实。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 32,
@@ -410,10 +410,10 @@
       "副驾驶或者空中机械师处境意识的高低",
       "处于领导地位飞行员的处境意识的高低"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "机组群体处境意识是整个机组群体对飞行的认识，它不是个体处境意识的简单相加，主要取决于责任机长的处境意识。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 33,
@@ -423,10 +423,10 @@
       "飞行技术、飞行经验、空间定向能力、健康与态度、驾驶舱资源管理技能",
       "睡眠状况、药物和酒精、情绪状况、飞行技术、定向能力"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "影响情景意识的因素：\n1. 飞行动作技能；\n2. 飞行经验和训练水平；\n3. 空间定向能力；\n4. 健康与态度；\n5. 驾驶舱资源管理能力。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 34,
@@ -436,10 +436,10 @@
       "飞行技术不好",
       "处境意识下降"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "情景意识丧失或削弱的主要表现：\n1. 与既定目标不吻合；2. 不适宜的程序；3. 模棱两可的信息或者语义含糊；4. 无人操纵飞机或者无人扫视驾驶舱外；5. 冲动性行为或混淆；6. 固着或者全神贯注。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 35,
@@ -449,10 +449,10 @@
       "坚信什么是正确的比谁是正确的更为重要",
       "让其自生自灭"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "每一个机组成员应该遵循“什么是正确的比谁是正确的更为重要”的原则。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 36,
@@ -462,10 +462,10 @@
       "口头交流与书面交流",
       "言语交流和非言语交流"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "从人类交流的实际功能来说，可将交流分为：工具性交流和满足需要的交流。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 37,
@@ -475,10 +475,10 @@
       "标准操作程序交流、管理性交流以及无关交流",
       "工具性交流、满足需要的交流以及无关交流"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "从驾驶舱交流的功能上来说，驾驶舱内主要有三种类型的交流：标准操作程序交流、管理性交流以及无关交流。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 38,
@@ -488,10 +488,10 @@
       "责任心、义务感、基本驾驶术、机械常识以及机载设备",
       "驾驶舱氛围、驾驶舱职权梯度、机组的CRM能力以及机组处境意识"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 39,
@@ -501,10 +501,10 @@
       "形象思维判断、抽象思维判断以及动作思维判断",
       "逻辑思维判断、直觉思维判断以及应急性判断"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "根据飞行员判断过程中对信息加工的水平，可将飞行员判断分为知觉性判断、认知性判断和直觉判断。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 40,
@@ -514,10 +514,10 @@
       "直觉性、潜意识性、遗传性以及经验性",
       "专家知识系统、压缩性、知觉性以及预见性"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "直觉判断是指飞行员在飞行中不依赖三段式的逻辑推理方式和步骤，直接导向问题解决的特殊思维方式。其特点是：迅速性、预见性、潜意识性和或然性。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 41,
@@ -527,10 +527,10 @@
       "认知性判断",
       "直觉判断"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "知觉性判断是以知觉为基础的判断。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 42,
@@ -540,10 +540,10 @@
       "迅速性、预见性、潜意识性以及或然性",
       "迅速性、预见性、意识性以及准确性"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "直觉判断是指飞行员在飞行中不依赖三段式的逻辑推理方式和步骤，直接导向问题解决的特殊思维方式。其特点是：迅速性、预见性、潜意识性和或然性。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 43,
@@ -553,10 +553,10 @@
       "注意力转移",
       "注意力的分配"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "在韦伯辞典中，注意力分散被定义为：“由于某事的干扰而使某人在同一时间内将注意力转向其他事物或其他方向的现象”。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 44,
@@ -566,10 +566,10 @@
       "视觉固着、执行检查单引起的注意力分散以及操作性注意力分散",
       "营运性注意力分散、非营运性注意力分散以及生理性注意力分散"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "驾驶舱注意力分散分为三种类型：营运性注意力分散、非营运性注意力分散以及生理性注意力分散。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 45,
@@ -579,10 +579,10 @@
       "营运性注意力分散",
       "生理性注意力分散"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "营运性注意力分散指执行飞行操作任务所引起的驾驶舱注意力分散。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 46,
@@ -592,10 +592,10 @@
       "减少源发性错误",
       "减少系统误差"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "VDUS系统常采用“选择－检查－联结”模式，它虽然并没有起到降低源发性错误率的作用，但却可以减少人的错误的后果。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 47,
@@ -605,10 +605,10 @@
       "飞行仪表、操纵情况、气象条件、身体状况以及心理状态",
       "飞行程序、飞行操纵、检查单、机组配合以及陆空通话"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 48,
@@ -618,10 +618,10 @@
       "觉察、选择、估计、鉴别、实施以及评价",
       "觉察、鉴别、估计、选择、实施以及评价"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "D-Detect：察觉；E-Estimate：估计；C-Choose：选择；I-Identify：鉴别；D-Do：执行；E-Evaluate：评价。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 49,
@@ -631,10 +631,10 @@
       "尽快将注意力转向解决问题的方案，并尽快执行深思熟虑的决定",
       "立刻付诸行动，哪怕是错误的行动也应该立刻执行"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "在突遇应急情况时，不要老想危险情境的后果，而应尽快地将注意力转向寻找解决问题的方案或途径，深思熟虑的决定产生后应立即付诸行动。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 50,
@@ -644,10 +644,10 @@
       "情到、人到、口到",
       "资料到、人到、眼到"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "执行检查单程序时，应该做到“三到”：口到、眼到、手到。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 51,
@@ -657,10 +657,10 @@
       "明知错误，但却不愿意改正",
       "当事者一旦陷入便常常很难自拔"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "虚无假设最危险的特点是当事者一旦陷入便常常很难纠正，往往是采取虚无假设或错误推论容易，放弃它却异常困难。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 52,
@@ -670,10 +670,10 @@
       "炫耀态度",
       "反权威态度"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "反权威态度：这种态度存在于不喜欢任何人告诉他做什么的人身上。通常表现为“我不需要遵守条例”“不用你告诉我做什么和怎么做”。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 53,
@@ -683,10 +683,10 @@
       "冲动性态度",
       "炫耀态度"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "冲动性态度：经常感到时间紧迫、需要立刻做某事的人往往具有这种态度。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 54,
@@ -696,10 +696,10 @@
       "冲动性态度",
       "反权威态度"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "侥幸心理态度：认为事故只会发生在别人身上、自己的运气总是很好。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 55,
@@ -709,10 +709,10 @@
       "侥幸心理态度",
       "炫耀态度"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "炫耀态度：总是试图显示自己如何能干、如何优秀的人往往具有这种态度。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 56,
@@ -722,10 +722,10 @@
       "侥幸心理态度",
       "屈从态度"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "屈从态度的主要表现是感觉无法控制自己的命运，认为一切都是命中注定的。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 57,
@@ -735,10 +735,10 @@
       "飞机状态、飞行员状态以及气象条件",
       "智商高低、情绪稳定性以及人生经验"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 58,
@@ -748,10 +748,10 @@
       "麻痹大意、不负责任、冒险、冲动性态度以及反权威态度",
       "自负、挑剔、马虎、冒险以及冲动性态度"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "危害安全飞行的常见的五种危险态度：反权威态度、冲动性态度、侥幸心理态度、炫耀态度以及屈从态度。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 59,
@@ -761,10 +761,10 @@
       "别人越是劝告，他越是要坚持己见",
       "总想显示自己如何能干，如何有能力"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "反权威态度：这种态度存在于不喜欢任何人告诉他做什么的人身上。通常表现为“我不需要遵守条例”“不用你告诉我做什么和怎么做”。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 60,
@@ -774,10 +774,10 @@
       "“无谓的冒险是危险的”",
       "“别人的建议也许是合理的”，“条例通常都是正确的”"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "反权威态度的人不喜欢听别人的劝告，并认为条例是为别人制定的。克服反权威态度的逆向思维方式是“别人的建议也许是合理的”“条例通常都是正确的”。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 61,
@@ -787,10 +787,10 @@
       "经常感到时间紧迫，往往夸大了时间的紧迫性和处境的严重性",
       "认为事故不会发生在自己的身上，自己总有好运气"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "冲动性态度：经常感到时间紧迫、需要立刻做某事的人往往具有这种态度。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 62,
@@ -800,10 +800,10 @@
       "“事故有可能发生在我身上，我得小心一些”",
       "“我不是无助的，我能改变现状”"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "冲动性态度的人经常感到时间紧迫，做事情易冲动，克服冲动性态度的逆向思维方式是三思而后行，做事不要过于冲动。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 63,
@@ -813,10 +813,10 @@
       "“事故有可能发生在我身上，我得小心一些”",
       "“我不是无助的，我能改变现状”"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "侥幸心理态度认为事故只会发生在别人身上，自己的运气总是很好。所以克服侥幸心理态度的逆向思维方式是事故有可能发生在自己身上。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 64,
@@ -826,10 +826,10 @@
       "“别人的建议也许是合理的，条例通常都是正确的”",
       "“无谓的冒险是愚蠢的”"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "屈从态度的主要表现是感觉无法控制自己的命运，认为一切都是命中注定的，所以克服屈从态度的逆向思维方式是相信自己不是无助的，可以通过自身努力改变现状。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 65,
@@ -839,10 +839,10 @@
       "肺部",
       "心脏"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "两次呼吸，即外呼吸与内呼吸。外呼吸发生在肺部，内呼吸发生在人体组织。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 66,
@@ -852,10 +852,10 @@
       "肺部",
       "心脏"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "两次呼吸，即外呼吸与内呼吸。外呼吸发生在肺部，内呼吸发生在人体组织。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 67,
@@ -865,10 +865,10 @@
       "提前5分钟进入座舱，将仪表灯光调节到最大亮度",
       "提前15分钟进入座舱，将仪表灯光调到最暗"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "为了克服人眼暗适应的局限，应采取以下措施：\n（1）避免强光源的照射。如再夜航飞行前30min进入座舱，在此期间要避免强光源的照射。\n（2）在突遇强光照射时，可闭上一只眼，保持该眼的对暗适应，以便在强光消失后仍能分辨暗光下的物体。\n（3）在由明亮的区域逐渐飞入黑暗的区域时，可戴上太阳镜以便逐渐适应黑暗的环境。\n（4）夜航中，调节好仪表板内的照明灯的亮度，以便克服视线转移到外物时造成的暗适应现象。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 68,
@@ -878,10 +878,10 @@
       "先快后慢",
       "先慢后快"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "遗忘的进程并不是均匀的。最初遗忘速度很快，以后逐渐缓慢。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 69,
@@ -891,10 +891,10 @@
       "二氧化碳浓度太高",
       "二氧化碳不足"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "过深、过快的呼吸使体内氧气过剩、二氧化碳不足可引起换气过度。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 70,
@@ -904,10 +904,10 @@
       "生活应激源",
       "慢性应激源"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "根据应激源持续时间的长短，可将应激源划分为急性应激源和慢性应激源。慢性应激源是指持续时间很长，使人精疲力竭的应激源。急性应激源指持续时间很短、很快便会消失的应激源，如当前存在的各种问题、要求等。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 71,
@@ -917,10 +917,10 @@
       "应激",
       "情绪"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "引起应激的一切原因统称为应激源。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 72,
@@ -930,10 +930,10 @@
       "对存在的问题“睁一只眼，闭一只眼”",
       "在潜意识里否认应激源的存在"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "克服慢性应激可通过环境学方法。最好的环境措施是改变自己的行为，以下的行为变化时可取的：①建立一个亲密朋友的支持网络，寻求社会支持；②学会较多的交际手段和方法；③学会肯定自我；④对别人和自己的不完美应持较宽容的态度；⑤学会并提高对环境应激源的洞察力。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 73,
@@ -943,10 +943,10 @@
       "生理性应激源和社会性应激源",
       "社会性应激源和飞行性应激源"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "根据应激源持续时间的长短，可将应激源划分为急性应激源和慢性应激源。急性应激源指持续时间很短、很快便会消失的应激源，如当前存在的各种问题、要求等。慢性应激源是指持续时间很长，使人精疲力竭的应激源。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 74,
@@ -956,10 +956,10 @@
       "注意力高度集中",
       "工作态度良好"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "注意力分配和转移的条件是对所从事的工作较为熟悉。随着经验的增长和技术上的熟练，飞行学员逐步学会了把自己的注意力有规律地分配到完成飞行动作的各个方面，并能恰当地控制自己的行为，从而使定向能力得到提高。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 75,
@@ -969,10 +969,10 @@
       "采用低亮度的白光照明",
       "采用高亮度的红光照明"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "夜间目视飞行时，机外可用目视参考物有限，驾驶舱灯光应该调至较低亮度，飞行员应能看清驾驶舱设备，又不妨碍对外观察；民航客机驾驶舱照明的颜色主要有红色和白色。但是，随着各种仪表照明方式的出现与完善，越来越多的飞机采用了白色照明。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 76,
@@ -982,10 +982,10 @@
       "少量的酒精不会损害飞行技术",
       "咖啡有助于酒精新陈代谢，并减轻由过量饮酒产生的延续效应"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "在酒精的影响下，组织的摄氧能力下降，其后果是增加缺氧症的易患性。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 77,
@@ -995,10 +995,10 @@
       "感觉迟钝、记忆力和判断能力下降、缺乏自我意识",
       "兴奋、言语增多、自信心增强、反应敏锐以及动作协调"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "在酒精的影响下，人们常出现以下反应，这些反应对于飞行职业来说是极为不利的：\n①使人感觉迟钝、观察能力降低；②对短时记忆和长时记忆具有破坏作用；③责任感降低，易草率行事；④判断和决策能力下降，常表现为判断和决策过程缓慢，且出错率高；⑤动作协调性下降；⑥视听能力和言语表达能力下降；⑦情绪波动较大；⑧自我意识缺乏或丧失；⑨组织的摄氧能力下降。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 78,
@@ -1008,10 +1008,10 @@
       "用常规的白炽灯，如闪光灯，将会损害视觉的暗适应",
       "使用红色照明灯，不会影响地图上的颜色"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "夜航飞行时，根据需要将仪表板内的照明灯调节并保持在适宜的亮度范围内，这有助于飞行员克服外景和仪表之间视线转移造成的暗适应现象。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 79,
@@ -1021,10 +1021,10 @@
       "视觉呆滞",
       "视觉固着"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "视觉固着是指视觉过分集中于某物而将其他物体排除在外的现象。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 80,
@@ -1034,10 +1034,10 @@
       "急性应激源",
       "心理性应激源"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "根据应激源持续时间的长短，可将应激源划分为急性应激源和慢性应激源。急性应激源指持续时间很短、很快便会消失的应激源，如当前存在的各种问题、要求等。慢性应激源是指持续时间很长，使人精疲力竭的应激源。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 81,
@@ -1047,10 +1047,10 @@
       "晶状体感染",
       "晶状体衰竭"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "晶状体内没有血管，它所需的营养来自房水，如果房水的代谢出了问题，或晶状体囊受损时，晶状体因缺乏营养而发生混浊，原本透明的晶状体就成为乳白色，而变得不透明，最终影响视力，",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 82,
@@ -1060,10 +1060,10 @@
       "高血压",
       "颈椎病"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "大量统计材料表明某些工作量不大，强度不高，但处于坐位，尤其是低头工作者的颈椎病发病率特别高。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 83,
@@ -1073,10 +1073,10 @@
       "2000-1000米下降",
       "巡航飞行"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "从飞行高度来说，中耳气压性损伤多发生在4000m以下，尤以1000~2000m高度为最多。在下降过程中，外界气压增高、气体因单向活门作用不能进入咽鼓管腔内，使腔内形成较大的负压，造成中耳气压性损伤。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 84,
@@ -1086,10 +1086,10 @@
       "侥幸心理态度",
       "冲动性态度"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "危害安全飞行的常见的危险态度。炫耀态度：总是试图显示自己如何能干、如何优秀；侥幸心理态度：认为事故只会发生在别人身上，自己运气总是很好；冲动性态度：常感到时间紧迫、需立刻做某事。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 85,
@@ -1099,10 +1099,10 @@
       "小于",
       "等于"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "飞机爬升时，鼓室压力大于外界环境压力，鼓室正压达到一定程度，咽鼓管可被冲开，除非有咽鼓管的严重阻塞，一般不会引起中耳气压损伤。飞机下降时，外界环境压力大于鼓室压力，鼓室形成负压，因咽鼓管是“单向活门”，不能自行开放，必须主动做咽鼓管通气动作，才能使之开放。如鼓室负压持续存在且一直不能消除，则可形成中耳气压损伤。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 86,
@@ -1112,10 +1112,10 @@
       "夜间扫视的速度比昼间扫视较快，但夜视扫视的范围较小",
       "昼间扫视的速度比夜间扫视较快，且昼间扫视的范围较大"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "昼间扫视是为了利用中央凹视锥细胞的视物功能，而夜间扫视则是为了利用中央凹周缘视杆细胞的视物功能，由于这一原因，昼间扫视速度和范围较快，较大。而夜间扫视则应较慢，范围较小。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 87,
@@ -1125,10 +1125,10 @@
       "意识到此情景毫无忧患",
       "意识到危险想法"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "目前的研究已经表明，对于危险态度的矫正可采用逆向思维的方法。即当飞行员产生了五种危险态度之一，或几种危险态度同时产生，且飞行员已经意识到自己产生了这些危险态度时，应通过自己的努力，转换自己的认知角度，矫正危险态度。所以意识到自己产生了危险的态度才能很好的矫正。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 88,
@@ -1138,10 +1138,10 @@
       "飞行条例、气象知识、机载设备知识及基本驾驶术",
       "学习航线飞行知识、基本驾驶、特情处置以及飞行程序"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "LOFT训练的主要内容是：识别可能引起错误的应激情景，学会如何降低错误发生率及降低错误后果的方法。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 89,
@@ -1151,10 +1151,10 @@
       "智商",
       "驾驶舱资源管理"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "影响情景意识的因素有：①飞行动作技能；② 空间定向能力；③ 健康与态度；④ 飞行经验和训练水平；⑤ 驾驶舱资源管理能力",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 90,
@@ -1164,10 +1164,10 @@
       "慢波",
       "睡眠质量不佳的体现"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "根据睡眠期脑电图的特点，可将人类的睡眠分为慢波睡眠和快波睡眠。慢波睡眠的主要功能是促进生长发育和体力的恢复，快波睡眠的主要功能是加工信息、储存信息和恢复心理疲劳。做梦是快波睡眠的特征之一，酒精对快波睡眠具有强烈的抑制作用。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 91,
@@ -1177,10 +1177,10 @@
       "中度应激",
       "重度应激"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "应激水平影响工作效率。一般而言，适度的应激水平有助于提高飞行员的唤醒水平，使个体处于最佳警觉状态；过高或过低的应激都可能降低个体工作表现，影响机组交流与协作，给工作效率带来负面影响。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 92,
@@ -1190,10 +1190,10 @@
       "抵抗",
       "衰竭"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "当内、外压力施加于人体时，人体所产生的应激反应可分为三个阶段：警觉反应阶段、抵抗阶段、衰竭阶段。在警觉阶段，人体识别应激源，并准备以面对或逃逸的方式去应付它。此时，肾上腺素分泌进入血液，使人的心率增快，呼吸频率增加并泌汗，其结果是血糖增高，\n瞳孔放大，消化减慢。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 93,
@@ -1203,10 +1203,10 @@
       "良好的昼间睡眠",
       "上午小睡，下午大睡，当晚早睡"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "为了克服时差效应，在跨区飞行时，如系向东的昼间飞行，飞行后应安排良好的夜间睡眠，如系向东的夜间飞行，则飞行后要求“上午小睡，下午大睡，当晚早睡”。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 94,
@@ -1216,10 +1216,10 @@
       "弱",
       "一样好"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "人的长时间储存细节信息的能力比机器弱，但是在长时间储存概括化信息（如原理和策略）的能力比机器强。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 95,
@@ -1229,10 +1229,10 @@
       "一样好",
       "弱"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "人在快速而准确地提取信息的能力上比机器弱。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 96,
@@ -1242,10 +1242,10 @@
       "发烧，听力下降，肌肉疼痛",
       "发烧，肌肉疼痛，咽喉痛，嗓子痛，流鼻涕"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "流行性感冒（简称流感）是流感病毒引起的急性呼吸道感染，也是一种传染性强、传播速度快的疾病。其主要通过空气中的飞沫、人与人之间的接触或与被污染物品的接触传播。典型的临床症状是：急起高热、全身疼痛、显著乏力和轻度呼吸道症状。一般秋冬季节是其高发期，所引起的并发症和死亡现象非常严重。该病是由流感病毒引起，可分为甲（A）、乙（B）、丙（C）三型。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 97,
@@ -1255,10 +1255,10 @@
       "在起飞，着陆过程中，以跑道为中心，从地面至2500英尺的空间范围",
       "在起飞，着陆过程中，以跑道为中心，从地面至3000英尺的空间范围"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "道格拉斯曾把起飞、着陆过程中，以跑道为中心，从地面至 2000 英尺的高度空间称为“安全窗口”。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 98,
@@ -1268,10 +1268,10 @@
       "憋气",
       "嚼口香糖"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "在飞行中，由于高度急剧变化，气压也突然变化，这个时候由于中耳内气压与外部气压不同，鼓膜受到压力，产生耳痛，听力下降等。多发生在4000米以下的高空，尤以1000~2000米高度为最多。 预防克服的方法主要有： 一、运动软腭法：手摸喉结，发“克”音，或张大口用力模仿达哈欠的动作。 二、捏鼻鼓气法：仅在飞机下降时适用。捏紧鼻孔，闭口用力向咽腔鼓气。 三、吞咽法：可多次吞咽或咀嚼糖块。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 99,
@@ -1281,10 +1281,10 @@
       "能够感知人体倾斜姿态",
       "能够感知重力加速度和线加速度"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "内耳里的前庭器官能感知身体的角加速度，和线加速度以及重力加速度。但是前庭器官的感受性有一定的阈限范围，加速度太小或太大时，人都无法正确感知，而且只能觉察加速度的合力，不能辨别构成合力的分力来源。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 100,
@@ -1294,10 +1294,10 @@
       "可以，人体感知相对仪表更准确",
       "在自我感知最好状态时可以"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "人的空间定向信息主要通过视觉、前庭觉、和本体觉获得。健康的人在自然环境下，这三个感觉系统工作良好。但是在仪表飞行中，缺乏目视参照信息，受到飞行机动动作以及飞行中力的影响时，这些系统可能提供错误的定向信息。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 101,
@@ -1307,10 +1307,10 @@
       "在目视气象条件下视觉线索通常能够修正从其它感官得来的错觉",
       "本体觉能辨别构成合力的分力来源"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "在目视气象条件下飞行时，视觉是定向信息的主要来源，并且通常能够提供准确可靠的信息。视觉线索通常能够修正从其它感官得来的错觉。前庭器官能感知身体的角加速度，和线加速度以及重力。本体系统由皮肤、关节以及肌肉向大脑发出信息，大脑根据这些信息对人体的姿势和方位进行感知。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 102,
@@ -1320,10 +1320,10 @@
       "飞机由平飞进入转弯",
       "飞行员头部与飞机在同一平面上运动"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "内耳里的前庭器官能感知身体的角加速度，和线加速度以及重力。但是前庭器官的感受性有一定的阈限范围，加速度太小或太大时，人都无法正确感知，而且只能觉察加速度的合力，不能辨别构成合力的分力来源。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 103,
@@ -1333,10 +1333,10 @@
       "构成加速度合力的各个分力来源",
       "角加速度和线加速度，不能感知重力"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "内耳里的前庭器官能感知身体的角加速度，和线加速度以及重力。但是前庭器官的感受性有一定的阈限范围，加速度太小或太大时，人都无法正确感知，而且只能觉察加速度的合力，不能辨别构成合力的分力来源。\n在缺乏目视参考的情况下，人体对三维空间飞行中的作用力环境的感知能力较差，如果仅凭自身的感觉来判断飞行姿态，人容易出现前庭错觉，这时应该相信仪表的姿态指示。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 104,
@@ -1346,10 +1346,10 @@
       "能感知到线加速度的变化",
       "能感知到角加速度的变化"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "前庭器官由三个半规管和一个耳石器所组成，是感受速度变化和姿态变化的重要器官。三个半规管位于三个相互垂直的平面内，类似于一架飞机的俯仰、滚转和偏转平面，它能够觉察这三个平面内的角加速度运动。耳石器感知重力和线加速度。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 105,
@@ -1359,10 +1359,10 @@
       "在缺乏目视参考的情况下，人体对三维空间飞行中的作用力环境的感知能力较差",
       "在特定的飞行环境中，各种力都作用在人体上，如果加速度的力对人体的影响超过了重力，许多错觉就有可能发生"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "前庭觉空间定向的局限性\n内耳里的前庭器官能感知身体的角加速度，和线加速度以及重力。但是前庭器官的感受性有一定的阈限范围，加速度太小或太大时，人都无法正确感知，而且只能觉察加速度的合力，不能辨别构成合力的分力来源。\n在缺乏目视参考的情况下，人体对三维空间飞行中的作用力环境的感知能力较差，如果仅凭自身的感觉来判断飞行姿态，人容易出现前庭错觉，这时应该相信仪表的姿态指示。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 106,
@@ -1372,10 +1372,10 @@
       "线加速度",
       "重力加速度"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "前庭装置由三个半规管和一个耳石器所组成，是感受速度变化和姿态变化的重要器官。\n三个半规管位于三个相互垂直的平面内，类似于一架飞机的俯仰、滚转和偏转平面，因而它能够觉察这三个平面内的角加速运动。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 107,
@@ -1385,10 +1385,10 @@
       "前庭觉",
       "视觉"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "在目视气象条件下飞行时，视觉是定向信息的主要来源，并且通常能够提供准确可靠的信息。视觉线索通常能够修正从其它感官得来的错觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 108,
@@ -1398,10 +1398,10 @@
       "记忆、听觉以及思维",
       "视觉、前庭觉以及本体觉"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "人的空间定向信息主要通过视觉、前庭觉、和本体觉获得。健康的人在自然环境下，这三个感觉系统工作良好。但是在仪表飞行中，缺乏目视参照信息，受到飞行机动动作以及飞行中力的影响时，这些系统可能提供错误的定向信息。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 109,
@@ -1411,10 +1411,10 @@
       "不能感知俯仰加速度、只能感知偏转和滚转运动",
       "只能感知重力加速度，不能感知飞机加速度"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "前庭内三个半规管专门感知角加速度。人耳前庭器官的两个主要局限是：既不能感知匀速运动，也不能感知组成合力的各个分力。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 110,
@@ -1424,10 +1424,10 @@
       "能够感知各种角加速度",
       "能够感知重力加速度和构成合力的各个分力"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "耳石器感知重力和线加速度，可以察觉加速度的合力，不能辨别构成合力的分力的来源。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 111,
@@ -1437,10 +1437,10 @@
       "飞机重力加速度的变化",
       "飞机姿态的变化"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "前庭装置由三个半规管和一个耳石器所组成，是感受速度变化和姿态变化的重要器官。 三个半规管位于三个相互垂直的平面内，类似于一架飞机的俯仰、滚转和偏转平面，因而它能够觉察这三个平面内的角加速运动。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 112,
@@ -1450,10 +1450,10 @@
       "飞机线加速度和重力加速度的变化",
       "飞机的偏转运动"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "前庭器官由三个半规管和一个耳石器所组成，是感受速度变化和姿态变化的重要器官。三个半规管位于三个相互垂直的平面内，类似于一架飞机的俯仰、滚转和偏转平面，它能够觉察这三个平面内的角加速运动。耳石器感知重力和线加速度。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 113,
@@ -1463,10 +1463,10 @@
       "滑行速度过慢",
       "没感觉有异样"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "滑行时飞行员眼睛的离地高度可使飞行员误判滑行速度。训练由小飞机向大飞机改装的飞行教员常常报告说，这些改装机型的学员都有滑行速度过快的现象。其原因在于大飞机座舱比小飞机座舱要高一些，这些飞行员由于坐得较高，因而选择的视觉参照物便要离飞机远一些，这便给他滑行速度相对较慢的错觉，导致实际滑行速度过快。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 114,
@@ -1476,10 +1476,10 @@
       "明处为下，暗处为上",
       "明处为左，暗处为右"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "人在地面活动时，习惯于按天和地进行上、下定向，天空明亮为上，地面阴暗为下。飞行员常用来判断飞机状态的天地线，也可以看成是一个上亮下暗的明暗交界线。这种借助光线分布及其强度所形成的空间定向概念，在飞行中不断得到巩固和加强。如果这一定向习惯在复杂气象条件下飞行和夜间飞行中继续沿用，就可能发生各种状态错觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 115,
@@ -1489,10 +1489,10 @@
       "滑行速度过慢",
       "容易偏向一侧"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "滑行时飞行员眼睛的离地高度可使飞行员误判滑行速度。训练由小飞机向大飞机改装的飞行教员常常报告说，这些改装机型的学员都有滑行速度过快的现象。其原因在于大飞机座舱比小飞机座舱要高一些，这些飞行员由于坐得较高，因而选择的视觉参照物便要离飞机远一些，这便给他滑行速度相对较慢的错觉，导致实际滑行速度过快。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 116,
@@ -1502,10 +1502,10 @@
       "耳蜗和半规管，它们分别感知角加速度和线加速度",
       "内耳和外耳，它们分别感知角加速度和线加速度"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "前庭装置由三个半规管和一个耳石器所组成，三个半规管感知角加速度，耳石器感知重力和线加速度。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 117,
@@ -1515,10 +1515,10 @@
       "定向信息的主要来源",
       "感知方位的重要器官"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "内耳里的前庭器官能感知身体的角加速度，和线加速度以及重力。但是前庭器官的感受性有一定的阈限范围，加速度太小或太大时，人都无法正确感知，而且只能觉察加速度的合力，不能辨别构成合力的分力来源。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 118,
@@ -1528,10 +1528,10 @@
       "同样距离的物体看成较近的物体",
       "同样距离的物体看成较远的物体"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "缺乏目视参照物时，人对于速度的感知，以及对于物体大小和远近的感知能力都会受限。飞行员往往会把同样大小的物体看成较小的物体，把同样距离的物体看成较远的物体。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 119,
@@ -1541,10 +1541,10 @@
       "越近越小",
       "越远越大"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "线条透视是指空间的对象在一个平面上的几何投影。同样大小的物体，离我们近，在视角上所占的比例大，视像也大；离我们远，在视角上所占比例小，视像也小。这种视觉大小的变化会引起线条透视的效应。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 120,
@@ -1554,10 +1554,10 @@
       "航空器高度和座舱高度",
       "机身尾部投射来的光线"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "滑行时飞行员眼睛的离地高度可使飞行员误判滑行速度。训练由小飞机向大飞机改装的飞行教员常常报告说，这些改装机型的学员都有滑行速度过快的现象。其原因在于大飞机座舱比小飞机座舱要高一些，这些飞行员由于坐得较高，因而选择的视觉参照物便要离飞机远一些，这便给他滑行速度相对较慢的错觉，导致实际滑行速度过快。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 121,
@@ -1567,10 +1567,10 @@
       "注意力完全集中在仪表上，并完全依赖飞行仪表的指示",
       "大多数情况下，发生在从目视飞行到仪表飞行的过渡期间"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "熟知各类错觉发生的条件、机理及情境，从而提高自己的处境意识，是预防飞行错觉的前提。若无必要，不要混合使用仪表和目视信息进行飞行。在仪表飞行条件下，引起空间定向障碍的情境是发生在从目视飞行到仪表飞行的过渡时期。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 122,
@@ -1580,10 +1580,10 @@
       "忽视运动感觉",
       "用身体的感觉信号来解释飞行姿态"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "飞行空间定向障碍，也称为失定向或飞行错觉，是飞行员在飞行中对所处位置、姿态或运动状态的不正确心理表象，是对飞机真实状态的歪曲。人的空间定向能力主要取决于个体对视觉、 前庭以及本体感受器信号的正确解释。能见度不好或高空飞行时， 飞行员主要通过识读和解释仪表信息进行定向， 来自非视觉器官的信息起辅助作用。 但由于飞行中的运动刺激常常超出或达不到前庭和本体感受器的感知范围， 所以它们经常提供错误信息，有时与视觉信息发生冲突。这种情况下，如飞行员忽视视觉信息而选择身体感受，就可能出现空间定向障碍。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 123,
@@ -1593,10 +1593,10 @@
       "飞行员的观察方法错误",
       "观察距离超过了大小恒常性的范围"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "人的知觉恒常性有一定的条件和限度，它与观察者的观察方式，所处位置和距离有关。一般而言，保持恒常知觉的距离不超过30m。超过时，人便完全凭借视网膜上的视像大小来判断，从而就不能把握物体的大小。如果观察方式发生了变化，排除周围环境的参照作用时，恒常性就会消失。观察角度改变，物体形状也会发生变化。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 124,
@@ -1606,10 +1606,10 @@
       "疲劳、焦虑、繁重的工作负荷、饮酒、药物以及资源管理能力",
       "智商、注意力分配、飞行技术、安全意识以及身体状况"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "从飞行员个体情况看，心理品质差、健康状态不佳、疲劳的飞行员错觉发生率较高。飞行错觉的发生与智商、人际关系等没有关联。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 125,
@@ -1619,10 +1619,10 @@
       "远",
       "无法判断"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "一个物体被另一个物体遮挡，那么，遮挡物便看起来近些，而被遮挡物则觉得远些。物体的遮挡是距离知觉的一个线索。如果没有物体遮挡，远处物体的距离就很难判断。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 126,
@@ -1632,10 +1632,10 @@
       "更小，更近",
       "更大，更近"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "缺乏目视参照物时，人对于速度的感知，以及对于物体大小和远近的感知能力都会受限。飞行员往往会把同样大小的物体看成较小的物体，把同样距离的物体看成较远的物体。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 127,
@@ -1645,10 +1645,10 @@
       "上升",
       "下降"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "飞行员长时间以固定速率进行协调转弯可能导致感觉不到飞机正在进行转弯，而在回复平飞是可能导致感觉飞机在向相反方向转弯",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 128,
@@ -1658,10 +1658,10 @@
       "把同样大小的物体看成较大的物体，把同样距离的物体看成较远的物体",
       "把同样大小的物体看成较大的物体，把同样距离的物体看成较近的物体"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "缺乏目视参照物时，人对于速度的感知，以及对于物体大小和远近的感知能力都会受限。飞行员往往会把同样大小的物体看成较小的物体，把同样距离的物体看成较远的物体。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 129,
@@ -1671,10 +1671,10 @@
       "躯体旋动错觉",
       "躯体重力错觉"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "躯体旋动错觉又称反旋转错觉，是指飞行人员在受角加速度刺激后，由前庭本体感受器输入信息所产生的向原旋转方向相反的方向旋转的错觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 130,
@@ -1684,10 +1684,10 @@
       "平飞",
       "带右坡度"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "光线从机头/机尾/左侧/右侧方向照射过来，可能导致上仰/下俯/带右坡度/带左坡度错觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 131,
@@ -1697,10 +1697,10 @@
       "进场高度偏低",
       "无影响"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "跑道周围地形特征不明显，缺乏参照物，可能导致进场高度偏高的错觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 132,
@@ -1710,9 +1710,9 @@
       "科里奥利错觉",
       "躯体重力错觉"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "飞行错觉按照产生错觉的感觉器官可以分为：视觉错觉，前庭和本体错觉。仪表飞行中可能出现各类飞行错觉的情形如下表所示。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/人的行为能力/132explain.jpg"
   },
   {
@@ -1723,10 +1723,10 @@
       "躯体旋动错觉",
       "躯体重力错觉"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "躯体重力错觉表现为，曲线运动时，在视觉受到限制或其作用减弱的条件下，飞机以缓慢的速度由平飞进入转弯。此时，飞行员感到飞机不是在转弯，而是在上升。当飞机从转弯改为平飞时，飞行员又感到飞机在下滑。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 134,
@@ -1736,10 +1736,10 @@
       "眼重力错觉",
       "科里奥利错觉"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "在实际飞行中，当飞机在做盘旋、改变坡度、横滚的同时飞行员又做低头、仰头、左右倾动头或弯腰等动作时，最易发生科里奥利错觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 135,
@@ -1749,10 +1749,10 @@
       "飞机作旋转运动而飞行员又忽视仪表时",
       "飞机在作直线加、减速运动，而飞行员乱动头时"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "躯体旋动错觉和眼旋动错觉都发生于飞机做旋转运动，如盘旋、转弯、横滚、螺旋等运动环境下。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 136,
@@ -1762,10 +1762,10 @@
       "躯体旋动错觉",
       "科里奥利错觉"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "直线加、减速飞行时，由于惯性力和重力的合力作用于飞行员的前庭本体感受器，同时把飞行员紧压在座椅上，飞行员便易将合力的作用方向误认为重力作用方向，因而产生躯体重力错觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 137,
@@ -1775,10 +1775,10 @@
       "黑洞效应，使飞行员产生进场偏高的错觉",
       "速度错觉，产生速度过快的错觉"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "“黑洞”效应是指黑夜在仅有跑道边灯，无城镇灯光和街灯，也没有周围自然地形参照的情况下，引起进场高度偏高的错觉现象。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 138,
@@ -1788,10 +1788,10 @@
       "俯仰错觉",
       "倾斜错觉"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "“矫正”性倾斜错觉是指飞行员将平直飞行的飞机知觉为带着坡度飞行，或飞机带坡度飞行而飞行员却知觉为直线平飞的现象。飞行员突然改变坡度或快速修正坡度时，容易发生倾斜错觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 139,
@@ -1801,10 +1801,10 @@
       "PHI现象、幻象运动以及诱导运动",
       "PHI现象、自主运动以及幻象运动"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "似动错觉是指实际上不动的静止之物，很快地相继刺激视网膜上邻近部位所产生的物体在运动的错误知觉。最常见的似动错觉主要有三种：β运动，亦称PHI现象、诱导运动和自主运动。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 140,
@@ -1814,10 +1814,10 @@
       "向上带斜坡的地形",
       "向下带斜坡的地形"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "当机场跑道或机场附近地形向上带坡度时，可使飞行员产生进场偏高的错觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 141,
@@ -1827,10 +1827,10 @@
       "飞行员产生幻觉，视觉模糊、眩晕以及肌肉震颤",
       "飞行员感觉飞机的姿态发生了改变，产生极度的恐惧感"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "科里奥利错觉常常突然发生，且强度大，可使人产生强烈的植物性神经反应，眩晕感、旋转感、翻转感等。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 142,
@@ -1840,10 +1840,10 @@
       "不断地对自己进行心理暗示，坚定信心",
       "在平时加强平衡器官的锻炼"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "在飞机转动期间尽可能地减少动头或缓慢动头，有助于预防科里奥利错觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 143,
@@ -1853,10 +1853,10 @@
       "飞机在做转动运动期间，飞行员的头部顺着飞机转动方向运动",
       "飞机在做直线加速运动的时候，飞行员的头部又做前后运动"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "飞行员头部的运动方向与飞机转动方向不在一个平面内的时候，比较容易引发科里奥利错觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 144,
@@ -1866,10 +1866,10 @@
       "上仰",
       "带坡度飞行"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "若空中云体呈一斜坡状，飞机向云顶方向平飞时，飞行员感觉飞机带有俯角在飞行，飞机在下降。反之，当向云顶下坡方向平飞时，则会感觉飞机带着仰角在上升。其主要原因在于飞行员将黑云当作地面，将远离黑云当作远离地面。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 145,
@@ -1879,10 +1879,10 @@
       "上升",
       "带坡度飞行"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "若空中云体呈一斜坡状，飞机向云顶方向平飞时，飞行员感觉飞机带有俯角在飞行，飞机在下降。反之，当向云顶下坡方向平飞时，则会感觉飞机带着仰角在上升。其主要原因在于飞行员将黑云当作地面，将远离黑云当作远离地面。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 146,
@@ -1892,10 +1892,10 @@
       "下降",
       "带坡度"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "躯体重力错觉表现为，曲线运动时，在视觉受到限制或其作用减弱的条件下，飞机以缓慢的速度由平飞进入转弯。此时，飞行员感到飞机不是在转弯，而是在上升。当飞机从转弯改为平飞时，飞行员又感到飞机在下滑。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 147,
@@ -1905,10 +1905,10 @@
       "带坡度飞行迅速改平",
       "飞行员根据仪表指示修正飞机时"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "“矫正”性倾斜错觉是指飞行员将平直飞行的飞机知觉为带着坡度飞行，或飞机带坡度飞行而飞行员却知觉为直线平飞的现象。飞行员突然改变坡度或快速修正坡度时，容易发生倾斜错觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 148,
@@ -1918,10 +1918,10 @@
       "平飞",
       "下俯"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "当加大发动机功率或减小阻力使飞机加速时，由于向前速度的增加，惯性力与重力组成的合力是向后的，此时飞行员就会感觉自己和飞机是处于上仰状态。反之，当飞机持续减速，如放下减速板时，合力矢量是向前的，飞行员就会感到飞机好像处于下俯状态。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 149,
@@ -1931,10 +1931,10 @@
       "线运动急剧增大",
       "匀速角运动"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "飞行员长时间以固定速率进行协调转弯/恢复平飞后，感觉不到飞机正在进行转弯/飞机在向相反方向转弯。称为躯体旋动错觉（反旋转错觉），称为反旋转错觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 150,
@@ -1944,10 +1944,10 @@
       "倒飞错觉",
       "翻转错觉"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "虚假天地线错觉是指自然天地线模糊不清、或不明显时，飞行员将虚假的天地线当做自然天地线，并按虚假天地线去定位、操纵飞机的现象。在起飞和着陆过程中，将城市或海岸线排成一行的灯光误认为是自然的天地线，并按照此来操纵飞机，这种情况有可能使飞机进入危险姿态。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 151,
@@ -1957,10 +1957,10 @@
       "飞行速度过快",
       "飞行速度过慢"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "缺乏目视参照物时，人对于速度的感知，以及对于物体大小和远近的感知能力都会受限。飞行员往往会把同样大小的物体看成较小的物体，把同样距离的物体看成较远的物体。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 152,
@@ -1970,10 +1970,10 @@
       "滑行速度过慢",
       "没感觉有异样"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "滑行时飞行员眼睛的离地高度可使飞行员误判滑行速度。训练由小飞机向大飞机改装的飞行教员常常报告说，这些改装机型的学员都有滑行速度过快的现象。其原因在于大飞机座舱比小飞机座舱要高一些，这些飞行员由于坐得较高，因而选择的视觉参照物便要离飞机远一些，这便给他滑行速度相对较慢的错觉，导致实际滑行速度过快。反之，飞行员会产生滑行速度相对较快的错觉，导致实际滑行速度过慢。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 153,
@@ -1983,10 +1983,10 @@
       "飞机不是在转弯，而是在上升",
       "飞机不是在平飞，而是带着坡度在飞行"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "曲线运动时，在视觉受到限制或其作用减弱的条件下，飞机以缓慢的速度由平飞进入转弯。此时，飞行员感到飞机不是在转弯，而是在上升。当飞机从转弯改为平飞时，飞行员又感到飞机在下滑。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 154,
@@ -1996,10 +1996,10 @@
       "透过快速转动的螺旋桨看前方的太阳光源时",
       "身体状况不好、疲劳以及酗酒之后飞行时"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "闪光性眩晕发生的情境是： （1）当飞行员透过慢速转动的螺旋桨（240~120r/min）看前方的太阳时，或者位于后面的太阳映射在螺旋桨上，飞行员注视这一反射光后，就会诱发出闪光性眩晕。 （2）在霾中或云中用选通脉冲型防撞灯飞行时，反复有规律的闪光反射入座舱可引起闪光性眩晕。 （3）直升机的旋翼将阳光反射入座舱也可引起闪光性眩晕。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 155,
@@ -2009,10 +2009,10 @@
       "偏低",
       "不偏"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "“黑洞”效应是指黑夜在仅有跑道边灯，无城镇灯光和街灯，也没有周围自然地形参照的情况下，引起进场高度偏高的错觉现象。如果飞行员按照这一错觉操纵飞机就会压低机头使飞机进场偏低。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 156,
@@ -2022,10 +2022,10 @@
       "倾斜错觉",
       "躯体重力错觉"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "飞行员头部与飞机在不同的平面上运动，即绕不同的轴转动，容易产生科里奥利错觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 157,
@@ -2035,10 +2035,10 @@
       "飞机以缓慢速度由平飞进入转弯时，感觉飞机在下降",
       "向上带坡度的跑道或地形，感觉进场高度偏高"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "大面积云呈斜坡状，飞机向云顶方向/云顶下坡方向平飞时，导致下降/上升的错觉。\n飞机以缓慢速度由平飞进入转弯时/由转弯改为平飞，导致飞机在上升/飞机在下降的错觉。\n向上/向下带坡度的跑道或地形，导致进场高度偏高/偏低的错觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 158,
@@ -2048,10 +2048,10 @@
       "机头上仰",
       "飞机平飞"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "人在地面活动时，习惯于按天和地进行上、下定向，天空明亮为上，地面阴暗为下。飞机在飞出霾时，由于光线明亮，飞行员可能会出现上仰错觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 159,
@@ -2061,10 +2061,10 @@
       "进场高度偏低",
       "进近速度过快"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "在寒冷天气下，白洞效应是另一种风险，很多出色的飞行员都是它的受害者。跑道周围被白雪覆盖，飞行员视野范围内没有差异明显的地面参照物，导致难以发现跑道或主观感觉进场偏高的错觉现象。从而导致实际进场高度偏低。显然，可视范围越小，就越有可能产生白洞效应。然而，在能见度良好的情况下也会发生白洞效应。当发生白洞效应时应当立即转入仪表飞行，为应对这种情况，飞行员应该从训练和航空器设备两方面做好准备。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 160,
@@ -2074,10 +2074,10 @@
       "自主运动错觉",
       "眼重力错觉"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "如果在暗室中注视一个静止的光点，过一段时间便会感到它在不停地动来动去，此即自主运动，又称沙蓬特错觉或游动错觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 161,
@@ -2087,10 +2087,10 @@
       "高超的飞行技术和丰富的实践经验",
       "熟练使用飞行仪表并且相信仪表提供的信息"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "为了预防飞行中出现错觉并防止由此可能造成的潜在危险，飞行员应该：\n•  熟知各类错觉的成因并时刻保持警觉。\n•  熟练地掌握参考仪表飞行的技能。\n•  保证合理的饮食和充足的休息，防止疾病、药物、酒精、疲劳、以及轻度缺氧等情况加重空间定向障碍。\n总之最重要的是飞行员能够熟练使用飞行仪表并且相信仪表提供的信息。依靠仪表来进行飞行，克服错觉所造成的影响。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 162,
@@ -2100,10 +2100,10 @@
       "相信自己，根据自己的感觉操纵飞机",
       "闭眼休息一会儿就好了"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "避免前庭错觉的方法： 1. 要相信仪表、不要根据自己的感觉去操纵飞机； 2. 避免可能引起定向障碍的不必要的飞行动作和头部运动。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 163,
@@ -2113,10 +2113,10 @@
       "飞行后提示其他飞行员以引起警觉",
       "不要告诉其他飞行员以免引起恐慌"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "正确使用自动化、良好的计划、合理分配工作任务、机组简令等均有助于工作负荷的管理，有助于帮助机组将工作负荷保持在相对合理水平，以获取较高的工作绩效。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 164,
@@ -2126,10 +2126,10 @@
       "依赖运动感觉",
       "迅速交叉检查"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "仪表飞行中克服空间定向障碍的有效措施是要相信仪表，不能靠自己的身体感觉去操纵飞机，应正确识读和解释仪表并采取相应的行动。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 165,
@@ -2139,10 +2139,10 @@
       "增加空间定向障碍易感性",
       "没有任何影响"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "为了预防飞行中出现错觉并防止由此可能造成的潜在危险，飞行员应该： \n熟知各类错觉的成因并时刻保持警觉。 \n熟练地掌握参考仪表飞行的技能。 \n保证合理的饮食和充足的休息，防止疾病、药物、酒精、疲劳、以及轻度缺氧等情况加重空间定向障碍。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 166,
@@ -2152,10 +2152,10 @@
       "寻找目视参考",
       "交叉检查仪表"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "飞行员应能够熟练使用飞行仪表并且相信仪表提供的信息。依靠仪表来进行飞行，克服错觉所造成的影响。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 167,
@@ -2165,10 +2165,10 @@
       "往往会做出全部的团队决策和控制全部资源",
       "会最终决定团队的行为，但很少考虑到团队成员的经验、知识和偏好"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "参与型的领导属于（1，9）定向者，其决策特点是：为了保持良好的人际关系，尽可能地鼓励其他人做决策。自己善于接收其他人的关心，有时甚至不惜牺牲工作绩效。这类人认为和谐相处的人们能够达成意见一致，从而也就使决策很容易在不同的人之间进行分配。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 168,
@@ -2178,10 +2178,10 @@
       "开放，小于",
       "开放，大于"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "飞机下降时，外界环境压力大于鼓室压力，鼓室形成负压，因咽鼓管是“单向活门”，不能自行开放，必须主动做咽鼓管通气动作，才能使之开放。如鼓室负压持续存在且一直不能消除，则可形成中耳气压损伤。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 169,
@@ -2191,10 +2191,10 @@
       "昼间能看清目标物特征的最大距离",
       "昼间能看清目标物轮廓的最小距离"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "昼间能见度是指视力正常的人在昼间能看清目标物轮廓的最大距离。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 170,
@@ -2204,10 +2204,10 @@
       "40秒",
       "1分钟15秒"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "在30000ft英尺的高度上安静不动的有效意识时间是1分钟15秒,有中等活动程度的有效意识时间是45秒",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 171,
@@ -2217,10 +2217,10 @@
       "环境因素",
       "机上硬件设备"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "不良的生理、心理和环境因素可能会造成机组失能，硬件设备如果飞机没有特殊情况，一般不会导致失能。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 172,
@@ -2230,10 +2230,10 @@
       "难以发现跑道和主观感觉进场偏低",
       "产生进场速度过快的错觉"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "跑道周围被白雪覆盖，使飞行员在进近过程中无参照物可循，易产生白洞效应，导致飞行员难以发现跑道或主观感觉进场偏高的错觉现象。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 173,
@@ -2243,10 +2243,10 @@
       "飞行员在飞行中对飞机位置的准确知觉",
       "飞行员在飞行中对飞行环境的准确知觉"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "驾驶舱处境意识是飞行机组在特定时段和特定的情境中对影响飞机和机组的各种因素、各种条件的准确知觉。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 174,
@@ -2256,9 +2256,9 @@
       "体液沸腾",
       "咳嗽和胸痛"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "当无供氧设备的飞机处于太高的飞行高度时，容易引起缺氧性缺氧症，缺氧者自我感觉的生理变化有：头晕目眩，恶心，头痛，震颤等。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   }
 ]

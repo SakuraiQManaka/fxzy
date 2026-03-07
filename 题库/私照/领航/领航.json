@@ -7,9 +7,9 @@
       "磁北",
       "罗北"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "罗差是罗经线偏离磁经线的角度。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/1explain.jpg"
   },
   {
@@ -20,9 +20,9 @@
       "325°",
       "315°"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "真航向=磁航向＋磁差，磁差10°W表示磁差-10°，可知磁航向为325°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/2explain.jpg"
   },
   {
@@ -33,9 +33,9 @@
       "8时区的时区时",
       "东8区的时区时"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "我国统一使用北京所在的东八区的区时作为标准时间，称为北京时。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/3explain.jpg"
   },
   {
@@ -46,9 +46,9 @@
       "当天14:15",
       "第二天06:15"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "我国统一使用北京所在的东八区的区时作为标准时间，即北京时，北京时=UTC+8。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/4explain.jpg"
   },
   {
@@ -59,10 +59,10 @@
       "等角投影图",
       "等积投影图"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "等角投影图是指投影时保持任何一点沿经线、纬线方向的局部比例尺相等，即没有角度失真。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 6,
@@ -72,10 +72,10 @@
       "20千米",
       "2千米"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "地图比例尺=图上长度/实地长度。1/1000000=2/实地距离，得出实地距离为2000000厘米，即20千米。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 7,
@@ -85,9 +85,9 @@
       "航迹、时刻、地标特征、地标相关位置",
       "航迹、时刻、地标形状、地标位置"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "观察辨认地标时，必须以推算位置为基础，依据四个要素即航迹、时间、地标特征和地标相关位置进行比较，准确地辨认出地标。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/7explain.jpg"
   },
   {
@@ -98,10 +98,10 @@
       "12分05秒",
       "12分30秒"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "上升时间为（2100-600）÷2=750秒，即12分30秒。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 9,
@@ -111,10 +111,10 @@
       "212磅",
       "460磅"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "飞行460海里所需油量为460÷180*80≈204.4，所以答案选最接近项205磅。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 10,
@@ -124,10 +124,10 @@
       "34加仑",
       "38加仑"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "1公里大约相当于0.54海里，所以810公里大约为437海里。飞行810公里所需油量为437÷150*13≈38加仑。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 11,
@@ -137,9 +137,9 @@
       "165kt",
       "208kt"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "尺算方法：10000ft约等于3千米，170kt约为315km/h，对尺时，将第二组尺“V”用的3km对正活动尺“V”用的-10℃，即可从第一组固定尺上指示空速315km/h处所对活动尺的刻度读出TAS为360km/h，约为194kt。\n\n心算方法：高度每升高1000米，真空速比表速大5%。高度每升高1000英尺，真空速比表速大1.8%。空中温度比标准气温高（低）5℃，真空速比表速大（小）1%。\n已知高度飞行高度10000ft，所以真空速需增加18%；\n标准温度为15-10000×2/1000= -5℃，实际温度-10℃，比标准低5℃，所以真空速需减小1%；\n则真空速=170+170×18%-170×1%=198.9kt，答案选最接近项。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/11explain.jpg"
   },
   {
@@ -150,9 +150,9 @@
       "航向增大",
       "航向不变"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "航向是从经线北端顺时针量到航向线的角度，范围为0°到360°，当飞机转弯时，向右转航向增大，向左转航向减小。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/12explain.jpg"
   },
   {
@@ -163,10 +163,10 @@
       "不偏",
       "左边"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "飞机偏在航线左侧为负，右侧为正。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 14,
@@ -176,10 +176,10 @@
       "航迹线和航向线，以航迹线为基准",
       "航迹线和航向线，以航向线为基准"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "航迹线同航向线的关系可以用地速向量同空速向量的夹角，即航迹线偏离航向线的角度来表示，这一角度叫偏流角，简称偏流。偏流以航向线为基准。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 15,
@@ -189,9 +189,9 @@
       "左侧风",
       "右侧风"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "平均磁航向=实际航迹角，表明飞机在航行过程中偏流为0°，航线上可能无风，或存在顺逆风。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/15explain.jpg"
   },
   {
@@ -202,10 +202,10 @@
       "地速变化",
       "风角变化"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "风速变化同一个量△WS，风为接近顺（逆）风时，偏流变化较小，地速变化较大；风为接近正侧风时，偏流变化较大，地速变化较小。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 17,
@@ -215,7 +215,7 @@
       "276°，179节",
       "262°，164节"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "N/A",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/17.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/17explain.jpg"
@@ -228,9 +228,9 @@
       "68°",
       "66°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/18explain.jpg"
   },
   {
@@ -241,10 +241,10 @@
       "15:26",
       "14:25"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "v=S/t，由题干可知v=64nm/34min，飞机从X地到Y地所需的时间t=760nm/v，约等于6小时44分钟，则飞机到达Y地的时间为15:26。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/19.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 20,
@@ -254,10 +254,10 @@
       "方向、时间",
       "时间、距离"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "检查航迹就是从方向、距离上检查飞机能否沿预计航线准确、准时地到达预定点。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 21,
@@ -267,9 +267,9 @@
       "6°",
       "10°"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/21explain.jpg"
   },
   {
@@ -280,9 +280,9 @@
       "10°",
       "11°"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/22explain.jpg"
   },
   {
@@ -293,10 +293,10 @@
       "QDR",
       "RB"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "自动定向仪（ADF）是最早应用的无线电导航系统，依靠机上环形天线的方向特性来测定电台相对方位（RB）。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 24,
@@ -306,10 +306,10 @@
       "180°",
       "210°"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "图中方位指针指示的是向台飞行磁方位QDM=210°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/24.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 25,
@@ -319,10 +319,10 @@
       "315°",
       "190°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "图中方位指针与标线的夹角即为电台相对方位，由图2可以看出，其相对方位RB=235°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 26,
@@ -332,10 +332,10 @@
       "270°",
       "090°"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "由图可以看出，电台相对方位RB=090°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/26.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 27,
@@ -345,10 +345,10 @@
       "215°",
       "035°"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "由图可以看出，RB=0°，向台磁方位QDM=MH+RB=035°+0°=035°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 28,
@@ -358,10 +358,10 @@
       "270°",
       "045°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "由图可以看出，RB=45°，向台磁方位QDM=MH+RB=120°+45°=165°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 29,
@@ -371,10 +371,10 @@
       "270°",
       "120°"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "由图可以看出，RB=270°，向台磁方位QDM=030°，QDM=MH+RB，所以MH=120°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/29.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 30,
@@ -384,10 +384,10 @@
       "4",
       "8"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "由题干可知，QDM=135°，MH=135°，所以RB=QDM-MH=0°，图1指示RB为0°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/30.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 31,
@@ -397,10 +397,10 @@
       "4",
       "5"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "由题干可知，QDM=255°，MH=45°，所以RB=QDM-MH=210°，图例4指示RB=210°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/31.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 32,
@@ -410,10 +410,10 @@
       "4",
       "5"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "由题干可知，QDM=60°，MH=360°，RB=QDM-MH=60°，图例2指示RB=60°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/32.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 33,
@@ -423,7 +423,7 @@
       "5",
       "8"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "由题干可知，QDM=120°，MH=90°，所以RB=QDM-MH=30°，图例5指示RB=30°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/33.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/33explain.jpg"
@@ -436,10 +436,10 @@
       "3",
       "4"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "QDM=QDR±180°，所以QDM=210°-180°=30°，ADF指示RB，RB=QDM-MH=30°-180°+360°=210°，图例4指示RB=210°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/34.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 35,
@@ -449,10 +449,10 @@
       "4",
       "5"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "QDM＝QDR±180°，所以QDM＝120°＋180°＝300°，ADF指示的为RB，RB＝QDM－MH＝300°－270°＝30°，所以图例5为正确答案。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/35.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 36,
@@ -462,10 +462,10 @@
       "3个",
       "4个"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "地面的VOR台使用的识别码为三个英文字母的国际莫尔斯电码。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 37,
@@ -475,7 +475,7 @@
       "调谐VOR频率，DME自动配对",
       "调谐DME频率，VOR自动配对"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "DME波道通常与 VOR/ILS 使用配对频率，不需要单独调谐 DME 台的频率。每个 VOR台和DME台都有相应的识别标志及莫尔斯电码，实际应用中应识别莫尔斯电码。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/37.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/37explain.jpg"
@@ -488,10 +488,10 @@
       "飞机磁方位（QDR）",
       "电台磁方位（QDM）"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "RMI（无线电磁指示器）上，针尖所指的数据是电台磁方位，针尾指示飞机磁方位。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/38.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 39,
@@ -501,10 +501,10 @@
       "都不等",
       "都相等"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "在同一条方位线上，电台方位角和飞机方位角都是一定的。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 40,
@@ -514,10 +514,10 @@
       "MH始终等于0",
       "相对方位角始终与电台方位角一致"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "不修正偏流向台飞行，就是飞行中始终保持飞机机头对正电台，即始终保持相对方位角为0或使每一瞬间的航向等于电台方位角飞行，最后飞机将飞到NDB/VOR台上空，这种方法也称为被动向台。侧风中被动向台飞行时，飞机的航迹是一条偏向下风方向的曲线  。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 41,
@@ -527,7 +527,7 @@
       "右侧",
       "不偏"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "N/A",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/41.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/41explain.jpg"
@@ -540,10 +540,10 @@
       "航线距离最短",
       "航线距离最长"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "以通过两航路点间的大圆圈线作为航线的叫大圆航线，大圆航线上各点的真航线角不相等，但航线距离最短。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/42.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 43,
@@ -553,10 +553,10 @@
       "两点之间的等角线长度",
       "两点之间大圆的弧长"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "以通过两航路点间的大圆圈线作为航线的叫大圆航线，大圆航线上各点的真航线角不相等，但航线距离最短。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 44,
@@ -566,10 +566,10 @@
       "东西",
       "没有方向"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "经线包含地轴的平面叫经线平面。经线平面与地球表面交成的大圆圈，叫经圈(又叫子午圈)。每个经圈都被两极分成两半，每一半叫经线，或子午线。由于任一条经线都通过南北两极，所以，通过任一地点经线的方向就成为该地标准的南北方向。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 45,
@@ -579,10 +579,10 @@
       "北纬90度",
       "北纬0度"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "北极的纬度是90°N，南极的纬度是90°S。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 46,
@@ -592,10 +592,10 @@
       "同一飞机的航向不同时罗差不同",
       "处于同一地点的所有飞机罗差相同"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "罗差的大小随着航向的变化而改变，不同罗盘的罗差由于安装位置不同，其大小也不一样。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 47,
@@ -605,10 +605,10 @@
       "磁北",
       "罗北"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "磁差是磁北偏离真北的角度。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 48,
@@ -618,10 +618,10 @@
       "以真经线为基准，真经线以西为正磁差",
       "通常以赤道为基准，赤道以南为正磁差"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "磁差：地磁南北极与地理南北极不重合，磁经线北端偏离真经线北端的角度，叫磁差或磁偏角。以真经线作为基准，磁经线北端偏在真经线以东为正磁差，以西为负磁差。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 49,
@@ -631,10 +631,10 @@
       "纬度相同，经度相同",
       "纬度、经度都不同"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "同一纬圈上的各地点的纬度相同。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 50,
@@ -644,10 +644,10 @@
       "61°",
       "30°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "地磁南北极与地理南北极不重合，磁经线北端偏离真经线北端的角度，叫磁差或磁偏角。以真经线作为基准，磁经线北端偏在真经线以东为正磁差，以西为负磁差。由题干可知，TC=53°，MV=8°，则MC=TC-MV=45°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 51,
@@ -657,10 +657,10 @@
       "东西",
       "没有方向"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "纬线与赤道平行的小圆圈叫纬圈。同一半球上纬圈的大小都不一样，离赤道越远．纬圈就越小。由于纬圈的平面都与南北极的连线一地轴垂直，地球上的纬圈方向就成为标准的东西方向。纬圈的一部分，叫纬线。地球上的任一地点都有一条纬线通过。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 52,
@@ -670,10 +670,10 @@
       "80°E",
       "150°E"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "以经线为界，把地球表面分成 24 个时区。每个时区的范围是经度 15°。在同一时区里的各地点，都统一使用这一时区中央经线的地方时，叫该时区的区时。\n经度每隔15°，地方时相差1小时，已知8点和13点相差5小时，可知经度相差75°，所以经度为30°+75°=105°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/52.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 53,
@@ -683,10 +683,10 @@
       "24个，15度",
       "18个，20度"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "理论时区是以经线为界，将地球表面划分为24个时区，每个时区范围是经度15°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 54,
@@ -696,9 +696,9 @@
       "时区西边缘的地方时",
       "时区东边缘的地方时"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "在同一时区里的各地方都统一使用这一时区中央经线的地方时，叫该时区的区时。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/54explain.jpg"
   },
   {
@@ -709,10 +709,10 @@
       "5个，4小时",
       "4个，4小时"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "我国幅员辽阔，经度从东经72度到135度，按国际时区划分，我国横跨五个时区，也就是东五区、东六区、东七区、东八区和东九区，东九区减东五区，时差4小时。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/55.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 56,
@@ -722,10 +722,10 @@
       "零时区的区时",
       "12时区的区时"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "国际上规定以零时区的区时作为全世界统一时刻，叫世界时。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 57,
@@ -735,10 +735,10 @@
       "北京时",
       "世界协调时"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "我国民航飞行使用的时间是世界协调时。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 58,
@@ -748,10 +748,10 @@
       "加8个小时",
       "减5个小时"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "地球分为24个时区，相邻两时区时间差1小时，任何两时区之差，就等于其时区号码的差数（东时区为正，西时区为负）。世界协调时是全球通用的时间，在航空中使用零时区的区时，北京时使用的是东八区的区时，所以，将北京时换算成世界协调时应当向西减8个小时。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 59,
@@ -761,10 +761,10 @@
       "加8个小时",
       "减5个小时"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "地球分为24个时区，相邻两时区时间差1小时，任何两时区之差，就等于其时区号码的差数（东时区为正，西时区为负）。世界协调时是全球通用的时间，在航空中使用零时区的区时，北京时使用的是东八区的区时，所以，将世界协调时换算成北京时应当向东加8个小时。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 60,
@@ -774,10 +774,10 @@
       "8月1日15点",
       "8月1日0点"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "北京时=UTC+8，所以世界协调时为7月31日23点。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/60.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 61,
@@ -787,9 +787,9 @@
       "50公里",
       "5公里"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "地图比例尺=图上长度/实地长度。1:50万的航图，图上1cm相当于地面长5km。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/61explain.jpg"
   },
   {
@@ -800,10 +800,10 @@
       "4厘米",
       "6厘米"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "地图比例尺=图上长度/实地长度。图上长度/2000=1/100000，得出图上长度为0.02米，即2厘米。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/62.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 63,
@@ -813,10 +813,10 @@
       "等角投影",
       "等积投影"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "墨卡托投影图属于等角投影。墨卡托投影图没有角度失真，赤道没有任何失真，其余地区都有不同程度的长度和面积失真：赤道附近失真很小，离赤道越远，失真越大，即随纬度增高而增大。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 64,
@@ -826,10 +826,10 @@
       "10公里",
       "1公里"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "地图比例尺=图上长度/实地长度。1/1000000=10/实地距离，得出实地距离为10000000厘米，即100公里。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/64.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 65,
@@ -839,10 +839,10 @@
       "20公里",
       "10公里"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "地图比例尺=图上长度/实地长度。1/500000=2/实地距离，得出实地距离为1000000厘米，即10公里。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/65.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 66,
@@ -852,10 +852,10 @@
       "数字、文字、图解",
       "数字、分式、图解"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "地图比例尺通常绘注在每幅地图的图廓下方，常用的有三种表示形式：数字比例尺、文字说明比例尺和图解比例尺。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/66.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 67,
@@ -865,10 +865,10 @@
       "地图比例尺、地图符号、图例",
       "地图符号、图例、地图投影"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "地图比例尺、地图符号和地图投影称为地图三要素。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 68,
@@ -878,10 +878,10 @@
       "角度、面积、体积",
       "角度、长度、面积"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "地图失真表现在长度、角度和面积三个方面。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 69,
@@ -891,10 +891,10 @@
       "长度失真",
       "面积失真"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "全世界统一规范的1:100万世界航图，从赤道0°起至北纬84°或南纬80°之间，采用的是兰伯特投影图，兰伯特投影图没有角度失真，存在长度失真和面积失真。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 70,
@@ -904,10 +904,10 @@
       "经度12度，纬度4度",
       "经度34度，纬度4度"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "百万分之一航图的分幅：从纬度0°~60°，经度差为6°，纬度差为4°；从纬度60°~76°，经度差为12°，纬度差为4°；从纬度76°~84°，经度差为24°，纬度差为4°；从纬度84°~88°，经度差为36°，纬度差为4°；从纬度88°~90°，经度差为360°，纬度差为2°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 71,
@@ -917,10 +917,10 @@
       "不清晰",
       "详细"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "图幅同样大小的地图，比例尺大的所表现的地面范围要小些，但是比较详细；比例尺小的地图所表现的地面范围要大些，但比较简略。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 72,
@@ -930,10 +930,10 @@
       "中比例尺",
       "小比例尺"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "在通用航空和特殊领航任务时，常选用大比例尺航图。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 73,
@@ -943,10 +943,10 @@
       "陡峻",
       "高海拔"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "在现代地图上，地形主要是用等高线来表示的，航图上等高线密集的地方说明其地形陡峭。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 74,
@@ -956,10 +956,10 @@
       "1:100000",
       "1:1000000"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "地图比例尺=图上长度/实地长度。\n10cm/100km=10cm/10000000cm=1/1000000。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 75,
@@ -969,10 +969,10 @@
       "罗经线偏离磁经线的角度",
       "罗航向和真航向的差角"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "罗经线偏离磁经线的角度，叫罗差。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 76,
@@ -982,10 +982,10 @@
       "点状、面状和块状地标",
       "面状、块状和线状地标"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "根据飞行时空中观察地标的几何形状、大小，可分为线状地标、面状地标和点状地标。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 77,
@@ -995,10 +995,10 @@
       "对正地图、由近及远、确定范围",
       "对正地图、确定范围、观察辨认"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "为了准确地辨认地标，必须掌握对正地图、确定范围和观察辨认三个基本环节。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 78,
@@ -1008,10 +1008,10 @@
       "真航线角",
       "磁航线角"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "航图上注记数据的内容包括：磁航线角、航段距离、最大标高、磁差和无线电方位。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 79,
@@ -1021,10 +1021,10 @@
       "磁航线角",
       "罗航线角"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "由于航图上的经线都是真经线，所以用领航向量尺量出的航线角都是真航线角。飞机上的设备大都是以磁北为基准，标注的是磁航线角。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 80,
@@ -1034,10 +1034,10 @@
       "1.15公里",
       "1.61公里"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "1海里相当于1.852公里。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 81,
@@ -1047,10 +1047,10 @@
       "305英尺",
       "328英尺"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "1米等于3.2808399 英尺(ft)，100米相当于328英尺。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 82,
@@ -1060,10 +1060,10 @@
       "180英尺",
       "220英尺"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "1米等于3.2808399 英尺(ft)，所以60米大约相当于200英尺。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 83,
@@ -1073,10 +1073,10 @@
       "30米",
       "328米"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "1英尺等于0.3048 米，所以100英尺大约相对于30米。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 84,
@@ -1086,10 +1086,10 @@
       "18分40秒",
       "20分40秒"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "（6000-1000）÷5 =1000秒，即16分40秒。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 85,
@@ -1099,10 +1099,10 @@
       "400FT/MIN",
       "440FT/MIN"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "下降率为（2100-900）÷9=133.3米/分钟，133.3米=437.2英尺，所以答案选最接近的440FT/MIN。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 86,
@@ -1112,10 +1112,10 @@
       "265磅",
       "284磅"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "飞行450海里所需油量为450÷180*95=237.5，所以答案选最接近项240磅。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 87,
@@ -1125,10 +1125,10 @@
       "4.5公里",
       "12.5公里"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "地速是450公里/小时，所以1分钟内飞行450÷60=7.5公里。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 88,
@@ -1138,10 +1138,10 @@
       "14分钟",
       "25分钟"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "飞行70nm所需时间为70÷170×60≈25分钟。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 89,
@@ -1151,10 +1151,10 @@
       "167公里/小时",
       "150公里/小时"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "18分钟即0.3小时。地速为50÷0.3≈167公里/小时。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 90,
@@ -1164,9 +1164,9 @@
       "A点290°方位13海里",
       "A点110°方位12海里"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/90explain.jpg"
   },
   {
@@ -1177,10 +1177,10 @@
       "QDM为150°的方位线",
       "QDM为330°的方位线"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "QDM=MH+RB=265°+65°=330°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/91.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 92,
@@ -1190,10 +1190,10 @@
       "175°",
       "275°"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "QDR=QDM±180°=315°+140°-360°+180°=275°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 93,
@@ -1203,10 +1203,10 @@
       "230°",
       "295°"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "QDM=MH+RB=350°+240°-360°=230°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 94,
@@ -1216,10 +1216,10 @@
       "电台磁方位",
       "飞机磁方位"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "在同一条方位线上，电台方位角和飞机方位角都是一定的，一个航向将对应一个相对方位，当航向改变时，相对方位将随之改变。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 95,
@@ -1229,10 +1229,10 @@
       "不等",
       "等于180°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "在同一条方位线上，电台方位角和飞机方位角都是一定的，与飞机航向无关。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 96,
@@ -1242,9 +1242,9 @@
       "90°",
       "270°"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/96explain.jpg"
   },
   {
@@ -1255,7 +1255,7 @@
       "90°",
       "180°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "N/A",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/97.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/97explain.jpg"
@@ -1268,10 +1268,10 @@
       "始终指0",
       "始终指180°"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "被动向台飞行是指飞机机头始终对正电台，即始终保持相对方位角为0°或使每一瞬间的航向等于电台方位角飞行。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/98.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 99,
@@ -1281,10 +1281,10 @@
       "航线角",
       "航迹线"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "向电台飞行中，飞机任何时刻都必定在某一条方位线上，也就是飞机当时测出的电台磁方位就是飞机飞向电台的新航线角。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 100,
@@ -1294,10 +1294,10 @@
       "偏流角",
       "航线角"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "向电台飞行中，飞机任何时刻都必定在某一条方位线上，也就是飞机当时测出的电台磁方位就是飞机飞向电台的新航线角。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 101,
@@ -1307,10 +1307,10 @@
       "355°",
       "5°"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "飞机向台飞行，DA=+5°，表明RB=5°，ADF指示电台相对方位，所以应指示5°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 102,
@@ -1320,10 +1320,10 @@
       "266°",
       "254°"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "MC=126°，RB预=260°，MH=132°，可知RB =260°-（132°-126°）=254°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 103,
@@ -1333,9 +1333,9 @@
       "35°",
       "170°"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/103explain.jpg"
   },
   {
@@ -1346,10 +1346,10 @@
       "129节",
       "120节"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "一般情况下，中低空飞行时，高度每升高 1000英尺，真空速大约比表速增大2％。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/104.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 105,
@@ -1359,10 +1359,10 @@
       "增大",
       "不变"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "飞行中遇到逆风，飞机的地速减小。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 106,
@@ -1372,10 +1372,10 @@
       "大于",
       "等于"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "指示空速通常是小于真空速的。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 107,
@@ -1385,10 +1385,10 @@
       "增大表速的10%",
       "减小表速的5%"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "在中、低空，通常高度每升高1000m，真空速比指示空速约大5%。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 108,
@@ -1398,10 +1398,10 @@
       "从经线量到航线去向的角度",
       "从经线北端顺时针量到航线去向的角度"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "航线角是指航线去向与当地经线的夹角。在航空地图上经线北端顺时针量到航线去向的角度。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 109,
@@ -1411,10 +1411,10 @@
       "减小",
       "增大"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "航向是从经线北端顺时针量到航向线的角度，范围为0°到360°，当飞机转弯时，向右转航向增大，向左转航向减小。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 110,
@@ -1424,10 +1424,10 @@
       "飞机修正航迹时的新航线",
       "飞机的航向线"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "飞机准确通过NDB/VOR台上空后，保持一定的航线直线飞行一定时间，那么飞机所在的无线电方位线同飞机的平均航迹线重合，这时测出的飞机磁方位就是飞机的平均磁航迹。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 111,
@@ -1437,10 +1437,10 @@
       "磁航迹",
       "磁航向"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "真航向（TH）：以真经线北端为基准，顺时针量到航向线的角度叫真航向。\n磁航向（MH）：以磁经线北端为基准，顺时针量到航向线的角度叫磁航向。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 112,
@@ -1450,10 +1450,10 @@
       "航向变小",
       "航向不变"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "飞行中进行偏航操纵时，蹬左脚蹬，方向舵后缘左偏，附加气动力向右，对飞机立轴形成左偏航力矩，使飞机向左偏航，航向减小。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 113,
@@ -1463,10 +1463,10 @@
       "31°",
       "39°"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "磁差：以真经线作为基准，磁经线北端偏在真经线以东为正磁差，以西为负磁差。\n真航向（TH）：以真经线北端为基准，顺时针量到航向线的角度叫真航向。 \n磁航向（MH）：以磁经线北端为基准，顺时针量到航向线的角度叫磁航向。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 114,
@@ -1476,10 +1476,10 @@
       "有侧风，不一定产生偏流",
       "以航向为基准，航迹偏右为正，偏左为负"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "在有风的情况下飞行时，航空器的航迹角和航向之间的关系，可以用空速向量和地速向量之间的夹角，也就是航向线和航迹线之间的夹角来表示。这一夹角叫做偏流(DA)。以航向为基准，航迹偏右为正，偏左为负。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 115,
@@ -1489,10 +1489,10 @@
       "偏在下风面",
       "航迹和航线重合"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "当修正偏流过大，即预计偏流(PL 预)大于实际偏流(PL 实)时，航空器将偏在上风面。这时，偏航角的正负和偏流角相反。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 116,
@@ -1502,9 +1502,9 @@
       "左侧风",
       "右逆侧风"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/116explain.jpg"
   },
   {
@@ -1515,7 +1515,7 @@
       "左逆侧风",
       "右顺侧风"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "N/A",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/117.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/117explain.jpg"
@@ -1528,7 +1528,7 @@
       "+8度",
       "+2度"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "N/A",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/118.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/118explain.jpg"
@@ -1541,10 +1541,10 @@
       "偏航角",
       "偏航距离"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "沿航线飞行时，无论顺侧风还是逆侧风，风速增大，则偏流一定增大。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/119.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 120,
@@ -1554,10 +1554,10 @@
       "偏航角",
       "偏离角"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "由于侧风的影响，飞机的航迹线偏向航向线的下风面，航迹线偏离航向线的角度叫偏流角，简称偏流。只要有侧风，就一定产生偏流。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 121,
@@ -1567,10 +1567,10 @@
       "右侧",
       "不偏"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "右侧风时，航迹线偏在航向线的左侧，偏流为负。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 122,
@@ -1580,10 +1580,10 @@
       "DA＜WA＜0°",
       "DA=0°，WA=0°"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "在无风或没有侧风的情况下，飞机的航迹线与航向一致，机头对正哪里，飞机就能飞到哪里。航迹线偏离航向线的角度叫偏流角（Drift Angle） ，简称偏流（DA） 。由于侧风的影响，飞机才会产生偏流。风速为0就是无风，无风偏流角DA为0，风角WA为0",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 123,
@@ -1593,9 +1593,9 @@
       "负",
       "不确定"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/123explain.jpg"
   },
   {
@@ -1606,10 +1606,10 @@
       "航迹线偏在航向线左侧为正，偏右为负",
       "左侧风为负，右侧风为正"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "航迹线偏离航向线的角度叫偏流角（Drift Angle），简称偏流（DA）。左侧风时，航迹线偏在航向线的右侧，规定偏流为正（+DA）；右侧风时，航迹线偏在航向线的左侧，规定偏流为负（－DA）。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/124.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 125,
@@ -1619,10 +1619,10 @@
       "风向线和航迹线",
       "风向线和航向线"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "通常将航行速度三角形中地速向量同风速向量的夹角，即航迹线同风向线的夹角，叫做风角。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 126,
@@ -1632,10 +1632,10 @@
       "正侧风",
       "顺风"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "风角的范围为0°~±180°。0°表示顺风，180°表示逆风，±90°表示（左或右）正侧风，0°~±90°之间表示（左或右）顺侧风，±90°~180°之间表示（左或右）逆侧风。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 127,
@@ -1645,10 +1645,10 @@
       "航向、真空速",
       "风向、风速"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "飞机对空气的运动，可以用航向为方向、空速为大小的向量来表示，叫空速向量。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 128,
@@ -1658,9 +1658,9 @@
       "39°，40公里/小时",
       "21°，42公里/小时"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/128explain.jpg"
   },
   {
@@ -1671,7 +1671,7 @@
       "左正侧风",
       "右正侧风"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "N/A",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/129.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/129explain.jpg"
@@ -1684,10 +1684,10 @@
       "顺风",
       "逆风"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "偏流为0°，可知此时风角为0°，风角为0°，表示顺风。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/130.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 131,
@@ -1697,9 +1697,9 @@
       "地速增大，偏流减小",
       "地速增大，偏流不变"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/131explain.jpg"
   },
   {
@@ -1710,7 +1710,7 @@
       "偏流增大，地速增大",
       "偏流减小，地速减小"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "N/A",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/132.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/132explain.jpg"
@@ -1723,7 +1723,7 @@
       "偏流减小，地速不变",
       "偏流减小，地速在逆侧风时增大"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "N/A",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/133.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/133explain.jpg"
@@ -1736,10 +1736,10 @@
       "地速变化",
       "风角变化"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "风速变化同一个量△WS，风为接近顺（逆）风时，偏流变化较小，地速变化较大；风为接近正侧风时，偏流变化较大，地速变化较小。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/134.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 135,
@@ -1749,10 +1749,10 @@
       "偏流变化",
       "航线变化"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "飞机在空中保持一定的航向和真空速飞行，风速不变而风向发生变化时，将引起风角的改变，偏流、地速将发生变化。接近顺（逆）风时，风向的变化主要引起偏流的变化，地速变化很小；接近正侧风时，风向的变化主要引起地速的变化，偏流的变化很小。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 136,
@@ -1762,10 +1762,10 @@
       "偏流变化",
       "风角变化"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "飞机在空中保持一定的航向和真空速飞行，风速不变而风向发生变化时，将引起风角的改变，偏流、地速将发生变化。接近顺（逆）风时，风向的变化主要引起偏流的变化，地速变化很小；接近正侧风时，风向的变化主要引起地速的变化，偏流的变化很小。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 137,
@@ -1775,9 +1775,9 @@
       "1:38，158.0LB",
       "1:48，189LB"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/137explain.jpg"
   },
   {
@@ -1788,7 +1788,7 @@
       "239，462公里/小时",
       "237，462公里/小时"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "N/A",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/138.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/138explain.jpg"
@@ -1801,10 +1801,10 @@
       "地速小于真空速",
       "地速等于真空速"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "当风角为90°~180°之间，有偏流，地速小于真空速。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/139.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 140,
@@ -1814,10 +1814,10 @@
       "风角",
       "航迹角"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "航迹线同航向线的关系可以用地速向量同空速向量的夹角，即航迹线偏离航向线的角度来表示，这一角度叫偏流角，简称偏流。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 141,
@@ -1827,10 +1827,10 @@
       "21",
       "26"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "侧风分量为sin（280-230）*40，约等于30.6，所以选31kt。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 142,
@@ -1840,9 +1840,9 @@
       "小于",
       "等于"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/142explain.jpg"
   },
   {
@@ -1853,10 +1853,10 @@
       "完全相反",
       "根据风速的大小，时同时异"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "通常将航行速度三角形中地速向量同风速向量的夹角，即航迹线同风向线之间的夹角，叫做风角（WA），它说明了飞机所受侧风的方向和侧风程度。风角的范围从0～±180°。风角与偏流的正、负完全一致，都是由风的左、右决定。左侧风时，由航迹线顺时针量到风向线，为正值；右侧风时，由航迹线反时针量到风向线，为负值。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/143.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 144,
@@ -1866,9 +1866,9 @@
       "129°，30kt",
       "115°，24kt"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/144explain.jpg"
   },
   {
@@ -1879,10 +1879,10 @@
       "右侧",
       "不偏"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "在有侧风的情况下，飞机将产生偏流，航迹线将偏到航线的下风面，并且风速越大，偏流越大，这样，虽然在低空时修正了侧风的影响，使飞机能够保持在航线上，但是由于风速增大，偏流增大，导致在高空时飞机偏在航线的下风面，即右侧 。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/145.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 146,
@@ -1892,9 +1892,9 @@
       "116°",
       "119°"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/146explain.jpg"
   },
   {
@@ -1905,7 +1905,7 @@
       "应飞磁航向为46°",
       "应飞真航向为58°"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "N/A",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/147.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/147explain.jpg"
@@ -1918,10 +1918,10 @@
       "120°",
       "240°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "RMI针尖指示QDM，飞机沿径向线向台飞行时，QDM60°为飞机的应飞航向（向台飞行时，无侧风的情况下，QDM=MH=MC，题目没说明侧风的情况，按无侧风计算）。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/148.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 149,
@@ -1931,10 +1931,10 @@
       "指示空速",
       "地速"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "飞行中的预达时刻，是根据距离和地速计算的。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 150,
@@ -1944,10 +1944,10 @@
       "10.75公里",
       "12公里"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "已知地速为215公里/小时，可知每分钟飞行约3.58公里，所以3分钟可飞行10.75公里。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 151,
@@ -1957,10 +1957,10 @@
       "16:51",
       "17:10"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "地速=250kt=463km/h，已知航线距离150km，时间t=150/463≈19分钟，则预达时刻为16:39。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 152,
@@ -1970,10 +1970,10 @@
       "精确位置",
       "实测位置"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "推测定位推测出的飞机位置是概略位置。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 153,
@@ -1983,9 +1983,9 @@
       "260°，左侧风",
       "265°，左侧风"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/153explain.jpg"
   },
   {
@@ -1996,7 +1996,7 @@
       "对风的修正过小",
       "对风的修正过大"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "N/A",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/154.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/154explain.jpg"
@@ -2009,7 +2009,7 @@
       "对风的修正反了",
       "对风的修正过大"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "N/A",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/155.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/155explain.jpg"
@@ -2022,7 +2022,7 @@
       "对风的修正反了",
       "对风的修正正确"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "N/A",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/156.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/156explain.jpg"
@@ -2035,10 +2035,10 @@
       "负",
       "零"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "飞机位置在航线右侧，偏航距离为正；飞机位置在航线左侧，偏航距离为负。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/157.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 158,
@@ -2048,9 +2048,9 @@
       "4°",
       "5°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/158explain.jpg"
   },
   {
@@ -2061,7 +2061,7 @@
       "不够",
       "反了"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "N/A",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/159.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/159explain.jpg"
@@ -2074,10 +2074,10 @@
       "过小",
       "正确"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "偏流为-10°，表明航线上存在右侧风，航迹线偏在航向线左侧10°。经过修正后，偏航角为-3°，表明航迹线偏在航线左侧3°，说明偏流修正过小。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/160.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 161,
@@ -2087,10 +2087,10 @@
       "向线状地标、向台飞行、背台飞行复航",
       "向显著地标、向线状地标、背台飞行复航"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "飞机发生迷航后的复航方法有：目视飞行复航方法，包括向线状地标飞行复航和向显著地标飞行复航；仪表飞行复航方法，即向电台飞行复航。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 162,
@@ -2100,9 +2100,9 @@
       "15分钟",
       "30分钟"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/162explain.jpg"
   },
   {
@@ -2113,7 +2113,7 @@
       "16分钟",
       "24分钟"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "N/A",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/163.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/163explain.jpg"
@@ -2126,7 +2126,7 @@
       "左侧2°",
       "右侧7°"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "N/A",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/164.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/164explain.jpg"
@@ -2139,7 +2139,7 @@
       "飞机偏左，偏航角-3°",
       "飞机偏右，偏离角+3°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "N/A",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/165.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/165explain.jpg"
@@ -2152,10 +2152,10 @@
       "已过预定方位线",
       "还没到预定方位线"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "QDM指=QDM预，表明飞机在方位线上。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/166.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 167,
@@ -2165,10 +2165,10 @@
       "偏流-10°，偏航角+4°",
       "偏流+10°，偏航角-4°"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "偏流DA=QDR-MH平=100°-90°=+10°，偏航角TKE=QDR-MC=100°-104°=-4°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 168,
@@ -2178,9 +2178,9 @@
       "右边",
       "不偏"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/168explain.jpg"
   },
   {
@@ -2191,10 +2191,10 @@
       "航迹线和航线，以航线为基准",
       "新航线和原航线，以原航线为基准"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "偏航角是指航迹线和航线之间的夹角，以航线为基准。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/169.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 170,
@@ -2204,10 +2204,10 @@
       "飞机偏离检查点的距离",
       "飞机偏离转弯点的距离"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "偏航距离是指飞机偏离航线的垂直距离。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 171,
@@ -2217,10 +2217,10 @@
       "地标罗盘领航",
       "卫星导航"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "地标罗盘领航主要作为中低空低速飞机目视飞行条件下的领航方法，也可作为其他领航方法的辅助手段。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 172,
@@ -2230,9 +2230,9 @@
       "5°",
       "6°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/172explain.jpg"
   },
   {
@@ -2243,7 +2243,7 @@
       "10°",
       "8°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "N/A",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/173.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/173explain.jpg"
@@ -2256,10 +2256,10 @@
       "11",
       "9"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "△TK=TKE+TKD。根据1/60规则可知，TKE=15/180*60≈5°，TKD=15/160*60=5.62°，所以航迹修正角△TK=TKE+TKD=5+5.62≈11°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/174.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 175,
@@ -2269,10 +2269,10 @@
       "108°",
       "98°"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "△TK=TKE+TKD=-8°，MH应=MH平-△TK=108°。\n注：TKE为偏航角，TKD为偏离角，△TK为航迹修正角。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 176,
@@ -2282,9 +2282,9 @@
       "13°",
       "5°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "TKE·D已（T已）/60=XTK；TKD·D未（T未）/60=XTK。△TK=TKE+TKD。\n注：TKE为偏航角，TKD为偏离角，XTK为偏航距离，△TK为航迹修正角。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/176explain.jpg"
   },
   {
@@ -2295,10 +2295,10 @@
       "无方向信标",
       "甚高频全向信标"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "NDB是指无方向性信标。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/177.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 178,
@@ -2308,10 +2308,10 @@
       "145°",
       "010°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "图中方位指针指示的是向台飞行磁方位QDM=190°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/178.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 179,
@@ -2321,9 +2321,9 @@
       "220°",
       "160°"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/179explain.jpg"
   },
   {
@@ -2334,10 +2334,10 @@
       "295°",
       "025°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "图中方位指针针尾指示的是飞机磁方位即背台磁方位QDR=115°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/180.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 181,
@@ -2347,10 +2347,10 @@
       "4",
       "2"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "由仪表4知，指针针尖指的是向台航迹，航向偏在向台航迹的右侧，向来风方向修正偏流，飞机航向右偏径向线，修正右侧风。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 182,
@@ -2360,10 +2360,10 @@
       "180°",
       "150°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "图中方位指针针尾指示的是飞机磁方位即背台磁方位QDR=030°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 183,
@@ -2373,10 +2373,10 @@
       "210°",
       "030°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "图中方位指针与标线的夹角即为电台相对方位，由图1可以看出，其相对方位RB=240°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 184,
@@ -2386,10 +2386,10 @@
       "060°",
       "020°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "图中方位指针与标线的夹角即为电台相对方位，由图4可以看出，其相对方位RB=340°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 185,
@@ -2399,10 +2399,10 @@
       "090°",
       "270°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "由图可以看出，电台相对方位RB=180°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/185.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 186,
@@ -2412,10 +2412,10 @@
       "045°",
       "315°"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "由图可以看出，电台相对方位RB=315°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 187,
@@ -2425,10 +2425,10 @@
       "185°",
       "225°"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "由图可以看出，RB=225°，向台磁方位QDM=MH+RB=320°+225°-360°=185°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 188,
@@ -2438,10 +2438,10 @@
       "195°",
       "045°"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "由图可以看出，RB=45°，向台磁方位QDM=240°，QDM=MH+RB，所以MH=195°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 189,
@@ -2451,10 +2451,10 @@
       "135°",
       "360°"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "由图可以看出，RB=135°，向台磁方位QDM=135°，QDM=MH+RB，所以MH=0°或360°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 190,
@@ -2464,10 +2464,10 @@
       "4",
       "1"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "由题干可知，QDM=315°，MH=315°，可知RB=315°-315°=0°，图例1指示RB为0°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/190.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 191,
@@ -2477,10 +2477,10 @@
       "3",
       "4"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "由题干可知，QDM=240°，MH=180°，所以RB=240°-180°=60°，图2指示RB为60°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/191.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 192,
@@ -2490,10 +2490,10 @@
       "4",
       "6"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "QDR=QDM±180°，所以QDM=90°+180°=270°，已知MH=315°，可知RB=QDM-MH=270°-315°+360°=315°，图6指示RB为315°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/192.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 193,
@@ -2503,10 +2503,10 @@
       "4",
       "7"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "QDR=QDM±180°，所以QDM=255°-180°=75°，已知MH=225°，可知RB=QDM-MH=75°-225°+360°=210°，图例4指示RB为210°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/193.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 194,
@@ -2516,9 +2516,9 @@
       "右前方",
       "正前方"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/194explain.jpg"
   },
   {
@@ -2529,10 +2529,10 @@
       "265°",
       "85°"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "看图可知，RB=135°，QDM=MH+RB=310°+135°-360°=85°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/195.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 196,
@@ -2542,10 +2542,10 @@
       "170°",
       "310°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "读表可知，MH=40°，RB=310°，则QDM=MH+RB=40°+310°=350°。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/196.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 197,
@@ -2555,10 +2555,10 @@
       "指针始终指向RMI航向标线",
       "指针一直指向航向标线附近"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "在近程导航中，RMI指针指向航向标线附近，然后左右摆动并迅速倒向，表明飞机过台。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 198,
@@ -2568,7 +2568,7 @@
       "减小",
       "不变"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "读表可知，MH330°，RB270°，可知QDM=240°，QDR=60°，可知电台在飞机左侧。保持航向飞行时，电台在右侧，随着飞机的向前飞行，无线电三个方位都将逐渐增大；电台在左侧，随着飞机的向前飞行，无线电三个方位都将逐渐减小。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/198.jpg",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/198explain.jpg"
@@ -2581,10 +2581,10 @@
       "甚高频导航台",
       "甚高频全向信标"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "VOR是甚高频全向信标，是一种近程无线电测角导航系统。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/199.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 200,
@@ -2594,10 +2594,10 @@
       "测距仪",
       "决断测量设备"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "DME系统是询问-回答式脉冲测距系统，由机载设备和地面信标设备组成。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 201,
@@ -2607,10 +2607,10 @@
       "测角",
       "测高"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "VOR是一种近程无线电测角导航系统。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 202,
@@ -2620,10 +2620,10 @@
       "108-112MHZ",
       "108-118MHZ"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "地面VOR台的工作频率范围是108~118MHz。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 203,
@@ -2633,10 +2633,10 @@
       "120个",
       "40个"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "B类VOR使用40个波道，A类VOR使用120个波道，共计160个波道。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 204,
@@ -2646,10 +2646,10 @@
       "350NM",
       "200NM"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "航路VOR台，也称为A类VOR台，工作距离为200 n mile。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 205,
@@ -2659,10 +2659,10 @@
       "右侧",
       "上空"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "只有在飞机保持较高的高度平飞接近测距台时，斜距与实际水平距离之间才会出现较明显的误差，所以当飞机在DME电台上空时，测量误差最大。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 206,
@@ -2672,10 +2672,10 @@
       "ILS、DME",
       "DME、ADF"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "机载VOR通常与ILS和DME设备配套使用。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 207,
@@ -2685,10 +2685,10 @@
       "水平距离，NM",
       "垂直距离，KM"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "DME系统是询问——回答式脉冲测距系统，由机载设备和地面信标设备组成。机载DME设备主要由询问器、控制盒、距离指示器和天线部分组成。注意距离指示器显示的是飞机到地面信标台的斜距。欧美制飞机的DME距离以海里为单位。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 208,
@@ -2698,10 +2698,10 @@
       "100",
       "110"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "DME系统的地面DME台通常设计为能同时为100架飞机提供服务，如果询问的飞机多于100架，地面DME台通过降低灵敏度来限制回答，保持对最近的100架飞机询问的回答。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 209,
@@ -2711,10 +2711,10 @@
       "180°",
       "270°"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "飞机正切左侧电台，可知RB为270°，QDM=MH+RB=270°，QDR=QDM±180°=90°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 210,
@@ -2724,10 +2724,10 @@
       "电台磁方位",
       "飞机磁方位"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "RMI上方位指针针尾指示飞机的磁方位。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 211,
@@ -2737,10 +2737,10 @@
       "工作距离",
       "误差"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "RMI是无线电磁指示器，在RMI上可以指示出飞机与所调VOR台的飞机磁方位。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 212,
@@ -2750,10 +2750,10 @@
       "CDI",
       "ADF"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "RMI（无线电磁指示器）可以接收NDB台和VOR台信号，CDI（航道偏离指示器）用来指示飞机与VOR预选航道的关系，ADF指示电台相对方位。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 213,
@@ -2763,10 +2763,10 @@
       "NDB台",
       "DME台"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "双针接收频率为113.6，VOR使用频率为108~118MHz，所以双针调谐的电台是VOR台。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/213.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 214,
@@ -2776,10 +2776,10 @@
       "飞机磁方位角",
       "相对磁方位角"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "电台磁方位（QDM）: 以磁经线北端为基准的电台方位角叫电台磁方位角。\n飞机磁方位（QDR）：以磁经线北端为基准的飞机方位角叫飞机磁方位角。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 215,
@@ -2789,9 +2789,9 @@
       "9点钟",
       "11点钟"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "N/A",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/215explain.jpg"
   },
   {
@@ -2802,10 +2802,10 @@
       "方向和时间修正",
       "距离和时间修正"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "修正航迹包括两方面的修正：一方面是进行方向修正，使飞机准确飞到预定点；另一方面是进行距离（即时间）修正，使飞机能够按新的预达时刻准时到达预定点。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/216.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 217,
@@ -2815,10 +2815,10 @@
       "VOR 交叉定点",
       "VOR、NDB、DME"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "自动定向仪（ADF）是最早应用的无线电导航系统，它与地面 NDB 导航台配合，组成一种近程测角系统。甚高频全向信标（VOR）系统，是一种近程无线电测角导航系统,由地面发射台和机载设备组成，工作在 108～117.95MHz 频段，它由地面发射台通过天线发射出方位信息，机载设备接收和处理这一方位信息，并通过有关的指示器指示相应的方位信息，测距仪（DME）是一种能够测量由询问器到某个固定应答器（地面台）距离的设备，在航空上测量的是飞机到地面台的斜距,不是距台的水平距离。飞行中可用这三种方式对飞机进行定位。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 218,
@@ -2828,10 +2828,10 @@
       "航道偏离杆",
       "向/背指标"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "当选择VOR方式时，航道偏离杆由飞机位置所在径向方位与预选VOR航道的角度偏离信号驱动，显示出飞机偏离预选VOR航道的情况。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 219,
@@ -2841,10 +2841,10 @@
       "旁切入航、通场入航",
       "直接入航、通场入航"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "目视飞行离场入航方法包括：直接离场入航和通过机场上空离场入航。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 220,
@@ -2854,10 +2854,10 @@
       "旁切进场",
       "加入起落航线"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "目视飞行进场方法是加入起落航线。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 221,
@@ -2867,10 +2867,10 @@
       "300°",
       "030°"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "根据图中TO/FROM指标可以看出，飞机正在穿越30°径向线。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/221.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 222,
@@ -2880,9 +2880,9 @@
       "北",
       "南"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "根据图1可知，预选航道30°，向背台指示TO，飞机在向台区，航道偏离杆偏左，则飞机偏在右侧，并且仪表显示满偏，飞机偏离10°，如图所示，飞机在电台的南偏西20°。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "questionImage": "",
     "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/222explain.jpg"
   },
   {
@@ -2893,10 +2893,10 @@
       "西",
       "东南"
     ],
-    "correctAnswer": "C",
+    "correctAnswer": 2,
     "explanation": "根据图3，根据向背台指标指示，飞机正在过台。但是飞机偏在预选航道右侧，预选航道30度，飞机偏在右侧，飞机约在电台120度径向线上，即东南方向",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/223.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 224,
@@ -2906,10 +2906,10 @@
       "GS",
       "MB"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "仪表着陆系统地面台包括三个系统：LOC（航向信标）、GS（下滑信标台）和MB（指点标）。反航道区域没有下滑信号发射，沿反航道进近的飞机只能使用航向信标（LOC），在仪表上指示与正常进近时指示相反。",
-    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "questionImage": "",
+    "explanationImage": ""
   },
   {
     "id": 225,
@@ -2919,10 +2919,10 @@
       "军民合用机场",
       "军用机场"
     ],
-    "correctAnswer": "B",
+    "correctAnswer": 1,
     "explanation": "由所给图可知，◎和〇代表军用机场，〇四周有短线段的代表民用机场，◎四周有短线段的代表军民合用机场。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/225.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 226,
@@ -2932,10 +2932,10 @@
       "N39°47′42″E116°29′5″",
       "N39°39′32″E116°22′50″"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "由图可知，良乡导航台的经纬度是N39 43.3，E116 05.8，因为良乡和南苑机场很近，所以离南苑机场最近的左边的经线为116°，最近的上面的纬线为40°。以南苑机场为起点，用直尺分别向经线和纬线作垂直线，图中，经纬线上每一个小格代表1′，以南苑机场为起点，向上数大概13个小格不到，向左数大概23个格子不到，经过简单计算，可得出南苑机场的经纬度是：N39°47′32″E116°22′50″，或者以良乡为起始点进行加减计算。",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/226.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   },
   {
     "id": 227,
@@ -2945,9 +2945,9 @@
       "09:50",
       "09:45"
     ],
-    "correctAnswer": "A",
+    "correctAnswer": 0,
     "explanation": "由图可得怀来和青白口的距离标志（27）表示为27海里，青白口到紫石口的距离标志（22）表示为22海里。09:39到青白口时用时9分钟，27除以9=3海里/分，22除以3=7.3分，即到紫石口导航台约为09:46.",
     "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/领航/227.jpg",
-    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
+    "explanationImage": ""
   }
 ]

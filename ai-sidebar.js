@@ -58,86 +58,6 @@
             thinking: 'ai-thinking'
         }
     };
-    
-    // 配置 marked.js - 最终修正版（严格匹配 v14+ API）
-    const renderer = new marked.Renderer();
-
-    // 1. 自定义列表项渲染 (list_item token)
-    renderer.listitem = function(token) {
-    // 防御性检查
-    if (!token) {
-        return `<li class="md-list-item"></li>\n`;
-    }
-
-    let content = '';
-    // 新版marked：列表项内容在 token.tokens 中
-    if (token.tokens && Array.isArray(token.tokens) && token.tokens.length > 0) {
-        try {
-        // 解析列表项内部的段落、强调、文本等内联元素
-        content = this.parser.parseInline(token.tokens);
-        } catch (e) {
-        console.warn('解析listitem内联tokens失败:', e);
-        content = token.text || token.raw || '';
-        }
-    } else {
-        // 降级处理：显示原始文本
-        content = token.text || token.raw || '';
-    }
-    
-    // 清理内容中的多余换行，避免破坏布局
-    content = content.trim();
-    return `<li class="md-list-item">${content}</li>\n`;
-    };
-
-    // 2. 自定义列表渲染 (list token) - 【核心修正】
-    renderer.list = function(token) {
-    if (!token) {
-        console.warn('list函数收到空token');
-        return `<ul class="md-list">\n</ul>\n`;
-    }
-
-    const ordered = token.ordered;
-    const start = token.start;
-    const type = ordered ? 'ol' : 'ul';
-    const startAttr = (ordered && start !== 1) ? ` start="${start}"` : '';
-
-    let body = '';
-    
-    // 【关键改变】新版marked使用 token.items 存放列表项
-    if (token.items && Array.isArray(token.items)) {
-        // 遍历每个列表项token，调用listitem渲染器
-        const itemsHtml = token.items.map(itemToken => {
-        // 确保每个itemToken能被正确处理
-        return this.listitem(itemToken);
-        }).join('');
-        
-        body = itemsHtml;
-    } else {
-        // 如果没有items，尝试用原始方式回退（为了兼容性）
-        console.warn('list token缺少items属性，尝试使用tokens:', token);
-        if (token.tokens && Array.isArray(token.tokens)) {
-        body = this.parser.parse(token.tokens);
-        } else {
-        body = '<li>(列表内容无法解析)</li>';
-        }
-    }
-
-    return `<${type} class="md-list"${startAttr}>\n${body}</${type}>\n`;
-    };
-
-    renderer.hr = function(token) {
-        // 参数 token 在新版 marked (v14+) 中是一个对象，旧版可能是空或字符串
-        // 无论参数是什么，我们只需要返回一个固定的 <hr> 标签
-        // 可以给它添加一个类名以便自定义样式
-        return `<hr class="md-hr">\n`;
-    };
-
-    // 3. 设置marked选项
-    marked.setOptions({
-    renderer: renderer,
-    gfm: true,
-    breaks: true,
-    });
 
     // 状态管理
     let state = {
@@ -396,7 +316,7 @@
         if (!messageElement || !messageElement.contentElement) return;
         
         // 解析Markdown
-        const formattedContent = marked.parse(content);
+        const formattedContent = window.mdRenderer.render(content);
         
         // 更新内容
         messageElement.contentElement.innerHTML = formattedContent;
@@ -429,7 +349,7 @@
         }
         
         // 最终解析Markdown
-        const formattedContent = marked.parse(content);
+        const formattedContent = window.mdRenderer.render(content);
         if (messageElement.contentElement) {
             messageElement.contentElement.innerHTML = formattedContent;
         }
@@ -543,7 +463,7 @@
         messageItem.className = `${CONFIG.CLASSES.messageItem} ${role === 'user' ? CONFIG.CLASSES.userMessage : CONFIG.CLASSES.assistantMessage}`;
         
         const time = formatTime();
-        const formattedContent = marked.parse(content);
+        const formattedContent = window.mdRenderer.render(content);
         
         messageItem.innerHTML = `
             <div class="ai-message-header">
@@ -689,7 +609,7 @@
         // 创建主容器
         const sidebar = document.createElement('div');
         sidebar.id = 'ai-sidebar';
-        sidebar.className = `${CONFIG.CLASSES.sidebar} ${CONFIG.CLASSES.collapsed}`;
+        sidebar.className = `ai-sidebar ai-sidebar-collapsed`;
         
         // 侧边栏头部
         const header = document.createElement('div');
@@ -774,7 +694,7 @@
                 </div>
             </div>
         `;
-        
+
         // 切换按钮（独立于侧边栏，始终可见）
         const toggleBtn = document.createElement('button');
         toggleBtn.className = CONFIG.CLASSES.toggleBtn;
@@ -818,6 +738,53 @@
         elements.newChatBtn = document.getElementById('ai-new-chat-btn');
         elements.statusIndicator = header.querySelector(`.${CONFIG.CLASSES.statusIndicator}`);
         
+        // 创建拖动条
+        const resizer = document.createElement('div');
+        resizer.className = 'ai-sidebar-resizer';
+        sidebar.appendChild(resizer);  // 将拖动条作为侧边栏的子元素，绝对定位
+
+        // 将 sidebar 和 toggleBtn 添加到页面
+        document.body.appendChild(sidebar);
+        document.body.appendChild(toggleBtn);
+
+        // ... 原有代码保存 elements ...
+
+        // 绑定拖动事件
+        let startX, startWidth;
+
+        function onMouseMove(e) {
+            e.preventDefault();
+            const newWidth = startWidth + (e.clientX - startX) * (CONFIG.POSITION === 'right' ? -1 : 1);
+            // 限制最小/最大宽度
+            const minWidth = 200, maxWidth = 800;
+            if (newWidth >= minWidth && newWidth <= maxWidth) {
+                sidebar.style.width = newWidth + 'px';
+                // 更新切换按钮位置
+                if (!state.isCollapsed) {
+                    if (CONFIG.POSITION === 'right') {
+                        toggleBtn.style.right = newWidth + 'px';
+                    } else {
+                        toggleBtn.style.left = newWidth + 'px';
+                    }
+                }
+                // 更新 CONFIG.SIDEBAR_WIDTH 供其他逻辑使用（如移动端适配）
+                CONFIG.SIDEBAR_WIDTH = newWidth;
+            }
+        }
+
+        function onMouseUp() {
+            document.removeEventListener('mousemove', onMouseMove);
+            document.removeEventListener('mouseup', onMouseUp);
+        }
+
+        resizer.addEventListener('mousedown', (e) => {
+            e.preventDefault();
+            startX = e.clientX;
+            startWidth = sidebar.offsetWidth;
+            document.addEventListener('mousemove', onMouseMove);
+            document.addEventListener('mouseup', onMouseUp);
+        });
+
         // 初始状态指示器
         updateStatusIndicator();
         
@@ -843,692 +810,6 @@
         } catch (e) {
             console.warn('无法读取本地存储:', e);
         }
-    }
-    
-    // 创建并注入CSS样式
-    function injectStyles() {
-        const style = document.createElement('style');
-        style.textContent = `
-            /* AI侧边栏主样式 */
-            .${CONFIG.CLASSES.sidebar} {
-                position: fixed;
-                top: 0;
-                ${CONFIG.POSITION}: 0;
-                width: ${CONFIG.SIDEBAR_WIDTH}px;
-                height: 100vh;
-                background-color: #ffffff;
-                box-shadow: -2px 0 20px rgba(0, 0, 0, 0.1);
-                display: flex;
-                flex-direction: column;
-                z-index: 5000;
-                transition: transform ${CONFIG.ANIMATION_DURATION}ms ease;
-                border-left: 1px solid #e0e0e0;
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-            }
-            
-            .${CONFIG.CLASSES.sidebar}.${CONFIG.CLASSES.expanded} {
-                transform: translateX(0);
-            }
-            
-            .${CONFIG.CLASSES.sidebar}.${CONFIG.CLASSES.collapsed} {
-                transform: translateX(${CONFIG.POSITION === 'right' ? CONFIG.SIDEBAR_WIDTH : -CONFIG.SIDEBAR_WIDTH}px);
-            }
-            
-            /* 切换按钮样式 - 独立于侧边栏，始终可见 */
-            .${CONFIG.CLASSES.toggleBtn} {
-                position: fixed;
-                top: 50%;
-                ${CONFIG.POSITION}: 0;
-                transform: translateY(-50%);
-                width: ${CONFIG.COLLAPSED_WIDTH}px;
-                height: ${CONFIG.COLLAPSED_WIDTH}px;
-                background-color: #1a73e8;
-                color: white;
-                border: none;
-                border-radius: ${CONFIG.POSITION === 'right' ? '8px 0 0 8px' : '0 8px 8px 0'};
-                cursor: pointer;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-size: 20px;
-                box-shadow: -2px 0 8px rgba(0, 0, 0, 0.15);
-                transition: all ${CONFIG.ANIMATION_DURATION}ms ease;
-                z-index: 8000;
-                padding: 0;
-                margin: 0;
-            }
-            
-            .${CONFIG.CLASSES.toggleBtn}:hover {
-                background-color: #0d62d9;
-                width: ${CONFIG.COLLAPSED_WIDTH + 4}px;
-            }
-            
-            .${CONFIG.CLASSES.toggleBtnInner} {
-                display: flex;
-                    align-items: center;
-                justify-content: center;
-                width: 100%;
-                height: 100%;
-            }
-            
-            /* 头部样式 */
-            .${CONFIG.CLASSES.header} {
-                padding: 16px 20px;
-                background-color: #1a73e8;
-                color: white;
-                border-bottom: 1px solid #1565c0;
-                flex-shrink: 0;
-            }
-            
-            .${CONFIG.CLASSES.header} h2 {
-                margin: 0 0 8px 0;
-                font-size: 18px;
-                font-weight: 600;
-            }
-            
-            .${CONFIG.CLASSES.statusIndicator} {
-                font-size: 12px;
-                opacity: 0.9;
-                display: flex;
-                align-items: center;
-            }
-
-            /* 默认状态为未连接（红点） */
-            .${CONFIG.CLASSES.statusIndicator}:before {
-                content: '';
-                display: inline-block;
-                width: 8px;
-                height: 8px;
-                border-radius: 50%;
-                background-color: #d93025; /* 未连接红色 */
-                margin-right: 6px;
-            }
-
-            /* 已连接（绿色） */
-            .${CONFIG.CLASSES.statusIndicator}.connected:before {
-                background-color: #34a853;
-            }
-
-            /* 思考中（黄色且有呼吸动画） */
-            .${CONFIG.CLASSES.statusIndicator}.${CONFIG.CLASSES.thinking}:before {
-                background-color: #fbbc05;
-                animation: pulse 1.5s infinite;
-            }
-            
-            @keyframes pulse {
-                0% { opacity: 1; }
-                50% { opacity: 0.5; }
-                100% { opacity: 1; }
-            }
-            
-            /* 内容区域样式 */
-            .${CONFIG.CLASSES.content} {
-                flex: 1;
-                overflow: hidden;
-                display: flex;
-                flex-direction: column;
-            }
-            
-            /* 验证界面样式 */
-            .ai-auth-view {
-                padding: 20px;
-                overflow-y: auto;
-                flex: 1;
-            }
-            
-            .ai-auth-header {
-                margin-bottom: 24px;
-            }
-            
-            .ai-auth-header h3 {
-                margin: 0 0 8px 0;
-                color: #202124;
-                font-size: 20px;
-            }
-            
-            .ai-auth-header p {
-                margin: 0;
-                color: #5f6368;
-                font-size: 14px;
-                line-height: 1.5;
-            }
-            
-            .ai-auth-form {
-                margin-bottom: 24px;
-            }
-            
-            .ai-form-group {
-                margin-bottom: 20px;
-            }
-            
-            .ai-form-group label {
-                display: block;
-                margin-bottom: 6px;
-                font-weight: 500;
-                color: #3c4043;
-                font-size: 14px;
-            }
-            
-            .${CONFIG.CLASSES.apiKeyInput} {
-                width: 100%;
-                padding: 12px;
-                border: 1px solid #dadce0;
-                border-radius: 4px;
-                font-size: 14px;
-                box-sizing: border-box;
-                transition: border-color 0.2s;
-            }
-            
-            .${CONFIG.CLASSES.apiKeyInput}:focus {
-                outline: none;
-                border-color: #1a73e8;
-                box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.2);
-            }
-            
-            .ai-form-hint {
-                font-size: 12px;
-                color: #5f6368;
-                margin: 6px 0 0 0;
-            }
-            
-            .ai-primary-btn {
-                background-color: #1a73e8;
-                color: white;
-                border: none;
-                border-radius: 4px;
-                padding: 12px 20px;
-                font-size: 14px;
-                font-weight: 500;
-                cursor: pointer;
-                width: 100%;
-                transition: background-color 0.2s;
-            }
-            
-            .ai-primary-btn:hover {
-                background-color: #0d62d9;
-            }
-            
-            .ai-primary-btn:disabled {
-                background-color: #b3d4fc;
-                cursor: not-allowed;
-            }
-            
-            .ai-error-msg {
-                color: #d93025;
-                font-size: 13px;
-                margin: 8px 0 0 0;
-                min-height: 20px;
-            }
-            
-            .ai-auth-info {
-                background-color: #f8f9fa;
-                border-radius: 8px;
-                padding: 16px;
-                margin-top: 24px;
-                border-left: 4px solid #1a73e8;
-            }
-            
-            .ai-auth-info h4 {
-                margin: 0 0 12px 0;
-                color: #202124;
-                font-size: 16px;
-            }
-            
-            .ai-auth-info ol {
-                margin: 0 0 12px 0;
-                padding-left: 20px;
-                color: #5f6368;
-                font-size: 14px;
-                line-height: 1.6;
-            }
-            
-            .ai-auth-info li {
-                margin-bottom: 6px;
-            }
-            
-            .ai-auth-info a {
-                color: #1a73e8;
-                text-decoration: none;
-            }
-            
-            .ai-auth-info a:hover {
-                text-decoration: underline;
-            }
-            
-            .ai-security-note {
-                font-size: 13px;
-                color: #d93025;
-                margin: 12px 0 0 0;
-                padding: 8px 12px;
-                background-color: #fce8e6;
-                border-radius: 4px;
-                border-left: 3px solid #d93025;
-            }
-            
-            /* 对话界面样式 */
-            .ai-chat-view {
-                display: flex;
-                flex-direction: column;
-                height: 100%;
-            }
-            
-            .${CONFIG.CLASSES.chatContainer} {
-                flex: 1;
-                overflow-y: auto;
-                padding: 16px;
-                display: flex;
-                flex-direction: column;
-            }
-            
-            .${CONFIG.CLASSES.messageList} {
-                flex: 1;
-                display: flex;
-                flex-direction: column;
-                gap: 20px;
-            }
-            
-            .${CONFIG.CLASSES.messageItem} {
-                max-width: 90%;
-                padding: 12px 16px;
-                border-radius: 18px;
-                word-wrap: break-word;
-                animation: fadeIn 0.3s ease;
-            }
-            
-            @keyframes fadeIn {
-                from { opacity: 0; transform: translateY(10px); }
-                to { opacity: 1; transform: translateY(0); }
-            }
-            
-            .${CONFIG.CLASSES.messageItem}.${CONFIG.CLASSES.userMessage} {
-                align-self: flex-end;
-                background-color: #1a73e8;
-                color: white;
-                border-bottom-right-radius: 4px;
-            }
-            
-            .${CONFIG.CLASSES.messageItem}.${CONFIG.CLASSES.assistantMessage} {
-                align-self: flex-start;
-                background-color: #f8f9fa;
-                color: #202124;
-                border-bottom-left-radius: 4px;
-                border: 1px solid #e0e0e0;
-            }
-            
-            .${CONFIG.CLASSES.messageItem}.${CONFIG.CLASSES.assistantMessageStreaming} {
-                border-color: #1a73e8;
-                box-shadow: 0 0 0 1px rgba(26, 115, 232, 0.1);
-            }
-            
-            .ai-message-header {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                margin-bottom: 8px;
-                font-size: 12px;
-            }
-            
-            .${CONFIG.CLASSES.messageItem}.${CONFIG.CLASSES.userMessage} .ai-message-header {
-                color: rgba(255, 255, 255, 0.9);
-            }
-            
-            .${CONFIG.CLASSES.messageItem}.${CONFIG.CLASSES.assistantMessage} .ai-message-header {
-                color: #5f6368;
-            }
-            
-            .ai-message-role {
-                font-weight: 600;
-            }
-            
-            .ai-streaming-indicator {
-                font-size: 11px;
-                color: #1a73e8;
-                font-style: italic;
-                animation: pulse 2s infinite;
-            }
-            
-            /* ========== Markdown 内容样式 (为marked.js定制) ========== */
-            .ai-message-content {
-                line-height: 1.6;
-                font-size: 14px;
-                word-wrap: break-word;
-                overflow-wrap: break-word;
-            }
-            
-            /* 重置第一个和最后一个元素的边距 */
-            .ai-message-content > *:first-child {
-                margin-top: 0 !important;
-            }
-            
-            .ai-message-content > *:last-child {
-                margin-bottom: 0 !important;
-            }
-            
-            /* 段落 */
-            .ai-message-content p {
-                margin: 0.75em 0;
-                line-height: 1.6;
-            }
-            
-            /* 标题 */
-            .ai-message-content h1,
-            .ai-message-content h2,
-            .ai-message-content h3,
-            .ai-message-content h4 {
-                margin: 1.2em 0 0.6em 0;
-                font-weight: 600;
-                line-height: 1.3;
-                color: #202124;
-            }
-            
-            .ai-message-content h1 {
-                font-size: 1.5em;
-                padding-bottom: 0.3em;
-                border-bottom: 1px solid #eaecef;
-            }
-            
-            .ai-message-content h2 {
-                font-size: 1.3em;
-            }
-            
-            .ai-message-content h3 {
-                font-size: 1.1em;
-            }
-            
-            .ai-message-content h4 {
-                font-size: 1em;
-            }
-            
-            /* 内联样式 */
-            .ai-message-content strong {
-                font-weight: 700;
-            }
-            
-            .ai-message-content em {
-                font-style: italic;
-            }
-            
-            /* 内联代码 */
-            .ai-message-content code:not(pre code) {
-                background-color: rgba(0, 0, 0, 0.05);
-                padding: 0.2em 0.4em;
-                border-radius: 3px;
-                font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
-                font-size: 0.9em;
-            }
-            
-            /* 代码块 */
-            .ai-message-content pre {
-                background-color: #f6f8fa;
-                border-radius: 6px;
-                padding: 12px;
-                overflow-x: auto;
-                margin: 1em 0;
-                border: 1px solid #e1e4e8;
-            }
-            
-            .ai-message-content pre code {
-                background-color: transparent;
-                padding: 0;
-                border-radius: 0;
-                font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
-                font-size: 0.9em;
-                line-height: 1.5;
-                display: block;
-            }
-            
-            /* 列表 - 核心修正部分 */
-            .ai-message-content ul,
-            .ai-message-content ol,
-            .ai-message-content .md-list {
-                margin: 0.75em 0;
-                padding-left: 2em;
-                line-height: 1.6;
-            }
-            
-            .ai-message-content ul,
-            .ai-message-content .md-list:not(ol) {
-                list-style-type: disc;
-            }
-            
-            .ai-message-content ol,
-            .ai-message-content .md-list[class*="ol"] {
-                list-style-type: decimal;
-            }
-            
-            .ai-message-content li,
-            .ai-message-content .md-list-item {
-                margin: 0.35em 0;
-                display: list-item;
-            }
-            
-            /* 嵌套列表 */
-            .ai-message-content ul ul,
-            .ai-message-content ul ol,
-            .ai-message-content ol ul,
-            .ai-message-content ol ol,
-            .ai-message-content .md-list .md-list {
-                margin: 0.25em 0;
-            }
-            
-            .ai-message-content ul ul,
-            .ai-message-content ol ul {
-                list-style-type: circle;
-            }
-            
-            .ai-message-content ul ul ul,
-            .ai-message-content ol ul ul {
-                list-style-type: square;
-            }
-            
-            /* 引用 */
-            .ai-message-content blockquote {
-                border-left: 4px solid #1a73e8;
-                padding: 0 1em;
-                margin: 1em 0;
-                color: #5f6368;
-                font-style: italic;
-            }
-            
-            .ai-message-content blockquote > :first-child {
-                margin-top: 0;
-            }
-            
-            .ai-message-content blockquote > :last-child {
-                margin-bottom: 0;
-            }
-            
-            /* 水平线 */
-            .ai-message-content hr,
-            .ai-message-content .md-hr {
-                border: none;           /* 清除默认边框 */
-                border-top: 1px solid #e0e0e0; /* 设置细线颜色 */
-                margin: 1.5em auto;     
-                width: 100%;            /* 确保宽度 */
-                height: 1px;
-                background-color: #e0e0e0; /* 备用背景色 */
-            }
-            
-            /* 链接 */
-            .ai-message-content a {
-                color: #1a73e8;
-                text-decoration: none;
-            }
-            
-            .ai-message-content a:hover {
-                text-decoration: underline;
-            }
-            
-            /* 图片 */
-            .ai-message-content img {
-                max-width: 100%;
-                height: auto;
-                border-radius: 4px;
-            }
-            
-            /* 底部输入区域样式 */
-            .${CONFIG.CLASSES.footer} {
-                border-top: 1px solid #e0e0e0;
-                padding: 16px;
-                background-color: #ffffff;
-                flex-shrink: 0;
-            }
-            
-            .ai-input-container {
-                display: flex;
-                flex-direction: column;
-                gap: 12px;
-            }
-            
-            .${CONFIG.CLASSES.inputArea} {
-                display: flex;
-                gap: 8px;
-                align-items: flex-end;
-            }
-            
-            #ai-message-input {
-                flex: 1;
-                padding: 12px;
-                border: 1px solid #dadce0;
-                border-radius: 20px;
-                font-size: 14px;
-                font-family: inherit;
-                resize: none;
-                max-height: 120px;
-                min-height: 44px;
-                box-sizing: border-box;
-                transition: border-color 0.2s;
-            }
-            
-            #ai-message-input:focus {
-                outline: none;
-                border-color: #1a73e8;
-                box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.2);
-            }
-            
-            .${CONFIG.CLASSES.sendBtn} {
-                background-color: #1a73e8;
-                color: white;
-                border: none;
-                border-radius: 50%;
-                width: 44px;
-                height: 44px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                cursor: pointer;
-                transition: background-color 0.2s;
-                flex-shrink: 0;
-                position: relative;
-                z-index: 20002; /* 确保位于侧边栏之上 */
-            }
-
-            /* 保证 SVG 图标可见并继承按钮颜色 */
-            .${CONFIG.CLASSES.sendBtn} svg {
-                display: block;
-                width: 20px;
-                height: 20px;
-                color: inherit;
-            }
-            /* 强制 SVG 路径使用按钮颜色，防止全局样式覆盖 */
-            .${CONFIG.CLASSES.sendBtn} svg path,
-            .${CONFIG.CLASSES.sendBtn} svg line,
-            .${CONFIG.CLASSES.sendBtn} svg polygon,
-            .${CONFIG.CLASSES.sendBtn} svg rect {
-                stroke: currentColor !important;
-                fill: none !important;
-            }
-            
-            .${CONFIG.CLASSES.sendBtn}:hover {
-                background-color: #0d62d9;
-            }
-            
-            .${CONFIG.CLASSES.sendBtn}:disabled {
-                background-color: #b3d4fc;
-                cursor: not-allowed;
-            }
-            
-            .ai-chat-controls {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                font-size: 12px;
-                color: #5f6368;
-            }
-            
-            .${CONFIG.CLASSES.newChatBtn} {
-                background: none;
-                border: 1px solid #dadce0;
-                border-radius: 16px;
-                padding: 6px 12px;
-                font-size: 12px;
-                color: #5f6368;
-                cursor: pointer;
-                transition: all 0.2s;
-            }
-            
-            .${CONFIG.CLASSES.newChatBtn}:hover {
-                background-color: #f8f9fa;
-                border-color: #c6c9ce;
-            }
-            
-            .ai-context-info {
-                font-size: 11px;
-                opacity: 0.7;
-            }
-            
-            /* 响应式调整 */
-            @media (max-width: 768px) {
-                .${CONFIG.CLASSES.sidebar} {
-                    width: 100%;
-                    max-width: 100%;
-                }
-                
-                .${CONFIG.CLASSES.sidebar}.${CONFIG.CLASSES.collapsed} {
-                    transform: translateX(${CONFIG.POSITION === 'right' ? '100%' : '-100%'});
-                }
-                
-                .${CONFIG.CLASSES.toggleBtn} {
-                    width: 40px;
-                    height: 40px;
-                    font-size: 16px;
-                }
-                
-                /* 在移动端缩小一些边距 */
-                .ai-message-content h1,
-                .ai-message-content h2,
-                .ai-message-content h3 {
-                    margin: 1em 0 0.5em 0;
-                }
-                
-                .ai-message-content p,
-                .ai-message-content ul,
-                .ai-message-content ol {
-                    margin: 0.5em 0;
-                }
-            }
-            
-            /* 滚动条样式 */
-            ::-webkit-scrollbar {
-                width: 6px;
-            }
-            
-            ::-webkit-scrollbar-track {
-                background: #f1f1f1;
-                border-radius: 3px;
-            }
-            
-            ::-webkit-scrollbar-thumb {
-                background: #c1c1c1;
-                border-radius: 3px;
-            }
-            
-            ::-webkit-scrollbar-thumb:hover {
-                background: #a8a8a8;
-            }
-        `;
-        
-        document.head.appendChild(style);
     }
     
     // 初始化事件监听
@@ -1626,9 +907,6 @@
         }
         
         try {
-            // 注入CSS样式
-            injectStyles();
-            
             // 创建侧边栏DOM
             createSidebar();
             
@@ -1642,10 +920,9 @@
             
             // 在移动设备上调整初始状态
             if (window.innerWidth <= 768) {
-                // 在移动设备上默认展开
                 state.isCollapsed = true;
-                elements.sidebar.classList.remove(CONFIG.CLASSES.collapsed);
-                elements.sidebar.classList.add(CONFIG.CLASSES.expanded);
+                elements.sidebar.classList.remove('ai-sidebar-collapsed');
+                elements.sidebar.classList.add('ai-sidebar-expanded');
             }
             
         } catch (error) {

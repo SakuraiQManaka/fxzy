@@ -1,49 +1,67 @@
 // 工具函数模块
 // ===================================================
-// 此模块封装了全局通用的工具函数，包括：
-// 1. 消息提示框（右上角弹出提示）
-// 2. 信息模态框（显示更新日志、整体进度）
+// 此模块封装了全局通用的工具函数,包括:
+// 1. 消息提示框(右上角弹出提示)
+// 2. 信息模态框(显示更新日志、整体进度)
 // 3. 更新日志的查看逻辑
 // ===================================================
 
 const utils = (function() {
     // -------------------- 状态变量 --------------------
-    let messageCount = 0;           // 当前显示的消息数量（用于计算堆叠偏移）
-    let lastMessageTime = 0;        // 上一条消息的显示时间戳，用于节流显示
+    let messageCount = 0;           // 当前显示的消息数量(用于计算堆叠偏移)
+    let lastMessageTime = 0;        // 上一条消息的显示时间戳,用于节流显示
 
     // -------------------- 更新日志数据 --------------------
     // 每次版本更新时可在这里添加一条记录
     const updateLogs = [
         {
+            title: "Ver1.8-Beta-图片标注功能增强、AI侧边栏、云端同步修复等",
+            context: [
+                "1. 图片标注功能全面增强:点击图片可放大,支持画笔、直线、对象擦除(非白色涂抹)、三种颜色(黑蓝红)、缩放平移、撤销/重做、一键清除;所有按钮替换为SVG图标,优化移动端触摸交互,点击遮罩关闭并增加动画效果",
+                "2. AI侧边栏:初始状态改为默认关闭,提升主界面使用体验",
+                "3. 计时器插件:所有按钮(开始、暂停、结束)由emoji替换为SVG图标,界面更统一",
+                "4. 云端同步修复:优化导入逻辑,避免破坏整体进度数据结构,支持SHA冲突自动重试",
+                "5. 考试模式独立页面:在exam/目录下新增考试系统,支持按章节百分比抽题、限时答题、自动评分,完全不干扰练习进度",
+                "6. 图片路径绝对化:提供Python脚本批量转换题库JSON中的图片路径为绝对URL,确保线上图片正常加载",
+                "7. 整体进度重置修复:初始化全部进度后立即刷新界面,无需手动刷新",
+                "8. 多个Bug修复:修复整体进度打不开、导入进度后数据损坏、画笔首次绘制颜色错误等问题",
+                "9. CSS结构优化:将所有动态注入的样式独立为外部文件,统一管理;修复AI侧边栏列表显示异常(去除多余滚动条、消除重叠)",
+                "10. AI侧边栏增强:支持拖拽左侧边缘调整宽度,记忆用户偏好",
+                "11. AI题解流式输出:生成题解时逐字显示,体验更流畅",
+                "12. 稳定性修复:修复侧边栏初始化错误、隐私模式下localStorage异常等潜在问题"
+            ],
+            date: "2026-3-7"
+        },
+        {
             title: "Ver1.7-Beta-计时器与进度跨设备同步",
             context: [
-                "1. 新增可拖动的计时器，支持开始、暂停、结束，并可通过拖拽条隐藏/展开，方便计时练习",
-                "2. 增加进度导入导出功能，可将当前类别（私照/商照/仪表）的答题进度导出为JSON文件，并在其他设备上导入，实现跨设备进度同步",
-                "3. 调整界面：取消导出错题/导入错题按钮，将导出进度按钮移至左侧面板，导入进度按钮集成到整体进度模态框中",
-                "4. 整体进度模态框优化：总体统计信息现在显示在最上方，更直观",
-                "5. 清理冗余代码，提升稳定性"
+                "1. 新增可拖动的计时器,支持开始、暂停、结束,并可通过拖拽条隐藏/展开,方便计时练习",
+                "2. 增加进度导入导出功能,可将当前类别(私照/商照/仪表)的答题进度导出为JSON文件,并在其他设备上导入,实现跨设备进度同步",
+                "3. 调整界面:取消导出错题/导入错题按钮,将导出进度按钮移至左侧面板,导入进度按钮集成到整体进度模态框中",
+                "4. 整体进度模态框优化:总体统计信息现在显示在最上方,更直观",
+                "5. 清理冗余代码,提升稳定性"
             ],
             date: "2026-2-27"
         },
         {
             title: "Ver1.6-Beta-增加AI题解、AI对话助手",
             context: [
-                "1. 增加了一个AI助手，在侧边栏输入Deepseek API Key即可与AI助手对话",
-                "2. 增加了AI题解功能，在题解下点击AI生成题解按钮即可获得AI题解",
+                "1. 增加了一个AI助手,在侧边栏输入Deepseek API Key即可与AI助手对话",
+                "2. 增加了AI题解功能,在题解下点击AI生成题解按钮即可获得AI题解",
                 "3. 增加了在做题页面上显示当前正在做的题库",
-                "当前为测试版本，有问题可以通过邮箱反馈"
+                "当前为测试版本,有问题可以通过邮箱反馈"
             ],
             date: "2026-1-24"
         },
         {
-            title: "Ver1.5-重构数据结构，增加进度显示",
+            title: "Ver1.5-重构数据结构,增加进度显示",
             context: [
                 "这是一次小更新~但是也是最花时间的一次更新~",
                 "1. 重构了数据结构并将原js脚本分为了多个",
                 "2. 增加了显示进度的功能",
                 "3. 修复了没有做完题目就刷新会导致剩余题目显示出错的bug",
                 "4. 修复了导出错题和导入错题",
-                "5. 增加了一种新的提示框，现在你可以看到右上角的提示了",
+                "5. 增加了一种新的提示框,现在你可以看到右上角的提示了",
             ],
             date: "2025-11-6"
         },
@@ -53,37 +71,37 @@ const utils = (function() {
                 "1. 添加了整体进度管理功能",
                 "2. 进度统一保存到index.json中",
                 "3. 可以初始化全部题库进度",
-                "4. 优化了代码结构，分割为多个模块",
+                "4. 优化了代码结构,分割为多个模块",
             ],
             date: "2025-10-2"
         },
         {
             title: "Ver1.1-页面布局和新功能更新",
             context: [
-                "1. 更新了当前做题数据显示，正确率现在有了一个小动画",
+                "1. 更新了当前做题数据显示,正确率现在有了一个小动画",
                 "2. 更新了一个消息框功能",
-                "3. 在标题栏放了一个更新日志按钮，现在可以点击查看更新日志了",
+                "3. 在标题栏放了一个更新日志按钮,现在可以点击查看更新日志了",
             ],
             date: "2025-10-1"
         },
         {
             title: "Ver1.0-刷题系统初始版本发布",
-            context: "刷题系统第一个正式版本，无需导入即可开始做题",
+            context: "刷题系统第一个正式版本,无需导入即可开始做题",
             date: "2025-09-30"
         },
     ];
 
     // ===================================================
-    // 显示右上角的提示消息（如成功、错误、警告等）
-    // 参数：
+    // 显示右上角的提示消息(如成功、错误、警告等)
+    // 参数:
     //  message: 显示的文本内容
-    //  type: 消息类型，可选值：'success' | 'warning' | 'error' | 'info'
+    //  type: 消息类型,可选值:'success' | 'warning' | 'error' | 'info'
     // ===================================================
     function showMessage(message, type = 'info') {
         const currentTime = Date.now();
         const timeSinceLastMessage = currentTime - lastMessageTime;
 
-        // 若距离上一条消息显示不足500ms，则延迟显示，防止消息重叠太快
+        // 若距离上一条消息显示不足500ms,则延迟显示,防止消息重叠太快
         if (timeSinceLastMessage < 500 && messageCount > 0) {
             const delay = 500 - timeSinceLastMessage;
             setTimeout(() => {
@@ -101,7 +119,7 @@ const utils = (function() {
     function displayMessage(message, type) {
     lastMessageTime = Date.now(); // 更新最后一次显示时间
 
-    // 每条消息垂直偏移量（用于多条堆叠时避免遮挡）
+    // 每条消息垂直偏移量(用于多条堆叠时避免遮挡)
     const verticalOffset = messageCount * 80;
 
     // 创建消息框DOM元素
@@ -119,7 +137,7 @@ const utils = (function() {
     const borderColor = colors[type] || colors.info;
     messageBox.style.borderLeftColor = borderColor;
 
-    // 设置基础样式（固定定位+过渡动画）
+    // 设置基础样式(固定定位+过渡动画)
     messageBox.style.position = 'fixed';
     messageBox.style.top = `${20 + verticalOffset}px`;
     messageBox.style.right = '-400px'; // 初始位置在右侧屏幕外
@@ -153,7 +171,7 @@ const utils = (function() {
     progressBar.style.backgroundColor = borderColor;
     progressBar.style.borderRadius = '0 0 4px 0'; // 调整圆角位置
     progressBar.style.transition = 'width 2.5s linear';
-    progressBar.style.marginLeft = 'auto'; // 关键：使进度条右对齐
+    progressBar.style.marginLeft = 'auto'; // 关键:使进度条右对齐
     
     // 将进度条添加到容器
     progressContainer.appendChild(progressBar);
@@ -189,14 +207,14 @@ const utils = (function() {
 }
 
     // ===================================================
-    // 信息模态框（用于显示整体进度、更新日志等）
-    // 参数 infoObj 包含：
+    // 信息模态框(用于显示整体进度、更新日志等)
+    // 参数 infoObj 包含:
     //  - title: 标题文字
-    //  - context: 内容，可以是字符串/数组/HTML
+    //  - context: 内容,可以是字符串/数组/HTML
     //  - date: 日期显示
     // ===================================================
     function showInfoModal(infoObj) {
-        // 如果已有模态框，先移除
+        // 如果已有模态框,先移除
         const existingModal = document.querySelector('.info-modal');
         const existingOverlay = document.querySelector('.info-modal-overlay');
         if (existingModal) existingModal.remove();
@@ -242,7 +260,7 @@ const utils = (function() {
             modal.classList.add('show');
         }, 10);
 
-        // 绑定关闭事件（按钮/点击遮罩/ESC）
+        // 绑定关闭事件(按钮/点击遮罩/ESC)
         const closeBtn = modal.querySelector('.info-modal-close');
         closeBtn.addEventListener('click', closeInfoModal);
         overlay.addEventListener('click', closeInfoModal);

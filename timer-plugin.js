@@ -1,188 +1,33 @@
-// timer-plugin.js – 可拖动计时器 (隐藏/展开模式，无独立显示按钮)
+// timer-plugin.js – 可拖动计时器 (使用外部CSS)
 (function() {
-    function initPlugin() {
-        const containerId = 'timer-plugin-' + Math.random().toString(36).substring(2, 10);
-        
-        // ----- 样式定义 -----
-        const style = document.createElement('style');
-        style.textContent = `
-            #${containerId} {
-                all: initial;
-                position: fixed;
-                left: 80px;
-                top: 80px;
-                width: 300px;
-                background: rgba(255, 255, 255, 0.85);
-                backdrop-filter: blur(12px);
-                -webkit-backdrop-filter: blur(12px);
-                border-radius: 36px;
-                border: none;
-                box-shadow: 0 25px 50px -8px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.2) inset, 0 0 0 1px rgba(255, 255, 255, 0.5);
-                color: #0a1a2f;
-                font-family: 'Segoe UI', Roboto, system-ui, sans-serif;
-                z-index: 5000;
-                user-select: none;
-                transition: height 0.2s ease;
-                overflow: hidden;
-            }
-            #${containerId}.hidden {
-                display: none; /* 完全隐藏（不使用） */
-            }
-            /* 折叠状态：只显示拖拽条 */
-            #${containerId}.collapsed .timer-display,
-            #${containerId}.collapsed .button-group {
-                display: none;
-            }
-            #${containerId} .drag-bar {
-                background: rgba(255, 255, 255, 0.3);
-                padding: 14px 16px 10px 16px;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                cursor: grab;
-                transition: background 0.1s;
-                border-radius: 36px 36px 0 0;
-            }
-            #${containerId} .drag-bar:active {
-                cursor: grabbing;
-                background: rgba(255, 255, 255, 0.5);
-            }
-            #${containerId} .drag-bar-left {
-                display: flex;
-                align-items: center;
-                gap: 8px;
-                font-weight: 600;
-                font-size: 0.95rem;
-                letter-spacing: 0.3px;
-                color: #0b2b40;
-            }
-            #${containerId} .drag-bar-left span {
-                background: rgba(0,30,60,0.15);
-                padding: 4px 10px;
-                border-radius: 40px;
-                font-size: 0.75rem;
-                font-weight: 500;
-            }
-            #${containerId} .hide-btn {
-                background: rgba(0, 0, 0, 0.12);
-                border: none;
-                border-radius: 30px;
-                width: 58px;
-                padding: 5px 0;
-                font-size: 0.8rem;
-                font-weight: 600;
-                color: #1e2f47;
-                cursor: pointer;
-                transition: all 0.15s;
-                backdrop-filter: blur(4px);
-                border: 1px solid rgba(255,255,255,0.3);
-            }
-            #${containerId} .hide-btn:hover {
-                background: rgba(0, 0, 0, 0.25);
-                color: white;
-            }
-            #${containerId} .timer-display {
-                background: rgba(255,255,255,0.4);
-                margin: 16px 16px 8px 16px;
-                padding: 24px 10px;
-                border-radius: 50px;
-                text-align: center;
-                box-shadow: inset 0 2px 8px rgba(0,0,0,0.06), 0 4px 12px rgba(0,20,40,0.2);
-                border: 1px solid rgba(255,255,255,0.6);
-            }
-            #${containerId} .time {
-                font-family: 'Verdana', 'Fira Code', monospace;
-                align-items: center;
-                font-size: 2.5rem;
-                font-weight: 700;
-                letter-spacing: 6px;
-                color: #031020;
-                text-shadow: 0 2px 5px rgba(255,255,255,0.5);
-                line-height: 1.2;
-            }
-            #${containerId} .button-group {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: 12px;
-                padding: 10px 16px 20px 16px;
-                min-height: 72px;
-            }
-            #${containerId} .shape-btn {
-                flex: 1;
-                background: rgba(240, 248, 255, 0.6);
-                border: none;
-                border-radius: 40px;
-                padding: 12px 0;
-                font-weight: 700;
-                font-size: 2rem;
-                line-height: 1;
-                color: #122b44;
-                backdrop-filter: blur(5px);
-                box-shadow: 0 4px 8px rgba(0, 10, 20, 0.2), 0 1px 2px rgba(0,0,0,0.1);
-                cursor: pointer;
-                transition: 0.08s linear;
-                border: 1px solid rgba(255,255,255,0.7);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            #${containerId} .shape-btn:active {
-                transform: translateY(3px);
-                box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-                background: rgba(220, 240, 255, 0.9);
-            }
-            #${containerId} .shape-btn.end-btn {
-                background: rgba(255, 210, 210, 0.7);
-                color: #5d1e1e;
-            }
-            /* 分裂动画 */
-            #${containerId} .split-left {
-                animation: splitPopLeft-${containerId} 0.3s cubic-bezier(0.2, 0.9, 0.3, 1.2) forwards;
-            }
-            #${containerId} .split-right {
-                animation: splitPopRight-${containerId} 0.3s cubic-bezier(0.2, 0.9, 0.3, 1.2) forwards;
-            }
-            @keyframes splitPopLeft-${containerId} {
-                0% { transform: scale(0.4) translateX(0); opacity: 0; }
-                30% { transform: scale(1.1) translateX(-14px); opacity: 1; }
-                80% { transform: scale(1) translateX(2px); }
-                100% { transform: scale(1) translateX(0); opacity: 1; }
-            }
-            @keyframes splitPopRight-${containerId} {
-                0% { transform: scale(0.4) translateX(0); opacity: 0; }
-                30% { transform: scale(1.1) translateX(14px); opacity: 1; }
-                80% { transform: scale(1) translateX(-2px); }
-                100% { transform: scale(1) translateX(0); opacity: 1; }
-            }
-        `;
-        document.head.appendChild(style);
+    'use strict';
 
-        // ----- 创建HTML结构 (无独立显示按钮) -----
+    function initPlugin() {
+        // 不再生成随机ID，使用固定类名
         const container = document.createElement('div');
-        container.id = containerId;
+        container.className = 'timer-plugin';  // 固定类名
         container.innerHTML = `
-            <div class="drag-bar" id="drag-${containerId}">
+            <div class="drag-bar" id="drag-timer">
                 <div class="drag-bar-left">
                     ⠇⠇ <span>拖拽</span>
                 </div>
-                <button class="hide-btn" id="hide-${containerId}">隐藏</button>
+                <button class="hide-btn" id="hide-timer">隐藏</button>
             </div>
             <div class="timer-display">
-                <div class="time" id="time-${containerId}">00:00:00</div>
+                <div class="time" id="time-timer">00:00:00</div>
             </div>
-            <div class="button-group" id="btns-${containerId}"></div>
+            <div class="button-group" id="btns-timer"></div>
         `;
 
         document.body.appendChild(container);
 
-        // ----- 获取内部元素 -----
-        const dragHandle = document.getElementById(`drag-${containerId}`);
-        const hideBtn = document.getElementById(`hide-${containerId}`);
-        const timerDisplay = document.getElementById(`time-${containerId}`);
-        const buttonGroup = document.getElementById(`btns-${containerId}`);
+        // 获取内部元素（使用固定ID）
+        const dragHandle = document.getElementById('drag-timer');
+        const hideBtn = document.getElementById('hide-timer');
+        const timerDisplay = document.getElementById('time-timer');
+        const buttonGroup = document.getElementById('btns-timer');
 
-        // ----- 计时逻辑 (保持不变) -----
+        // 计时逻辑（与原相同）
         let isRunning = false;
         let accumulatedMs = 0;
         let timerStart = null;
@@ -250,7 +95,7 @@
             updateDisplay();
         }
 
-        // ----- 状态渲染 -----
+        // 状态渲染
         let currentState = 'idle';
 
         function renderState(newState) {
@@ -333,24 +178,17 @@
             }
         });
 
-        // ----- 隐藏/展开功能 (修改点) -----
-        // 初始状态：未折叠（完整显示）
-        container.classList.remove('collapsed'); // 确保初始无折叠
+        // 隐藏/展开
+        container.classList.remove('collapsed');
         hideBtn.textContent = '隐藏';
 
         hideBtn.addEventListener('click', (e) => {
             e.stopPropagation();
-            // 切换折叠类
             container.classList.toggle('collapsed');
-            // 同时切换按钮文字
-            if (container.classList.contains('collapsed')) {
-                hideBtn.textContent = '展开';
-            } else {
-                hideBtn.textContent = '隐藏';
-            }
+            hideBtn.textContent = container.classList.contains('collapsed') ? '展开' : '隐藏';
         });
 
-        // ----- 拖动实现 (保持不变) -----
+        // 拖动实现
         let isDragging = false;
         let startX = 0, startY = 0;
         let startLeft = 0, startTop = 0;
@@ -371,8 +209,8 @@
             e.preventDefault();
             if (e.type === 'mousedown' && e.button !== 0) return;
 
-            const clientX = e.clientX ?? e.touches[0].clientX;
-            const clientY = e.clientY ?? e.touches[0].clientY;
+            const clientX = e.clientX ?? (e.touches ? e.touches[0].clientX : 0);
+            const clientY = e.clientY ?? (e.touches ? e.touches[0].clientY : 0);
             const pos = getCardPosition();
             startLeft = pos.left;
             startTop = pos.top;

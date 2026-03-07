@@ -207,8 +207,8 @@ const uiManager = (function() {
                 // 如果已有已生成的 AI 题解，直接显示
                 if (question.aiExplanation) {
                     try {
-                        if (window.marked) {
-                            aiContent.innerHTML = marked.parse(question.aiExplanation);
+                        if (window.mdRenderer) {
+                            aiContent.innerHTML = window.mdRenderer.render(question.aiExplanation);
                         } else {
                             aiContent.textContent = question.aiExplanation;
                         }
@@ -240,8 +240,8 @@ const uiManager = (function() {
                     const aiResult = await generateAIExplanation(questionBank, currentQuestionIndex, updateState);
                     if (aiResult) {
                         try {
-                            if (window.marked) {
-                                aiContent.innerHTML = marked.parse(aiResult);
+                            if (window.mdRenderer) {
+                                aiContent.innerHTML = window.mdRenderer.render(aiResult);
                             } else {
                                 aiContent.textContent = aiResult;
                             }
@@ -305,6 +305,8 @@ const uiManager = (function() {
     // ===================================================
     // 使用 AI 生成题解并保存
     // ===================================================
+    // uiManager.js 中的 generateAIExplanation 函数（流式版本）
+
     async function generateAIExplanation(questionBank, questionIndex, onUpdate) {
         const STORAGE_KEY = 'deepseek_sidebar_api_key';
         const API_BASE = 'https://api.deepseek.com';
@@ -336,10 +338,19 @@ const uiManager = (function() {
 
         const userContent = `请为下面题目生成简洁、专业且清晰的题解（中文），说明正确答案以及解题思路，不添加无关内容。\n题目：${question.question}\n选项：\n${optionsText}\n正确答案：${question.correctAnswer}`;
 
+        // 获取内容显示容器
+        const aiContentDiv = document.getElementById('aiExplanationContent');
+        if (!aiContentDiv) {
+            console.error('未找到 aiExplanationContent 元素');
+            return null;
+        }
+        aiContentDiv.style.display = 'block';
+        aiContentDiv.innerHTML = ''; // 清空之前的内容
+
         try {
             if (onUpdate) onUpdate('请求中');
 
-            const resp = await fetch(API_BASE + CHAT_ENDPOINT, {
+            const response = await fetch(API_BASE + CHAT_ENDPOINT, {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${apiKey}`,
@@ -351,44 +362,68 @@ const uiManager = (function() {
                         { role: 'system', content: SYSTEM_PROMPT },
                         { role: 'user', content: userContent }
                     ],
-                    stream: false,
+                    stream: true,  // 启用流式输出
                     max_tokens: 2000
                 })
             });
 
-            if (!resp.ok) {
-                const text = await resp.text();
-                throw new Error(`请求失败 ${resp.status}: ${text}`);
+            if (!response.ok) {
+                const text = await response.text();
+                throw new Error(`请求失败 ${response.status}: ${text}`);
             }
 
-            const data = await resp.json();
+            const reader = response.body.getReader();
+            const decoder = new TextDecoder();
+            let accumulatedContent = '';
 
-            // 尝试解析常见返回格式
-            let aiText = '';
-            if (data.choices && data.choices[0]) {
-                if (data.choices[0].message && data.choices[0].message.content) {
-                    aiText = data.choices[0].message.content;
-                } else if (data.choices[0].text) {
-                    aiText = data.choices[0].text;
+            while (true) {
+                const { done, value } = await reader.read();
+                if (done) break;
+
+                const chunk = decoder.decode(value, { stream: true });
+                const lines = chunk.split('\n');
+
+                for (const line of lines) {
+                    if (line.startsWith('data: ') && line !== 'data: [DONE]') {
+                        try {
+                            const data = JSON.parse(line.slice(6));
+                            const delta = data.choices[0].delta;
+                            if (delta && delta.content) {
+                                accumulatedContent += delta.content;
+                                // 实时渲染并更新
+                                if (window.mdRenderer) {
+                                    aiContentDiv.innerHTML = window.mdRenderer.render(accumulatedContent);
+                                } else {
+                                    // 降级：显示纯文本
+                                    aiContentDiv.textContent = accumulatedContent;
+                                }
+                                // 自动滚动到底部（可选）
+                                aiContentDiv.scrollTop = aiContentDiv.scrollHeight;
+                            }
+                        } catch (e) {
+                            // 忽略解析错误
+                        }
+                    }
                 }
-            } else if (data.data && data.data[0] && data.data[0].text) {
-                aiText = data.data[0].text;
             }
 
-            aiText = (aiText || '').trim();
-
-            if (!aiText) throw new Error('AI 未返回内容');
-
-            // 保存到题库对象并持久化
-            question.aiExplanation = aiText;
-            try { localStorage.setItem('questionBank', JSON.stringify(questionBank)); } catch (e) { console.warn('保存AI题解失败', e); }
+            // 保存最终结果
+            question.aiExplanation = accumulatedContent;
+            try {
+                localStorage.setItem('questionBank', JSON.stringify(questionBank));
+            } catch (e) {
+                console.warn('保存AI题解失败', e);
+            }
 
             if (onUpdate) onUpdate('完成');
-            return aiText;
+            return accumulatedContent;
+
         } catch (err) {
             console.error('生成AI题解失败', err);
             if (window.utils && window.utils.showMessage) window.utils.showMessage('AI题解生成失败：' + err.message, 'error');
             if (onUpdate) onUpdate('失败');
+            // 显示错误信息
+            aiContentDiv.innerHTML = `<p style="color: red;">生成失败：${err.message}</p>`;
             return null;
         }
     }

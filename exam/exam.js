@@ -222,22 +222,30 @@
         const q = currentExam.questions[index];
         if (!q) return;
 
+        console.log('questionImage value:', q.questionImage);
+        
         currentQNum.textContent = index + 1;
         questionText.textContent = q.question;
-        if (q.questionImage) {
-        // 如果不是绝对路径（以 http 开头），添加 ../ 前缀
-        let imgSrc = q.questionImage;
-        if (!imgSrc.match(/^(https?:)?\/\//)) {
-            // 确保不要重复添加 ../
-            if (!imgSrc.startsWith('../')) {
-                imgSrc = '../' + imgSrc;
+
+        // 图片处理：先彻底清除 src，并隐藏
+        questionImage.removeAttribute('src');
+        questionImage.style.display = 'none';
+
+        // 只有当存在有效的图片路径时才设置并显示
+        if (q.questionImage && typeof q.questionImage === 'string') {
+            const trimmed = q.questionImage.trim();
+            if (trimmed !== '') {
+                let imgSrc = trimmed;
+                // 如果不是绝对路径，添加 ../ 前缀
+                if (!imgSrc.match(/^(https?:)?\/\//)) {
+                    if (!imgSrc.startsWith('../')) {
+                        imgSrc = '../' + imgSrc;
+                    }
+                }
+                questionImage.src = imgSrc;
+                questionImage.style.display = 'block';
             }
         }
-        questionImage.src = imgSrc;
-        questionImage.style.display = 'block';
-    } else {
-        questionImage.style.display = 'none';
-    }
 
         // 渲染选项
         let optionsHtml = '';

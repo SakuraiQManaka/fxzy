@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>选择题练习系统</title>
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/md-content.css">
+    <link rel="stylesheet" href="css/ai-sidebar.css">
+    <link rel="stylesheet" href="css/timer-plugin.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@14.0.0/dist/markdown-it.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/lib/highlight.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github.min.css">
 </head>
 <body>
     <div class="container">
         <header>
             <h1>选择题练习系统</h1>
             <p class="subtitle">离线练习，随时提升</p>
-            <p>Ver1.7-Beta Author:Troy  问题反馈邮箱: <u>troywang@buaa.edu.cn</u></p>
+            <p>Ver1.8-Beta Author:Troy  问题反馈邮箱: <u>troywang@buaa.edu.cn</u></p>
             <button class="update-log-btn" id="updateLogBtn">更新日志</button>
             <button class="overall-progress-btn" id="overallProgressBtn">整体进度</button>
             <button class="exam-btn" onclick="window.location.href='exam/exam.html'">考试模式</button>
@@ -118,6 +126,8 @@
         </div>
     </div>
 
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="mdRenderer.js"></script>
 <script src="dataManager.js"></script>
 <script src="uiManager.js"></script>
 <script src="utils.js"></script>
