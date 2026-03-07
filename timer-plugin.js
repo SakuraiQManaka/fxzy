@@ -257,13 +257,29 @@
             currentState = newState;
             let html = '';
             if (newState === 'idle') {
-                html = `<button class="shape-btn" data-action="start">▶</button>`;
+                html = `<button class="shape-btn" data-action="start">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </button>`;
             } else if (newState === 'running') {
-                html = `<button class="shape-btn" data-action="pause">⏸️</button>`;
+                html = `<button class="shape-btn" data-action="pause">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+                    </svg>
+                </button>`;
             } else if (newState === 'paused') {
                 html = `
-                    <button class="shape-btn" data-action="resume">▶</button>
-                    <button class="shape-btn end-btn" data-action="end">⏹</button>
+                    <button class="shape-btn" data-action="resume">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                    </button>
+                    <button class="shape-btn end-btn" data-action="end">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                            <rect x="6" y="6" width="12" height="12"/>
+                        </svg>
+                    </button>
                 `;
             }
             buttonGroup.innerHTML = html;

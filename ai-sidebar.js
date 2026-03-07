@@ -144,7 +144,7 @@
         apiKey: null,
         isAuthenticated: false,
         balance: 0,
-        isCollapsed: false,
+        isCollapsed: true,
         isThinking: false,
         isStreaming: false,
         currentStreamController: null,
@@ -689,7 +689,7 @@
         // 创建主容器
         const sidebar = document.createElement('div');
         sidebar.id = 'ai-sidebar';
-        sidebar.className = `${CONFIG.CLASSES.sidebar} ${CONFIG.CLASSES.expanded}`;
+        sidebar.className = `${CONFIG.CLASSES.sidebar} ${CONFIG.CLASSES.collapsed}`;
         
         // 侧边栏头部
         const header = document.createElement('div');
@@ -821,14 +821,17 @@
         // 初始状态指示器
         updateStatusIndicator();
         
-        // 初始按钮位置（展开状态）
+        // 初始按钮位置（收起状态）
         if (CONFIG.POSITION === 'right') {
-            toggleBtn.style.right = `${CONFIG.SIDEBAR_WIDTH}px`;
+            toggleBtn.style.right = '0';
             toggleBtn.style.left = 'auto';
+            toggleBtnInner.innerHTML = '&#9664;'; // 左箭头
         } else {
-            toggleBtn.style.left = `${CONFIG.SIDEBAR_WIDTH}px`;
+            toggleBtn.style.left = '0';
             toggleBtn.style.right = 'auto';
+            toggleBtnInner.innerHTML = '&#9654;'; // 右箭头
         }
+        toggleBtn.title = '展开侧边栏';
         
         // 检查本地存储中是否有保存的API Key
         try {
@@ -1640,7 +1643,7 @@
             // 在移动设备上调整初始状态
             if (window.innerWidth <= 768) {
                 // 在移动设备上默认展开
-                state.isCollapsed = false;
+                state.isCollapsed = true;
                 elements.sidebar.classList.remove(CONFIG.CLASSES.collapsed);
                 elements.sidebar.classList.add(CONFIG.CLASSES.expanded);
             }
