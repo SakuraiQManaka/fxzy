@@ -127,6 +127,24 @@
 <script src="timer-plugin.js"></script>
 <script src="progressImportExport.js"></script>
 <script src="cloudSync.js"></script>
-<script src="image-annotator.js"></script>
+<script>
+(function() {
+    // 更可靠的移动设备检测
+    function isMobileDevice() {
+        if (window.innerWidth <= 768) return true;
+        const ua = navigator.userAgent;
+        if (/Mobile|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(ua)) return true;
+        if (('ontouchstart' in window || navigator.maxTouchPoints > 0) && window.innerWidth <= 1024) return true;
+        if (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1) return true; // iPad
+        return false;
+    }
+
+    // 加载对应脚本
+    var script = document.createElement('script');
+    script.src = isMobileDevice() ? 'image-annotator.mobile.js' : 'image-annotator.js';
+    script.async = false; // 确保按顺序执行
+    document.body.appendChild(script);
+})();
+</script>
 </body>
 </html>
