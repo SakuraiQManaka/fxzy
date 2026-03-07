@@ -9,8 +9,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "基准是用于计量重心位置的参考面。基准的选定与重心位置无关。有的机型可能选取在机头，有的机型可能选取在主轮等等。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 2,
@@ -22,8 +22,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "停机坪重量 - 滑行燃油 = 起飞重量。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 3,
@@ -35,8 +35,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "纵向载荷（running load）是指沿机身纵向单位长度地板能够承载的最大重量，单位磅／英尺。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 4,
@@ -48,8 +48,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "面积载荷（floor load）是指单位面积地板能够承受的最大重量，单位磅／平方英尺。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 5,
@@ -61,8 +61,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "飞机地板承受的力会随着飞行过程中载荷的变化而发生变化，所以放置行李的地方通常会限制携带行李的重量。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 6,
@@ -74,8 +74,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "纵向载荷（running load）是指沿机身纵向单位长度地板能够承载的最大重量，单位磅／英尺。根据题意：总重量=12+10+8=30KG=66磅，地板受力的纵向长度就是托盘的长度：115英寸≈9.6英尺。纵向载荷=66/9.6≈7磅/英尺。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 7,
@@ -87,8 +87,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "面积载荷（floor load）是指单位面积地板能够承受的最大重量，单位磅／平方英尺。根据题意：总重量=12+10+8=30KG=66磅，地板面积：73*115=8395平方英寸=58平方英尺。面积载荷=66/58=1.14磅/平方英尺。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 8,
@@ -100,8 +100,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "根据题意：总重量=137+49+12262.4=12448.4磅，地板面积：116.8×87.7=10243.36平方英寸≈71.1平方英尺。面积载荷=12448.4/71.1≈175磅/平方英尺。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 9,
@@ -113,8 +113,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞机超载及超限可能会在飞机遇到颠簸和风切变受到的载荷变化，对飞机结构造成损坏。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 10,
@@ -126,8 +126,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "1公斤≈2.2磅，1米≈39英寸。已知燃油100公斤，在飞行中消耗了82公斤后，剩余油量18公斤。由条件可知，总重量和总力矩如下：  \n                总重（磅）         力矩（1000英寸•磅）\n空机重量         1269                   100.9\n正副驾驶重量     359                    32.4\n后座乘客重量     141                    17.2\n货物重量         339                    39.2\n燃油             40                     3.5\n总计             2148                   193.2\n在图中画线可以看出飞机重心在限制范围之内。",
-    "questionImage": "题库\\商照\\性能计划载重\\10.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/10.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 11,
@@ -139,8 +139,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "1公斤≈2.2磅，1米≈39英寸。由条件可知，总重量和总力矩如下：  \n                总重（磅）         力矩（1000英寸•磅）\n空机重量         1269                   100.9\n正副驾驶重量     260                    23.1\n后座乘客重量     119                    14.8\n货物重量         59                     6.4\n燃油             220                    20\n总计             1927                   165.2\n在图中画线可以看出飞机重心在重心范围之内。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 12,
@@ -152,8 +152,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "由条件可知，总重量和总力矩如下：\n             总重（磅）         力矩（1000英寸•磅）\n基本重量      1315                    154.0\n飞行员重量    145                     7.25\n乘客重量      153                     12.5\n燃油重量      162                     17.3\n总计          1775                    191.05\n在图中画线可以看出飞机重心在重心范围之内，全重和全重力矩均在标准范围之内。",
-    "questionImage": "题库\\商照\\性能计划载重\\12.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/12.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 13,
@@ -165,8 +165,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "计算出重量和重心后，利用重量重心包线图判别飞机是否超限。",
-    "questionImage": "题库\\商照\\性能计划载重\\13.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/13.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 14,
@@ -178,8 +178,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "设备清单和目录是对于该飞机上设备的清单，该清单会给出飞机的设备种类，型号，制造厂商，安装日期等信息。",
-    "questionImage": "题库\\商照\\性能计划载重\\14.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/14.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 15,
@@ -191,8 +191,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "飞机刚出厂时要进行称重，通常是用地磅来称重。对维修过的飞机要进行重新的称重作业。",
-    "questionImage": "题库\\商照\\性能计划载重\\15.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/15.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 16,
@@ -204,8 +204,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "压舱物是指为了改变飞机重心而携带的物体。",
-    "questionImage": "题库\\商照\\性能计划载重\\16.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/16.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 17,
@@ -217,8 +217,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "压舱物是指为了改变飞机重心而携带的物体，通常分为临时压舱物和永久压舱物。",
-    "questionImage": "题库\\商照\\性能计划载重\\17.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/17.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 18,
@@ -230,8 +230,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "所谓关键发动机是指对飞机的飞行姿态或飞行性能影响最大的那一台发动机，对喷气机来说，在控制给主液压系统供压的那台发动机被认为是关键发动机。在地面上风方向的最外侧那台发动机被认为是关键发动机。",
-    "questionImage": "题库\\商照\\性能计划载重\\18.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/18.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 19,
@@ -243,8 +243,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "Vyse：飞机一发失效的最佳爬升率速度。Vxse：飞机一发失效的最大爬升角速度。Vsse：飞机一发失效的最小操作速度。通常在教学训练时，有意令一台发动机失效或者处于慢车条件下，飞机所需的最小速度。",
-    "questionImage": "题库\\商照\\性能计划载重\\19.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/19.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 20,
@@ -256,8 +256,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "影响密度高度的因素有温度、湿度、压强。",
-    "questionImage": "题库\\商照\\性能计划载重\\20.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/20.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 21,
@@ -269,8 +269,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞机重量是影响飞机起飞性能，起飞爬升性能和着陆性能的一个因素。重量越轻，能够减小起飞距离，增加起飞爬升率，减小着陆距离。重量越重，能够增大起飞距离，减小起飞爬升率，增大着陆距离。",
-    "questionImage": "题库\\商照\\性能计划载重\\21.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/21.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 22,
@@ -282,8 +282,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "跑道坡度是影响飞机起飞性能和着陆性能的一个因素。上坡能够增加起飞距离，减小着陆距离。下坡能够减小起飞距离，增大着陆距离。",
-    "questionImage": "题库\\商照\\性能计划载重\\22.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/22.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 23,
@@ -295,8 +295,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "风也是影响飞机性能的一个重要因素，顺风 增加起飞距离，不影响爬升率，但爬升梯度降低  增加着陆距离；逆风 减小起飞距离 不影响爬升率，但爬升梯度增加  减小着陆距离。",
-    "questionImage": "题库\\商照\\性能计划载重\\23.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/23.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 24,
@@ -308,8 +308,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "空气湿度也会影响飞机的性能，湿度高增加起飞距离，减小爬升率，增加着陆距离；湿度低减小起飞距离，增加爬升率，减小着陆距离。",
-    "questionImage": "题库\\商照\\性能计划载重\\24.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/24.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 25,
@@ -321,8 +321,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "根据表格可以通过双线性内插值得到机场气压高度1500ft,外界温度8度所对应的起飞滑跑距离和50ft越障距离为1032ft，1853ft。根据note，我们要修正风对距离的影响，本题顶风6kt，所以距离要减少10%*6/9≈6.67% 。最后修正距离后得起飞滑跑距离和50ft越障距离为963ft，1729ft。表格右上角离地速度51节。",
-    "questionImage": "题库\\商照\\性能计划载重\\25.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/25.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 26,
@@ -334,8 +334,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "根据表格我们可以通过双线性内插值得到机场气压高度1500ft,标准大气温度12度所对应的起飞滑跑距离和50ft越障距离为1064ft，1909ft。根据下面note可知，在顺风至10节条件下运行时，每2节顺风，增加10%，顺风5节，增加25%，所以顺风修正后，起飞滑跑距离：1064x（1+25%）=1330ft；50ft越障距离为：1909x（1+25%）=2386ft。表格右上角安全越障速度57节。",
-    "questionImage": "题库\\商照\\性能计划载重\\26.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/26.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 27,
@@ -347,8 +347,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "图中左侧ASSOCIATED CONDITIONS是假设前提条件。已知气压高度2000ft，则标准大气温度为11℃。按步骤作图：从图中11°C向上引直线直到与气压高度2000ft的高度线相交，从交点水平向右引直线，与第一条参考线相交，再沿倾斜方向按比例偏折，直到与3000lbs的重量线相交，从交点水平向右引线直到与第二条参考线相交，再沿倾斜方向按比例偏折，直到与顺风5kt位置相交，从交点直接引到最右边，得到的数值即为着陆距离约为1500ft。",
-    "questionImage": "题库\\商照\\性能计划载重\\27.jpg",
-    "explanationImage": "题库\\商照\\性能计划载重\\27explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/27.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/27explain.jpg"
   },
   {
     "id": 28,
@@ -360,8 +360,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "已知机场外界温度10度，气压高度700ft。通过线性内插值可得飞机着陆距离为1301ft。根据顶风5kt,进行修正距离减少5.56%，得飞机着陆距离为1229ft。",
-    "questionImage": "题库\\商照\\性能计划载重\\28.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/28.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 29,
@@ -373,8 +373,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "巡航气压高度5500ft，可线性插值得时间，油量，距离为9MIN,1.95GAL,12.5NM。温度为－2度，根据下面说明温度修正，每高于标准温度10℃，修正10%，所以不需要修正时间，油量，距离。机场气压高度1250ft，可线性插值得时间，油量，距离为1.5MIN,0.475GAL,2.5NM。气温8℃，所以不需要修正，则爬升所需油量为两个高度上的差值7.5MIN, 1.475GAL,10NM。油量需要增加开车、滑行和起飞所用油量1.1加仑后是2.575GAL。",
-    "questionImage": "题库\\商照\\性能计划载重\\29.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/29.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 30,
@@ -386,8 +386,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "一发失效后远航高度降低，远航马赫数降低。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 31,
@@ -399,8 +399,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "航空器驾驶员提交的按目视飞行规则飞行计划必须包括以下内容：(1)该航空器国籍登记号和无线电呼号（如需要）。(2)该航空器的型号，或者如编队飞行，每架航空器的型号及编队的航空器数量。(3)机长的姓名和地址，或者如编队飞行，编队指挥员的姓名和地址。(4)起飞地点和预计起飞时间。(5)计划的航线、巡航高度(或飞行高度层)以及在该高度的航空器真空速。(6)第一个预定着陆地点和预计飞抵该点上空的时间。(7)装载的燃油量(以时间计)。(8)机组和搭载航空器的人数。(9)局方和空中交通管制要求的其他任何资料。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 32,
@@ -412,8 +412,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞机驾驶员在目视飞行规则条件下开始飞行前，必须考虑风和预报的气象条件，在飞机上装载足够的燃油，这些燃油能够保证飞机飞到第一个预定着陆点着陆，并且此后按正常的巡航速度还能至少飞行30分钟（昼间）或45分钟（夜间）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 33,
@@ -425,8 +425,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "速度数据（最多5个字符）应用以下3种方法表示：“K”后随4位数字，真空速，单位为千米每小时（km/h）；“N”后随4位数字，真空速，单位为海里每小时（nmile/h）；“M”后随3位数字，最近的1%马赫单位的马赫数。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 34,
@@ -438,8 +438,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "航空汽油密度约为每加仑6磅。所以使飞机达到规定限制需要排放90/6=15加仑燃油。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 35,
@@ -451,8 +451,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "侧风中滑跑，机轮的侧向摩擦力阻止着飞机向侧方运动，但侧风使空速与飞机对称面不平行而形成侧滑。侧滑产生的方向稳定力矩，使机头有向上风方向偏转的趋势。所以，左侧风中起飞，机头有向左偏转的趋势。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 36,
@@ -464,8 +464,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "中断起飞距离是飞机从速度为0开始加速滑跑到一台发动机停车，飞行员判断并采用相应的制动程序使飞机完全停下来所需的距离。中断起飞距离由全发加速段，过渡段，制动段三段组成。发动机停车时的速度越大，相同重量下全发加速距离长，开始中断时的动能大，也使中断起飞距离增大。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 37,
@@ -477,8 +477,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "空中飞行的飞机在一台发动机失效后，飞机的阻力系数要增大。它主要包括两部分：一是停车发动机的风车阻力；另一个是由于一台发动机失效后，为了阻止飞机机头偏转和滚转，需要偏转副翼和方向舵，要产生一定的阻力，这部分阻力叫做偏航阻力。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 38,
@@ -490,8 +490,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "同全发飞行一样，为了获得最大航程，随着飞行重量的减小，应不断的增加高度。由于调度等原因，一般只允许在一个高度上平飞，在限定高度上进行一发失效巡航，为了获得该条件下的最大航程，同全发平飞巡航一样，随着重量的减小，应不断减小飞行M数。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 39,
@@ -503,8 +503,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "CCAR-121部第121.696 条 补充运行的飞行放行单\n(a)飞行放行单应当至少包括每次飞行的下列信息：\n(1)公司或者机构的名称；\n(2)飞机的国籍标志、登记标志、制造厂家和型号；\n(3)航班或者航次和飞行日期；\n(4)每一飞行机组成员、客舱乘务员和机长姓名；\n(5)起飞机场、目的地机场、备降机场和航路；\n(6)运行类型说明，例如仪表飞行规则、目视飞行规则；\n(7)起飞最低燃油量。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 40,
@@ -516,8 +516,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "CCAR-121部第121.699 条 国内、国际定期载客运行装载舱单、签派单和飞行计划的处置\n(a)机长应当将下列文件的副本随机携带到目的地： \n(1)填写好的装载舱单；\n(2)签派或者放行单；\n(3)飞行计划。\n(b)合格证持有人应当保存前款规定的文件的副本至少3 个月。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 41,
@@ -529,8 +529,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "基准是用于计量重心位置的参考面。基准的选定与重心位置无关。有的机型可能选取在机头，有的机型可能选取在主轮等等。力臂是从基准到一个物体重心的距离。如果物体在基准之后，那么力臂值为正(+)；如果物体在基准之前，那么力臂值为负(-).由题意，所有部件重心位置计算值都为正值，说明所有部件都在基准之后，可推测基准面应该在机头或者飞机前面。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 42,
@@ -542,8 +542,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "N/A",
-    "questionImage": "题库\\商照\\性能计划载重\\42.jpg",
-    "explanationImage": "题库\\商照\\性能计划载重\\42explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/42.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/42explain.jpg"
   },
   {
     "id": 43,
@@ -555,8 +555,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "重心位置可以用力臂来表示，或者用其在平均空气动力弦(MAC)上投影所占的百分比来表示。这两种表达方式可以相互换算。（643.8-625）/134≈0.14。",
-    "questionImage": "题库\\商照\\性能计划载重\\43.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/43.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 44,
@@ -568,8 +568,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "平均空气动力弦MAC是一个假想的矩形机翼的翼弦，该假想机翼的面积、空气动力及俯仰特性与原机翼相同。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 45,
@@ -581,8 +581,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "重心位置可以用力臂来表示，或者用其在平均空气动力弦(MAC)上投影所占的百分比来表示。这两种表达方式可以相互换算。（98-80）/40=0.45=45%MAC.",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 46,
@@ -594,8 +594,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "重心位置可以用力臂来表示，或者用其在平均空气动力弦(MAC)上投影所占的百分比来表示。这两种表达方式可以相互换算。（657.2-625）/134=0.24",
-    "questionImage": "题库\\商照\\性能计划载重\\46.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/46.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 47,
@@ -607,8 +607,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "重心位置可以用力臂来表示，或者用其在平均空气动力弦(MAC)上投影所占的百分比来表示。这两种表达方式可以相互换算。（665.2-625）/134≈0.3。",
-    "questionImage": "题库\\商照\\性能计划载重\\47.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/47.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 48,
@@ -620,8 +620,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "重心位置可以用力臂来表示，或者用其在平均空气动力弦(MAC)上投影所占的百分比来表示。这两种表达方式可以相互换算。（635.7-625）/134≈0.08。",
-    "questionImage": "题库\\商照\\性能计划载重\\48.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/48.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 49,
@@ -633,8 +633,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "重心位置可以用力臂来表示，或者用其在平均空气动力弦(MAC)上投影所占的百分比来表示。这两种表达方式可以相互换算。（638.4-625）/134≈0.1 。",
-    "questionImage": "题库\\商照\\性能计划载重\\49.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/49.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 50,
@@ -646,8 +646,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "基本空重包括飞机/直升机的标准重量、选装的设备重量、不可用燃油重量以及满装的发动机滑油重量。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 51,
@@ -659,8 +659,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "使用空机重量（干使用重量）是在基本空机重量的基础上增加机组和旅客服务设备后得到的重量。零燃油重量+可用燃油=停机坪重量，停机坪重量 - 滑行燃油 = 起飞重量 。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 52,
@@ -672,8 +672,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "基本空重包括飞机的标准重量、选装的设备重量、不可用燃油重量以及满装的发动机滑油重量。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 53,
@@ -685,8 +685,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "各重量的相互关系： 1、干使用重量＋业载/商载=零燃油重量 2、零燃油重量＋储备燃油＝着陆重量 3、零燃油重量＋储备燃油＋航程燃油＝起飞重量 4、着陆重量＋航程燃油＝起飞重量 5、起飞重量＋滑行燃油＝滑行重量（停机坪重量）",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 54,
@@ -698,8 +698,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "重量前移，重心会向前移动，重量后移重心会向后移动。在重心之前增加重量，重心前移，在重心之后增加重量，重心后移；减少重量与之相反。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 55,
@@ -711,8 +711,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "燃油的消耗对重心的影响主要取决与油箱的平均重心与飞机重心的位置关系。通常情况下，飞机的油箱重心在飞机重心之前，随着飞行中燃油的消耗，相当于在重心前减少重量，重心后移。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 56,
@@ -724,8 +724,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "从图中50°F向上引直线直到与0ft的高度线相交，从交点水平向右引直线，与第一条参考线相交，再沿倾斜方向按比例偏折，然后从最右边起飞距离750ft，平行向左引直线与静风0相交于参考线，再向左引直线与右参考线引过来的线相交，由交点向下引直线，落在重量线上，读出重量为2700磅。",
-    "questionImage": "题库\\商照\\性能计划载重\\56.jpg",
-    "explanationImage": "题库\\商照\\性能计划载重\\56explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/56.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/56explain.jpg"
   },
   {
     "id": 57,
@@ -737,8 +737,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "最大零燃油重量是指考虑飞机结构强度限制因素允许的零燃油重量，此时的飞机结构强度主要考虑机翼和机身结合部的结构强度。",
-    "questionImage": "题库\\商照\\性能计划载重\\57.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/57.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 58,
@@ -750,8 +750,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "地板面积=36*48=1728平方英寸=12平方英尺，可承受的最大重量=12*169=2028磅，最大载重=2028-33-47=1948磅",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 59,
@@ -763,8 +763,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "根据题意：总重量=161+54+9681.5=9896.5磅，地板面积：78.9×98.7=7787.4平方英寸≈54.1平方英尺。面积载荷=9896.5/54.1≈183磅/平方英尺。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 60,
@@ -776,8 +776,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "燃油的消耗对重心的影响主要取决与油箱的平均重心与飞机重心的位置关系。后掠翼油箱重心位于飞机重心后，随着燃油消耗，重心前移。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 61,
@@ -789,8 +789,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞机力矩=飞机的重量×力臂。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 62,
@@ -802,8 +802,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞机重心位置=飞机总力矩/总重量。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 63,
@@ -815,8 +815,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "如果总重量在规定的限制以内，分别将每个重量乘以相应的力臂确定出它们的力矩，把所有的力矩加在一起求出飞机的总力矩。最后用总力矩除以总重量得出已装载飞机的重心位置。已知D、E、F的重量和力臂，可分别求出其力矩为69.75、231、175.75，飞机重心=总力矩÷总重量=476.5÷415≈1.148，所以飞机重心位于基准面后1.148米处。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 64,
@@ -828,8 +828,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "重量X力矩为：135×0.17=22.95,重量Y力矩为：120×1.1=132，重量Z力矩为：85×2.1=178.5，重心位置为：（22.95+132+178.5）/（135+120+85）=333.45/340=0.9807米",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 65,
@@ -841,8 +841,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "已知A、B、C的重量和力臂，可分别求出其力矩为20.25、239.85、165.75，飞机重心=总力矩÷总重量=425.85÷425=1.002，所以飞机重心在基准面后1.002米处。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 66,
@@ -854,8 +854,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "重量A力矩为：175×1.35=236.25,重量B力矩为：135×1.15=155.25，重量C力矩为：75×0.85=63.75，重心位置为：（236.25+155.25+63.75）/（175+135+75）=455.25/385=1.1824米",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 67,
@@ -867,8 +867,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "根据条件求得：空机力矩为：610×96.47=58846.7，飞行员（前座）力矩：150×43.8=6570，乘客（后座）力矩：180×74.7=13446，无线电及电瓶力矩：10×23.2=232.总重为：610+150+180+10=950，总力矩：58846.7+6570+13446+232=79094.7，重心为：79094.7/950=83.26",
-    "questionImage": "题库\\商照\\性能计划载重\\67.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/67.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 68,
@@ -880,8 +880,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "看图可知，前座的力臂为43.80，后座的力臂为74.70。已知重量和力臂分别求出力矩（力矩=重量×力臂）。飞机重心=总力矩÷总重量=78964.64÷972≈81.24，所以飞机重心在81.24站位。",
-    "questionImage": "题库\\商照\\性能计划载重\\68.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/68.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 69,
@@ -893,8 +893,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "看图可知，前座的力臂为43.80，后座的力臂为74.70。已知重量和力臂分别求出力矩（力矩=重量×力臂）。飞机重心=总力矩÷总重量=75699.35÷945≈80.11，所以飞机重心在80.11站位。",
-    "questionImage": "题库\\商照\\性能计划载重\\69.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/69.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 70,
@@ -906,8 +906,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "已知重量和力臂分别求出力矩（力矩=重量×力臂）。飞机重心=总力矩÷总重量=21070.49÷1282≈16.44，所以飞机重心在16.44站位。",
-    "questionImage": "题库\\商照\\性能计划载重\\70.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/70.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 71,
@@ -919,8 +919,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "先求出纵向重心位置，空机力矩：1700×116.1=197370，燃油力矩:510×110=56100，滑油力矩：12×179=2148，飞行员（右座）力矩：175×65=11375，乘客（左座）力矩：195×104=20280.总重为：1700+510+12+175+195=2592.总力矩为：197370+56100+2148+11375+20280=287273，纵向重心：287273/2592=110.83.再求横向重心：空机力矩：1700×0.2=340，燃油力矩:0，滑油力矩：0，飞行员（右座）力矩：175×12.5=2187.5，乘客（左座）力矩：195×（-13.3）=-2593.5. 总重为：1700+510+12+175+195=2592，总力矩为：340+2187.5-2593.5=-66，横向重心为：-66/2592=-0.02。",
-    "questionImage": "题库\\商照\\性能计划载重\\71.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/71.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 72,
@@ -932,8 +932,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "1公斤≈2.2磅，1米≈39英寸。由条件可知，总重量和总力矩如下： \n                总重（磅）         力矩（1000英寸•磅）\n空机重量        1269                    100.9\n正副驾驶重量    398                     35.2\n后座乘客重量    141                     17.9\n货物重量        99                      11.8\n燃油            220                     20\n总计            2127                    185.8\n在图中画线可以看出飞机装载在限制范围之内，飞机的重心及重量均在限制范围之内。",
-    "questionImage": "题库\\商照\\性能计划载重\\72.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/72.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 73,
@@ -945,8 +945,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "由条件可知，总重量和总力矩如下：\n             总重（磅）         力矩（1000英寸•磅）\n基本重量      1315                   150.1\n飞行员重量    140                      7.1\n乘客重量      150                     12.3\n燃油重量      162                     17.3\n总计          1767                   186.8\n在图中画线可以看出飞机重心在重心范围之内，全重和全重力矩均在标准范围之内。",
-    "questionImage": "题库\\商照\\性能计划载重\\73.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/73.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 74,
@@ -958,8 +958,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "移动的重量/飞机总重量=重心改变量/重量移动的力臂改变量。移动的重量=3650×2÷140≈52.14公斤。",
-    "questionImage": "题库\\商照\\性能计划载重\\74.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/74.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 75,
@@ -971,8 +971,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "移动的重量/飞机总重量=重心改变量/重量移动的力臂改变量。90/4800=重心改变量/（1.45-0.45），所以重心改变量=0.01875。飞机原来的重心位于基准面后0.98m处，所以现在飞机重心为在基准面后0.98-0.01875≈0.9613m处。",
-    "questionImage": "题库\\商照\\性能计划载重\\75.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/75.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 76,
@@ -984,8 +984,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "经过1小时45分钟飞行后，消耗燃油重量为：12.7×1.75=22.225公斤。应用重量增减公式：重量的改变量/新的总重=重心改变量/增减重量与原重心的位置，可得：-22.225/（3037-22.225）=△CG/（68-68.8），求得：△CG=0.006，新重心为：68.8+0.006=68.806.",
-    "questionImage": "题库\\商照\\性能计划载重\\76.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/76.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 77,
@@ -997,8 +997,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "重量的改变量÷新的总重=重心改变量÷增减重量与原重心的距离。已知燃油消耗率为82.2公斤/小时，则飞行1小时30分钟消耗油量为82.2×1.5=123.3公斤，则重心改变量=-123.3×（68-67.8）÷（4137-123.3）≈-0.00614，则新的重心位置为67.8-0.00614≈67.79。",
-    "questionImage": "题库\\商照\\性能计划载重\\77.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/77.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 78,
@@ -1010,8 +1010,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "移动的重量÷飞机总重量=重心改变量÷重量移动的力臂改变量\n移动的重量=（81.5-80.5）×8100÷（150-30）=67.5磅。",
-    "questionImage": "题库\\商照\\性能计划载重\\78.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/78.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 79,
@@ -1023,8 +1023,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞行员加前排旅客重量120+180=300磅，在纵轴上对应300磅点作水平线相交于‘飞行员前排旅客线’，从交点垂直向下作直线交于横轴，得出力矩指数11.6；（以下作图方法同上）后座旅客175磅作图得到力矩指数为13.2，燃油88加仑=528磅，作图得到力矩指数24.5，行李A处100磅，作图得到力矩指数10，行李B处50磅，作图得到力矩指数6.总力矩指数=11.6+13.2+24.5+10+6=65.3，总重量为120+180+175+528+100+50=1153磅，重心位置为65.3*1000/1153=56.63in。",
-    "questionImage": "题库\\商照\\性能计划载重\\79.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/79.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 80,
@@ -1036,8 +1036,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "重量和平衡报告在使用飞机前的原始数据，所有影响空机重量和重心的永久性的设备安装或维修都必须记录在重量和平衡报告中。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 81,
@@ -1049,8 +1049,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "压舱物是指为了改变飞机重心而携带的物体，通常分为临时压舱物和永久压舱物。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 82,
@@ -1062,8 +1062,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "设置在飞机上的压舱物是用来调整飞机重心，使它达到要求的实用重心范围内。通常压舱物都放在最前面或最后面的位置，以便用较少重量的压舱物就可以达到调整重心的目的。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 83,
@@ -1075,8 +1075,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "高密度高度所在的空气密度小，相对于标准大气中较高高度的密度值。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 84,
@@ -1088,8 +1088,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "密度高度是实际高度的空气密度在国际标准大气上对应的高度。能直接用来确定飞机的飞行性能。当实际气温同标准气温不一致时，空气密度发生变化，气压递减率也随之发生变化，使高度表产生误差。密度高度就是指标准气压高经过修正气温误差后的修正高度。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 85,
@@ -1101,8 +1101,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "空气密度受高度、温度和湿度变化的影响。高密度高度指的是稀薄空气而低密度高度指的是稠密的空气。导致高密度高度的条件是高海拔高度、低大气压力、高温、高湿度或者这些因素的某些组合。低海拔高度、高大气压力、低温和低湿度是低密度高度的更明显预兆。一般当大气温度符合国际标准大气的状况时，密度高度等于压力高度。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 86,
@@ -1114,8 +1114,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "一发失效飞行时，拉力减小，阻力增大，飞行性能显著变差，一发失效，拉力减小约50%，但剩余拉力却减少80%左右，上升率和上升梯度同步减小。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 87,
@@ -1127,8 +1127,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "关键发动机是指其失效对飞机的性能品质影响最大的发动机。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 88,
@@ -1140,8 +1140,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "高温、高湿度的机场，空气密度稀薄，高度表指示的高度小于密度高度。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 89,
@@ -1153,8 +1153,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "密度高度=气压高度×T/Tisa，T，Tisa分别为实际大气温度和标准大气温度，单位为K。4000英尺高度上的ISA温度为15-4000*2/1000=7°=280.15K,实际温度5°=278.15K，则密度高度=4000*278.15/280.15=3971.",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 90,
@@ -1166,8 +1166,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "根据气压高度与密度高度关系图，找到气温10℃向上作垂线，交于气压高度8000英尺的参考线上，由交点向左作垂线交于密度高度参考线，读出密度高度约为9300英尺。",
-    "questionImage": "题库\\商照\\性能计划载重\\90.jpg",
-    "explanationImage": "题库\\商照\\性能计划载重\\90explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/90.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/90explain.jpg"
   },
   {
     "id": 91,
@@ -1179,8 +1179,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞机起飞和爬升性能以密度高度为衡量标准。影响密度高度的因素有温度、湿度、压强。空气的密度减小意味着高的密度高度，对应的飞行性能降低，相反，空气的密度增加意味着低的密度高度，飞机的飞行性能增加。",
-    "questionImage": "题库\\商照\\性能计划载重\\91.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/91.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 92,
@@ -1192,8 +1192,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "空气密度受高度、温度和湿度变化的影响。高密度高度指的是稀薄空气而低密度高度指的是稠密的空气。导致高密度高度的条件是高海拔高度、低大气压力、高温、高湿度或者这些因素的某些组合。低海拔高度、高大气压力、低温和低湿度是低密度高度的更明显预兆。一般当大气温度符合国际标准大气的状况时，密度高度等于压力高度。\n湿度增加，导致空气密度减小，发动机输出功率减小，飞机性能变差。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 93,
@@ -1205,8 +1205,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "起飞重量增大，不仅使飞机离地速度增大，而且会引起机轮摩擦力增加，使飞机不易加速。因此，起飞重量增大，起飞滑跑距离和起飞距离增长。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 94,
@@ -1218,8 +1218,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "机场压力高度或气温升高，都会引起空气密度减小，一方面使拉力减小，飞机加速慢；另一方面，离地真速增大，起飞滑跑距离必然增长。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 95,
@@ -1231,8 +1231,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "机场标高和气温升高，飞机离地表速不变，离地真速增大。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 96,
@@ -1244,8 +1244,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "起飞滑跑时，不论有风或无风，离地空速（即表速）是一定的，但滑跑距离由地速决定。逆风滑跑时，离地地速小，起飞滑跑距离比无风时短。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 97,
@@ -1257,8 +1257,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "起飞滑跑时，不论有风或无风，离地空速（即表速）是一定的。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 98,
@@ -1270,8 +1270,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 99,
@@ -1283,8 +1283,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "气温升高，使空气密度减小，离地真速增大（离地表速不变），滑跑距离增长。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 100,
@@ -1296,8 +1296,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "密度高度也是影响飞机性能的一个重要因素，密度高度高能够增加起飞距离，减小爬升率，增加着陆距离；密度高度低能够减小起飞距离，增加爬升率，减小着陆距离。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 101,
@@ -1309,8 +1309,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "飞机的重心位置能影响飞机的爬升率，重心位置靠前，减小爬升率，重心位置靠后，增加爬升率。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 102,
@@ -1322,8 +1322,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "进场速度增加意味着着陆中需要消失的能量增加，将导致着陆距离增长。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 103,
@@ -1335,8 +1335,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "进场高度偏高，引起接地点前移，着陆距离增长。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 104,
@@ -1348,8 +1348,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "跑道积水或雪后，飞机的起飞和着陆性能将显著下降，滑跑中方向控制变得困难，滑跑距离增长。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 105,
@@ -1361,8 +1361,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "高海拔机场空气密度低，为保持不变的升力，需相应增大接地速度。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 106,
@@ -1374,8 +1374,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "气温高于标准大气温度，飞机载荷减小，反之增大。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 107,
@@ -1387,8 +1387,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "在高原机场，空气密度减小，使飞机拉力减小，飞机性能下降，飞机加速慢，如果使用襟翼偏度过大，导致升阻比过小，在复飞的时候，上升梯度过小，不利于安全越障，不利于飞行安全。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 108,
@@ -1400,8 +1400,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "对于正常类、实用类，起飞是指飞机从跑道上开始滑跑，加速到抬前轮速度使抬前轮，离地上升到距起飞表面50ft高度，速度达到起飞安全速度的运动过程。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 109,
@@ -1413,8 +1413,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "在起飞滑跑阶段，总的加速力随着滑跑速度的增大而减小。一方面，随着滑跑速度的增大，阻力增大，升力增大，地面摩擦力减小，飞机的总阻力逐渐增加；另一方面，随着滑跑速度的增大，螺旋桨拉力不断减小。因此，飞机加速度不断减小。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 110,
@@ -1426,8 +1426,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "起飞距离是从速度为0开始加速滑跑到飞机离地上升到15米（50英尺），速度不小于起飞安全速度所经过的水平距离。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 111,
@@ -1439,8 +1439,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "从图中50°F向上引直线直到与2000ft的高度线相交，从交点水平向右引直线，与第一条参考线相交，再沿倾斜方向按比例偏折，直到与2700lbs的重量线相交，从交点水平向右引线直到与第二条参考线相交于静风位置，从交点直接引到最右边，得到的数值即为起飞距离约为800ft。",
-    "questionImage": "题库\\商照\\性能计划载重\\111.jpg",
-    "explanationImage": "题库\\商照\\性能计划载重\\111explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/111.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/111explain.jpg"
   },
   {
     "id": 112,
@@ -1452,8 +1452,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "起飞距离是飞机起飞滑跑到距离道面50英尺越障高度地面所经过的距离。根据题意要在1000英尺处安全飞越一个50英尺的障碍物，即要求起飞距离为1000英尺满足题意要求。根据起飞性能图，求出给定条件下，起飞距离为1000英尺的飞机重量。作图步骤：找到温度75°F，向上作垂线交于气压高度6000英尺，由交点向右作直线交于重量参考线。由交点作一条重量的平行曲线。根据逆风20节，向上作垂线，交于起飞距离1000英尺对应曲线，由交点向左作直线交于前面所作重量曲线。再由交点向下作垂线，交于重量值2600磅上。即要在1000英尺的距离内安全飞越一个50英尺的障碍物，要求起飞重量为2600磅，所以需要减重300磅。",
-    "questionImage": "题库\\商照\\性能计划载重\\112.jpg",
-    "explanationImage": "题库\\商照\\性能计划载重\\112explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/112.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/112explain.jpg"
   },
   {
     "id": 113,
@@ -1465,8 +1465,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "从图中50°F向上引直线直到与0ft的高度线相交，从交点水平向右引直线，与第一条参考线相交，再沿倾斜方向按比例偏折，直到与2700lbs的重量线相交，从交点水平向右引线直到与第二条参考线相交于静风位置，从交点直接引到最右边，得到的数值即为起飞距离约为750ft。",
-    "questionImage": "题库\\商照\\性能计划载重\\113.jpg",
-    "explanationImage": "题库\\商照\\性能计划载重\\113explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/113.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/113explain.jpg"
   },
   {
     "id": 114,
@@ -1478,8 +1478,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "从图中100°F向上引直线直到与4000ft的高度线相交，从交点水平向右引直线，与第一条参考线相交，再沿倾斜方向按比例偏折，直到与3200lbs的重量线相交，从交点水平向右引线直到与第二条参考线相交于静风位置，从交点直接引到最右边，得到的数值即为起飞距离约为1850ft。根据图中提示可知，起飞滑跑距离为总起飞距离的73%，所以飞机的起飞滑跑距离是1850×73%≈1350ft。",
-    "questionImage": "题库\\商照\\性能计划载重\\114.jpg",
-    "explanationImage": "题库\\商照\\性能计划载重\\114explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/114.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/114explain.jpg"
   },
   {
     "id": 115,
@@ -1491,8 +1491,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "从图中30°F向上引直线直到与6000ft的高度线相交，从交点水平向右引直线，与第一条参考线相交，再沿倾斜方向按比例偏折，直到与3300lbs的重量线相交，从交点水平向右引线直到与第二条参考线相交，再沿倾斜方向按比例偏折，直到与逆风20kt位置相交，从交点直接引到最右边，得到的数值即为起飞距离约为1500ft。",
-    "questionImage": "题库\\商照\\性能计划载重\\115.jpg",
-    "explanationImage": "题库\\商照\\性能计划载重\\115explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/115.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/115explain.jpg"
   },
   {
     "id": 116,
@@ -1504,8 +1504,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "可用起飞距离通常是跑道全长，如果跑道有净空道。可用起飞距离为跑道全长加上净空道的长度。",
-    "questionImage": "题库\\商照\\性能计划载重\\116.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/116.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 117,
@@ -1517,8 +1517,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "根据题意作图，找到机场外界温度8度，向上作垂线交于机场气压高度1250ft曲线上，由交点向右作水平线，交于重量参考线，由交点作一条最近的平行曲线，由重量3430磅向上作垂线，交于所作的曲线，由交点向右作平行线交顺逆风参考线，由交点作逆风曲线，由6节逆风向上作垂线交于逆风曲线，由交点向右作平行线，得到50英尺越障起飞距离1520英尺。由图中上部分表格，利用线性插值法，可得3430磅对应的越障速度约为77节。",
-    "questionImage": "题库\\商照\\性能计划载重\\117.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/117.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 118,
@@ -1530,8 +1530,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "根据题意作图，找到机场外界温度8度，向上作垂线交于机场气压高度1250ft曲线上，由交点向右作水平线，交于重量参考线，由交点作一条最近的平行曲线，由重量3430磅向上作垂线，交于所作的曲线，由交点向右作平行线交顺逆风参考线，由交点作逆风曲线，由6节逆风向上作垂线交于逆风曲线，由交点向右作平行线，得到短跑道起飞滑跑距离860英尺。由图中上部分表格，利用线性插值法，可得3430磅对应的起飞抬轮速度约为66节。",
-    "questionImage": "题库\\商照\\性能计划载重\\118.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/118.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 119,
@@ -1543,8 +1543,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "根据表格我们可以得到机场气压高度2000ft,标准大气温度10度所对应的起飞滑跑距离1095ft。根据note，干草地起飞滑跑距离需要在表格数据基础上增加15%，还要修正风对距离的影响，本题逆风9kt，所以距离要减去10%*9/9≈10% 。最后修正距离后得起飞滑跑距离1150ft。",
-    "questionImage": "题库\\商照\\性能计划载重\\119.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/119.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 120,
@@ -1556,8 +1556,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "从图中70°F向上引直线直到与0ft的高度线相交，从交点水平向右引直线，与第一条参考线相交，再沿倾斜方向按比例偏折，直到与3400lbs的重量线相交，从交点水平向右引线直到与第二条参考线相交，再沿倾斜方向按比例偏折，直到与逆风16kt位置相交，从交点直接引到最右边，得到的数值即为着陆距离约为1300ft。根据图中提示可知，着陆滑跑距离大约为着陆距离的53%，所以飞机着陆滑跑距离为1300×53%=689ft。",
-    "questionImage": "题库\\商照\\性能计划载重\\120.jpg",
-    "explanationImage": "题库\\商照\\性能计划载重\\120explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/120.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/120explain.jpg"
   },
   {
     "id": 121,
@@ -1569,8 +1569,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "从图中85°F向上引直线直到与6000ft的高度线相交，从交点水平向右引直线，与第一条参考线相交，再沿倾斜方向按比例偏折，直到与2800lbs的重量线相交，从交点水平向右引线直到与第二条参考线相交，再沿倾斜方向按比例偏折，直到与逆风14kt位置相交，从交点直接引到最右边，得到的数值即为着陆距离约为1400ft。根据图中提示可知，着陆滑跑距离大约为着陆距离的53%，所以飞机着陆滑跑距离为1400×53%=742ft。",
-    "questionImage": "题库\\商照\\性能计划载重\\121.jpg",
-    "explanationImage": "题库\\商照\\性能计划载重\\121explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/121.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/121explain.jpg"
   },
   {
     "id": 122,
@@ -1582,8 +1582,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "从图中50°F向上引直线直到与0ft的高度线相交，从交点水平向右引直线，与第一条参考线相交，再沿倾斜方向按比例偏折，直到与3000lbs的重量线相交，从交点水平向右引线直到与第二条参考线相交，再沿倾斜方向按比例偏折，直到与逆风10kt位置相交，从交点直接引到最右边，得到的数值即为着陆距离约为1200ft。根据图中提示可知，着陆滑跑距离大约为着陆距离的53%，所以飞机着陆滑跑距离为1200×53%=636ft。",
-    "questionImage": "题库\\商照\\性能计划载重\\122.jpg",
-    "explanationImage": "题库\\商照\\性能计划载重\\122explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/122.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/122explain.jpg"
   },
   {
     "id": 123,
@@ -1595,8 +1595,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "从图中80°F向上引直线直到与4000ft的高度线相交，从交点水平向右引直线，与第一条参考线相交，再沿倾斜方向按比例偏折，直到与2800lbs的重量线相交，从交点水平向右引线直到与第二条参考线相交，再沿倾斜方向按比例偏折，直到与逆风24kt位置相交，从交点直接引到最右边，得到的数值即为着陆距离约为1125ft。",
-    "questionImage": "题库\\商照\\性能计划载重\\123.jpg",
-    "explanationImage": "题库\\商照\\性能计划载重\\123explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/123.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/123explain.jpg"
   },
   {
     "id": 124,
@@ -1608,8 +1608,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "图中左侧ASSOCIATED CONDITIONS是假设前提条件。按步骤作图：从图中8°C向上引直线直到与气压高度680ft的高度线相交，从交点水平向右引直线，与第一条参考线相交，再沿倾斜方向按比例偏折，直到与3107lbs的重量线相交，从交点水平向右引线直到与第二条参考线相交，再沿倾斜方向按比例偏折，直到与逆风5kt位置相交，从交点直接引到最右边，得到的数值即为着陆距离约为1238ft。进近速度可以用3107磅的重量垂直画一个直线与进近速度相交得68kt。",
-    "questionImage": "题库\\商照\\性能计划载重\\124.jpg",
-    "explanationImage": "题库\\商照\\性能计划载重\\124explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/124.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/124explain.jpg"
   },
   {
     "id": 125,
@@ -1621,8 +1621,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "已知气压高度700ft，标准大气温度13.6℃。通过线性内插值可得飞机着陆滑跑距离为561ft。顺风4kt,根据下面note可知，顺风运行可达到10节正确（最大10节），十节以内，每2节顺风，增加10%，4节顺风，增大20%，561x（1+20%）=673ft。",
-    "questionImage": "题库\\商照\\性能计划载重\\125.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/125.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 126,
@@ -1634,8 +1634,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "已知机场外界温度0度，气压高度1000ft。查表可得飞机着陆距离为1280ft。根据顶风5kt,进行修正距离减少5.56%，减少71ft,不放襟翼着陆距离需要增加35%，增加448ft,最后得飞机着陆距离1657ft。表格右上角进近速度62节，不放襟翼着陆进近速度增加7节，则进近速度为69节。",
-    "questionImage": "题库\\商照\\性能计划载重\\126.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/126.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 127,
@@ -1647,8 +1647,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "通过机场外界温度和气压高度得到油量0.4GAL，时间0.9MIN，距离1.4NM。通过巡航高度和巡航高度上的外界温度得到油量2.6GAL，时间4.5MIN，距离7.3NM。巡航高度相应值减去机场高度的值就是从机场爬升到巡航所需的时间，距离和油量。",
-    "questionImage": "题库\\商照\\性能计划载重\\127.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/127.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 128,
@@ -1660,8 +1660,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "在一定航程飞行中，为了节省燃油，减小由于燃油消耗所支出的费用，应选用最大航程巡航的巡航M数和远航高度。但是，就每次飞行来讲，油费仅仅是总费用中的一部分，总费用还包括其他费用。驾驶员在巡航飞行时选用的速度应使总费用最小。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 129,
@@ -1673,8 +1673,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "根据题干给出的条件可知，应参看图中重量为4000磅部分，温度在20℃时，气压高度6000ft上的爬升率为（800+695）÷2=747.5ft/min，可知高度为5000ft上的爬升率为（800+747.5）÷2=773.75ft/min。同理，温度在40℃时，气压高度6000ft上的爬升率为605ft/min，可知高度5000ft上的爬升率为630ft/min。已知温度20℃和40℃时的爬升率，可知温度为30℃时的爬升率=（773.75+630）÷2≈702ft/min。",
-    "questionImage": "题库\\商照\\性能计划载重\\129.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/129.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 130,
@@ -1686,8 +1686,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "根据题干给出的条件可知，应参看图中重量为3700磅部分，温度在-20℃时，气压高度22000ft的爬升率为（600+295）÷2=447.5ft/min。温度在0℃时，高度22000ft的爬升率为（470+170）÷2=320ft/min。已知温度-20℃和0℃时的爬升率，可知温度在-10℃时的爬升率为（447.5+320）÷2≈384ft/min。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 131,
@@ -1699,8 +1699,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "巡航气压高度9000ft，查表得时间，油量，距离为18MIN,3.4GAL,25NM。温度为5度，比该高度上的标准大气温度高8度，需要时间、燃油和距离进行修正10%*8/10=8%，得时间，油量，距离为19.44MIN,3.672GAL,27NM。机场高度2000ft，气温为标准大气温度，查表得时间，油量，距离为3MIN,0.7GAL,4NM。油量需要增加开车、滑行和起飞所用油量1.1加仑。所以从机场起飞爬升到9000ft巡航高度的所需时间，油量，距离为16.44MIN,4.072GAL,23NM。",
-    "questionImage": "题库\\商照\\性能计划载重\\131.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/131.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 132,
@@ -1712,8 +1712,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "对于顺，逆风平飞，可以参考公式计算飞机的公里燃油消耗量：qkm风=qkm/(1+u/v),式中u为风速，顺风取正值，逆风取负值。当风速一定时，顺风飞行，如空速减小，可以使公里燃油消耗量减小，增大平飞航程；逆风飞行时，如空速增大，可以使公里燃油消耗量减小，增大平飞航程。因此，顺风飞行时可以适当减小空速以增大平飞航程，逆风飞行时可以适当增大空速以增大平飞航程。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 133,
@@ -1725,8 +1725,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "一发失效后的实用升限是飞机一发失效后仍然有50ft/min能的爬升能力所对应的高度。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 134,
@@ -1738,8 +1738,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "在图找到温度和气压相交的点，水平画直线与飞机重量相交，然后垂直向下画直线得出一发失效后的爬升率285FPM。",
-    "questionImage": "题库\\商照\\性能计划载重\\134.jpg",
-    "explanationImage": "题库\\商照\\性能计划载重\\134explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/134.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/134explain.jpg"
   },
   {
     "id": 135,
@@ -1751,8 +1751,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "爬到4000ft高度上，标准大气，温度为7度，在图找到温度7度和4000气压相交的点，水平画线与飞机重量相交，然后垂直向下画得出一发失效后的爬升率100FPM。",
-    "questionImage": "题库\\商照\\性能计划载重\\135.jpg",
-    "explanationImage": "题库\\商照\\性能计划载重\\135explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/135.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/135explain.jpg"
   },
   {
     "id": 136,
@@ -1764,8 +1764,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "根据实用升限的定义在图中找到50ft/min的爬升率，向上作垂线，与3000磅重量斜线的交点处向左引水平线，水平线与标准大气温度的交点处对应的气压高度即为该飞机的实用升限。",
-    "questionImage": "题库\\商照\\性能计划载重\\136.jpg",
-    "explanationImage": "题库\\商照\\性能计划载重\\136explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/136.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/136explain.jpg"
   },
   {
     "id": 137,
@@ -1777,8 +1777,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "《通用航空飞行管制条例》第十六条：飞行计划申请应当在拟飞行前1天15时前提出；飞行管制部门应当在拟飞行前1天21时前作出批准或者不予批准的决定，并通知申请人。",
-    "questionImage": "题库\\商照\\性能计划载重\\137.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/137.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 138,
@@ -1790,8 +1790,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "航空器营运人及其代理人应当于航空器预计撤轮挡时间2小时30分钟前提交飞行计划。遇有特殊情况，经与计划受理单位协商，最迟不晚于航空器预计撤轮挡时间前75分钟提交飞行计划。国内航空器营运人执行国内飞行任务不得早于预计撤轮挡时间前24小时提交飞行计划；航空器营运人执行其他任务不得早于预计撤轮挡时间前120小时提交飞行计划。航空器营运人及其代理人不得为同一飞行活动重复提交飞行计划。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 139,
@@ -1803,8 +1803,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "航空器营运人及其代理人应当于航空器预计撤轮挡时间2小时30分钟前提交飞行计划。遇有特殊情况，经与计划受理单位协商，最迟不晚于航空器预计撤轮挡时间前75分钟提交飞行计划。国内航空器营运人执行国内飞行任务不得早于预计撤轮挡时间前24小时提交飞行计划；航空器营运人执行其他任务不得早于预计撤轮挡时间前120小时提交飞行计划。航空器营运人及其代理人不得为同一飞行活动重复提交飞行计划。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 140,
@@ -1816,8 +1816,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "航空器营运人及其代理人应当于航空器预计撤轮挡时间2小时30分钟前提交飞行计划。遇有特殊情况，经与计划受理单位协商，最迟不晚于航空器预计撤轮挡时间前75分钟提交飞行计划。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 141,
@@ -1829,8 +1829,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "国内航空器营运人执行国内飞行任务不得早于预计撤轮挡时间前24小时提交飞行计划；航空器营运人执行其他任务不得早于预计撤轮挡时间前120小时提交飞行计划。航空器营运人及其代理人不得为同一飞行活动重复提交飞行计划。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 142,
@@ -1842,8 +1842,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "当航空器飞行计划变化时，航空器营运人及其代理人应当于航空器预计撤轮挡时间前45分钟提交飞行计划修改，并应在最后通知的预计撤轮挡时间以后3小时30分钟以内提交飞行计划修改。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 143,
@@ -1855,8 +1855,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "当航空器飞行计划预计或者已经推迟30分钟以上时，航空器营运人及其代理人应当立即提交飞行计划延误情况。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 144,
@@ -1868,8 +1868,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "航空器营运人及其代理人应当于航空器预计撤轮挡时间2小时30分钟前提交飞行计划。遇有特殊情况，经与计划受理单位协商，最迟不晚于航空器预计撤轮挡时间前75分钟提交飞行计划。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 145,
@@ -1881,8 +1881,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "航空器营运人及其代理人应当于航空器预计撤轮挡时间 2 小时 30 分钟前提交飞行计划。遇有特殊情况，经与计划受理单位协商，最迟不晚于航空器预计撤轮挡时间前 75 分钟提交飞行计划。国内航空器营运人执行国内飞行任务不得早于预计撤轮挡时间前 24 小时提交飞行计划；航空器营运人执行其他任务不得早于预计撤轮挡时间前 120 小时提交飞行计划。航空器营运人及其代理人不得为同一飞行活动重复提交飞行计划。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 146,
@@ -1894,8 +1894,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "速度数据（最多5个字符）应用以下3种方法表示：“K”后随4位数字，真空速，单位为千米每小时（km/h）；“N”后随4位数字，真空速，单位为海里每小时（nmile/h）；“M”后随3位数字，最近的1%马赫单位的马赫数。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 147,
@@ -1907,8 +1907,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "在飞行计划报中，编组15填写航路信息，包括巡航速度，巡 航高度，航路。所飞航路的第一个或整个航段计划的巡航高度层，按下列方式示：“M” 后随四位数，表示以10m为单位的海拔高度。“S”后跟随4位数，表示以10米为单位的标准米制飞行高度层。“A”后随3位数，表示以100ft为单位的海拔高度。“F”后随3位数，表示以100ft为单位的飞行高度层。“VFR”表示不受管制的目视飞行规则飞行。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 148,
@@ -1920,8 +1920,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "依据CCAR91部第91.153条规定，目视飞行规则飞行计划的要求\n航空器驾驶员提交的按目视飞行规则飞行计划必须包括以下内容：\n(1) 该航空器国籍登记号和无线电呼号（如需要）。\n(2) 该航空器的型号，或者如编队飞行，每架航空器的型号及编队的航空器数量。\n(3) 机长的姓名和地址，或者如编队飞行，编队指挥员的姓名和地址。\n(4) 起飞地点和预计起飞时间。\n(5) 计划的航线、巡航高度(或飞行高度层)以及在该高度的航空器真空速。\n(6) 第一个预定着陆地点和预计飞抵该点上空的时间。\n(7) 装载的燃油量(以时间计)。\n(8) 机组和搭载航空器的人数。\n(9) 局方和空中交通管制要求的其他任何资料。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 149,
@@ -1933,8 +1933,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "依据CCAR91部第91.151条规定，飞机驾驶员在目视飞行规则条件下开始飞行前，必须考虑风和预报的气象条件，在飞机上装载足够的燃油，这些燃油能够保证飞机飞到第一个预定着陆点着陆，并且此后按正常的巡航速度还能至少飞行30分钟（昼间）或45分钟（夜间）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 150,
@@ -1946,8 +1946,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "在计算所需的燃油和滑油量时，至少必须考虑下列因素：\n(1) 预报的气象条件；(2) 预期的空中交通管制航路和交通延误；(3) 释压程序（如适用），或在航路上一台动力装置失效时的程序；",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 151,
@@ -1959,8 +1959,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "依据CCAR91部第91.151条规定，飞机驾驶员在目视飞行规则条件下开始飞行前，必须考虑风和预报的气象条件，在飞机上装载足够的燃油，这些燃油能够保证飞机飞到第一个预定着陆点着陆，并且此后按正常的巡航速度还能至少飞行30分钟（昼间）或45分钟（夜间）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 152,
@@ -1972,8 +1972,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "CCAR-91部第91.151条 目视飞行规则条件下飞行的燃油要求：\n(a) 飞机驾驶员在目视飞行规则条件下开始飞行前，必须考虑风和预报的气象条件，在飞机上装载足够的燃油，这些燃油能够保证飞机飞到第一个预定着陆点着陆，并且此后按正常的巡航速度还能至少飞行30分钟（昼间）或45分钟（夜间）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 153,
@@ -1985,8 +1985,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "空中交通服务电报（AFTN）中，编组9为航空器数目、机型和尾流等级。尾流等级用1个字母表示。航空器的最大允许起飞重量决定航空器的尾流等级。 H表示重型，大于或等于136t；M表示中型，大于7t小于136t；L表示轻型，小于或等于7t。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 154,
@@ -1998,8 +1998,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "在ICAO飞行计划编组16中需要填写的是目的地机场和预计总飞行时间，目的地备降机场。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 155,
@@ -2011,8 +2011,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞行计划报中，编组15为航路，数据项A填写巡航速度。“K” 后随四位数字，真空速，单位为千米每小时(km/h)；“N” 后随四位数字，真空速，单位为海里每小时（Konts）；“M” 后随三位数字，最近的1%马赫单位的马赫数。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 156,
@@ -2024,8 +2024,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "飞行计划报中，编组15为航路，数据项A填写巡航速度，数据项B填写巡航高度层，“F” 后随3 位数字，表示以100ft为单位的飞行高度层（例：F085，F330）；“S”后随4 位数字，表示以10m为单位的标准米制高度层；“A” 后随3 位数字，表示以100ft为单位的海拔高度；“M” 后随4 位数字，表示以10m为单位的海拔高度。“S1130”表示飞行高度层11300m，真航线角在0度至179度范围内，飞行高度由8900至12500米，每隔600米为一个高度层，可知上一个高度层是11900米，用“S1190”表示。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 157,
@@ -2037,8 +2037,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行计划报中，编组15为航路，数据项A填写巡航速度，数据项B填写巡航高度层，“F” 后随3 位数字，表示以100ft为单位的飞行高度层（例：F085，F330）；“S”后随4 位数字，表示以10m为单位的标准米制高度层；“A” 后随3 位数字，表示以100ft为单位的海拔高度；“M” 后随4 位数字，表示以10m为单位的海拔高度。“S1130”表示飞行高度层11300m，真航线角在0度至179度范围内，飞行高度由8900至12500米，每隔600米为一个高度层，可知上一个高度层是11900米，用“S1190”表示。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 158,
@@ -2050,8 +2050,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "在ICAO飞行计划编组16中需要填写的是目的地机场和预计总飞行时间，目的地备降机场。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 159,
@@ -2063,8 +2063,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "飞行计划编组8数据项B—飞行种类。用一个字母表示有关空中交通服务当局要求的飞行种类：G表示通用航空飞行，M表示军用飞行，N表示非定期的航空运输飞行，S表示定期航班，X表示除上述之外的其他飞行种类。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 160,
@@ -2076,8 +2076,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行计划编组15为航路。数据项B表示巡航高度层（最多5个字符）。在字母A后随3位数表示以百英尺为单位的海拔高度。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 161,
@@ -2089,8 +2089,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "ICAO飞行计划电报中，编组13表示起飞机场和时间；编组15表示巡航速度、高度和航路；编组16表示目的地机场、预计飞行时间和备降机场。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 162,
@@ -2102,8 +2102,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行计划编组8数据项B—飞行种类。用一个字母表示有关空中交通服务当局要求的飞行种类：G表示通用航空飞行，M表示军用飞行，N表示非定期的航空运输飞行，S表示定期航班，X表示除上述之外的其他飞行种类。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 163,
@@ -2115,8 +2115,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞行计划电报中，编组13表示起飞机场和时间。数据项A为起飞机场。数据项B为时间。时间用4位数字表示（UTC）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 164,
@@ -2128,8 +2128,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "空中交通服务电报（AFTN）中，编组9为航空器数目、机型和尾流等级。尾流等级用1个字母表示。航空器的最大允许起飞重量决定航空器的尾流等级。 H表示重型，大于或等于136t；M表示中型，大于7t小于136t；L表示轻型，小于或等于7t。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 165,
@@ -2141,8 +2141,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "在飞行计划电报中，编组8表示飞行规则及种类。数据项A表示飞行规则。“V”表示整个飞行准备按照目视飞行规则运行。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 166,
@@ -2154,8 +2154,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "由FPL报文可知，第一段航路的巡航速度和请求飞行高度层为480kts和FL330.",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 167,
@@ -2167,8 +2167,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞行计划编组8为飞行规则及种类。 飞行规则用1个字母表示如下： I表示整个飞行准备按照仪表飞行规则运行 V表示整个飞行准备按照目视飞行规则运行 Y表示飞行先按照仪表飞行规则运行，后随对飞行规则的一个或多个相应修改 Z表示飞行先按照目视飞行规则运行，后随对飞行规则的一个或多个相应修改 如果使用字母Y或Z时，计划改变飞行规则的各个航路点应按编组15的要求填写 飞行种类用1个字母表示有关空中交通服务当局要求的飞行种类： G表示通用航空飞行 M表示军用飞行 N表示非定期的航空运输飞行 S表示定期航班 X表示除上述飞行之外的其他飞行种类 如果需要表示要求ATS特别处理的其他原因，则在编组18“RMK/”之后说明原因。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 168,
@@ -2180,8 +2180,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行计划中，编组8表示飞行规则及种类。数据项A—飞行规则。用1个字母表示。\nV表示整个飞行按照目视飞行规则运行。I表示整个飞行按照仪表飞行规则运行。Y表示飞行先按仪表飞行规则运行，后随对飞行规则的一个或多个相应修改。Z表示飞行先按照目视飞行规则运行，后随对飞行规则的一个或多个相应修改。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 169,
@@ -2193,8 +2193,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "在飞行计划报中，编组15填写航路信息，包括巡航速度，巡航高度，航路。所飞航路的第一个或整个航段计划的巡航高度层，按下列方式示：“M” 后随四位数，表示以10m为单位的海拔高度。“S”后跟随4位数，表示以10米为单位的标准米制飞行高度层。“A”后随3位数，表示以100ft为单位的海拔高度。“F”后随3位数，表示以100ft为单位的飞行高度层。“VFR”表示不受管制的目视飞行规则飞行。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 170,
@@ -2206,8 +2206,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行计划中，编组15航路，数据项A为巡航速度（最多5个字符）。飞行中第一个或整个巡航航段的真空速，按下列方式表示：\n“K”后随4位数字  真空速，单位为千米每小时（km/h）；\n“N”后随4位数字  真空速，单位为海里每小时（n mile/h）；\n“M”后随3位数字  最近的1%马赫单位的马赫数。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 171,
@@ -2219,8 +2219,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞行计划编组8为飞行规则及种类。飞行规则用1个字母表示如下： I表示整个飞行准备按照仪表飞行规则运行；V表示整个飞行准备按照目视飞行规则运行；Y表示飞行先按照仪表飞行规则运行，后随对飞行规则的一个或多个相应修改；Z表示飞行先按照目视飞行规则运行，后随对飞行规则的一个或多个相应修改。如果使用字母Y或Z时，计划改变飞行规则的各个航路点应按编组15的要求填写飞行种类用1个字母表示有关空中交通服务当局要求的飞行种类：G表示通用航空飞行；M表示军用飞行；N表示非定期的航空运输飞行；S表示定期航班；X表示除上述飞行之外的其他飞行种类。如果需要表示要求ATS特别处理的其他原因，则在编组18“RMK/”之后说明原因。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 172,
@@ -2232,8 +2232,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "商载，一般也叫做“有效载荷”，是指飞机装载旅客和货物的重量。飞机最大起飞重量是一定的，在飞机上增加了其他设备，则可用于商载的部分将减小。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 173,
@@ -2245,8 +2245,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "航空汽油密度约为每加仑6磅。所以使飞机达到规定限制需要排放110/6≈18.3加仑燃油。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 174,
@@ -2258,8 +2258,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 175,
@@ -2271,8 +2271,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "中断起飞速度比V1大5公里/小时，如果按照FAR定义的中断起飞和继续起飞距离，考虑平衡跑道情况，在V1+5公里/小时的速度上进行中断起飞，当飞机到达FAR中断起飞距离终点时，飞机的速度将不是5公里/小时而是比它大得多。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 176,
@@ -2284,8 +2284,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "巡航飞行中，由于燃油的消耗，飞机重量不断减小，为使换算重量始终保持不变，应不断地增加高度，也就是随着飞机重量的减小，仍要保持同样的升力系数飞行；应不断地增加高度，使大气压力的减小与飞机重量的减小协调一致，才能保持同样的升力系数。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 177,
@@ -2297,8 +2297,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 178,
@@ -2310,8 +2310,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 179,
@@ -2323,8 +2323,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "经济速度的大小，主要取决于成本指数的大小。成本指数高，说明时费高或油价低，所以适当增大飞行速度，可以使时费少支出（受益）大于油费的多支出（受损）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 180,
@@ -2336,8 +2336,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "已知转速2200RPM，进气压力20MP，气温-1℃，看图可知，该条件下燃油流量为59磅/小时。功率为43%，低于70%，为了最经济燃油消耗，需调整混合比使燃油流量比图表给出的值小6磅/小时，最省油，采用燃油流量为53磅/小时。已知可用燃油为344磅，则巡航飞行可用时间为344÷53≈6.49小时，即6小时29分钟。昼间目视飞行条件下，要求燃油能够保证飞机飞到第一个预定着陆点着陆，并且此后按正常的巡航速度还能至少飞行30分钟，所以实际可用飞行时间为6小时29分钟减去30分钟，即5小时59分钟。",
-    "questionImage": "题库\\商照\\性能计划载重\\180.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/180.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 181,
@@ -2349,8 +2349,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "已知转速2400RPM，进气压力28MP，气温-21℃，看图可知，该条件下燃油流量为94磅/小时。已知可用燃油为425磅，则巡航飞行可用时间为425÷94≈4.52小时，即4小时31分钟。昼间目视飞行条件下，要求燃油能够保证飞机飞到第一个预定着陆点着陆，并且此后按正常的巡航速度还能至少飞行30分钟，所以实际可用飞行时间为4小时31分钟减去30分钟，即4小时1分钟。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 182,
@@ -2362,8 +2362,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "已知转速2500RPM，进气压力26MP，气温-41℃，看图可知，该条件下燃油流量为99磅/小时。已知可用燃油为318磅，则巡航飞行可用时间为318÷99≈3.2小时，即3小时12分钟。夜间目视飞行条件下，要求燃油能够保证飞机飞到第一个预定着陆点着陆，并且此后按正常的巡航速度还能至少飞行45分钟，所以实际可用飞行时间为3小时12分钟减去45分钟，即2小时27分钟。",
-    "questionImage": "题库\\商照\\性能计划载重\\182.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/商照/性能计划载重/182.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 183,
@@ -2375,8 +2375,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "平飞所需拉力与飞行重量成正比，与飞机的升阻比成反比。最大升阻比对应着平飞所需拉力最小，此时对应的速度称为最小阻力速度，以最小阻力速度飞行时，若不考虑发动机燃油消耗率和螺旋桨效率的影响，公里燃油消耗量最小，平飞航程最长。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 184,
@@ -2388,8 +2388,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 185,
@@ -2401,7 +2401,7 @@
     ],
     "correctAnswer": "C",
     "explanation": "飞机重量增大，可用拉力和可用功率不变，而平飞所需拉力和所需功率将增大，这样，随着飞行重量的增大，平飞最大指示空速和真速将减小。若保持同一迎角平飞，最小平飞速度和有利速度有所增大。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   }
 ]

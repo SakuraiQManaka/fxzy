@@ -9,8 +9,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行计划的一般制定流程：\n1、航空器适航限制的分析2、航行资料分析3、天气资料分析4、备降场的选择5、航行要素的分析6、航路资料查找7、航路资料总结8、燃油的计算9、飞行计划的制定10、ICAO飞行计划",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 2,
@@ -22,8 +22,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行计划的一般制定流程：\n1、航空器适航限制的分析\n2、航行资料分析\n3、天气资料分析\n4、备降场的选择\n5、航行要素的分析\n6、航路资料查找\n7、航路资料总结\n8、燃油的计算\n9、飞行计划的制定\n10、ICAO飞行计划",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 3,
@@ -35,8 +35,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行计划的一般制定流程：\n1、航空器适航限制的分析\n2、航行资料分析\n3、天气资料分析\n4、备降场的选择\n5、航行要素的分析\n6、航路资料查找\n7、航路资料总结\n8、燃油的计算\n9、飞行计划的制定\n10、ICAO飞行计划",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 4,
@@ -48,8 +48,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "若对于飞机，在符合下列条件时，可以不选用备降机场;\n（1）预计着陆的目的地机场具有局方公布的标准仪表进近程序；\n（2）天气实况报告、预报或两者组合表明，在飞机预计到达目的地机场时刻前后至少1小时的时间段内，云高高于机场标高600米，能见度至少5千米。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 5,
@@ -61,8 +61,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "除经局方批准外，对于列入仪表飞行规则飞行计划中的备降机场，应当有相应的天气实况报告、预报或两者组合表明，当航空器到达该机场时，该机场的天气条件等于或高于下列最低天气标准：\n（1）对于具有局方公布的仪表进近程序的机场，使用下列标准：\n对于旋翼机以外的航空器，在有一套进近设施与程序的机场，云高在最低下降高/度（MDH/MDA）或决断高/度（DH/DA）上增加120米，能见度增加1600米； 在有两套（含）以上精密或非精密进近设施与程序并且能提供不同跑道进近的机场，云高在最低下降高或决断高上增加60米，能见度增加800米，在两条较低标准的跑道中取较高值。\n（2）对于没有公布仪表进近程序的机场，云高和能见度应当保证航空器可按照基本目视飞行规则完成从最低航路高度(MEA)开始下降、进近和着陆。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 6,
@@ -74,8 +74,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "除经空中交通管制同意外，仪表飞行规则飞行计划应当包括下列内容：\n1、该航空器国籍登记号和无线电呼号（如需要）。\n2、该航空器的型号，或者如编队飞行，每架航空器的型号及编队的航空器数量。\n3、起飞地点和预计起飞时间。\n4、计划的航线、巡航高度(或飞行高度层)以及在该高度的航空器真空速。\n5、备降机场。\n6、第一个预定着陆地点和预计飞抵该点上空的时间。\n7、局方和空中交通管制要求的其他任何资料。\n8、装载的燃油量(以时间计)。\n9、机组和搭载航空器的人数。\n10、机长的姓名和地址，或者如编队飞行，编队指挥员的姓名和地址。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 7,
@@ -87,8 +87,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "依据CCAR91部第除经空中交通管制同意外，仪表飞行规则飞行计划应当包括下列内容：\n1、该航空器国籍登记号和无线电呼号（如需要）。\n2、该航空器的型号，或者如编队飞行，每架航空器的型号及编队的航空器数量。\n3、起飞地点和预计起飞时间。\n4、计划的航线、巡航高度(或飞行高度层)以及在该高度的航空器真空速。\n5、备降机场。\n6、第一个预定着陆地点和预计飞抵该点上空的时间。\n7、局方和空中交通管制要求的其他任何资料。\n8、装载的燃油量(以时间计)。\n9、机组和搭载航空器的人数。\n10、机长的姓名和地址，或者如编队飞行，编队指挥员的姓名和地址。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 8,
@@ -100,8 +100,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "根据CCAR-97部第六十六条规定，当适用的航路备降机场具有单个精密进近程序，其备降最低标准为云高180米，能见度3200米，即3.2公里。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 9,
@@ -113,8 +113,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "航空器驾驶员在仪表飞行规则条件下开始飞行前，必须充分考虑风和预报的气象条件，在航空器上装载足够的燃油，这些燃油能够：1.飞到目的地机场着陆；2.从目的地机场飞到备降机场着陆；3.在完成上述飞行之后，还能以正常巡航速度飞行45分钟，并且加上附加燃油量，以便在发生意外情况时足以应付油耗的增加。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 10,
@@ -126,8 +126,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "航空器数目（多于1架）。此单项应仅用于多架航空器编队飞行中，用1-2位数字来表示航空器架数 。",
-    "questionImage": "\\fxzy\\题库\\仪表\\计划\\10.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/计划/10.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 11,
@@ -139,8 +139,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "I表示整个飞行准备按照仪表飞行规则运行；V表示整个飞行准备按照目视飞行规则运行；Y表示飞行先按照仪表飞行规则运行，后随对飞行规则的一个或多个相应修改；Z表示飞行先按照目视飞行规则运行，后随对飞行规则的一个或多个相应修改",
-    "questionImage": "\\fxzy\\题库\\仪表\\计划\\11.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/计划/11.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 12,
@@ -152,8 +152,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "编组19—补充情报；C/后随机长姓名。",
-    "questionImage": "\\fxzy\\题库\\仪表\\计划\\12.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/计划/12.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 13,
@@ -165,8 +165,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "在低空飞行时常用指示空速来对速度进行限制，而在高空常用真空速来对速度进行限制。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 14,
@@ -178,8 +178,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞行计划编组10为机载设备与能力，数据项A表示无线电通信、导航及进近助航设备与能力，填入 D表示测距仪。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 15,
@@ -191,8 +191,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "空中交通服务电报（AFTN）中，编组9为航空器数目、机型和尾流等级。尾流等级用1个字母表示。航空器的最大允许起飞重量决定航空器的尾流等级。H表示重型，大于或等于136t；M表示中型，大于7t小于136t；L表示轻型，小于或等于7t。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 16,
@@ -204,8 +204,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "当下列任一情况存在时，航空器驾驶员必须马上执行复飞程序：（1）在下列任一时刻，不能获得要求的目视参考：(i) 航空器到达决断高（DH）、最低下降高度（MDA）或复飞点；(ii) 在决断高(DH)或最低下降高度（MDA）以下失去目视参考。(2) 航空器在最低下降高度（MDA）或以上进行盘旋机动飞行时，不能清晰辨认该机场特征部分的参照物 。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 17,
@@ -217,8 +217,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "航空器驾驶员在民用机场按仪表飞行规则起飞时，气象条件必须等于或高于公布的该机场仪表飞行规则起飞最低天气标准。在未公布起飞最低天气标准的机场，应当使用下列最低天气标准：(1) 对于单台或两台发动机的航空器(旋翼机除外)，机场跑道能见度至少1600米。(2) 对于多台发动机的航空器(旋翼机除外)，机场跑道能见度至少800米。(3) 对于旋翼机，机场跑道能见度为800米。除经局方批准外，航空器驾驶员在按仪表飞行规则驾驶航空器进入或离开军用机场时，必须遵守该机场有管辖权的军事当局规定的仪表进行程序和起飞、着陆最低天气标准。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 18,
@@ -230,8 +230,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "飞行计划的一般制定流程：\n1、航空器适航限制的分析\n2、航行资料分析\n3、天气资料分析\n4、备降场的选择\n5、航行要素的分析\n6、航路资料查找\n7、航路资料总结\n8、燃油的计算\n9、飞行计划的制定\n10、ICAO飞行计划",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 19,
@@ -243,8 +243,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行计划的一般制定流程：\n1、航空器适航限制的分析\n2、航行资料分析\n3、天气资料分析\n4、备降场的选择\n5、航行要素的分析\n6、航路资料查找\n7、航路资料总结\n8、燃油的计算\n9、飞行计划的制定\n10、ICAO 飞行计划",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 20,
@@ -256,8 +256,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行计划的一般制定流程：\n1、航空器适航限制的分析\n2、航行资料分析\n3、天气资料分析\n4、备降场的选择\n5、航行要素的分析\n6、航路资料查找\n7、航路资料总结\n8、燃油的计算\n9、飞行计划的制定\n10、ICAO 飞行计划",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 21,
@@ -269,8 +269,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "依据CCAR91部第91.153条规定，目视飞行规则飞行计划的要求\n航空器驾驶员提交的按目视飞行规则飞行计划必须包括以下内容：\n(1) 该航空器国籍登记号和无线电呼号（如需要）。\n(2) 该航空器的型号，或者如编队飞行，每架航空器的型号及编队的航空器数量。\n(3) 机长的姓名和地址，或者如编队飞行，编队指挥员的姓名和地址。\n(4) 起飞地点和预计起飞时间。\n(5) 计划的航线、巡航高度(或飞行高度层)以及在该高度的航空器真空速。\n(6) 第一个预定着陆地点和预计飞抵该点上空的时间。\n(7) 装载的燃油量(以时间计)。\n(8) 机组和搭载航空器的人数。\n(9) 局方和空中交通管制要求的其他任何资料。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 22,
@@ -282,8 +282,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行计划的一般制定流程：\n1、航空器适航限制的分析\n2、航行资料分析\n3、天气资料分析\n4、备降场的选择\n5、航行要素的分析\n6、航路资料查找\n7、航路资料总结\n8、燃油的计算\n9、飞行计划的制定\n10、ICAO飞行计划",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 23,
@@ -295,8 +295,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "飞行计划的一般制定流程： \n1、航空器适航限制的分析 \n2、航行资料分析 \n3、天气资料分析 \n4、备降场的选择 \n5、航行要素的分析 \n6、航路资料查找 \n7、航路资料总结 \n8、燃油的计算 \n9、飞行计划的制定 \n10、ICAO飞行计划",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 24,
@@ -308,8 +308,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞行计划的一般制定流程： \n1、航空器适航限制的分析 \n2、航行资料分析 \n3、天气资料分析 \n4、备降场的选择 \n5、航行要素的分析 \n6、航路资料查找 \n7、航路资料总结 \n8、燃油的计算 \n9、飞行计划的制定 \n10、ICAO 飞行计划",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 25,
@@ -321,8 +321,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "航空器营运人及其代理人应当于航空器预计撤轮挡时间2小时30分钟前提交飞行计划。遇有特殊情况，经与计划受理单位协商，最迟不晚于航空器预计撤轮挡时间前75分钟提交飞行计划。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 26,
@@ -334,8 +334,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "国内航空器营运人执行国内飞行任务不得早于预计撤轮挡时间前24小时提交飞行计划；航空器营运人执行其他任务不得早于预计撤轮挡时间前120小时提交飞行计划。航空器营运人及其代理人不得为同一飞行活动重复提交飞行计划。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 27,
@@ -347,8 +347,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "当航空器飞行计划变化时，航空器营运人及其代理人应当于航空器预计撤轮挡时间前45分钟提交飞行计划修改，并应在最后通知的预计撤轮挡时间以后3小时30分钟以内提交飞行计划修改。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 28,
@@ -360,8 +360,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "当航空器飞行计划预计或者已经推迟30分钟以上时，航空器营运人及其代理人应当立即提交飞行计划延误情况。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 29,
@@ -373,8 +373,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "航空器营运人及其代理人应当于航空器预计撤轮挡时间2小时30分钟前提交飞行计划。遇有特殊情况，经与计划受理单位协商，最迟不晚于航空器预计撤轮挡时间前75分钟提交飞行计划。国内航空器营运人执行国内飞行任务不得早于预计撤轮挡时间前24小时提交飞行计划；航空器营运人执行其他任务不得早于预计撤轮挡时间前120小时提交飞行计划。航空器营运人及其代理人不得为同一飞行活动重复提交飞行计划。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 30,
@@ -386,8 +386,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "当已拍发飞行计划需要取消或者预计需要取消时，航空器营运人及其代理人应当及时提交取消申请，需要时，可重新提交新的飞行计划。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 31,
@@ -399,8 +399,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "航空器营运人及其代理人获得相关预先飞行计划批复后方可提交飞行计划。提交飞行计划的内容应当与预先飞行计划批复一致。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 32,
@@ -412,8 +412,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "航空器营运人及其代理人应当于航空器预计撤轮挡时间 2 小时 30 分钟前提交飞行计划。遇有特殊情况，经与计划受理单位协商，最迟不晚于航空器预计撤轮挡时间前 75 分钟提交飞行计划。国内航空器营运人执行国内飞行任务不得早于预计撤轮挡时间前 24 小时提交飞行计划；航空器营运人执行其他任务不得早于预计撤轮挡时间前 120 小时提交飞行计划。航空器营运人及其代理人不得为同一飞行活动重复提交飞行计划。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 33,
@@ -425,8 +425,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "当航空器飞行计划变化时，航空器营运人及其代理人应当于航空器预计撤轮挡时间前45分钟提交飞行计划修改，并应在最后通知的预计撤轮挡时间以后3小时30分钟以内提交飞行计划修改。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 34,
@@ -438,8 +438,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "航空器营运人及其代理人应当于航空器预计撤轮挡时间2小时30分钟前提交飞行计划。遇有特殊情况，经与计划受理单位协商，最迟不晚于航空器预计撤轮挡时间前75分钟提交飞行计划。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 35,
@@ -451,8 +451,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "对于签派或者飞行放行单上所列的备降机场，应当有相应的天气实况报\n告、预报或者两者的组合表明，当飞机到达该机场时，该机场的天气条件等于\n或者高于合格证持有人运行规范规定的备降机场最低天气标准，主要考虑能见度和云底高。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 36,
@@ -464,8 +464,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "除经空中交通管制同意外，仪表飞行规则飞行计划应当包括下列内容：\n1、该航空器国籍登记号和无线电呼号（如需要）。\n2、该航空器的型号，或者如编队飞行，每架航空器的型号及编队的航空器数量。\n3、起飞地点和预计起飞时间。\n4、计划的航线、巡航高度(或飞行高度层)以及在该高度的航空器真空速。\n5、备降机场。\n6、第一个预定着陆地点和预计飞抵该点上空的时间。\n7、局方和空中交通管制要求的其他任何资料。\n8、装载的燃油量(以时间计)。\n9、机组和搭载航空器的人数。\n10、机长的姓名和地址，或者如编队飞行，编队指挥员的姓名和地址。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 37,
@@ -477,8 +477,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "除经空中交通管制同意外，仪表飞行规则飞行计划应当包括下列内容： \n1、该航空器国籍登记号和无线电呼号（如需要）。 \n2、该航空器的型号，或者如编队飞行，每架航空器的型号及编队的航空器数量。 \n3、起飞地点和预计起飞时间。 \n4、计划的航线、巡航高度(或飞行高度层)以及在该高度的航空器真空速。 \n5、备降机场。 \n6、第一个预定着陆地点和预计飞抵该点上空的时间。 \n7、局方和空中交通管制要求的其他任何资料。 \n8、装载的燃油量(以时间计)。 \n9、机组和搭载航空器的人数。 \n10、机长的姓名和地址，或者如编队飞行，编队指挥员的姓名和地址。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 38,
@@ -490,8 +490,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "若对于飞机，在符合下列条件时，可以不选用备降机场;\n（1）预计着陆的目的地机场具有局方公布的标准仪表进近程序；\n（2）天气实况报告、预报或两者组合表明，在飞机预计到达目的地机场时刻前后至少1时的时间段内，云高高于机场标高600米，能见度至少5千米。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 39,
@@ -503,8 +503,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "除经空中交通管制同意外，仪表飞行规则飞行计划应当包括下列内容： \n1、该航空器国籍登记号和无线电呼号（如需要）。 \n2、该航空器的型号，或者如编队飞行，每架航空器的型号及编队的航空器数量。 \n3、起飞地点和预计起飞时间。 \n4、计划的航线、巡航高度(或飞行高度层)以及在该高度的航空器真空速。 \n5、备降机场。 \n6、第一个预定着陆地点和预计飞抵该点上空的时间。 \n7、局方和空中交通管制要求的其他任何资料。 \n8、装载的燃油量(以时间计)。 \n9、机组和搭载航空器的人数。 \n10、机长的姓名和地址，或者如编队飞行，编队指挥员的姓名和地址。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 40,
@@ -516,8 +516,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "除经空中交通管制同意外，仪表飞行规则飞行计划应当包括下列内容：\n1、该航空器国籍登记号和无线电呼号（如需要）。\n2、该航空器的型号，或者如编队飞行，每架航空器的型号及编队的航空器数量。\n3、起飞地点和预计起飞时间。\n4、计划的航线、巡航高度(或飞行高度层)以及在该高度的航空器真空速。\n5、备降机场。\n6、第一个预定着陆地点和预计飞抵该点上空的时间。\n7、局方和空中交通管制要求的其他任何资料。\n8、装载的燃油量(以时间计)。\n9、机组和搭载航空器的人数。\n10、机长的姓名和地址，或者如编队飞行，编队指挥员的姓名和地址。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 41,
@@ -529,8 +529,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "依据CCAR91部第91.167条规定，若对于飞机，在符合下列条件时，可以不选用备降机场;（1）预计着陆的目的地机场具有局方公布的标准仪表进近程序；\n（2）天气实况报告、预报或两者组合表明，在飞机预计到达目的地机场时刻前后至少1小时的时间段内，云高高于机场标高600米，能见度至少5千米。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 42,
@@ -542,8 +542,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "除经空中交通管制同意外，仪表飞行规则飞行计划应当包括下列内容：\n1、该航空器国籍登记号和无线电呼号（如需要）。\n2、该航空器的型号，或者如编队飞行，每架航空器的型号及编队的航空器数量。\n3、起飞地点和预计起飞时间。\n4、计划的航线、巡航高度(或飞行高度层)以及在该高度的航空器真空速。\n5、备降机场。\n6、第一个预定着陆地点和预计飞抵该点上空的时间。\n7、局方和空中交通管制要求的其他任何资料。\n8、装载的燃油量(以时间计)。\n9、机组和搭载航空器的人数。\n10、机长的姓名和地址，或者如编队飞行，编队指挥员的姓名和地址。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 43,
@@ -555,8 +555,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "除经空中交通管制同意外，仪表飞行规则飞行计划应当包括下列内容： \n1、该航空器国籍登记号和无线电呼号（如需要）。 \n2、该航空器的型号，或者如编队飞行，每架航空器的型号及编队的航空器数量。 \n3、起飞地点和预计起飞时间。 \n4、计划的航线、巡航高度(或飞行高度层)以及在该高度的航空器真空速。 \n5、备降机场。 \n6、第一个预定着陆地点和预计飞抵该点上空的时间。 \n7、局方和空中交通管制要求的其他任何资料。 \n8、装载的燃油量(以时间计)。 \n9、机组和搭载航空器的人数。 \n10、机长的姓名和地址，或者如编队飞行，编队指挥员的姓名和地址。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 44,
@@ -568,8 +568,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "备降机场要求\n对于具有局方公布的仪表进近程序的机场，使用下列标准：\n（1）对于旋翼机以外的航空器，在有一套进近设施与程序的机场，云高在最低下降高/度（MDH/MDA）或决断高/度（DH/DA）上增加120米，能见度增加1600米；在有两套（含）以上精密或非精密进近设施与程序并且能提供不同跑道进近的机场，云高在最低下降高或决断高上增加60米，能见度增加800米，在两条较低标准的跑道中取较高值。\n （2）对于没有公布仪表进近程序的机场，云高和能见度应当保证航空器可按照基本目视飞行规则完成从最低航路高度(MEA)开始下降、进近和着陆。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 45,
@@ -581,8 +581,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "详见CCAR-91部第91.169条仪表飞行规则飞行计划。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 46,
@@ -594,8 +594,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "依据CCAR91部第91.169条规定，(c) 除经局方批准外，对于列入仪表飞行规则飞行计划中的备降机场，应当有相应的天气实况报告、预报或两者组合表明，当航空器到达该机场时，该机场的天气条件等于或高于下列最低天气标准：\n(1) 对于具有局方公布的仪表进近程序的机场，使用下列标准：\n(i) 对于旋翼机以外的航空器，在有一套进近设施与程序的机场，云高在最低下降高／度（MDH／MDA）或决断高／度（DH／DA）上增加120米，能见度增加1600米； 在有两套（含）以上精密或非精密进近设施与程序并且能提供不同跑道进近的机场，云高在最低下降高或决断高上增加60米，能见度增加800米，在两条较低标准的跑道中取较高值。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 47,
@@ -607,8 +607,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "依据CCAR91部第91.169条规定，(c) 除经局方批准外，对于列入仪表飞行规则飞行计划中的备降机场，应当有相应的天气实况报告、预报或两者组合表明，当航空器到达该机场时，该机场的天气条件等于或高于下列最低天气标准：\n(1) 对于具有局方公布的仪表进近程序的机场，使用下列标准：\n(i) 对于旋翼机以外的航空器，在有一套进近设施与程序的机场，云高在最低下降高／度（MDH／MDA）或决断高／度（DH／DA）上增加120米，能见度增加1600米； 在有两套（含）以上精密或非精密进近设施与程序并且能提供不同跑道进近的机场，云高在最低下降高或决断高上增加60米，能见度增加800米，在两条较低标准的跑道中取较高值。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 48,
@@ -620,8 +620,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "依据CCAR91部第91.167条规定，对于飞机，在符合下列条件时，可以不选用备降机场：（1）预计着陆的目的地机场具有局方公布的标准仪表进近程序；（2）天气实况报告、预报或两者组合表明，在飞机预计到达目的地机场时刻前后至少1小时的时间段内，云高高于机场标高600米，能见度至少5千米。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 49,
@@ -633,8 +633,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "依据CCAR91部第91.169条规定，除经空中交通管制同意外，仪表飞行规则飞行计划应当包括下列内容： \n1、该航空器国籍登记号和无线电呼号（如需要）。 \n2、该航空器的型号，或者如编队飞行，每架航空器的型号及编队的航空器数量。 \n3、起飞地点和预计起飞时间。 \n4、计划的航线、巡航高度(或飞行高度层)以及在该高度的航空器真空速。 \n5、备降机场。 \n6、第一个预定着陆地点和预计飞抵该点上空的时间。 \n7、局方和空中交通管制要求的其他任何资料。 \n8、装载的燃油量(以时间计)。 \n9、机组和搭载航空器的人数。 \n10、机长的姓名和地址，或者如编队飞行，编队指挥员的姓名和地址。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 50,
@@ -646,8 +646,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "依据CCAR91部第91.169条规定，除经局方批准外，对于列入仪表飞行规则飞行计划中的备降机场，应当有相应的天气实况报告、预报或两者组合表明，当航空器到达该机场时，该机场的天气条件等于或高于下列最低天气标准：\n（1）对于具有局方公布的仪表进近程序的机场，使用下列标准：\n对于旋翼机以外的航空器，在有一套进近设施与程序的机场，云高在最低下降高/度（MDH/MDA）或决断高/度（DH/DA）上增加120米，能见度增加1600米；在有两套（含）以上精密或非精密进近设施与程序并且能提供不同跑道进近的机场，云高在最低下降高或决断高上增加60米，能见度增加800米，在两条较低标准的跑道中取较高值。\n（2）对于没有公布仪表进近程序的机场，云高和能见度应当保证航空器可按照基本目视飞行规则完成从最低航路高度(MEA)开始下降、进近和着陆。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 51,
@@ -659,8 +659,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "依据CCAR91部第91.169条规定，除经局方批准外，对于列入仪表飞行规则飞行计划中的备降机场，应当有相应的天气实况报告、预报或两者组合表明，当航空器到达该机场时，该机场的天气条件等于或高于下列最低天气标准：\n（1）对于具有局方公布的仪表进近程序的机场，使用下列标准：\n对于旋翼机以外的航空器，在有一套进近设施与程序的机场，云高在最低下降高/度（MDH/MDA）或决断高/度（DH/DA）上增加120米，能见度增加1600米；在有两套（含）以上精密或非精密进近设施与程序并且能提供不同跑道进近的机场，云高在最低下降高或决断高上增加60米，能见度增加800米，在两条较低标准的跑道中取较高值。\n（2）对于没有公布仪表进近程序的机场，云高和能见度应当保证航空器可按照基本目视飞行规则完成从最低航路高度(MEA)开始下降、进近和着陆。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 52,
@@ -672,8 +672,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "依据CCAR91部规定，除经空中交通管制同意外，仪表飞行规则飞行计划应当包括下列内容：\n1、该航空器国籍登记号和无线电呼号（如需要）。\n2、该航空器的型号，或者如编队飞行，每架航空器的型号及编队的航空器数量。\n3、起飞地点和预计起飞时间。\n4、计划的航线、巡航高度(或飞行高度层)以及在该高度的航空器真空速。\n5、备降机场。\n6、第一个预定着陆地点和预计飞抵该点上空的时间。\n7、局方和空中交通管制要求的其他任何资料。\n8、装载的燃油量(以时间计)。\n9、机组和搭载航空器的人数。\n10、机长的姓名和地址，或者如编队飞行，编队指挥员的姓名和地址",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 53,
@@ -685,8 +685,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "依据CCAR91.167条规定，若对于飞机，在符合下列条件时，可以不选用备降机场;\n（1）预计着陆的目的地机场具有局方公布的标准仪表进近程序；\n（2）天气实况报告、预报或两者组合表明，在飞机预计到达目的地机场时刻前后至少1小时的时间段内，云高高于机场标高600米，能见度至少5千米。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 54,
@@ -698,8 +698,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "除经空中交通管制同意外，仪表飞行规则飞行计划应当包括下列内容： \n1、该航空器国籍登记号和无线电呼号（如需要）。 \n2、该航空器的型号，或者如编队飞行，每架航空器的型号及编队的航空器数量。 \n3、起飞地点和预计起飞时间。 \n4、计划的航线、巡航高度(或飞行高度层)以及在该高度的航空器真空速。 \n5、备降机场。 \n6、第一个预定着陆地点和预计飞抵该点上空的时间。 \n7、局方和空中交通管制要求的其他任何资料。 \n8、装载的燃油量(以时间计)。 \n9、机组和搭载航空器的人数。 \n10、机长的姓名和地址，或者如编队飞行，编队指挥员的姓名和地址。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 55,
@@ -711,8 +711,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 56,
@@ -724,8 +724,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "航空器驾驶员在仪表飞行规则条件下开始飞行前，必须充分考虑风和预报的气象条件，在航空器上装载足够的燃油，这些燃油能够：\n(1) 飞到目的地机场着陆；\n(2) 然后从目的地机场飞到备降机场着陆，本条(b)款规定除外；\n(3) 在完成上述飞行之后，对于飞机，还能以正常巡航速度飞行 45 分钟，对于直升机，备降起降点上空 450 米（1500 英尺）高度以等待速度飞行 30 分钟，并且加上附加燃油量，以便在发生意外情况时足以应付油耗的增加。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 57,
@@ -737,8 +737,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞机仪表飞行条件下的燃油要求：飞到目的地机场着陆然后从目的地机场飞到备降机场着陆，以正常巡航速度飞行45分钟。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 58,
@@ -750,8 +750,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "航空器驾驶员在仪表飞行规则条件下开始飞行前，必须充分考虑风和预报的气象条件，在航空器上装载足够的燃油，这些燃油能够：1、飞到目的地机场着陆；2、从目的地机场飞到备降机场着陆；当没有适合的备降机场时，飞至这次飞行所计划的起降点然后以等待速度飞行两小时。3、在完成上述飞行之后，还能以正常巡航速度飞行45分钟，并且加上附加燃油量，以便在发生意外情况时足以应付油耗的增加。",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\仪表\\计划\\58explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/计划/58explain.jpg"
   },
   {
     "id": 59,
@@ -763,8 +763,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "若对于飞机，在符合下列条件时，可以不选用备降机场;\n（1）预计着陆的目的地机场具有局方公布的标准仪表进近程序；\n（2）天气实况报告、预报或两者组合表明，在飞机预计到达目的地机场时刻前后至少1小时的时间段内，云高高于机场标高600米，能见度至少5千米。",
-    "questionImage": "\\fxzy\\题库\\仪表\\计划\\59.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/计划/59.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 60,
@@ -776,8 +776,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "依据CCAR91部第91.167条规定，航空器驾驶员在仪表飞行规则条件下开始飞行前，必须充分考虑风和预报的气象条件，在航空器上装载足够的燃油，这些燃油能够： 1、飞到目的地机场着陆； 2、从目的地机场飞到备降机场着陆；当没有适合的备降机场时，飞至这次飞行所计划的起降点然后以等待速度飞行两小时。 3、在完成上述飞行之后，还能以正常巡航速度飞行45分钟，并且加上附加燃油量，以便在发生意外情况时足以应付油耗的增加。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 61,
@@ -789,8 +789,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "CCAR91.167条规定，航空器驾驶员在仪表飞行规则条件下开始飞行前，必须充分考虑风和预报的气象条件，在航空器上装载足够的燃油，这些燃油能够：\n1、飞到目的地机场着陆；\n2、从目的地机场飞到备降机场着陆；当没有适合的备降机场时，飞至这次飞行所计划的起降点然后以等待速度飞行两小时。\n3、在完成上述飞行之后，还能以正常巡航速度飞行45分钟，并且加上附加燃油量，以便在发生意外情况时足以应付油耗的增加。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 62,
@@ -802,8 +802,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "依据CCAR91部第91.167条规定，(a) 航空器驾驶员在仪表飞行规则条件下开始飞行前，必须充分考虑风和预报的气象条件，在航空器上装载足够的燃油，这些燃油能够： (1) 飞到目的地机场着陆； (2) 然后从目的地机场飞到备降机场着陆，本条(b)款规定除外； (3) 在完成上述飞行之后，对于飞机，还能以正常巡航速度飞行45分钟，对于直升机，备降起降点上空450米（1500英尺）高度以等待速度飞行30分钟，并且加上附加燃油量，以便在发生意外情况时足以应付油耗的增加。 (4) 按本条(c)(2)款的要求，当没有适合的备降机场时，飞至这次飞行所计划的起降点然后以等待速度飞行两小时。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 63,
@@ -815,8 +815,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "对于飞机，在符合下列条件时，可以不选用备降机场; （1）预计着陆的目的地机场具有局方公布的标准仪表进近程序；\n（2）天气实况报告、预报或两者组合表明，在飞机预计到达目的地机场时刻前后至少1小时的时间段内，云高高于机场标高600米，能见度至少5千米。",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\仪表\\计划\\63explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/计划/63explain.jpg"
   },
   {
     "id": 64,
@@ -828,8 +828,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\计划\\64.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\计划\\64explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/计划/64.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/计划/64explain.jpg"
   },
   {
     "id": 65,
@@ -841,8 +841,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "依据CCAR91部第91.167条规定，航空器驾驶员在仪表飞行规则条件下开始飞行前，必须充分考虑风和预报的气象条件，在航空器上装载足够的燃油，这些燃油能够：\n1、飞到目的地机场着陆；\n2、从目的地机场飞到备降机场着陆；当没有适合的备降机场时，飞至这次飞行所计划的起降点然后以等待速度飞行两小时。\n3、在完成上述飞行之后，还能以正常巡航速度飞行45分钟，并且加上附加燃油量，以便在发生意外情况时足以应付油耗的增加。",
-    "questionImage": "\\fxzy\\题库\\仪表\\计划\\65.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/计划/65.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 66,
@@ -854,8 +854,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "依据CCAR91.167条规定，航空器驾驶员在仪表飞行规则条件下开始飞行前，必须充分考虑风和预报的气象条件，在航空器上装载足够的燃油，这些燃油能够：\n(1) 飞到目的地机场着陆；\n(2) 然后从目的地机场飞到备降机场着陆，本条(b)款规定除外；\n(3) 在完成上述飞行之后，对于飞机，还能以正常巡航速度飞行45分钟，对于直升机，备降起降点上空450米（1500英尺）高度以等待速度飞行30分钟，并且加上附加燃油量，以便在发生意外情况时足以应付油耗的增加。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 67,
@@ -867,8 +867,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "航空器驾驶员在仪表飞行规则条件下开始飞行前，必须充分考虑风和预报的气象条件，在航空器上装载足够的燃油，这些燃油能够：1、飞到目的地机场着陆；2、从目的地机场飞到备降机场着陆；当没有适合的备降机场时，飞至这次飞行所计划的起降点然后以等待速度飞行两小时。3、在完成上述飞行之后，还能以正常巡航速度飞行45分钟，并且加上附加燃油量，以便在发生意外情况时足以应付油耗的增加。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 68,
@@ -880,8 +880,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "航空器驾驶员在仪表飞行规则条件下开始飞行前，必须充分考虑风和预报的气象条件，在航空器上装载足够的燃油，这些燃油能够：1、飞到目的地机场着陆；2、从目的地机场飞到备降机场着陆；对于旋翼机，当没有适合的备降机场时，飞至这次飞行所计划的起降点然后以等待速度飞行两小时。3、在完成上述飞行之后，还能以正常巡航速度飞行45分钟，并且加上附加燃油量，以便在发生意外情况时足以应付油耗的增加。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 69,
@@ -893,8 +893,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "依据CCAR91部第91.167条规定，(a) 航空器驾驶员在仪表飞行规则条件下开始飞行前，必须充分考虑风和预报的气象条件，在航空器上装载足够的燃油，这些燃油能够：\n(1) 飞到目的地机场着陆；\n(2) 然后从目的地机场飞到备降机场着陆，本条(b)款规定除外；\n(3) 在完成上述飞行之后，对于飞机，还能以正常巡航速度飞行45分钟，对于直升机，备降起降点上空450米（1500英尺）高度以等待速度飞行30分钟，并且加上附加燃油量，以便在发生意外情况时足以应付油耗的增加。\n(4) 按本条(c)(2)款的要求，当没有适合的备降机场时，飞至这次飞行所计划的起降点然后以等待速度飞行两小时。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 70,
@@ -906,8 +906,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "CCAR-91第91.167条 仪表飞行规则条件下飞行的燃油要求：(a) 航空器驾驶员在仪表飞行规则条件下开始飞行前，必须充分考虑风和预报的气象条件，在航空器上装载足够的燃油，这些燃油能够： (1) 飞到目的地机场着陆； (2) 然后从目的地机场飞到备降机场着陆，本条(b)款规定除外； (3) 在完成上述飞行之后，对于飞机，还能以正常巡航速度飞行45分钟，对于直升机，备降起降点上空450米（1500英尺）高度以等待速度飞行30分钟，并且加上附加燃油量，以便在发生意外情况时足以应付油耗的增加。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 71,
@@ -919,8 +919,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "依据CCAR91部第91.167条规定，(a) 航空器驾驶员在仪表飞行规则条件下开始飞行前，必须充分考虑风和预报的气象条件，在航空器上装载足够的燃油，这些燃油能够：\n(1) 飞到目的地机场着陆；\n(2) 然后从目的地机场飞到备降机场着陆，本条(b)款规定除外；\n(3) 在完成上述飞行之后，对于飞机，还能以正常巡航速度飞行45分钟，对于直升机，备降起降点上空450米（1500英尺）高度以等待速度飞行30分钟，并且加上附加燃油量，以便在发生意外情况时足以应付油耗的增加。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 72,
@@ -932,8 +932,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "CCAR-91部第91.167条 仪表飞行规则条件下飞行的燃油要求：(a) 航空器驾驶员在仪表飞行规则条件下开始飞行前，必须充分考虑风和预报的气象条件，在航空器上装载足够的燃油，这些燃油能够： \n(1) 飞到目的地机场着陆；\n(2) 然后从目的地机场飞到备降机场着陆，本条(b)款规定除外；\n(3) 在完成上述飞行之后，对于飞机，还能以正常巡航速度飞行45分钟，对于直升机，备降起降点上空450米（1500英尺）高度以等待速度飞行30分钟，并且加上附加燃油量，以便在发生意外情况时足以应付油耗的增加。\n(4) 按本条(c)(2)款的要求，当没有适合的备降机场时，飞至这次飞行所计划的起降点然后以等待速度飞行两小时。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 73,
@@ -945,8 +945,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "根据CCAR91.167条规定：对于飞机，符合条件可以不选备降场，所带燃油必须保证飞至目的地外，还能以巡航速度继续飞行45分钟。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 74,
@@ -958,8 +958,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "依据 CCAR91部第 91.167 条规定：仪表飞行规则条件下飞行的燃油要求：预定着陆起降点地处孤立，无适当的目的地备降机场，当没有适合的备降机场时，飞至这次飞行所计划的起降点然后以等待速度飞行两小时。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 75,
@@ -971,8 +971,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "空中交通服务电报（AFTN）中，编组9为航空器数目、机型和尾流等级。尾流等级用1个字母表示。航空器的最大允许起飞重量决定航空器的尾流等级。H表示重型，大于或等于136t；M表示中型，大于7t小于136t；L表示轻型，小于或等于7t。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 76,
@@ -984,8 +984,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "在飞行计划（FPL）中，编组10机载设备中N或S后，用一个或多个字母表示通信/导航/进近助航设备，D表示测距仪。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 77,
@@ -997,8 +997,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "编组19为补充情报。包含续航能力、救生设备、机上总人数、机长姓名等信息。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 78,
@@ -1010,8 +1010,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "仪表飞行计划的要求项目（ICAO飞行计划）内容包括：飞行任务性质、航空器呼号、航空器型别、机载设备、真空速或马赫数、起飞机场、预计起飞时间、巡航高度层、目的地机场、预计飞行时间、航空器国籍和登记标志、航空器携油量和备降机场等信息。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 79,
@@ -1023,8 +1023,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "编组19为补充情报。包含续航能力、救生设备、机上总人数、机长姓名等信息。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 80,
@@ -1036,8 +1036,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "编组16为目的地机场和预计总飞行时间，目的地备降机场。数据项A中填写目的地机场；数据项B中填写预计总飞行时间；数据项C中填写目的地备降机场。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 81,
@@ -1049,8 +1049,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "在飞行计划（FPL）中，编组10 机载设备中填写“S”，表示航空器载有标准的通信，导航和进近设备并可用。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 82,
@@ -1062,8 +1062,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "在飞行计划（FPL）中，编组15 航路中，数据A项—巡航速度。飞行中第一个或者整个巡航阶段的真空速。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 83,
@@ -1075,8 +1075,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "在飞行计划（FPL）中，编组15 航路中，数据A项—巡航速度。飞行中第一个或者整个巡航阶段的真空速。按下列方式表示：“K”后面随4个数字，真空速，单位千米每小时。“N”后随4个数字，真空速，单位海里每小时。“M”后面随3个数字，最近的1%马赫单位的马赫数。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 84,
@@ -1088,8 +1088,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "在飞行计划（FPL）中，编组15 航路中，数据A项—巡航速度。飞行中第一个或者整个巡航阶段的真空速。按下列方式表示：“K”后面随4个数字，真空速，单位千米每小时。“N”后随4个数字，真空速，单位海里每小时。“M”后面随3个数字，最近的1%马赫单位的马赫数。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 85,
@@ -1101,8 +1101,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "在飞行计划（FPL）中，编组15 航路中，数据B项—巡航高度层。所飞航路的第一个或者整个航段计划的巡航高度层。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 86,
@@ -1114,8 +1114,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "在飞行计划（FPL）中，编组15 航路中，数据B项—巡航高度层。所飞航路的第一个或者整个航段计划的巡航高度层，按一下方式表示：“M”后面随4位数字表示以10M为单位的海拔高度；“S”后面随4位数字表示以10M为单位的标准米制飞行高度层。“A” 后面随3位数字表示以100ft为单位的海拔高度；“F” 后面随3位数字表示以100ft为单位的飞行高度层。“VFR” 表示不受管制的目视飞行规则飞行。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 87,
@@ -1127,8 +1127,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "在飞行计划（FPL）中，编组15 航路中，数据B项—巡航高度层。所飞航路的第一个或者整个航段计划的巡航高度层，按以下方式表示：“M”后面随4位数字表示以10M为单位的海拔高度；“S”后面随4位数字表示以10M为单位的标准米制飞行高度层。“A” 后面随3位数字表示以100ft为单位的海拔高度；“F” 后面随3位数字表示以100ft为单位的飞行高度层。“VFR” 表示不受管制的目视飞行规则飞行。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 88,
@@ -1140,8 +1140,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "起飞机场。按Doc7910 号文件《地名代码》的规定指定给该起飞机场的国际民航组织四字地名代码。\n—如果该机场无四字地名代码，则用“ZZZZ”表示。如果使用“ZZZZ”，应在编组18 “DEP/”数据项中填入起飞机场名称和位置或航路的第一个点或者无线电信标标记。\n—如果在空中申报飞行计划，则用“AFIL”表示。如果使用“AFIL”，应在编组18 “DEP/”数据项中填入可提供补充飞行数据的空中交通服务单位。\n—在CPL、EST、CDN 和ACP 电报中，该编组内容到此结束。\n—如果不知道预计撤轮挡时间，在RQP 电报中也应到此结束。",
-    "questionImage": "\\fxzy\\题库\\仪表\\计划\\88.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/计划/88.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 89,
@@ -1153,8 +1153,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "巡航速度（最多5个字符），飞行中第一个或整个巡航航段的真空速，“K” 后随四位数字，真空速，单位为千米每小时(km/h)；“N” 后随四位数字，真空速，单位为海里每小时（Knots）；“M” 后随三位数字，最近的1%马赫单位的马赫数。所飞航路的第一个或整个航段计划的巡航高度层，“F” 后随3 位数字，表示以100ft为单位的飞行高度层（例：F085，F330）；“S”后随4 位数字，表示以10m为单位的标准米制高度层；“A” 后随3 位数字，表示以100ft为单位的海拔高度；“M” 后随4 位数字，表示以10m为单位的海拔高度；“VFR” 表示不受管制的目视飞行规则飞行。",
-    "questionImage": "\\fxzy\\题库\\仪表\\计划\\89.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/计划/89.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 90,
@@ -1166,8 +1166,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "目的地机场。Doc 7910 号文件《地名代码》规定，应使用国际民航组织规定的四字地名代码。—如果该机场没有四字地名代码，则填入字母“ZZZZ”。若使用“ZZZZ”，在编组18 “DEST/” 数据项中直接填入目的地机场名称或位置。然后，不留空格填写预计飞行总时间。预计经过总时间 。如飞行计划发自飞行中的航空器，预计总实耗时间是指从飞行计划适用的第一航路点开始计算的预计时间至飞行计划终止点的预计时间。",
-    "questionImage": "\\fxzy\\题库\\仪表\\计划\\90.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/计划/90.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 91,
@@ -1179,8 +1179,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "目的地备降机场。必要时空格后可再填入一个备降机场，最多可填二个备降机场，Doc 7910 号文件《地名代码》规定，使用国际民航组织规定的目的地备降机场四字地名代码。如果该机场没有四字地名代码，则填入字母“ZZZZ”。若使用“ZZZZ”，在编组18 “ALTN/” 数据项中填写目的地备降机场名称或位置，不用空格插入总共的飞行时间。",
-    "questionImage": "\\fxzy\\题库\\仪表\\计划\\91.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/计划/91.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 92,
@@ -1192,8 +1192,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "E/后随四位数字，表示以小时及分计算的续航能力。",
-    "questionImage": "\\fxzy\\题库\\仪表\\计划\\92.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/计划/92.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 93,
@@ -1205,8 +1205,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "飞行计划编组8数据项B—飞行种类。用一个字母表示有关空中交通服务当局要求的飞行种类：G表示通用航空飞行，M表示军用飞行，N表示非定期的航空运输飞行，S表示定期航班，X表示除上述之外的其他飞行种类。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 94,
@@ -1218,8 +1218,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞行计划编组8为飞行规则及种类。\n飞行规则用1个字母表示如下：\nI表示整个飞行准备按照仪表飞行规则运行\nV表示整个飞行准备按照目视飞行规则运行\nY表示飞行先按照仪表飞行规则运行，后随对飞行规则的一个或多个相应修改\nZ表示飞行先按照目视飞行规则运行，后随对飞行规则的一个或多个相应修改\n如果使用字母Y或Z时，计划改变飞行规则的各个航路点应按编组15的要求填写\n飞行种类用1个字母表示有关空中交通服务当局要求的飞行种类：\nG表示通用航空飞行\nM表示军用飞行\nN表示非定期的航空运输飞行\nS表示定期航班\nX表示除上述飞行之外的其他飞行种类\n如果需要表示要求ATS特别处理的其他原因，则在编组18“RMK/”之后说明原因。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 95,
@@ -1231,8 +1231,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "空中交通服务电报中，编组13表示起飞机场和时间。编组18表示其他情报。编组15表示航路。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 96,
@@ -1244,8 +1244,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行计划编组8数据项B—飞行种类。用一个字母表示有关空中交通服务当局要求的飞行种类：G表示通用航空飞行，M表示军用飞行，N表示非定期的航空运输飞行，S表示定期航班，X表示除上述之外的其他飞行种类。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 97,
@@ -1257,8 +1257,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "空中交通服务电报（AFTN）中，编组9为航空器数目、机型和尾流等级。尾流等级用1个字母表示。航空器的最大允许起飞重量决定航空器的尾流等级。\nH表示重型，大于或等于136t；M表示中型，大于7t小于136t；L表示轻型，小于或等于7t。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 98,
@@ -1270,8 +1270,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行计划编组8数据项B—飞行种类。用一个字母表示有关空中交通服务当局要求的飞行种类：G表示通用航空飞行，M表示军用飞行，N表示非定期的航空运输飞行，S表示定期航班，X表示除上述之外的其他飞行种类。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 99,
@@ -1283,8 +1283,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "飞行计划编组8数据项B—飞行种类。用一个字母表示有关空中交通服务当局要求的飞行种类：G表示通用航空飞行，M表示军用飞行，N表示非定期的航空运输飞行，S表示定期航班，X表示除上述之外的其他飞行种类。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 100,
@@ -1296,8 +1296,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "在飞行计划报中，编组15填写航路信息，包括巡航速度，巡航高度，航路。所飞航路的第一个或整个航段计划的巡航高度层，按下列方式示：“M” 后随四位数，表示以10m为单位的海拔高度。“S”后跟随4位数，表示以10米为单位的标准米制飞行高度层。“A”后随3位数，表示以100ft为单位的海拔高度。“F”后随3位数，表示以100ft为单位的飞行高度层。“VFR”表示不受管制的目视飞行规则飞行。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 101,
@@ -1309,8 +1309,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行计划编组8数据项B—飞行种类。用一个字母表示有关空中交通服务当局要求的飞行种类：G表示通用航空飞行，M表示军用飞行，N表示非定期的航空运输飞行，S表示定期航班，X表示除上述之外的其他飞行种类。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 102,
@@ -1322,8 +1322,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "编组16为目的地机场和预计总飞行时间，目的地备降机场。数据项A中填写目的地机场；数据项B中填写预计总飞行时间；数据项C中填写目的地备降机场。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 103,
@@ -1335,8 +1335,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行计划报中，编组15填写航路信息，包括巡航速度，巡航高度，航路。所飞航路的第一个或整个航段计划的巡航高度层，按下列方式表示：“M” 后随四位数，表示以10m为单位的海拔高度。“S”后跟随4位数，表示以10米为单位的标准米制飞行高度层。“A”后随3位数，表示以100ft为单位的海拔高度。“F”后随3位数，表示以100ft为单位的飞行高度层。“VFR”表示不受管制的目视飞行规则飞行。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 104,
@@ -1348,8 +1348,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行计划编组8为飞行规则及种类。飞行规则用1个字母表示如下： I表示整个飞行准备按照仪表飞行规则运行；V表示整个飞行准备按照目视飞行规则运行；Y表示飞行先按照仪表飞行规则运行，后随对飞行规则的一个或多个相应修改；Z表示飞行先按照目视飞行规则运行，后随对飞行规则的一个或多个相应修改。如果使用字母Y或Z时，计划改变飞行规则的各个航路点应按编组15的要求填写飞行种类用1个字母表示有关空中交通服务当局要求的飞行种类：G表示通用航空飞行；M表示军用飞行；N表示非定期的航空运输飞行；S表示定期航班；X表示除上述飞行之外的其他飞行种类。如果需要表示要求ATS特别处理的其他原因，则在编组18“RMK/”之后说明原因。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 105,
@@ -1361,8 +1361,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "空中交通服务电报（AFTN）中，编组9为航空器数目、机型和尾流等级。尾流等级用1个字母表示。航空器的最大允许起飞重量决定航空器的尾流等级。H表示重型，大于或等于136t；M表示中型，大于7t小于136t；L表示轻型，小于或等于7t。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 106,
@@ -1374,8 +1374,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "在飞行计划（FPL）中，编组15 航路中，数据A项—巡航速度。飞行中第一个或者整个巡航阶段的真空速。按下列方式表示：“K”后面随4个数字，真空速，单位千米每小时。“N”后随4个数字，真空速，单位海里每小时。“M”后面随3个数字，最近的1%马赫单位的马赫数。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 107,
@@ -1387,8 +1387,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "在所用进近程序中规定了决断高度/高(DA/DH)或最低下降高度/高(MDA/MDH)时，经批准的决断高度/高(DA/DH)或最低下降高度/高(MDA/MDH)是指下列各项中的最高值：\n(1) 进近程序中规定的决断高度/高(DA/DH)或最低下降高度/高(MDA/MDH)。\n(2) 为机长规定的决断高度/高(DA/DH)或最低下降高度/高(MDA/MDH)。\n(3) 根据该航空器的设备，为其规定的决断高度/高(DA/DH)或最低下降高度/高(MDA/MDH)。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 108,
@@ -1400,8 +1400,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "CCAR91部第91.175条规定如下：",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\仪表\\计划\\108explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/计划/108explain.jpg"
   },
   {
     "id": 109,
@@ -1413,8 +1413,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "依据CCAR91部第91.175条规定，航空器驾驶员在民用机场按仪表飞行规则起飞时，气象条件必须等于或高于公布的该机场仪表飞行规则起飞最低天气标准。在未公布起飞最低天气标准的机场，应当使用下列最低天气标准：\n(1) 对于单台或两台发动机的航空器(旋翼机除外)，机场跑道能见度至少1600米。\n(2) 对于多台发动机的航空器(旋翼机除外)，机场跑道能见度至少800米。\n(3) 对于旋翼机，机场跑道能见度为800米。",
-    "questionImage": "\\fxzy\\题库\\仪表\\计划\\109.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/计划/109.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 110,
@@ -1426,8 +1426,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "仪表着陆系统的基本地面设施应当包括航向台、下滑台、外指点标、中指点标，对于II类或III类仪表进近程序还应当安装内指点标。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 111,
@@ -1439,8 +1439,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "CCAR-91部第91.175条规定，航空器驾驶员在民用机场按仪表飞行规则起飞时，气象条件必须等于或高于公布的该机场仪表飞行规则起飞最低天气标准。在未公布起飞最低天气标准的机场，应当使用下列最低天气标准：\n(1) 对于单台或两台发动机的航空器(旋翼机除外)，机场跑道能见度至少1600米。\n(2) 对于多台发动机的航空器(旋翼机除外)，机场跑道能见度至少800米。\n(3) 对于旋翼机，机场跑道能见度为800米。\n除经局方批准外，航空器驾驶员在按仪表飞行规则驾驶航空器进入或离开军用机场时，必须遵守该机场有管辖权的军事当局规定的仪表进行程序和起飞、着陆最低天气标准。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 112,
@@ -1452,7 +1452,7 @@
     ],
     "correctAnswer": "A",
     "explanation": "根据CCAR91部第91.175条规定：航空器驾驶员在民用机场按仪表飞行规则起飞时，气象条件必须等于或高于公布的该机场仪表飞行规则起飞最低天气标准。在未公布起飞最低天气标准的机场，应当使用下列最低天气标准：(1) 对于单台或两台发动机的航空器(旋翼机除外)，机场跑道能见度至少 1600 米。(2) 对于多台发动机的航空器(旋翼机除外)，机场跑道能见度至少800 米。(3) 对于旋翼机，机场跑道能见度为 800 米。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   }
 ]

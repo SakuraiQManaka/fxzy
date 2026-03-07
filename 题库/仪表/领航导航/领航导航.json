@@ -9,8 +9,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "右程序转弯至入航航迹的过程中，当RB实小于RB应时，表明飞机偏在标准航迹的内侧，飞机进入早了，应减小坡度。",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\1explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/1explain.jpg"
   },
   {
     "id": 2,
@@ -22,8 +22,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "左程序转弯至入航航迹的过程中，当RB实>RB应时，表明飞机偏在标准航迹的内侧，飞机进入早了，应减小坡度。",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\2explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/2explain.jpg"
   },
   {
     "id": 3,
@@ -35,8 +35,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "NDB分航线导航台和双归航台两种。双归航台包括远台和近台，安装在跑道延长线上，远台离跑道头4000米，近台离跑道头1000米。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 4,
@@ -48,8 +48,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "NDB分航线导航台和双归航台两种。双归航台包括远台和近台，安装在跑道延长线上，远台离跑道头4000米，近台离跑道头1000米。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 5,
@@ -61,8 +61,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "左图指针指MH=215°，右图指针指RB=140°，QDM=MH+RB=215+140=355°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\5.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/5.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 6,
@@ -74,8 +74,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "左图指针指示MH=330°，右图指针指示RB=270°，QDM=MH+RB=240°，QDR=QDM±180°，所以QDR=60°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\6.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/6.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 7,
@@ -87,8 +87,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "左图指针指示MH=330°，右图指针指示RB=270°，QDM=MH+RB=240°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 8,
@@ -100,8 +100,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "QDM＝QDR±180°，所以QDM＝120°＋180°＝300°，ADF指示的为RB，RB＝QDM－MH＝300°－270°＝30°，所以图例5为正确答案。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\8.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/8.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 9,
@@ -113,8 +113,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "QDM=QDR±180°，所以QDM=210°-180°=30°，ADF指示RB，RB=QDM-MH=30°-180°+360°=210°，图例4指示RB=210°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 10,
@@ -126,8 +126,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "由题干可知，QDM=120°，MH=90°，所以RB=QDM-MH=30°，图例5指示RB=30°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 11,
@@ -139,8 +139,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "由题干可知，QDM=255°，MH=45°，所以RB=QDM-MH=210°，图例4指示RB=210°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 12,
@@ -152,8 +152,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "由题干可知，QDM=135°，MH=135°，所以RB=QDM-MH=0°，图1指示RB为0°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 13,
@@ -165,8 +165,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "QDR=QDM±180°，所以QDM=90°+180°=270°，已知MH=315°，可知RB=QDM-MH=270°-315°+360°=315°，图6指示RB为315°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 14,
@@ -178,8 +178,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "由题干可知，QDM=240°，MH=180°，所以RB=240°-180°=60°，图2指示RB为60°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 15,
@@ -191,8 +191,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "由题干可知，QDM=315°，MH=315°，可知RB=315°-315°=0°，图例1指示RB为0°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 16,
@@ -204,8 +204,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\16.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\16explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/16.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/16explain.jpg"
   },
   {
     "id": 17,
@@ -217,8 +217,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "机上ADF输出方位信号到RMI上指示，其针尖指示QDM，针尾指示QDR。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\17.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/17.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 18,
@@ -230,8 +230,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "看图可知，MH=215°，RB=140°，QDM=MH+RB=355°，QDR=QDM±180°=175°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\18.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/18.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 19,
@@ -243,8 +243,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "针尖所指即为QDM，看图可知，QDM为135°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\19.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/19.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 20,
@@ -256,8 +256,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "针尖所指即为QDM，看图可知，QDM为190°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 21,
@@ -269,8 +269,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "针尖所指即为QDM，看图可知，QDM为155°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 22,
@@ -282,8 +282,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "机载定向设备一般包括自动定向接收机、控制盒、方位指示器、环形天线和垂直天线 。NDB导航台的音频识别信号送至飞机音频系统，飞行员可以监听摩尔斯电码。自动定向机工作方式为“ADF”时，工作在自动定向方式，指针指向电台；工作方式为“ANT”时，能够调谐识别电台和收听语音信息，但ADF指示器没有指示。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 23,
@@ -295,8 +295,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "1、静电干扰误差：大气放电时，会辐射多种频率的电波，其中影响最大的是中波和长波，使得ADF接收机受到干扰。克服静电干扰的方法，仔细辩听信号，当干扰杂音最小，指针指示稳定的瞬间读取方位。选择的导航台应是距离近、功率大的导航台。2、夜间效应误差：自动定向机工作在中波波段，电离层对电波的吸收白天比夜间强。通常出现在日落后2小时和日出前2小时的一段时间内，夜间效应引起的定向误差一般在10°~15°左右。尽量选择频率低、距离较近的导航台，增加飞行高度，并在测定方位时读取平均值。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 24,
@@ -308,8 +308,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "电波从陆地进入海面，或从海面进入陆地，由于电波传播的导电系数发生改变，从而产生定向误差。电波传播的方向同海岸线的夹角越小，则海岸效应引起的方位误差越大；传播方向与海岸线垂直时，不产生误差。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 25,
@@ -321,8 +321,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "DME、VOR台识别信号是3个国际莫尔斯电码。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 26,
@@ -334,8 +334,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "指针针尖指示QDM，看图可知，QDM为55°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\26.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/26.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 27,
@@ -347,8 +347,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "指针针尾指示QDR，看图可知，图1指示QDR=115°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\27.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/27.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 28,
@@ -360,8 +360,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "指针针尾指示QDR，看图可知，图4指示QDR=335°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 29,
@@ -373,8 +373,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "指针针尾指示QDR，看图可知，图2指示QDR=315°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 30,
@@ -386,8 +386,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "当“TO/FROM”显示“FROM”且航道偏离杆在中央时，HSI（或CDI）航道指针箭头方向指示飞机磁方位。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 31,
@@ -399,8 +399,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "使用VOR导航时，CDI上航道杆偏左，说明飞机偏在预选航道的右边，如航道偏离杆偏右说明飞机偏在预选航道的左边。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 32,
@@ -412,8 +412,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\32.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\32explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/32.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/32explain.jpg"
   },
   {
     "id": 33,
@@ -425,8 +425,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\33.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\33explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/33.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/33explain.jpg"
   },
   {
     "id": 34,
@@ -438,8 +438,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\34.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\34explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/34.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/34explain.jpg"
   },
   {
     "id": 35,
@@ -451,8 +451,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\35.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\35explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/35.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/35explain.jpg"
   },
   {
     "id": 36,
@@ -464,8 +464,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\36.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\36explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/36.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/36explain.jpg"
   },
   {
     "id": 37,
@@ -477,8 +477,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "根据图IR6-14可知，飞机偏离航向道右侧2点，偏在下滑道上边2点，看图IR6-13可知，在1.9nm处，偏离航向道2点，表示偏离710英尺，偏离下滑道2点表示偏离140英尺。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\37.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/37.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 38,
@@ -490,8 +490,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "根据图IR6-15可知，飞机偏离航向道左侧1.5点，偏离下滑道上边1.5点，看图IR6-13，飞机在离跑道1300英尺处，偏离下滑道1点表示偏离14英尺，偏离航向道1点表示偏离215英尺，所以飞机高于下滑道21英尺，偏在跑道中心线左侧约320英尺。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\38.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/38.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 39,
@@ -503,8 +503,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "根据图IR6-14可知，飞机偏离下滑道上边2个点，看图IR6-13可知，在距跑道头1300英尺处，1dot=14′，所以飞机偏离下滑道偏上28′。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\39.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/39.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 40,
@@ -516,8 +516,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "根据图IR6-15可知，飞机偏离下滑道上边1.5个点，在图IR6-13可以看出，飞机在1.9nm处，偏离1个点表示偏离70英尺，所以飞机偏离下滑道偏上105英尺。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\40.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/40.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 41,
@@ -529,8 +529,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "根据图IR6-15可知，飞机偏离航向道左侧1.5个点，由图IR6-13可知，飞机在1.9nm处，偏离1点表示偏离355英尺，所以飞机偏离航向道左侧约533英尺。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\41.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/41.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 42,
@@ -542,8 +542,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "根据图IR6-16可知，飞机偏离航向道左侧2个点，看图IR6-13，飞机在1.9nm处，偏离航向道2个点表示偏离710英尺。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\42.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/42.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 43,
@@ -555,8 +555,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "根据图IR6-14可知，飞机偏离下滑道上边2个点，看图IR6-13可知，飞机在距跑道头1300英尺处的标准高度为100英尺，偏离2点表示偏离28英尺，所以实际高度为128英尺。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\43.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/43.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 44,
@@ -568,8 +568,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "HSI指示X时航向为190°，A位置飞机的航向为190°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\44.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/44.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 45,
@@ -581,8 +581,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞机位于E时，航向为10°，HSI指示V和Z都是航向10°，看图可知，E位置飞机是向台飞行，所以Z排除，HSI指示V。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 46,
@@ -594,8 +594,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "HSI指示Y时，航向为150°，D位置飞机航向为150°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 47,
@@ -607,8 +607,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "根据HSI“D”代号指示器可知，飞机航向为180°，预选航道为180°，背台指示表明飞机在径向线270°/90°以南，航向偏离杆偏左，表明飞机在180°径向线以西，飞机位置17符合条件。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\47.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/47.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 48,
@@ -620,8 +620,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "根据HSI“E”代号指示器可知，飞机航向为360°，预选航道360°，背台指示表明飞机在径向线270°/90°以北，航向偏离杆偏左，表明飞机在360°径向线以东，飞机位置6符合条件。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\48.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/48.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 49,
@@ -633,8 +633,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "根据HSI“F”代号指示器可知，飞机航向为45°，预选航道为180°，背台指示表明飞机在径向线270°/90°以南，航向偏离杆不偏，表明飞机在预选航道上，飞机位置16符合条件。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\49.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/49.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 50,
@@ -646,8 +646,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "根据HSI“B”代号指示器可知，飞机航向为135°，预选航道为270°，背台指示表明飞机在径向线360°/180°左侧，航向偏离杆偏右，表明飞机在径向线270°以南，飞机位置19符合条件。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\50.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/50.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 51,
@@ -659,8 +659,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\51.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\51explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/51.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/51explain.jpg"
   },
   {
     "id": 52,
@@ -672,8 +672,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\52.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\52explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/52.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/52explain.jpg"
   },
   {
     "id": 53,
@@ -685,8 +685,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "VOR台在中间，飞机“3”在VOR台的西南方位。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\53.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/53.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 54,
@@ -698,8 +698,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "VOR台在中间，VOR在飞机“4”的西北方位。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 55,
@@ -711,8 +711,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "VOR1看细指针，针尾指示QDR为340°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\55.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/55.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 56,
@@ -724,8 +724,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "VOR1看细指针，针尾指示QDR为270°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\56.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/56.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 57,
@@ -737,8 +737,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "VOR2看粗指针，针尾指示QDR为130°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 58,
@@ -750,8 +750,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "由图可知：QDR=235°，MC=241°，QDR小于MC，则表明飞机偏左，偏航角为负，答案为-6°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\58.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/58.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 59,
@@ -763,8 +763,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞机磁方位（QDR）：以磁经线北端为基准的飞机方位角叫飞机磁方位角；飞机的磁航线角（MC）：从航线起点的磁经线北端顺时针量到航线（航段）去向的角度。由图可知：QDR=235，MC=238，QDR小于MC，则表明飞机偏左，偏航角为负，答案为-3°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 60,
@@ -776,8 +776,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "看图可知，MH=90°，航向台方位指针在90°，此时为反航道进近，仪表上指示与正常进近时相反，“B”代号指示器中偏离杆偏右，则表示飞机偏在航向道右边，5和13符合条件。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\60.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/60.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 61,
@@ -789,8 +789,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "看图可知，MH=90°，偏离杆未偏离，12符合条件。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\61.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/61.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 62,
@@ -802,8 +802,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "看图可知，MH=315°，2是唯一一个航向是西北方向的飞机。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\62.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/62.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 63,
@@ -815,8 +815,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "看图可知，MH=270°，偏离杆未偏离，4符合条件。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\63.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/63.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 64,
@@ -828,8 +828,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "如果一台飞机上装配有两台VOR接收装置，可以将两台VOR调谐到同一VOR台的同一条径向线上，对比两者之间的误差，测量误差在正负4°之内证明VOR精确度可以正常导航。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 65,
@@ -841,8 +841,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "对比检查\n如果一台飞机上装配有两台VOR接收装置，可以将两台VOR调谐到同一VOR台的同一条径向线上，对比两者之间的误差，测量误差在正负4°之内证明VOR精确度可以正常导航。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 66,
@@ -854,8 +854,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞行距离约为60海里，每偏离1海里，偏离的角度为1°，所以如果飞机位于VOR台30海里，CDI显示1/2刻度偏离，则航空器偏离选定的航道中心线1/2海里。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 67,
@@ -867,8 +867,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\67explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/67explain.jpg"
   },
   {
     "id": 68,
@@ -880,8 +880,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\68.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\68explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/68.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/68explain.jpg"
   },
   {
     "id": 69,
@@ -893,8 +893,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\69.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\69explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/69.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/69explain.jpg"
   },
   {
     "id": 70,
@@ -906,8 +906,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\70.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\70explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/70.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/70explain.jpg"
   },
   {
     "id": 71,
@@ -919,8 +919,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\71.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\71explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/71.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/71explain.jpg"
   },
   {
     "id": 72,
@@ -932,8 +932,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\72.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\72explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/72.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/72explain.jpg"
   },
   {
     "id": 73,
@@ -945,8 +945,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\73.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\73explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/73.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/73explain.jpg"
   },
   {
     "id": 74,
@@ -958,8 +958,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "DME系统是询问——回答式脉冲测距系统，由机载设备和地面信标设备组成。机载DME设备主要由询问器、控制盒、距离指示器和天线部分组成。注意距离指示器显示的是飞机到地面信标台的斜距。欧美制飞机的DME距离以海里为单位。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\74.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/74.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 75,
@@ -971,8 +971,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "地面DME台通常设计为能同时为100架飞机提供服务。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 76,
@@ -984,8 +984,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "从理论上讲，在无风条件下通过保持RMI方位指针与“左翼尖”（电台在左侧）或“右翼尖”（电台在右侧）一致，DME指示器显示预定DME距离，这样飞机可以保持一定的速度沿DME弧飞行。但实际中，通常是沿一系列的短直线飞行，即沿DME弧割线的飞行方法。利用RMI方位指针指向左或右翼尖参考且飞机在预定的DME距离时，保持航向沿割线飞行并允许RMI方位指针落后与翼尖参考5° 或10° ，这时飞行员操纵飞机向电台一侧转10°或20°航向，RMI方位指针有回到翼尖参考之前5° 或10° ，按需要重复上述操作，就可以保持飞机沿DME弧飞行。当DME弧距离较小时，采用“落10 转20 ”的方法，当DME弧距离较大时，采用“落5转10”的方法。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 77,
@@ -997,8 +997,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "利用HSI或CDI配合DME指示器完成沿DME弧飞行，要注意不断调节预选航道的方位。飞行员在沿DME飞行过程中，用预选航道旋钮调好航向改变时的方位，然后通过航道偏离杆偏离刻度进行判断，当偏离杆偏离2.5（或5）点时转航向10°（或20°），保持航线又重新调预定的改航方位，如此进行同样可以使飞机沿DME弧飞行。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 78,
@@ -1010,8 +1010,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞机在沿DME弧割线的直线段飞行中，如果飞机发生偏航，必须进行航向修正。修正的时机一般在RMI方位指针正好与翼尖一致的位置，通常的修正方法是飞机每偏离DME弧0.5nm，航向改变10 或20 。即如果飞机偏在DME弧外侧0.5nm，则操纵飞机向电台一侧转20 航向；如果飞机偏在DME弧内侧0.5，则向外侧转10航向，其目的是使飞机重新回到DME弧上。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 79,
@@ -1023,8 +1023,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "仪表着陆系统地面台包括三个系统。提供航向道的航向信标（LOC），提供下滑坡度的下滑信标台（GS），提供距离引导的指点标（MB）和进近灯光系统（ALS）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 80,
@@ -1036,8 +1036,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "下滑信标台位于进近跑道接地区侧方，提供飞机偏离下滑面的垂直引导信号。下滑面与跑道水平平面的夹角即下滑角，最佳为3°。根据机场净空条件，可在2°--4° 间调整。航道面和下滑面的交线，定义为下滑道，飞机沿下滑道下降，就能对准跑道中心线，并保持规定的下滑角，准确进近着陆。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 81,
@@ -1049,8 +1049,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "航向信标台天线阵位于进近跑道末端中心延长线上，在飞机进近方向上的垂直平面内形成航道面，用于提供飞机偏离航道面的横向引导信号。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 82,
@@ -1062,8 +1062,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "Ⅰ类仪表着陆标准的能见度或跑道视程是800米，决断高度为60米。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 83,
@@ -1075,8 +1075,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "Ⅰ类盲降：在前方能见度不低于800m的条件下或跑道视程不小于550米，以高的进场成功概率，能将飞机引导至60m的决断高度（中指点标上空）。Ⅱ类盲降：在前方能见度不低于400m的条件下或跑道视程不小于350米，以高的进场成功概率，能将飞机引导至30m的决断高度（内指点标上空）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 84,
@@ -1088,8 +1088,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "精密进近运行分类：根据决断高（DH）和跑道视程（RVR）（或能见度（VIS））将精密进近和着陆分为以下类别：\nI类（Cat I）运行：DH不低于60米（200英尺），VIS不小于800米或RVR不小于550米的精密进近着陆；\nII类（Cat II）运行：DH低于60米（200英尺）但不低于30米（100英尺），RVR不小于300米的精密进近着陆；\nIIIA类（Cat III A）运行：DH低于30米（100英尺）或无决断高，RVR不小于175米的精密进近着陆；\nIII B类（Cat III B）运行：DH低于15米（50英尺）或无决断高，RVR小于175米但不小于50米的精密进近着陆；\nIII C类（Cat III C）运行：无决断高和无跑道视程限制的精密进近着陆。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 85,
@@ -1101,8 +1101,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "在仪表进近中，截获盲降设备信号的次序是LOC（航向信标台）、GS（下滑信标台）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 86,
@@ -1114,8 +1114,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "航向台发射的电波覆盖区，在ILS航向道中心线左右10°范围内的有效作用距离为25nm；在左右10-35°范围内的有效作用距离为17nm；在左右35°以外的有效作用距离为10nm。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 87,
@@ -1127,8 +1127,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "反航道ILS进近中，HSI航道偏离杆偏左，表明飞机偏在航道左边。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 88,
@@ -1140,8 +1140,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "反航道ILS进近，按压“B/C”方式按钮，HSI上预选航道对正“着陆航道”，这时设备对航向信标信号的响应是反的，显示在仪表上的关系与飞机和航向道的关系完全相同，所以HSI航道偏离杆偏左，说明飞机偏在航道右边。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 89,
@@ -1153,8 +1153,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "看图可知，MH=270°，航向台方位指针在90°，此时为反航道进近，仪表上指示与正常进近时相反，偏离杆偏左，表明飞机偏在航向道左边，飞机11的航向是270°，且位于航向道左侧。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\89.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/89.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 90,
@@ -1166,8 +1166,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "下滑道偏差的判断在HSI上可以直观地确定出来。当下滑偏离指标在中立位（基准线）以上，说明飞机低于下滑道；下滑偏离指标在中立位以下，说明飞机高于下滑道；偏差的大小由下滑道偏差刻度直接读出，HSI上“下滑偏离指标”每偏一点为0.35° ，满偏刻度为0.7° 。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 91,
@@ -1179,8 +1179,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "下滑道偏差的判断在HSI上可以直观地确定出来。当下滑偏离指标在中立位（基准线）以上，说明飞机低于下滑道；下滑偏离指标在中立位以下，说明飞机高于下滑道；",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 92,
@@ -1192,8 +1192,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "PBN 的优点 ：(1)减少维护特定传感器航路和程序的需要，并降低相关成本；\n(2)无需为导航系统的每次改进规定特定传感器运行要求，从而避免高昂的成本支出；\n(3)便于更有效地利用空域（航路布局、燃油效率、减噪等）；\n(4)明确 RNAV 和 RNP 系统使用的方式；\n(5)提供若干组供全球使用的导航规范，简化运营人的运行审批程序。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 93,
@@ -1205,8 +1205,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "基于性能的导航(PBN)是一种通过明确性能需求替代设备要求的导航方法。规定了航空器在指定空域内或者沿ATS航路、仪表程序飞行的系统性能，包括导航的精度、完整性、可用性、连续性和所需功能。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 94,
@@ -1218,8 +1218,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "PBN的优点：\n（1）减少维护特定传感器航路和程序的需要，并降低相关成本。\n（2）无需为导航系统的每次改进规定特定传感器运行要求，从而避免高昂的成本支出。\n（3）便于更有效地利用空域 (航路布局、燃油效率、减噪等)；\n（4）明确RNAV系统使用的方式：\n（5）提供若干组供全球使用的导航规范，简化运营人的运行审批程序。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 95,
@@ -1231,8 +1231,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "PBN所具有的基本导航功能有：1.持续显示航空器位置的功能，航空器位置是相对于驾驶员主视野内的航行显示器航迹而言的；2. 显示至正在使用的航路点距离和方位；3.显示至正在使用的航路点地速或时间；4.导航数据存储功能；5.正确提示RNAV系统，包括传感器的故障。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 96,
@@ -1244,8 +1244,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "PBN运行的三个基本要素是导航设施、导航规范和导航应用。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 97,
@@ -1257,8 +1257,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "PBN应用包括导航设备基础设施；导航规范；导航应用三个基本要素，其中导航设施主要包括提供定位能力的陆基导航设备（VOR、DME等）、星基导航设备（GNSS,包括GPS、GLONASS 等）和自主导航设备（惯导等）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 98,
@@ -1270,8 +1270,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "RNAV系统是允许飞机在台基导航设备的基准台覆盖范围内或在自主导航设备能力限度内或者两者配合下按任何希望的飞行路径运行的导航系统。RNP系统是一种支持机载导航性能监控和告警（OPMA）的区域导航系统。RNAV和RNP系统关键的不同在于，RNP包含机载设备监视和和告警导航性能要求，并能向飞行员显示是否到达了预定运行要求，而RNAV则不包括。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 99,
@@ -1283,8 +1283,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "全球导航卫星系统（GNSS，Global Navigation Satellite System）作为一个广义的概念，是所有在轨工作的导航卫星系统及相关增强系统的总称。随着世界各国和地区卫星导航系统的建设，GNSS 系统的组成和内涵也在不断发展。GNSS 系统目前包括美国的全球定位系统（GPS）、俄罗斯的格洛纳斯（GLONASS）两大星座以及欧洲的伽利略（Galileo）和中国的北斗导航系统（BDS）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 100,
@@ -1296,8 +1296,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "目前使用较多的是美国的全球定位系统（GPS），它包括空间GPS卫星、地面控制站组、用户GPS接收机三部分。用户可以用4颗可用卫星确定出导航参数（经度、纬度、高度和时间）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 101,
@@ -1309,8 +1309,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 102,
@@ -1322,8 +1322,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "要增大转弯率的同时减小转弯半径，飞行员应增大坡度，减小空速；要减小转弯率的同时增大转弯半径，飞行员应减小坡度，增加空速。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 103,
@@ -1335,8 +1335,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "标准转弯的标准角速度是3度每秒，完成180°转弯需要1分钟。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 104,
@@ -1348,8 +1348,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "标准转弯的标准角速度是3度每秒，1/2的标准转弯率即是1.5度每秒，完成90°转弯需要1分钟。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 105,
@@ -1361,8 +1361,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "飞机保持转弯速度、坡度或转弯率进行进近转弯，导出的转弯诸元间的关系式是：\nR=（TAS2/G）*TANα=TAS/2πw",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 106,
@@ -1374,8 +1374,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "标准转弯的标准角速度是3度每秒，1/2的标准转弯率即是1.5度每秒，完成135°转弯需要1分30秒。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 107,
@@ -1387,8 +1387,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\107explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/107explain.jpg"
   },
   {
     "id": 108,
@@ -1400,8 +1400,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "机场跑道着陆区内最高点距离平均海平面的垂直距离称为机场标高。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\108.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/108.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 109,
@@ -1413,8 +1413,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "鼓励在离港和进近时使用着陆灯，特别建议在机场附近10mile范围内，或在能见度差时使用灯光。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 110,
@@ -1426,8 +1426,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞机起飞和着陆选择逆风主要有两个原因：一是可缩短飞机起降的滑跑距离；二是可以获取更好的稳定性和安全性。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 111,
@@ -1439,8 +1439,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "跑道命名的原则是取跑道磁方位角，以10度为单位，四舍五入用两位数表示。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 112,
@@ -1452,8 +1452,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "跑道命名的原则是取跑道磁方位角，以10度为单位，四舍五入用两位数表示。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 113,
@@ -1465,8 +1465,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "机场跑道起飞着陆区内最高点距离平均海平面的垂直距离称为机场标高。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 114,
@@ -1478,8 +1478,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "飞机在同一条径向线上飞行，电台磁方位和飞机磁方位不变，航向改变时，相对方位随之改变。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 115,
@@ -1491,8 +1491,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "VOR方位角即QDM，QDM是指电台磁方位角，也称向台磁方位。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 116,
@@ -1504,8 +1504,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "在同一条方位线上，电台磁方位角和飞机磁方位角都是一定的，航向增大，相对方位减小；航向减小，相对方位增大。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 117,
@@ -1517,8 +1517,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "右程序转弯至入航航迹的过程中，当RB实>RB应时，表明飞机偏在标准航迹的外侧，飞机进入晚了，应增大坡度。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 118,
@@ -1530,8 +1530,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "VOR台的径向方位角即QDR，QDR是指飞机磁方位，也称背台磁方位。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 119,
@@ -1543,8 +1543,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "已知MH=90°，RB=225°，则QDM=MH+RB=315°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 120,
@@ -1556,8 +1556,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "在同一条方位线上，电台方位角和飞机方位角都是一定的，一个航向将对应一个相对方位RB。若保持预定航向，则相对方位RB保持不变。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 121,
@@ -1569,8 +1569,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "左程序转弯至入航航迹的过程中，当RB实小于RB应时，表明飞机偏在标准航迹的外侧，飞机进入晚了，应增大坡度。",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\121explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/121explain.jpg"
   },
   {
     "id": 122,
@@ -1582,8 +1582,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "右程序转弯至入航航迹的过程中，当RB实>RB应时，表明飞机偏在标准航迹的外侧，飞机进入晚了，应增大坡度。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\122.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\122explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/122.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/122explain.jpg"
   },
   {
     "id": 123,
@@ -1595,8 +1595,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞机在同一条径向线上飞行，电台磁方位和飞机磁方位不变，航向改变时，相对方位随之改变。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\123.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/123.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 124,
@@ -1608,8 +1608,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "沿VOR径向线向台飞行，无风条件下飞机航向与径向方位相差180°;沿VOR径向线背台飞行，无风条件下飞机航向与径向方位相同。",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\124explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/124explain.jpg"
   },
   {
     "id": 125,
@@ -1621,8 +1621,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "QDM指=MH+RB=120°+70°=190°，QDM指小于QDM预，飞机沿M飞往N中，W台在右边，电台在右侧，QDM指小于QDM预，飞机未到方位线。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\125.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/125.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 126,
@@ -1634,8 +1634,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "QDM指=MH+RB=290°+290°=220°，QDM指>QDM预, 飞机沿N飞往M中，W台在左边，电台在左侧，QDM指>QDM预，飞机未到方位线。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 127,
@@ -1647,8 +1647,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "QDM指=190，QDM指小于QDM预，飞机沿N飞往M中，W台在左边，电台在左侧，QDM指小于QDM预，飞机已过方位线。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 128,
@@ -1660,8 +1660,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "ADF指的是RB，即 MC＋260°=MH＋RB，所以RB=126°＋260°－ 132°＝254°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 129,
@@ -1673,8 +1673,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "QDM指=QDM预，飞机在方位线上。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 130,
@@ -1686,8 +1686,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "已知MH=120°，QDM预=193°，可知电台位于飞机右侧，RB指小于RB预，表明飞机未到方位线。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 131,
@@ -1699,8 +1699,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "为正确引导飞机到着陆机场着陆，在接收NDB信号时，必须正确调谐电台和监听识别信号。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 132,
@@ -1712,8 +1712,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "自动定向仪（ADF）是最早应用的无线电导航系统，它与地面 NDB 导航台配合，组成一种近程测角系统。甚高频全向信标（VOR）系统，是一种近程无线电测角导航系统,由地面发射台和机载设备组成，工作在 108～117.95MHz 频段，它由地面发射台通过天线发射出方位信息，机载设备接收和处理这一方位信息，并通过有关的指示器指示相应的方位信息，测距仪（DME）是一种能够测量由询问器到某个固定应答器（地面台）距离的设备，在航空上测量的是飞机到地面台的斜距,不是距台的水平距离。飞行中可用这三种方式对飞机进行定位。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 133,
@@ -1725,8 +1725,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\133.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\133explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/133.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/133explain.jpg"
   },
   {
     "id": 134,
@@ -1738,8 +1738,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "电台磁方位角QDM是指从飞机所在位置的磁经线北端顺时针方向量到无线电方位经线的角度，QDM=MH+RB，ADF测量的是RB（电台相对方位角，即从飞机航向线顺时针方向量到无线电方位线的角度），MH=350，RB=270，所以QDM=350+270-360=260。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\134.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/134.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 135,
@@ -1751,8 +1751,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "由题干可知，QDM=60°，MH=360°，RB=QDM-MH=60°，图例2指示RB=60°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\135.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/135.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 136,
@@ -1764,8 +1764,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "QDR=QDM±180°，所以QDM=255°-180°=75°，已知MH=225°，可知RB=QDM-MH=75°-225°+360°=210°，图例4指示RB为210°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 137,
@@ -1777,8 +1777,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "QDM=MH+RB，QDR=QDM±180°，MH=350，RB=270，则 QDM=260，QDR=80°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\137.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/137.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 138,
@@ -1790,8 +1790,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\138explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/138explain.jpg"
   },
   {
     "id": 139,
@@ -1803,8 +1803,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\139.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\139explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/139.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/139explain.jpg"
   },
   {
     "id": 140,
@@ -1816,8 +1816,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "机上ADF输出方位信号到RMI上指示，其针尖指示QDM，针尾指示QDR。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\140.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/140.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 141,
@@ -1829,8 +1829,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\141.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\141explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/141.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/141explain.jpg"
   },
   {
     "id": 142,
@@ -1842,8 +1842,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\142.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\142explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/142.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/142explain.jpg"
   },
   {
     "id": 143,
@@ -1855,8 +1855,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "针尖所指即为QDM，看图可知，QDM为295°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\143.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/143.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 144,
@@ -1868,8 +1868,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "由于无线电磁指示器（RMI）的刻度盘是可以转动的，当飞机航向改变时，RMI刻度盘随之转动。从RMI的航向标线可以读出飞机当时的航向。方位指针有两根，细针指示第一部ADF或VOR接收机送来的方位信号显示出所测的方位；粗针指示第二部ADF或VOR接收机送来的方位信号显示出所测的方位；针尖指示电台磁方位，针尾指示飞机磁方位，航向与针尖顺时针之间的夹角就是相对方位。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 145,
@@ -1881,8 +1881,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "机上ADF系统输出的方位信息，可以在RMI表上指示。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 146,
@@ -1894,8 +1894,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "RMI刻度盘由航向系统驱动。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 147,
@@ -1907,8 +1907,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "自动定向机（ADF-Automatic Direction Finder）与地面导航台配合，组成一种近程测角系统，典型设备工作频率为190-1750kHz，以地波的形式传送，可以绕过高大障碍物，易受干扰导致指示器指针晃动。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 148,
@@ -1920,8 +1920,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "ADF控制盒工作方式一般有断开（OFF）、天线（ANT）、定向（ADF）和测试（TEST）四种，选择电门放“ANT”位的作用是准确调谐电台。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 149,
@@ -1933,8 +1933,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "利用机上ADF自动定向时，必须把方式选择电门放ADF位。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 150,
@@ -1946,8 +1946,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "地面NDB远台发射的识别码是两个英文字母的国际莫尔斯电码。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 151,
@@ -1959,8 +1959,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "ADF频率单位是KHz（千赫兹）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 152,
@@ -1972,8 +1972,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "自动定向机系统机载定向设备一般包括自动定向接收机、控制盒、方位指示器、环形天线和垂直天线。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 153,
@@ -1985,8 +1985,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "自动定向机工作在中波波段，电离层对电波的吸收白天比夜间强。通常出现在日落后2小时和日出前2小时的一段时间内，夜间效应引起的定向误差一般在10°~15°左右。尽量选择频率低、距离较近的导航台，增加飞行高度，并在测定方位时读取平均值。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 154,
@@ -1998,8 +1998,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "1、静电干扰误差\n大气放电时，会辐射多种频率的电波，其中影响最大的是中波和长波，使得ADF接收机受到\n干扰。在雷暴云附近飞行时，会影响自动定向机的接收和定向。克服静电干扰的方法，仔细辩听信号，当干扰杂音最小，指针指示稳定的瞬间读取方位。选择的导航台应是距离近、功率大的导航台。\n2、夜间效应\n自动定向机工作在中波波段，电离层对电波的吸收白天比夜间强。通常出现在日落后2小时和日出前2小时的一段时间内，夜间效应引起的定向误差一般在10°~15°左右。尽量选择频率低、距离较近的导航台，增加飞行高度，并在测定方位时读取平均值。\n3、山区效应\n电波遇到山峰、丘陵和大建筑物时会发生反射和绕射，因此在低空飞行时，自动定向机指示\n器的方位指针有可能出现偏离正确位置或摆动，这种现象叫做山区效应。电波越长，绕射能力越强，影响越大；电波越短，反射能力越强，因此用短波或超短波进行定向的影响较大。所以地面导航台的频率应选的低些，或可以通过提高飞行高度避免山区效应。\n4、海岸效应\n电波从陆地进入海面，或从海面进入陆地，由于电波传播的导电系数发生改变，从而产生定向误差。电波传播的方向同海岸线的夹角越小，则海岸效应引起的方位误差越大；传播方向与海岸线垂直时，不产生误差。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 155,
@@ -2011,8 +2011,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "电波传播的方向同海岸线的夹角越小，则海岸效应引起的方位误差越大；传播方向与海岸线垂直时，不产生误差。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 156,
@@ -2024,8 +2024,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "大气放电时，会辐射多种频率的电波，其中影响最大的是中波和长波，使得ADF接收机受到干扰。在雷暴云附近飞行时，会影响自动定向机的接收和定向。克服静电干扰的方法，仔细辩听信号，当干扰杂音最小，指针指示稳定的瞬间读取方位。选择的导航台应是距离近、功率大的导航台。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 157,
@@ -2037,8 +2037,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "大气放电时，会辐射多种频率的电波，其中影响最大的是中波和长波，使得ADF接收机受到干扰。在雷暴云附近飞行时，会影响自动定向机的接收和定向。克服静电干扰的方法，仔细辩听信号，当干扰杂音最小，指针指示稳定的瞬间读取方位。选择的导航台应是距离近、功率大的导航台。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 158,
@@ -2050,8 +2050,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "海岸效应是电波从陆地进入海面，或从海面进入陆地，由于电波传播的导电系数发生改变，从而产生定向误差。电波传播的方向同海岸线的夹角越小，则海岸效应引起的方位误差越大；传播方向与海岸线垂直时，不产生误差。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 159,
@@ -2063,8 +2063,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "静电干扰误差是指大气放电时，会辐射多种频率的电波，其中影响最大的是中波和长波，使得ADF接收机受到干扰。在雷暴云附近飞行时，会影响自动定向机的接收和定向。克服静电干扰的方法，仔细辩听信号，当干扰杂音最小，指针指示稳定的瞬间读取方位。选择的导航台应是距离近、功率大的导航台。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 160,
@@ -2076,8 +2076,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "自动定向机工作在中波波段，电离层对电波的吸收白天比夜间强。通常出现在日落后2小时和日出前2小时的一段时间内，夜间效应引起的定向误差一般在10°~15°左右。尽量选择频率低、距离较近的导航台，增加飞行高度，并在测定方位时读取平均值。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 161,
@@ -2089,8 +2089,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "自动定向机工作在中波波段，电离层对电波的吸收白天比夜间强。通常出现在日落后2小时和日出前2小时的一段时间内，夜间效应引起的定向误差一般在10°~15°左右。尽量选择频率低、距离较近的导航台，增加飞行高度，并在测定方位时读取平均值。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 162,
@@ -2102,8 +2102,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "静电干扰误差：大气放电时，会辐射多种频率的电波，其中影响最大的是中波和长波，使得ADF接收机受到干扰。夜间效应：自动定向机工作在中波波段，电离层对电波的吸收白天比夜间强。通常出现在日落后2小时和日出前2小时的一段时间内，夜间效应引起的定向误差一般在10°~15°左右。山区效应：电波遇到山峰、丘陵和大建筑物时会发生反射和绕射，因此在低空飞行时，自动定向机指示器的方位指针有可能出现偏离正确位置或摆动，这种现象叫做山区效应。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 163,
@@ -2115,8 +2115,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "大气放电时，会辐射多种频率的电波，其中影响最大的是中波和长波，使得ADF接收机受到干扰。在雷暴云附近飞行时，会影响自动定向机的接收和定向。克服静电干扰的方法，仔细辩听信号，当干扰杂音最小，指针指示稳定的瞬间读取方位。选择的导航台应是距离近、功率大的导航台。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 164,
@@ -2128,8 +2128,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "电波从陆地进入海面，或从海面进入陆地，由于电波传播的导电系数发生改变，从而产生定向误差。电波传播的方向同海岸线的夹角越小，则海岸效应引起的方位误差越大；传播方向与海岸线垂直时，不产生误差。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 165,
@@ -2141,8 +2141,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "VOR系统提供磁方位角，与飞机位置有关，与航向无关。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 166,
@@ -2154,8 +2154,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "从航向线顺时针量到无线电方位线的角度，叫电台相对方位角（RB）。从飞机所在位置的经线北端顺时针量到无线电方位线的角度，叫电台方位角，以磁经线北端为基准的电台方位角叫电台磁方位角（QDM）。从电台所在位置的经线北端顺时针量到无线电方位线的角度，叫飞机方位角，以磁经线北端为基准的飞机方位角叫飞机磁方位角（QDR）。同一条方位线上，电台方位角和飞机方位角都是一定的，一个航向将对应一个相对方位RB。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 167,
@@ -2167,8 +2167,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "机上VOR工作频率通常与ILS、DME设备配套使用。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 168,
@@ -2180,8 +2180,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "VOR台正在维护时，其导航功能消除。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 169,
@@ -2193,8 +2193,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "机载VOR接收机接收VOR地面台发射的基准相位信号和可变相位信号。并通过比较两种信号的相位差，得出飞机相对地面VOR台的径向方位即飞机磁方位QDR，通过指示器指示出方位信息，供飞行员确定飞机的位置并引导飞机航行。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 170,
@@ -2206,8 +2206,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "地面VOR台发射两种信号：一种是基准相位信号；另一种是可变相位信号，相位随VOR台的径向方位变化，可变相位信号通过全向天线发射。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 171,
@@ -2219,8 +2219,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "VOR系统的地面设备就是地面全向信标台，简称VOR台。VOR工作在甚高频频段上，频率范围108.00-117.95MHz，以直线方式传播，会被高大障碍物所遮挡。由于甚高频信号只能以直达波的形式在视距内传播，所以甚高频工作距离较近，受飞行高度的影响。但由于对流层对超短波的折射作用，使得实际的传播距离略大于视线距离。受昼夜和季节变化的影响小，通信较稳定。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 172,
@@ -2232,8 +2232,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "航路VOR台，也称A类VOR台，使用频率为112--118MHz，工作距离为200NM。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 173,
@@ -2245,8 +2245,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "终端VOR台，也称为B类VOR台，使用108.00~112.00MHz之间十分位为偶数的频率，共计40个波道，发射功率为50W，工作距离为25NM。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 174,
@@ -2258,8 +2258,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "使用VOR导航时，CDI指示器上TO-FROM指标完全倒向即表明飞机过台。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 175,
@@ -2271,8 +2271,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "航向信标台工作频率是108.10—111.95MHz间十分位（小数第一位）为奇数的频率再加50KHz的频率。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 176,
@@ -2284,8 +2284,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "VOR系统的地面设备就是地面全向信标台，简称VOR台。VOR工作在甚高频频段上，频率范围108.00~117.95MHz，以直线方式传播，会被高大障碍物所遮挡。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 177,
@@ -2297,8 +2297,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "VOR系统的地面设备就是地面全向信标台，简称VOR台。VOR工作在甚高频频段上，频率范围108.00~117.95MHz，以直线方式传播，会被高大障碍物所遮挡。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 178,
@@ -2310,8 +2310,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "地面的VOR台使用的识别码为三个英文字母的国际莫尔斯电码。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 179,
@@ -2323,8 +2323,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "VOR地面台在发射信号时，在垂直面内有50°的范围飞机上的机载设备会接受不到信号，这一区域范围称为盲区。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 180,
@@ -2336,8 +2336,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\180.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\180explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/180.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/180explain.jpg"
   },
   {
     "id": 181,
@@ -2349,8 +2349,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞机在235°径向线上背台飞行，风向050°为顺风，可知飞机航向应在180°~270°之间，看图可知，仪表3符合条件。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\181.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/181.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 182,
@@ -2362,8 +2362,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "航空器在台的西南且逐渐向台靠拢，表明180°＜QDR＜270°，0°＜MH＜90°，图例1符合条件。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 183,
@@ -2375,8 +2375,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "看图可知，图例2中QDR=55°符合条件。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 184,
@@ -2388,8 +2388,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\184explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/184explain.jpg"
   },
   {
     "id": 185,
@@ -2401,8 +2401,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "RMI针尖指示电台磁方位（QDM），针尾指示飞机磁方位（QDR）。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\185.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/185.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 186,
@@ -2414,8 +2414,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "指针针尾指示QDR，看图可知，图3指示QDR=10°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\186.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/186.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 187,
@@ -2427,8 +2427,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "当飞机位置处在预选航道背台一侧的180°区域时显示“FR”即背台，预选航道360°，看图可知，1、2为背台飞行，3、4为向台飞行，若CDI上的偏离杆偏左，则飞机偏在预选航道右侧，所以2为正确答案。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\187.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/187.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 188,
@@ -2440,8 +2440,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "VOR信号可以在RMI、HSI、CDI上显示。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 189,
@@ -2453,8 +2453,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "在VOR方式时每点表示偏差2°，满偏为±10°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 190,
@@ -2466,8 +2466,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "在VOR方式时，每点表示偏差2°，满偏为±10°，CDI上1/2刻度偏移，表示偏离航道中心线5°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 191,
@@ -2479,8 +2479,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "当“TO/FROM”显示“TO”且航道偏离杆在中央时，HSI（或CDI）航道指针箭头方向指示电台磁方位。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 192,
@@ -2492,8 +2492,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "CDI航道偏离杆偏离的角度为飞机偏离预选航道的角度。当CDI指示TO，且飞机正在向台飞行时，偏离的角度为新航线与原航线的夹角，即偏离角。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 193,
@@ -2505,8 +2505,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "CDI航道偏离杆偏离的角度为飞机偏离预选航道的角度。当CDI指示FROM，且飞机正在背台飞行时，偏离的角度为航迹线与航线的夹角，即偏航角。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 194,
@@ -2518,8 +2518,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "使用VOR导航时，CDI上航道杆偏左，说明飞机偏在预选航道的右边，如航道偏离杆偏右说明飞机偏在预选航道的左边。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 195,
@@ -2531,8 +2531,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\195.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\195explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/195.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/195explain.jpg"
   },
   {
     "id": 196,
@@ -2544,8 +2544,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\196.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\196explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/196.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/196explain.jpg"
   },
   {
     "id": 197,
@@ -2557,8 +2557,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\197.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\197explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/197.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/197explain.jpg"
   },
   {
     "id": 198,
@@ -2570,8 +2570,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "HSI上的航道偏离杆可以指示VOR、LOC设备的航道偏离，ADF和MB没有偏离信号。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\198.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/198.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 199,
@@ -2583,8 +2583,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "在近程导航中，RMI指针指向航向标线附近，然后左右摆动并迅速倒向，表明飞机过台。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 200,
@@ -2596,8 +2596,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行距离为60海里，每偏离1°，表示偏离1海里，看图可知，偏离杆偏离2.5点，表示偏离5°，所以航空器偏离选定径向线约5海里。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\200.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/200.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 201,
@@ -2609,8 +2609,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "看图可知，预选航道为350°，偏离杆偏右2.5点，表示飞机偏离预选航道左侧5°，所以QDR=350°-5°=345°，航空器在345°径向线上。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 202,
@@ -2622,8 +2622,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "看图可知，预选航道为350°，偏离杆偏右2.5点表示飞机偏左5°，所以QDR=350°-5°=345°，在径向线345°时HSI处于中心位，此时TO/FROM指标指示FROM，所以当OBS选择165°时，指示将变为“TO”。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 203,
@@ -2635,8 +2635,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "航道偏离杆偏离1点表示偏差2°，看图可知，偏离杆偏离2点，表示偏差为4°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 204,
@@ -2648,8 +2648,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "看图可知，预选航道为170°，偏离杆偏左两个点，表明飞机飞机偏在预选航道右侧4°，转动OBS使CDI居中，则飞机磁方位=170°+4°=174°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 205,
@@ -2661,8 +2661,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "看图可知，预选航道为170°，偏离杆偏左2点表示飞机偏右4°，所以QDR=170°+4°=174°，在径向线174°时CDI处于中心位，此时TO/FROM指标指示FROM，所以当OBS选择354°时，指示将变为“TO”。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 206,
@@ -2674,8 +2674,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "航道偏离杆偏离1点表示偏差2°，看图可知，偏离杆偏离2.5点，则航空器偏离选定径向线5°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 207,
@@ -2687,8 +2687,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "看图可知，仪表指示飞机磁方位为170°，偏离杆偏左两个点，表明飞机飞机偏在预选航道右侧4°，所以QDR=170°+4°=174°，航空器在174°径向线上。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 208,
@@ -2700,8 +2700,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "针尾指示QDR为235°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\208.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/208.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 209,
@@ -2713,8 +2713,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "根据图IR6-16，飞机偏离航向道左侧2点，偏在下滑道下边1点，看图IR6-13，飞机在外指点标（OM）上空时，偏离航向道2点表示偏离1550英尺，偏离下滑道1点表示偏离210英尺，所以飞机偏在航向道中心线左侧1550英尺，低于下滑道210英尺。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\209.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/209.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 210,
@@ -2726,8 +2726,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "根据图IR6-14可知，偏离杆偏左2个点，表明飞机偏在航向道右侧，根据图6-13可以看出，2dots=1550′，所以飞机偏离航向道右侧1550英尺。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\210.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/210.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 211,
@@ -2739,8 +2739,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "根据图IR6-14可知，飞机偏离航向道右侧2点，偏在下滑道上边2点，看图IR6-13可知，飞机在OM上空时，偏离下滑道2点为420英尺，偏离航向道2点为1550英尺。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\211.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/211.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 212,
@@ -2752,8 +2752,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "根据图IR6-15可以看出，飞机偏在下滑道上边1.5个点，看图IR6-13可知，飞机在OM上空时，偏离1个点表示偏离210英尺，所以偏离1.5个点可知飞机偏离下滑道偏上315英尺。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\212.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/212.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 213,
@@ -2765,8 +2765,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "根据图IR6-16可知，飞机偏离下滑道下边1点，看图IR6-13可知，飞机在1.9nm处，偏离1点表示偏离70英尺，所以飞机低于下滑道70英尺。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\213.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/213.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 214,
@@ -2778,8 +2778,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "根据图IR6-16可知，飞机偏离下滑道下边1个点，看图IR6-13可知，飞机在OM处，偏离1点表示偏离210英尺，所以飞机低于下滑道210英尺。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\214.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/214.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 215,
@@ -2791,8 +2791,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "仪表着陆时，指示仪表中“航道偏离杆”显示飞机偏离航向道的方向和大小，对于HSI上航道偏离刻度是五个点的仪表，每偏一个点表示偏离航向道0.5度。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\215.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/215.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 216,
@@ -2804,8 +2804,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "根据图IR6-15可知，飞机偏离下滑道上边1.5个点，看图IR6-13，飞机在距跑道1.9nm处的标准高度为500英尺，偏离1个点表示偏离70英尺，所以实际高度=500+70×1.5=605英尺。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\216.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/216.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 217,
@@ -2817,8 +2817,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "根据图IR6-15可知，飞机偏离下滑道上边1.5个点，看图IR6-13，飞机在OM处的标准高度为1500英尺，偏离一点表示偏离210英尺，所以实际高度=1500+210×1.5=1815英尺。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\217.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/217.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 218,
@@ -2830,8 +2830,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "根据图IR6-16可知，飞机偏离下滑道偏下1个点，看图IR6-13可知，飞机在距跑道1300英尺处的标准高度为100英尺，偏离1点表示偏离14英尺，所以实际高度=100-14=86英尺。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\218.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/218.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 219,
@@ -2843,8 +2843,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "根据图IR6-16可知，飞机偏离下滑道偏下1个点，看图IR6-13可知，飞机在OM处的标准高度为1500英尺，偏离1点表示偏离210英尺，所以实际高度=1500-210=1290英尺。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\219.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/219.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 220,
@@ -2856,8 +2856,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\220.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/220.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 221,
@@ -2869,8 +2869,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "当HSI指示W时，航向为280°，C位置飞机航向是280°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\221.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/221.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 222,
@@ -2882,8 +2882,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞机位于F时，航向为50°，HSI指示U时航向为50°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 223,
@@ -2895,8 +2895,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "HSI指示Z时航向为10°，飞机E和B航向均为10°，根据Z的指示可知飞机做背台飞行，所以排除飞机E，飞机B为正确答案。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 224,
@@ -2908,8 +2908,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "RMI指针指向RMI航向标线，然后指向“9点钟”位置，最后到“6点钟”附近，说明方位角逐渐减小，电台在左，飞机从电台右边通过。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 225,
@@ -2921,8 +2921,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "根据HSI“A”代号指示器可知，飞机航向为205°，预选航道为90°，向台指示表明飞机在径向线360°/180°左侧，航向偏离杆偏右，表明飞机在径向线270°/90°以北，飞机位置1符合条件。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\225.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/225.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 226,
@@ -2934,8 +2934,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "根据HSI“C”代号指示器可知，飞机航向310°，预选航道为360°，向台指示表明飞机在径向线270°/90°以南，航向偏离杆偏左，表明飞机在径向线180°以东，飞机位置12符合条件。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 227,
@@ -2947,8 +2947,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "RMI指针指向RMI航向标线，然后指向3点钟位置，最后到6点钟附近，说明方位角是逐渐增大的，可知电台在右，飞机从电台左边通过。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 228,
@@ -2960,8 +2960,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "针尾指示QDR，看图可知，QDR为235°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\228.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/228.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 229,
@@ -2973,8 +2973,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "VOR台在中间，飞机“1”在VOR台的西北方位。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\229.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/229.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 230,
@@ -2986,8 +2986,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "预选航道为90°，则1、3飞机为向台，2、4飞机为背台。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 231,
@@ -2999,8 +2999,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "预选航道调270°，则2、4飞机为向台，1、3飞机为背台。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 232,
@@ -3012,8 +3012,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "VOR2看粗指针，针尾指示QDR为130°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\232.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/232.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 233,
@@ -3025,8 +3025,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\233explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/233explain.jpg"
   },
   {
     "id": 234,
@@ -3038,8 +3038,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "已知MC=60°，QDM=55°，所以TKD=MC-QDM=5°，偏离角为正，飞机偏在航线的右侧。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\234.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/234.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 235,
@@ -3051,8 +3051,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "已知MC=51°，QDM=55°，所以TKD=MC-QDM=-4°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 236,
@@ -3064,8 +3064,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞机从当前位置飞向VOR台，则航线角=向台磁方位=55°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 237,
@@ -3077,8 +3077,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "已知QDR=55°，MC=60°，所以TKE=QDR-MC=-5°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 238,
@@ -3090,8 +3090,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "已知，QDR=55°，MH=55°，所以DA=QDR-MH=0°，表明飞行中未产生偏流。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 239,
@@ -3103,8 +3103,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "由图可知：QDR=235°，MC=230°，QDR大于MC，则表明飞机偏右，偏航角为正，答案为+5°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 240,
@@ -3116,8 +3116,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "航道偏离杆回到中立位置，说明飞机回到预定方位。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 241,
@@ -3129,8 +3129,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "看图可知，“A”代号指示器MH=360°，偏离杆未偏离，6和9表示航向360°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\241.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/241.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 242,
@@ -3142,8 +3142,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "看图可知，MH=45°，航向台方位指针在90°，此时为反航道进近，仪表上指示与正常进近时相反，“E”代号指示器中偏离杆偏右，则表示飞机偏在航向道右边，8和3符合条件。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 243,
@@ -3155,8 +3155,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "测试VOR接收机的灵敏度时，除了测试接收机的容差，还应该通过转动OBS（全方位选择器）来使CDI的航道杆从中间偏向两边来检查航道灵敏度。这个值应该是在10°到12°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 244,
@@ -3168,8 +3168,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "当飞机停在指定检查点，飞行员应将无线电定向标选择器调到指定位置，并将航向偏差指示器调到“FROM”位±4°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 245,
@@ -3181,8 +3181,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "VOR检测设备， 是能够发射出测试信号的地面站台。 一些装配有VOTs的机场会公布VOTs的测试地点，飞机滑行到机场公布的一个特定地点，并给出了该位置相对于台的方位，使CDI居中后对比误差，测量误差在正负4°之内VOR精确度可以正常导航。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 246,
@@ -3194,8 +3194,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "空中检查与地面检查类似飞机在空中时，飞行到机场公布的一个高度和位置调谐VOR台，并和公布的相对位置进行误差对比，测量误差在正负6°之内VOR精确度可以正常导航。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 247,
@@ -3207,8 +3207,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "VOR检测设备，是能够发射出测试信号的地面站台。一些装配有VOTs的机场会公布VOTs的测试地点，飞机滑行到机场公布的一个特定地点，并给出了该位置相对于台的方位，使CDI居中后对比误差，测量误差在正负4°之内VOR精确度可以正常导航。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 248,
@@ -3220,8 +3220,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "如果一台飞机上装配有两台VOR接收装置，可以将两台VOR调谐到同一VOR台的同一条径向线上，对比两者之间的误差，测量误差在正负4°之内证明VOR精确度可以正常导航。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 249,
@@ -3233,8 +3233,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "当测出的电台磁方位与预选航道之差小于±90°时，显示“TO”即向台，表明飞机在向台区域飞行；当测出的电台磁方位与预选航道之差大于±90°时，显示“FR”即背台，表明飞机在背台区域飞行。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 250,
@@ -3246,8 +3246,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "QDR=254°，可知QDM=74°。偏流20°，右侧风，可知DA=-20°，MH应=QDM-DA=74°-（-20°）=94°。RB=QDM-MH=340°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 251,
@@ -3259,8 +3259,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "航迹线偏离航向线的角度叫偏流角（Drift Angle），简称偏流（DA）。左侧风时，航迹线偏在航向线的右侧，规定偏流为正（+DA）；右侧风时，航迹线偏在航向线的左侧，规定偏流为负（－DA）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 252,
@@ -3272,8 +3272,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "DA+3°，TKE-1°，表明偏流修正过大，航迹线将偏在航线的上风面。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 253,
@@ -3285,8 +3285,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "DA-10°，TKE-3°，说明偏流修正过小，航迹线将偏在航线的下风面。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 254,
@@ -3298,8 +3298,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行中利用仪表测DA，GS主要为了检查飞机能否准确到达目的地上空。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 255,
@@ -3311,8 +3311,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "修正航迹包括两方面的修正：一方面是进行方向修正，使飞机准确飞到预定点；另一方面是进行距离（即时间）修正，使飞机能够按新的预达时刻准时到达预定点。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 256,
@@ -3324,8 +3324,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\256explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/256explain.jpg"
   },
   {
     "id": 257,
@@ -3337,8 +3337,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞机在30海里偏一个点的偏航距离约1海里，偏移3个点，则航空器偏离航道中心线约3海里。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\257.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/257.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 258,
@@ -3350,8 +3350,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\258explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/258explain.jpg"
   },
   {
     "id": 259,
@@ -3363,8 +3363,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\259.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\259explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/259.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/259explain.jpg"
   },
   {
     "id": 260,
@@ -3376,8 +3376,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\260.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\260explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/260.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/260explain.jpg"
   },
   {
     "id": 261,
@@ -3389,8 +3389,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "飞机偏在航线左侧为负，右侧为正。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\261.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/261.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 262,
@@ -3402,8 +3402,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\262explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/262explain.jpg"
   },
   {
     "id": 263,
@@ -3415,8 +3415,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞机对正电台，MC=MH，QDM=MC，飞行中若RMI(或RBI)指针向右移动，QDM将增大，电台磁方位将大于磁航线角，飞机偏左，可知空中风是右侧风。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\263.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/263.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 264,
@@ -3428,8 +3428,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞机保持航向MH向台飞行，飞行中若RMI(或RBI)指针向右移动，QDM将增大，电台磁方位将大于磁航线角，飞机偏左，可知空中风是右侧风，航向应该适当增大修正空中右侧风。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 265,
@@ -3441,8 +3441,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\265explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/265explain.jpg"
   },
   {
     "id": 266,
@@ -3454,8 +3454,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\266.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\266explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/266.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/266explain.jpg"
   },
   {
     "id": 267,
@@ -3467,8 +3467,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\267.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\267explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/267.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/267explain.jpg"
   },
   {
     "id": 268,
@@ -3480,8 +3480,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\268.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\268explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/268.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/268explain.jpg"
   },
   {
     "id": 269,
@@ -3493,8 +3493,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞机准确通过NDB/VOR台上空后，保持一定的航向直线飞行一定时间，那么飞机所在的无线电方位线同飞机的平均航迹线重合，这时测出飞机磁方位就是飞机的平均磁航迹。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\269.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/269.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 270,
@@ -3506,8 +3506,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞机准确通过NDB/VOR台上空后，保持一定的航向直线飞行一定时间，那么飞机所在的无线电方位线同飞机的平均航迹线重合，这时测出飞机磁方位就是飞机的平均磁航迹，即MTK平=QDR。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 271,
@@ -3519,8 +3519,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "MH=142°，RB=183°，可知QDM=142°+183°=325°，MTK平=QDR=325°-180°=145°，DA=MTK-MH=145°-142°=3°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 272,
@@ -3532,8 +3532,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "由题干可知，MH平=150°，QDR=155°，则DA=QDR-MH平=155°-150°=+5°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 273,
@@ -3545,8 +3545,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "根据题意：MC=90°，QDR=95°知航迹线右偏航线5°，右偏为正，得TKE=+5°。由tanTKD=XTK/D未；tanTKE=XTK/D已；D未=2D已，飞机偏在原航线右侧TKD为正得TKD=+3°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 274,
@@ -3558,8 +3558,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "RMI针尾指示的是QDR，DA=QDR-MH平，可知偏流DA=155°-150°=5°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 275,
@@ -3571,8 +3571,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\275.jpg",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\275explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/275.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/275explain.jpg"
   },
   {
     "id": 276,
@@ -3584,8 +3584,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "人工领航切入航线过程中切入角的选择需要根据航路情况、偏航大小、离台远近以及空中风的实际情况而定。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\276.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/276.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 277,
@@ -3597,8 +3597,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "由题干可知，QDM=9°，则QDR=QDM±180°=189°。QDR指=242°，QDR小于QDR指，飞机在指定方位线左边，应向右切，则切入航向MH切=QDR指+切入角=242°+40°=282°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 278,
@@ -3610,8 +3610,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "飞机主动向台飞行，航线上存在右侧风，飞机需迎风修正一个偏流角，所以机头偏在方位指针针尖右侧。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\278.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/278.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 279,
@@ -3623,8 +3623,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行中飞机的机头始终对正电台，即始终保持相对方位角RB为零，或使每一瞬间的航向等于电台方位角来连续飞行，最终飞机将飞到电台上空。飞行的航迹是折线或曲线。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 280,
@@ -3636,8 +3636,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "被动向台飞行是指飞机机头始终对正电台，即始终保持相对方位角为0°或使每一瞬间的航向等于电台方位角飞行。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 281,
@@ -3649,8 +3649,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "被动向台是飞行中飞机的机头始终对正电台，即始终保持相对方位角RB为零，或使每一瞬间的航向等于电台方位角来连续飞行，最终飞机将飞到电台上空。飞行的航迹是折线或曲线。\n被动向台飞行，机头始终对准电台，遇到右侧风，飞机位置偏到下风方向，即偏到航线左侧，QDM大于MC。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 282,
@@ -3662,8 +3662,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "被动向台（homing）：飞行中飞机的机头始终对正电台，即始终保持相对方位角RB为零，或使每一瞬间的航向等于电台方位角来连续飞行，最终飞机将飞到电台上空。飞行的航迹是折线或曲线。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\282.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/282.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 283,
@@ -3675,8 +3675,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "机上VOR和DME配合，可以实现ρ-θ（测距—测向）定位方法。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 284,
@@ -3688,8 +3688,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "本题中的定位方式属于ρ-ρ（测距—测距）方式。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 285,
@@ -3701,8 +3701,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "DME处于保持状态，表明其频率失控。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 286,
@@ -3714,8 +3714,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "在国际电信联盟对无线电频率的划分中，L频段通常为 1－2GHz，其中分布在 960－1215MHz 频段的设备数量众多， 民用的有二次航管设备（ATC） ， 空中交通防撞系统（ACAS） ， 测距设备（DME）等，测距设备包括普通测距设备（DME/N) 和精密测距设备（DME/P)， （DME/N) 只有 X，Y 两个工作模式，而（DME/P) 有 X，W，Y，Z四个模式。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 287,
@@ -3727,8 +3727,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "DME系统测距是从机载询问器向地面信标台发射询问脉冲对开始的，地面信标台接收这些询问脉冲对，然后给询问器发射回答脉冲对；机载询问器距离计算机按照发射询问脉冲对和接收回答脉冲对之间所经过的时间计算出飞机到地面电台的斜距。飞到正上空时，显示飞机到台的垂直距离。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 288,
@@ -3740,8 +3740,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "DME系统测距是从机载询问器向地面信标台发射询问脉冲对开始的，地面信标台接收这些询问脉冲对，然后给询问器发射回答脉冲对；机载询问器距离计算机按照发射询问脉冲对和接收回答脉冲对之间所经过的时间计算出飞机到地面电台的斜距。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 289,
@@ -3753,8 +3753,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "DME系统测距是从机载询问器向地面信标台发射询问脉冲对开始的，地面信标台接收这些询问脉冲对，然后给询问器发射回答脉冲对；机载询问器距离计算机按照发射询问脉冲对和接收回答脉冲对之间所经过的时间计算出飞机到地面电台的斜距。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 290,
@@ -3766,8 +3766,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "DME测量的是飞机到测距台的斜距。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 291,
@@ -3779,8 +3779,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "欧美制式的DME显示器显示以海里为单位的斜距。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 292,
@@ -3792,8 +3792,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "已知标准下滑航迹角为3°，当飞机刚好在下滑道上时飞行高度比水平移动距离等于tan3°,约等于0.052。\n飞行高度3000英尺，约等于0.49海里，DME测量的斜距为6海里，计算出水平移动过的距离约为5.98海里。所以实际的飞行高度比水平移动距离为0.49÷5.98≈0.08＞0.052，所以飞机实际的下滑角度大于3°，飞机高于标准着陆航迹。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 293,
@@ -3805,8 +3805,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "DME通常与VOR、ILS配合使用，不需要单独调谐DME频率。测距时，只需要将频率调谐为合装的VOR或ILS频率即可。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 294,
@@ -3818,8 +3818,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "DME系统的地面DME台通常设计为能同时为100架飞机提供服务，如果询问的飞机多于100架，地面DME台通过降低灵敏度来限制回答，保持对最近的100架飞机询问的回答。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 295,
@@ -3831,8 +3831,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "凭经验目测时，应高于DME设施高度每1000ft，3km以上才能认为其读数是精确的。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 296,
@@ -3844,8 +3844,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "DME测距精度一般是0.3nm。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 297,
@@ -3857,8 +3857,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞机高度在30000ft左右，当飞机与测距台的距离在35nmile以上时，所测得的斜距与实际水平距离的误差小于1%。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 298,
@@ -3870,8 +3870,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "DME正常的测距范围为0-200海里，最大可达390海里，测距精度一般为0.3海里以内，或误差小于1%。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 299,
@@ -3883,8 +3883,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "作右弧保持16DME飞行，RMI针尖指示QDM，参考图IR6-18所选用VOR台为VOR-2，带右侧风会使飞机远离电台，即弧内风，则有风参考点前移在翼尖前一个角度。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\299.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/299.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 300,
@@ -3896,8 +3896,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "作左弧保持18DME飞行，RMI针尖指示QDM，参考图IR6-19所选用VOR台为VOR-2，带左侧风会使飞机远离电台，即弧内风，则有风参考点前移在翼尖前一个角度。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\300.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/300.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 301,
@@ -3909,8 +3909,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 302,
@@ -3922,8 +3922,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "作右弧保持10DME飞行，RMI针尖指示QDM，带左侧风会使飞机靠近电台，即弧外风，则有风参考点前移在翼尖后一个角度。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 303,
@@ -3935,8 +3935,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "在SID右弧上飞行，RMI针尖指示QDM，带右侧风会使飞机远离电台，即弧内风，则有风参考点前移在翼尖前一个角度。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 304,
@@ -3948,8 +3948,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "在侧风情况下沿DME弧飞行，必须对侧风进行修正，重新选择参考点，该参考点称为有风参考点。无风时，参考点为翼尖，相对方位角等于90°，在SID右弧上飞行，带左侧风会使飞机靠近电台，即弧外风，则有风参考点前移在翼尖后一个角度，相对方位将大于90°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 305,
@@ -3961,8 +3961,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞行员根据DME指示器显示的距离，引导飞机预定的DME弧。即向左或向右转90 ，按规定转弯率（3°/s）转弯，准确地切入DME弧，实施时应掌握好切入DME弧的转弯开始前置量。飞机向台飞行进入时，从弧外切入，应提前在D指=D预+R开始转弯；飞机背台飞行进入时，从弧里切入，应提前在D指=D预 - R开始转弯。可利用心算公式转弯半径R=△D=0.5%·GS≈0.5%·TAS ，算出R=0.6海里，转弯时机为在DME指示10.6海里时，开始转弯切入。心算公式只适合转弯速度小于170kt的飞机，超过这一速度则应用计算尺准确计算。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 306,
@@ -3974,8 +3974,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞行员根据DME指示器显示的距离，引导飞机预定的DME弧。即向左或向右转90 ，按规定转弯率（3°/s）转弯，准确地切入DME弧，实施时应掌握好切入DME弧的转弯开始前置量。飞机向台飞行进入时，从弧外切入，应提前在D指=D预+R开始转弯；飞机背台飞行进入时，从弧里切入，应提前在D指=D预-R开始转弯。转弯半径R=△D=0.5%·GS≈0.5%·TAS 。算出R=0.6海里，转弯时机为在DME指示9.4海里时，开始转弯切入。心算公式只适合转弯速度小于170kt的飞机，超过这一速度则应用计算尺准确计算。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 307,
@@ -3987,8 +3987,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "DME弧飞行方法：利用RMI方位指针指向左或右翼尖参考且飞机在预定的DME距离时，保持航向沿割线飞行并允许RMI方位指针落后与翼尖参考5°或10°，这时飞行员操纵飞机向电台一侧转10或20航向，RMI方位指针有回到翼尖参考之前5°或10°，按需要重复上述操作，就可以保持飞机沿DME弧飞行。当DME弧距离较小时，采用“落10°转20°”的方法，当DME弧距离较大时，采用“落5转10”的方法。也可以利用HSI或CDI配合DME指示器完成沿DME弧飞行，但要注意不断调节预选航道的方位。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 308,
@@ -4000,8 +4000,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "在ILS进近中，与航向道天线并装的DME设备，可以参考其指示以取代外指示标和中指点标。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 309,
@@ -4013,8 +4013,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "我国现有仪表着陆系统的情况：现有仪表着陆系统100套，在80个机场。Ⅱ类仪表着陆系统3套，首都机场，虹桥机场，白云机场。III类仪表着陆系统1套，上海浦东机场。其他均为I类仪表着陆系统。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 310,
@@ -4026,8 +4026,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "仪表进近中，航道偏离杆的位置变化是截获到航向信号的依据。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 311,
@@ -4039,8 +4039,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "下降率（m/s）=下降梯度×地速（m/s），所以要保持在ILS下滑道上，下降率必须在地速减小时减小。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 312,
@@ -4052,8 +4052,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "下滑道上的下降率是依据地速确定的。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 313,
@@ -4065,8 +4065,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "指点信标台\n指点信标台为2个或3个，装在顺着着陆方向的跑道中心延长线的规定距离上，分别叫内指点标（IM）、中指点标（MM）和外指点标（OM）。其作用是向空中飞机提供位置并指导距跑道头的距离。\n外指点标（OM）或带示位台的外指点标（LOM）通常安装在下滑道切入点附近；中指点标（MM）或带示位台的中指点标（LMM）一般位于决断高DH60m处，非精密进近或ILS进近下滑道不工作时，该点通常作为复飞点；内指点标安装在决断高DH30m处。每个指点信标台发射垂直向上的扇形波束，当飞机飞过不同指点标台上空时，机上接收指示设备接收并指示信号，使指点标灯亮，耳机或喇叭中可以听到不同的声音。距跑道越近的指点标，其声音越急促、尖锐。外指点标莫尔斯电码声音为“长长长（表示为：— — —）”",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 314,
@@ -4078,8 +4078,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "三台制MB，由外到内音响及灯光信号分别是蓝色，400Hz、琥珀色，1300Hz以及白色，3000Hz。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 315,
@@ -4091,8 +4091,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "指点标灵敏度控制电门通常置于低位。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 316,
@@ -4104,8 +4104,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "下滑台的天线安装在跑道入口内的一侧，一般距入口250m左右，与跑道中心线的横向距离为150m左右。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 317,
@@ -4117,8 +4117,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "中指点标台位于距跑道入口约1050m（±150m）处，偏离跑道中心线不得大于75m。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 318,
@@ -4130,8 +4130,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "外指点标台一般设置在最后进近点处，为飞机提供进行高度、距离和设备工作情况检查的位置信息距入口约7.2km，有时因地形和航行等原因，也可以设置在6.5~11km之间，最好安装在跑道中心延长线上，实在不行，则距离跑道中心延长线不得大于75m。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 319,
@@ -4143,8 +4143,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "ILS 的航向信标台位于沿着陆跑道中心延长线，跑道末端距离一般为 250米~400 米，距跑道入口最小距离为 2200 米，最大不宜超过 4000 米。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 320,
@@ -4156,8 +4156,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞越内指点标时，将有每秒六点声的音频和闪动的白色灯亮提示。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 321,
@@ -4169,8 +4169,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "仪表进近中，标准下滑角是3°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 322,
@@ -4182,8 +4182,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "外指点标（OM）或带示位台的外指点标（LOM）通常安装在下滑道切入点附近；中指点标（MM）或带示位台的中指点标（LMM）一般位于决断高DH60m处，非精密进近或ILS进近下滑道不工作时，该点通常作为复飞点；内指点标安装在决断高DH30m处。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 323,
@@ -4195,8 +4195,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "外指点标（OM）或带示位台的外指点标（LOM）通常安装在下滑道切入点附近；中指点标（MM）或带示位台的中指点标（LMM）一般位于决断高DH60m处，非精密进近或ILS进近下滑道不工作时，该点通常作为复飞点；内指点标安装在决断高DH30m处。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 324,
@@ -4208,8 +4208,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "精密进近雷达（PAR）可以为航空器提供航向道和下滑道信息，对飞机实行下滑/航向道监视。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 325,
@@ -4221,8 +4221,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "指点信标台为2个或3个，装在顺着着陆方向的跑道中心延长线的规定距离上，分别叫内指点标（IM）、中指点标（MM）和外指点标（OM）。其作用是向空中飞机提供位置并指导距跑道头的距离。外指点标（OM）或带示位台的外指点标（LOM）通常安装在下滑道切入点附近；中指点标（MM）或带示位台的中指点标（LMM）一般位于决断高DH60m处，非精密进近或ILS进近下滑道不工作时，该点通常作为复飞点；内指点标安装在决断高DH30m处。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 326,
@@ -4234,8 +4234,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "航向信标台天线阵位于进近跑道末端中心延长线上，在飞机进近方向上的垂直平面内形成航道面，用于提供飞机偏离航道面的横向引导信号。下滑信标台位于进近跑道接地区侧方，提供飞机偏离下滑面的垂直引导信号。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 327,
@@ -4247,8 +4247,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "依据《AC-97-FS-2011-01》，精密进近运行分类\n根据DH（DH）和RVR（RVR）（或能见度（VIS））将精密进近着陆分为以下类别：\nⅠ类运行：DH不低于60米（200英尺），能见度不小于800米或RVR不小于550米的精密进近着陆。\nⅡ类运行：DH低于60米（200英尺），但不低于30米（100英尺），RVR不小于300米的精密进近着陆。\nⅢＡ类运行：DH低于30米（100英尺）或无DH，RVR不小于175米的精密进近着陆。\nⅢＢ类运行：DH低于15米（50英尺）或无DH，RVR小于175米，但不小于50米的精密进近着陆。\nⅢＣ类运行：无DH和无RVR限制的精密进近着陆。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 328,
@@ -4260,8 +4260,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "当能见度低于800米时以跑道视程RVR为准。Ⅰ类精密进近能见度不小于800米或RVR不小于550米，Ⅱ类精密进近RVR不小于300米，Ⅲ类精密进近RVR不小于175米。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 329,
@@ -4273,8 +4273,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "精密进近运行分类：根据决断高（DH）和跑道视程（RVR）（或能见度（VIS））将精密进近和着陆分为以下类别：\nI类（Cat I）运行：DH不低于60米（200英尺），VIS不小于800米或RVR不小于550米的精密进近着陆；\nII类（Cat II）运行：DH低于60米（200英尺）但不低于30米（100英尺），RVR不小于300米的精密进近着陆；\nIIIA类（Cat III A）运行：DH低于30米（100英尺）或无决断高，RVR不小于175米的精密进近着陆；\nIII B类（Cat III B）运行：DH低于15米（50英尺）或无决断高，RVR小于175米但不小于50米的精密进近着陆；\nIII C类（Cat III C）运行：无决断高和无跑道视程限制的精密进近着陆。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 330,
@@ -4286,8 +4286,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "ILS系统由航向信标台（LOC）、下滑信标台（GS）以及指点标台（MB）组成。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 331,
@@ -4299,8 +4299,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "ⅢA类没有决断高度限制，在跑道视距不小于200m的条件下，着陆的最后阶段凭外界目视参考，引导飞机至跑道表面；ⅢB类没有决断高度限制和不依赖外界目视参考，一直到跑道表面，并在跑道视距50m的条件下，凭外界目视参考滑行；ⅢC类无决断高度限制，不依靠外界目视参考，能沿着跑道表面着陆和滑行。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 332,
@@ -4312,8 +4312,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "ILS-I类精密进近最低标准中，最低能见度为800米或RVR550m或以上。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 333,
@@ -4325,8 +4325,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "ILS进近着陆中，DH在60米（200英尺）或以上。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 334,
@@ -4338,8 +4338,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "航向信标台的VHF振荡器产生108.10-111.95MHz频段中的任意一个航向信标频率，由指示仪表中“航道偏离杆”显示出飞机偏离航向道的方向和大小。\n航向信标工作范围：航向台发射的电波覆盖区，在ILS航向道中心线左右10°范围内的有效作用距离为25nm；在左右10-35°范围内的有效作用距离为17nm；在左右35°以外的有效作用距离为10nm。\n下滑信标系统的工作范围：下滑发射天线在顺着着陆方向上发射两个与跑道平面成一定仰角（即下滑角），形成1.4°厚的下滑面。\n下滑台发射的电波覆盖区，在跑道中心（延长）线两侧各8内，从跑道平面以上0.3-1.75的范围内，有效作用距离为10nm。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 335,
@@ -4351,8 +4351,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "航向信标台（LOC）可以提供反航道信号。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 336,
@@ -4364,8 +4364,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "航向台发射的信号覆盖区，在ILS航向道中心线左右10°范围内的有效作用距离为25NM。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 337,
@@ -4377,8 +4377,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "下滑台发射的信号覆盖区，在跑道中心（延长）线两侧各8°内，从跑道平面以上0.3~1.75倍下滑角的范围内，有效作用距离是10NM。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 338,
@@ -4390,8 +4390,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "航向台有效作用距离在航道中心线左右10°的，扇区内应达到46km（25nm），最小距离不少于33km（18nm）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 339,
@@ -4403,8 +4403,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "航向台有效作用距离在航道中心线左右10°~35°扇区内应达到31km（17nm），最低不少于10nm。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 340,
@@ -4416,8 +4416,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "飞机截获下滑道前最好的飞行状态是平飞。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 341,
@@ -4429,8 +4429,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "下滑发射天线在顺着着陆方向上发射两个与跑道平面成一定仰角（即下滑角），形成1.4 厚的下滑面。下滑台发射的电波覆盖区，在跑道中心（延长）线两侧各8°内，从跑道平面以上0.3-1.75倍下滑角的范围内，有效作用距离为10nm。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 342,
@@ -4442,8 +4442,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "航向台发射的电波覆盖区，在ILS航向道中心线左右10°范围内的有效作用距离为25nm；在左右10-35°范围内的有效作用距离为17nm；在左右35°以外的有效作用距离为10nm。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 343,
@@ -4455,8 +4455,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "ILS工作时，必须先截获航向道后，才能截获下滑道信号。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 344,
@@ -4468,8 +4468,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "下滑台发射的电波覆盖区，在跑道中心（延长）线两侧各8°内，从跑道平面以上0.3-1.75倍下滑角的范围内，有效作用距离为10nm。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 345,
@@ -4481,8 +4481,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "下滑台发射的电波覆盖区，在跑道中心（延长）线两侧各8°内，从跑道平面以上0.3-1.75倍下滑角的范围内，有效作用距离为10nm。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 346,
@@ -4494,8 +4494,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "航向台发射的电波覆盖区，在ILS航向道中心线左右10°范围内的有效作用距离为25nm；在左右10-35°范围内的有效作用距离为17nm；在左右35°以外的有效作用距离为10nm。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 347,
@@ -4507,8 +4507,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "HSI航道偏离杆偏左，表明飞机偏在航向道的右边，下滑偏离指标在中立位以下，说明飞机高于下滑道。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 348,
@@ -4520,8 +4520,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "反航道ILS进近中，HSI航道偏离杆偏右，表明飞机偏在航道右边。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 349,
@@ -4533,8 +4533,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "反航道ILS进近，按压“B/C”方式按钮，HSI上预选航道对正“着陆航道”，这时设备对航向信标信号的响应是反的，显示在仪表上的关系与飞机和航向道的关系完全相同，所以HSI航道偏离杆偏右，说明飞机偏在航道左边。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 350,
@@ -4546,8 +4546,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "看图可知，MH=270°，航向台方位指针在270°，此时为正航道进近，偏离杆偏左，表示飞机偏离航向道右边，7和11符合条件。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\350.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/350.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 351,
@@ -4559,8 +4559,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "看图可知，MH=215°，1是唯一一个航向是西南方向的飞机。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 352,
@@ -4572,8 +4572,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "进近着陆中，HIS航道偏离杆偏右，表明飞机偏在航向道左边。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 353,
@@ -4585,8 +4585,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "在进近着陆中，下滑指标偏在上方，说明飞机偏在下滑道的下方。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 354,
@@ -4598,8 +4598,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "在ADI、HSI上“下滑偏离指标”每偏离一点为0.35°，满偏刻度为0.7。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 355,
@@ -4611,8 +4611,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "对于HSI上航道偏离刻度是五个点的仪表，每偏一个点表示飞机偏离航向道0.5°，满偏刻度为偏离2.5°，看图可知，“B”指示器表示偏离航向道2.5°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 356,
@@ -4624,8 +4624,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "对于HSI上航道偏离刻度是五个点的仪表，每偏一个点表示飞机偏离航向道0.5°，满偏刻度为偏离2.5°，代号“E”指示表示飞机偏离航向道约2°。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 357,
@@ -4637,8 +4637,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "航道偏离杆不偏，表明飞机在航向道上飞行，看图可知，A、C和F为正确答案。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 358,
@@ -4650,8 +4650,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "看图可知，飞机保持航向沿航向道正常飞行，则航道偏离杆不偏，且飞机航向为90°或270°，C、F为正确答案。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 359,
@@ -4663,8 +4663,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 360,
@@ -4676,8 +4676,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "航向道偏差的判断在HSI上可以直观地确定出来，以航道偏离杆偏离中心位置来确定，偏离杆偏左飞机偏右，偏离杆偏右飞机偏左，偏离的大小可以从偏离刻度 读出。\n对于HSI上航道偏离刻度是5个点的仪表，每偏1个点表示飞机偏离航向道0.5° ，满偏刻度为偏离2.5° ；对于HSI上航道偏离刻度是2个点的仪表，每偏1个点表示飞机偏离航向道1.25° ，满偏刻度为偏离2.5° 。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 361,
@@ -4689,8 +4689,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "在进近阶段，可以利用CDI或HSI仪表跟踪ILS航向道和下滑道下降至决断高做出继续进近或者中断进近复飞的决断。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 362,
@@ -4702,8 +4702,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞行程序，是指为航空器在机场区域运行所规定的、按顺序进行的一系列机动飞行的要求，如飞行区域、航迹、高度、速度的规定和限制等，一般包括起飞离场程序、进场程序、进近程序、复飞程序和等待程序等，分为仪表飞行程序和目视飞行程序两类。仪表飞行程序包括传统导航飞行程序和基于性能导航（PBN）飞行程序。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 363,
@@ -4715,8 +4715,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "基于性能的导航(PBN)是一种通过明确性能需求替代设备要求的导航方法。规定了航空器在指定空域内或者沿ATS航路、仪表程序飞行的系统性能，包括导航的精度、完整性、可用性、连续性和所需功能。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 364,
@@ -4728,8 +4728,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "基于性能的导航(PBN)是一种通过明确性能需求替代设备要求的导航方法。规定了航空器在指定空域内或者沿ATS航路、仪表程序飞行的系统性能，包括导航的精度、完整性、可用性、连续性和所需功能。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 365,
@@ -4741,8 +4741,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "导航规范是指对能完成PBN运行的航空器和机组的要求。导航规范包括RNAV规范和RNP规范两类。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 366,
@@ -4754,8 +4754,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "基于性能的导航(PBN)是一种通过明确性能需求替代设备要求的导航方法。规定了航空器在指定空域内或者沿ATS航路、仪表程序飞行的系统性能，包括导航的精度、完整性、可用性、连续性和所需功能。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 367,
@@ -4767,8 +4767,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "PBN基本导航功能要求：\n1、持续显示航空器位置的功能，航空器位置是相对于驾驶员主视野内的航行显示器航迹而言的；\n2、显示至正在使用的航路点距离和方位；\n3、显示至正在使用的航路点地速或时间；\n4、导航数据存储功能；\n5、正确提示RNAV系统，包括传感器的故障。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 368,
@@ -4780,8 +4780,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "PBN运行的三个基本要素是导航设施、导航规范和导航应用。\n导航设施主要包括提供定位能力的陆基导航设备 （VOR、 DME等）、星基导航设备 （GNSS, 包括 GPS、GLONASS 等）和自主导航设备（惯性导航系统等）。导航规范包括RNAV规范和RNP规范两类。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 369,
@@ -4793,8 +4793,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "RNP APCH——包括RNP进近程序，以及直线进近阶段RNAV（基于GNSS）进近程序，精度值一般为0.3。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 370,
@@ -4806,8 +4806,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 371,
@@ -4819,8 +4819,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "在ICAO发布的《GNSS Manual》和《航空电信》（附件10)中，所定义的GNSS系统由GPS、GLONASS两大星座及其增强系统组成。随着欧洲Galileo和中国的BDS两大全球导航卫星系统的建设，未来Galileo和BDS也将纳入GNSS系统。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 372,
@@ -4832,8 +4832,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "导航设施主要包括提供定位能力的陆基导航设备 （VOR、 DME等）、星基导航设备 （GNSS, 包括 GPS、GLONASS 等）和自主导航设备（惯性导航系统等）",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 373,
@@ -4845,8 +4845,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "PBN导航规范详细描述了沿着特定区域导航所需的性能要求，是对能完成PBN运行的航空器和机组的要求，作为民航当局适航和运行批准的基础。导航规范包括RNAV规范和RNP规范两类。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 374,
@@ -4858,8 +4858,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "导航规范是指对能完成PBN运行的航空器和机组的要求。导航规范包括RNAV规范和RNP规范两类。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 375,
@@ -4871,8 +4871,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "RNP4应用于海洋和偏远地区；RNP10应用于远洋和缺少导航台的偏远区域。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 376,
@@ -4884,8 +4884,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "RNAV10应用于远洋和偏远缺少导航台的区域；RNAV5适用于陆地航路；RNAV1&RNAV2主要用于有雷达监视和直接陆空通信的陆地航路和终端区飞行。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 377,
@@ -4897,8 +4897,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "PBN导航设施主要包括提供定位能力的陆基导航设备 （VOR、 DME等）、星基导航设备 （GNSS, 包括 GPS、GLONASS 等）和自主导航设备（惯性导航系统等）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 378,
@@ -4910,8 +4910,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "RNP4和RNP10主要用于海洋边远陆地地区，RNP1也称为精密RNAV，目前仅有限的用于特定空域。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 379,
@@ -4923,8 +4923,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "RNAV系统是允许飞机在台基导航设备的基准台覆盖范围内或在自主导航设备能力限度内或两者配合下按任何希望的飞行路径运行的导航系统。 RNP系统是一种支持机载导航性能监控与告警（OPMA）的区域导航系统。 RNAV和RNP系统关键的不同在于，RNP包含机载设备监视与告警导航性能要求，并能向飞行员显示是否达到了预定运行要求，而RNAV则不包括。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 380,
@@ -4936,8 +4936,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 381,
@@ -4949,8 +4949,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "GPS可以保证VFR的运行，在IFR运行中可用作帮助定位设备。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 382,
@@ -4962,8 +4962,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "按IFR飞行时，机场必须有一个经过核准的，能够适合航道的导航系统，才能使用经过核准的GPS系统进行导航。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 383,
@@ -4975,8 +4975,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "当使用全球定位系统领航和仪表进近时，机场必须具有一个GPS进近设备预先被运行并且可用。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 384,
@@ -4988,8 +4988,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "目前使用较多的是美国的全球定位系统（GPS），它包括空间GPS卫星、地面控制站组、用户GPS接收机三部分。GPS空间卫星部分由24颗卫星组成。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 385,
@@ -5001,8 +5001,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "用户可以用4颗卫星确定出导航参数（经度、纬度、高度和时间）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 386,
@@ -5014,8 +5014,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "目前使用较多的是美国的全球定位系统（GPS），它包括空间GPS卫星、地面控制站组、用户GPS接收机三部分。用户可以用4颗可用卫星确定出导航参数（经度、纬度、高度和时间）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 387,
@@ -5027,8 +5027,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "目前使用较多的是美国的全球定位系统（GPS），它包括空间GPS卫星、地面控制站组、用户GPS接收机三部分。用户可以用4颗可用卫星确定出导航参数（经度、纬度、高度和时间）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 388,
@@ -5040,8 +5040,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "航线距离我国常用公里（KM）和浬（NM）为单位，也有以哩（SM）为单位的，规定地球上大圆弧1'的长度为1NM。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 389,
@@ -5053,8 +5053,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "标准转弯的标准角速度是3度每秒，1/2的标准转弯率即为1.5度每秒，转过360°需要4分钟。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 390,
@@ -5066,8 +5066,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "标准转弯的标准角速度是3度每秒，完成180°转弯需要1分钟。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 391,
@@ -5079,8 +5079,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "标准转弯的标准角速度是3度每秒，完成150°转弯需要50秒。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 392,
@@ -5092,8 +5092,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "由VOR/NDB和DME信号识别的航路上的一个位置作为IFR飞行的航路点。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 393,
@@ -5105,8 +5105,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "上升时间为（2100-600）÷2=750秒，即12分30秒。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 394,
@@ -5118,8 +5118,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "N/A",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\394explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/394explain.jpg"
   },
   {
     "id": 395,
@@ -5131,8 +5131,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "由题干可知，距离为300km，平均地速200km/h，可知飞行时间=300÷200=1.5小时，已知耗油率为120kg/h，可知飞行1.5小时的耗油率为120×1.5=180kg，飞机可用燃油为400kg，达到目的地后还剩220kg，所以飞机还可飞行的时间为220÷120≈1小时50分钟。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\395.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/395.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 396,
@@ -5144,8 +5144,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "对于双排目视进近坡度指示器，除超障余度需要一个更大的角度外，其指示的正常下滑角为3°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\396.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/396.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 397,
@@ -5157,8 +5157,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "对于双排目视进近坡度指示器，当飞机高于下滑航迹时，飞行员会看到远排灯光由红色变为白色；当飞机在下滑航迹上时，近排灯光为白色，远排灯光为红色。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 398,
@@ -5170,8 +5170,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "三排目视进近坡度指示器的中排和远排，在使用较高下滑航迹时构成双排目视进近坡度指示器。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 399,
@@ -5183,8 +5183,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "三色目视进近指示器通常由沿航道方向发射三色光的单一组件组成。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 400,
@@ -5196,8 +5196,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "使用双排目视进近坡度指示器，当飞机在下滑航迹上时，飞行员会看到近排灯光为白色，远排灯光为红色。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 401,
@@ -5209,8 +5209,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "如果三排灯均为红色，表明飞机低于两条下滑航迹，飞行员应立即改平切入合适的进近航迹。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 402,
@@ -5222,8 +5222,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "三色目视进近指示器通常由沿航道方向发射三色光的单一组件组成，这三种颜色包括红色、绿色和琥珀色。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 403,
@@ -5235,8 +5235,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "在恰当的VASI下滑航道上时，能保证在进近区域的安全超障余度。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 404,
@@ -5248,8 +5248,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "三排目视进近坡度指示器，除超障余度要求较大的角度外，其指示的正常下滑角为3°。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\404.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/404.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 405,
@@ -5261,8 +5261,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "使用三排目视进近坡度指示器，当飞机低于正常的下滑航迹时，近排灯的颜色为白色，中排和远排灯为红色，看图可知，图例E为正确答案。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 406,
@@ -5274,8 +5274,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "使用三排目视进近坡度指示器，当飞机高于两条下滑航迹，三排灯的颜色均为白色，图例G为正确答案。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 407,
@@ -5287,8 +5287,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "使用三排目视进近坡度指示器，当飞机低于两条下滑航迹，三排灯的颜色均为红色，图例D为正确答案。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 408,
@@ -5300,8 +5300,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "使用精密进近航道指示器，当正在或接近正常的下滑道时，看到的离跑道最近的两个灯具为红色，离跑道较远的两个灯具为白色，看图可知，图例M表示飞机在下滑航迹上。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\408.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/408.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 409,
@@ -5313,8 +5313,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "使用精密进近航道指示器，当低于正常的下滑道时，看到的离跑道最近的三个灯具为红色，离跑道最远的灯具为白色；在低于进近坡度更多时，看到的全部灯具均为红色。看图可知，图例N表示飞机稍低于正常下滑航迹。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 410,
@@ -5326,8 +5326,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "使用精密进近航道指示器，当高于正常的下滑道时，看到的离跑道最近的灯具为红色，离跑道最远的三个灯具为白色；在高于进近坡更多时，看到的全部灯具均为白色。飞机高于3.5°下滑角，表明飞机高于进近坡度较多，灯具应均为白色，图例K符合条件。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 411,
@@ -5339,8 +5339,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "使用精密进近航道指示器，当高于正常的下滑道时，看到的离跑道最近的灯具为红色，离跑道最远的三个灯具为白色；在高于进近坡更多时，看到的全部灯具均为白色。飞机稍高于3.2°下滑角，则灯具为三白一红，图例L符合条件。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 412,
@@ -5352,8 +5352,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "使用精密进近航道指示器，当低于正常的下滑道时，看到的离跑道最近的三个灯具为红色，离跑道最远的灯具为白色；在低于进近坡度更多时，看到的全部灯具均为红色。飞机低于2.5°下滑角，表明飞机低于进近坡度较多，灯具颜色应全部为红色，图例O符合条件。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 413,
@@ -5365,8 +5365,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "尺算方法：已知温度为+8℃，高度为3600米，真空速为180kt，约为333km/h，对尺时，将第二组尺“V用”的3600米对应活动尺“V用”的+8℃，即可从活动尺上真空速333km/h处所对第一组固定尺的刻度读出修正表速为270km/h，约为146kt。\n\n心算方法：高度每升高1000米，真空速比表速大5%。高度每升高1000英尺，真空速比表速大1.8%。空中温度比标准气温高（低）5℃，真空速比表速大（小）1%。\n已知飞行高度3600m，需修正18%；可知标准温度为15-3600×6.5/1000= -8.4℃，ISA偏差= 8-（-8.4）= 16.4℃，需修正3.28%。CAS+CAS×18%+CAS×3.28%=180，可知CAS=148.4kt，答案选最接近项。",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\仪表\\领航导航\\413explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/413explain.jpg"
   },
   {
     "id": 414,
@@ -5378,8 +5378,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "尺算方法：已知真空速是320kt，约为593km/h，空中温度为+5℃，飞行高度10000ft约为3048米，拉尺可得，飞机修正表速为490km/h，约为265kt，答案选最接近项。\n\n心算方法：高度每升高1000米，真空速比表速大5%。高度每升高1000英尺，真空速比表速大1.8%。空中温度比标准气温高（低）5℃，真空速比表速大（小）1%。\n已知飞行高度10000ft，高度需修正18%；\n可知标准温度为15-10000×2/1000= -5℃，ISA偏差=5-（-5）=10℃，需修正2%，\n则CAS+CAS×18%+CAS×2%=320，可知CAS=266.7kt，答案选最接近项。",
-    "questionImage": "\\fxzy\\题库\\仪表\\领航导航\\414.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/仪表/领航导航/414.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 415,
@@ -5391,8 +5391,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "侧风分量为sin（280-230）*40，约等于30.6，所以选31kt。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 416,
@@ -5404,8 +5404,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "大型机场通常有多条跑道。这些跑道会根据它们的磁方位角而被命名，其方位角同时指明了该跑道的使用方机场跑道机场跑道向，即使用跑道时航空器的运动方向。命名的原则是取跑道磁方位角，以10度为单位，四舍五入用两位数表示。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 417,
@@ -5417,8 +5417,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "由于跑道可能双向使用，因使用方向变化，跑道对应的方位角也发生变化，所以一般跑道会有两个数字名称。方位角变化为180度，所以只要将其中一个跑道的数字名称上加或减18，就能得到跑道另一方向的名称，所以“15跑道”相反方向便是“33跑道”。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 418,
@@ -5430,8 +5430,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞行高度层应当根据标准大气压条件下假定海平面计算。气压修正量=（760-748）×11=132米，所以相对高度=3000-132-500=2368米，答案选最接近项。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 419,
@@ -5443,7 +5443,7 @@
     ],
     "correctAnswer": "A",
     "explanation": "10000ft等于3048m。标准海平面气压为760mmHg，QNH=770mmHg，可知气压修正量为110m，所以真高=绝对高度-地点标高=3048+110-1859=1299m，答案选最接近项。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   }
 ]

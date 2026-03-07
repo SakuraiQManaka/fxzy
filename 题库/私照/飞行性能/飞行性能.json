@@ -9,8 +9,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞机在高原机场起飞，由于海拔高度增加，空气密度减小，起飞滑跑距离增长。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 2,
@@ -22,8 +22,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "机场海拔高度增加或温度升高时，空气密度减小，使飞机接地速度增大，还会延长飞机的着陆滑跑距离和时间。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\2.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/2.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 3,
@@ -35,8 +35,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "正常的航路爬升中，飞行地速越大，上升同样高度前进的水平距离越远。上升梯度=上升高度/水平距离，所以上升梯度会减小。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\3.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/3.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 4,
@@ -48,8 +48,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "逆风上升，上升角和上升梯度增大，上升率不变。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 5,
@@ -61,8 +61,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "高度增加对上升性能影响最大。这是因为高度增高，所需功率增加，而可用功率和可用拉力减小。因此，上升角（率）随高度增加而减小。同时，获得最大上升角所需的空速随高度的增加而增加，最大上升率所对应的空速减小，这两个空速相等时对应的高度称为飞机的理论升限。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 6,
@@ -74,8 +74,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "最佳爬升率速度也叫快升速度，一般在起飞越障后使用。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 7,
@@ -87,8 +87,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "1ft=0.3048m，1000ft=304.8m。上升时间=（9600-1500）÷304.8≈27分钟。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 8,
@@ -100,8 +100,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "当飞行高度接近理论升限时，上升率虽未减小到零，但上升缓慢，通常把最大上升率为500ft／min 和 100ft／min 的高度，分别定为喷气式飞机和活塞式飞机的实用升限（HS）。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 9,
@@ -113,8 +113,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "最大航程速度是为使总阻力降至最小的速度，最大航程速度高于最大航时速度。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\9.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/9.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 10,
@@ -126,8 +126,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "逆风下降，下降角增大，下降距离缩短，下降率不变。顺风下降，下降角减小，下降距离增长，下降率不变。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 11,
@@ -139,8 +139,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "从图中100°F向上引直线到与4000ft的高度线相交，从交点向右引直线，与第一条参考线相交，再沿倾斜方向按比例偏折，直到与3200lbs的重量线相交，从交点水平向右引线直到与第二条参考线相交于静风位置，从交点直接引到最右边，得到的数值为起飞距离，约为1850ft。根据图中提示可知，起飞滑跑距离作为总起飞距离的73%，所以飞机起飞滑跑距离为1850×73%≈1350ft。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\11.jpg",
-    "explanationImage": "\\fxzy\\题库\\私照\\飞行性能\\11explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/11.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/11explain.jpg"
   },
   {
     "id": 12,
@@ -152,8 +152,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "根据题干给出的条件可知，应参看图中重量为4000磅部分，温度在20℃时，气压高度6000ft上的爬升率为（800+695）÷2=747.5ft/min，可知高度为5000ft上的爬升率为（800+747.5）÷2=773.75ft/min。同理，温度在40℃时，气压高度6000ft上的爬升率为605ft/min，可知高度5000ft上的爬升率为630ft/min。已知温度20℃和40℃时的爬升率，可知温度为30℃时的爬升率=（773.75+630）÷2≈702ft/min。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\12.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/12.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 13,
@@ -165,8 +165,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "看图ISA+20℃（+36°F）部分，已知8000ft进气压力为20.8，6000ft进气压力为21.0，可知7000ft进气压力为（20.8+21.0）÷2=20.9，所以高度6500ft的进气压力为（21+20.9）÷2≈21.0。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\13.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/13.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 14,
@@ -178,8 +178,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "从图中85°F向上引直线直到与6000ft的高度线相交，从交点水平向右引直线，与第一条参考线相交，再沿倾斜方向按比例偏折，直到与2800lbs的重量线相交，从交点水平向右引线直到与第二条参考线相交，再沿倾斜方向按比例偏折，直到与逆风14kt位置相交，从交点直接引到最右边，得到的数值即为着陆距离约为1380ft。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\14.jpg",
-    "explanationImage": "\\fxzy\\题库\\私照\\飞行性能\\14explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/14.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/14explain.jpg"
   },
   {
     "id": 15,
@@ -191,8 +191,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "不同飞行状态下的失速速度是平飞失速速度的根号下ny（载荷因数）倍。所以载荷因数为4时，飞机的失速速度为55×2=110Kts。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\15.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/15.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 16,
@@ -204,8 +204,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "飞机着陆性能包括进场速度、着陆滑跑距离与着陆距离。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\16.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/16.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 17,
@@ -217,8 +217,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "气温升高，使空气密度减小，离地真速增大（离地表速不变），滑跑距离增长。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\17.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/17.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 18,
@@ -230,8 +230,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "高原机场空气密度变小，飞机的离地速度将增大。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\18.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/18.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 19,
@@ -243,8 +243,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "机场压力高度或气温升高，都会引起空气密度减小，一方面使拉力减小，飞机加速慢；另一方面，离地真速增大，起飞滑跑距离必然增长。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 20,
@@ -256,8 +256,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "气温变化将直接影响发动机推力。气温增高会导致螺旋桨拉力降低，对起飞不利。此外，气温的变化还影响空气密度，使离地真速发生变化，影响起飞性能。\n密度高度是指飞行高度上的实际空气密度在标准大气中所对应的高度。低密度高度能增加飞机操纵的效率，而高密度高度则降低飞机操纵的效率。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 21,
@@ -269,8 +269,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "重着陆又称为粗猛着陆，主要是不按正常着陆规定的下滑高度，速度，航迹与接地角，导致飞机受地面撞击载荷超过规定的着陆。粗猛着陆不仅可直接损坏结构件，而且使结构疲劳载荷的幅值增大而缩短寿命。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 22,
@@ -282,8 +282,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "机场跑道表面粗糙程度影响摩擦系数。 如飞机在积水跑道上着陆，由于摩擦系数值小，飞机的减速力小，会使飞机的滑跑距离和时间延长，着陆性能变差。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 23,
@@ -295,8 +295,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "最佳爬升角速度也叫陡升速度，一般在起飞越障中使用。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 24,
@@ -308,8 +308,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "飞机作等速、直线上升，根据平衡条件，P=D+Wsinθ由此可得，sinθ=(P-D)/W=△P/W（其中θ为上升角，P为拉力，D为阻力，△P为剩余拉力。）可得上升角的大小取决于剩余拉力和飞机重量。且在飞机重量不变的情况下，剩余拉力的变化是跟上升角的变化成正比。飞机在相同功率下稳定上升，在第一速度范围内，飞行速度增大，剩余拉力减小，则上升角减小。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 25,
@@ -321,8 +321,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "爬升梯度是指航空器爬升过程中，单位时间内高度变化量与前进的水平距离变化量的比值。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 26,
@@ -334,8 +334,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "最佳爬升角速度也叫陡升速度，一般在起飞越障中使用。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 27,
@@ -347,8 +347,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "上升角是指飞机上升轨迹与水平面之间的夹角。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 28,
@@ -360,8 +360,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "能获得最大上升角的速度称为陡升速度。陡升速度对应最小功率速度。快升速度是指获得最大上升率的速度。在飞行重量一定的条件下，螺旋桨飞机以最小阻力速度上升，剩余功率最大，上升率最大，即螺旋桨飞机的快升速度为最小阻力速度。",
-    "questionImage": "",
-    "explanationImage": "\\fxzy\\题库\\私照\\飞行性能\\28explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/28explain.jpg"
   },
   {
     "id": 29,
@@ -373,8 +373,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "飞机的上升率大，说明飞机上升到同一高度的时间短，飞机的上升性能好。采用最大上升率可尽快爬升到预定高度。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\29.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/29.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 30,
@@ -386,8 +386,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "快升速度是指获得最大上升率的速度，在飞行重量一定的条件下，螺旋桨飞机以最小阻力速度上升，剩余功率最大，上升率最大，即螺旋桨飞机的快升速度为最小阻力速度。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 31,
@@ -399,8 +399,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "上升中，逆风使相同表速飞行的上升角增大，顺风则减小，但上升率不受影响。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 32,
@@ -412,8 +412,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "上升率是指飞机上升中单位时间内所上升的高度。上升率与剩余功率的大小成正比。最大上升率对应最大剩余功率。上升率最大的速度叫最快上升速度（快升速度）。螺旋桨飞机的快升速度约等于有利速度。要尽快达到某一高度时，应选用最大上升率速度。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 33,
@@ -425,8 +425,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "1ft=0.3048m，500ft=152.4m。上升时间=（3300-750）÷152.4≈17分钟。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 34,
@@ -438,8 +438,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "在理论升限，飞机只能以最小功率速度平飞。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 35,
@@ -451,8 +451,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "上升时间是指飞机上升到预定高度所需的最短时间。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 36,
@@ -464,8 +464,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "当飞行高度接近理论升限时，上升率虽未减小到零，但上升缓慢，通常把最大上升率为500ft／min 和100ft／min 的高度，分别定为喷气式飞机和活塞式飞机的实用升限。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 37,
@@ -477,8 +477,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "最大上升率为零的高度称为理论升限，理论升限大于实用升限。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 38,
@@ -490,8 +490,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "1ft=0.3048m，1000ft=304.8m。上升时间=（3900-1800）÷304.8≈7分钟。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 39,
@@ -503,8 +503,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "所需功率曲线与可用功率线的相交处为拉力和阻力平衡处，此处的速度为最大平飞速度。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\39.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/39.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 40,
@@ -516,8 +516,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "最大航时速度出现于所需功率曲线的最低点。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 41,
@@ -529,8 +529,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "顺风飞行可适当减小空速以增大平飞航程；逆风飞行可适当增大空速以增大平飞航程。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 42,
@@ -542,8 +542,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "滑翔比是飞机下滑距离与下滑高度之比，无风零拉力情况下， 飞机的滑翔比等于飞机的升阻比。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 43,
@@ -555,8 +555,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "从图中30°F向上引直线直到与6000ft的高度线相交，从交点水平向右引直线，与第一条参考线相交，再沿倾斜方向按比例偏折，直到与3000lbs的重量线相交，从交点水平向右引线直到与第二条参考线相交，再沿倾斜方向按比例偏折，直到与逆风20kt位置相交，从交点直接引到最右边，得到的数值即为起飞距离约为1300ft。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\43.jpg",
-    "explanationImage": "\\fxzy\\题库\\私照\\飞行性能\\43explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/43.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/43explain.jpg"
   },
   {
     "id": 44,
@@ -568,8 +568,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "从图中50°F向上引直线直到与0ft的高度线相交，从交点水平向右引直线，与第一条参考线相交，再沿倾斜方向按比例偏折，直到与2700lbs的重量线相交，从交点水平向右引线直到与第二条参考线相交于静风位置，从交点直接引到最右边，得到的数值即为起飞距离约为750ft。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\44.jpg",
-    "explanationImage": "\\fxzy\\题库\\私照\\飞行性能\\44explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/44.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/44explain.jpg"
   },
   {
     "id": 45,
@@ -581,8 +581,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "已知风与跑道的夹角为60°，风速为30kn，在图中找出二者的交点，读出飞机起飞时的逆风是15kts，正侧风为26kts。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\45.jpg",
-    "explanationImage": "\\fxzy\\题库\\私照\\飞行性能\\45explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/45.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/45explain.jpg"
   },
   {
     "id": 46,
@@ -594,8 +594,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "4000ft处ISA标准温度为7℃，因此当前机场ISA偏差为ISA+4℃。压力高度4000ft时，ISA对应的滑跑距离695ft，ISA+20对应的滑跑距离为825ft，每升高1℃滑跑距离增长（825-695）/20=6.5ft，则ISA+4℃滑跑距离增长26ft，则滑跑距离为721ft。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\46.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/46.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 47,
@@ -607,8 +607,8 @@
     ],
     "correctAnswer": "C",
     "explanation": "根据题干给出的条件可知，应参看图中重量为3700磅部分，温度在-20℃时，气压高度22000ft的爬升率为（600+295）÷2=447.5ft/min。温度在0℃时，高度22000ft的爬升率为（470+170）÷2=320ft/min。已知温度-20℃和0℃时的爬升率，可知温度在-10℃时的爬升率为（447.5+320）÷2≈384ft/min。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\47.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/47.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 48,
@@ -620,8 +620,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "已知转速2500RPM，进气压力26MP，气温-41℃，看图可知，该条件下燃油流量为99磅/小时。已知可用燃油为318磅，则巡航飞行可用时间为318÷99≈3.2小时，即3小时12分钟。夜间目视飞行条件下，要求燃油能够保证飞机飞到第一个预定着陆点着陆，并且此后按正常的巡航速度还能至少45分钟，所以实际可用飞行时间为3小时12分钟减去45分钟，即2小时27分钟。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\48.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/48.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 49,
@@ -633,8 +633,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "看图ISA-20℃（-36°F）部分，已知8000ft真空速为181英里/小时，10000ft真空速为184英里/小时，可知高度9000ft的真空速为（181+184）÷2=182.5，所以高度9500ft的真空速为（182.5+184）÷2≈183英里/小时。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\49.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/49.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 50,
@@ -646,8 +646,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "看图中standard day部分，要保持65%的最大持续功率，11000ft所需的油量即为10000ft和12000ft燃油流量的平均值，即（11.5+10.9）÷2=11.2加仑/小时。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 51,
@@ -659,8 +659,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "在图中找出给定条件，气压高度4000ft，温度29℃，进气压力21.3inHg，可以看出真空速为159海里/小时，燃油流量为11.5加仑/小时，飞行500nm所需油量=500÷159×11.5≈36.1加仑。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 52,
@@ -672,8 +672,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "在图中找出给定条件，气压高度8000ft，温度22℃，进气压力20.8inHg，可以看出真空速为164海里/小时，燃油流量为11.5加仑/小时，飞行1000nm所需油量=1000÷164×11.5≈70.1加仑。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 53,
@@ -685,8 +685,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "从图中80°F向上引直线直到与4000ft的高度线相交，从交点水平向右引直线，与第一条参考线相交，再沿倾斜方向按比例偏折，直到与2800lbs的重量线相交，从交点水平向右引线直到与第二条参考线相交，再沿倾斜方向按比例偏折，直到与逆风24kt位置相交，从交点直接引到最右边，得到的数值即为着陆距离约为1125ft。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\53.jpg",
-    "explanationImage": "\\fxzy\\题库\\私照\\飞行性能\\53explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/53.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/53explain.jpg"
   },
   {
     "id": 54,
@@ -698,8 +698,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "从图中50°F向上引直线直到与0ft的高度线相交，从交点水平向右引直线，与第一条参考线相交，再沿倾斜方向按比例偏折，直到与3000lbs的重量线相交，从交点水平向右引线直到与第二条参考线相交，再沿倾斜方向按比例偏折，直到与逆风10kt位置相交，从交点直接引到最右边，得到的数值即为着陆距离约为1200ft。看图可知，着陆滑跑距离大约为着陆距离的53%，所以飞机着陆滑跑距离为1200×53%=636ft。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\54.jpg",
-    "explanationImage": "\\fxzy\\题库\\私照\\飞行性能\\54explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/54.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/54explain.jpg"
   },
   {
     "id": 55,
@@ -711,8 +711,8 @@
     ],
     "correctAnswer": "B",
     "explanation": "从图中70°F向上引直线直到与0ft的高度线相交，从交点水平向右引直线，与第一条参考线相交，再沿倾斜方向按比例偏折，直到与3400lbs的重量线相交，从交点水平向右引线直到与第二条参考线相交，再沿倾斜方向按比例偏折，直到与逆风16kt位置相交，从交点直接引到最右边，得到的数值即为着陆距离约为1275ft。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\55.jpg",
-    "explanationImage": "\\fxzy\\题库\\私照\\飞行性能\\55explain.jpg"
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/55.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/55explain.jpg"
   },
   {
     "id": 56,
@@ -724,8 +724,8 @@
     ],
     "correctAnswer": "A",
     "explanation": "读表可知，起飞襟翼，坡度45°，对应的失速速度为64KIAS。",
-    "questionImage": "\\fxzy\\题库\\私照\\飞行性能\\56.jpg",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/题库/私照/飞行性能/56.jpg",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   },
   {
     "id": 57,
@@ -737,7 +737,7 @@
     ],
     "correctAnswer": "A",
     "explanation": "飞机性能稳定只对飞机失速这一特征有影响，对是否进入失速或空中停车状态的难易程度没有影响。性能稳定的飞机在遇到颠簸时，更易回到初始状态，因此更易控制。",
-    "questionImage": "",
-    "explanationImage": ""
+    "questionImage": "https://sakuraiqmanaka.github.io/fxzy/",
+    "explanationImage": "https://sakuraiqmanaka.github.io/fxzy/"
   }
 ]
